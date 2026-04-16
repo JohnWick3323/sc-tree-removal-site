@@ -1,0 +1,98 @@
+---
+import { site } from "../../data/site";
+import { services } from '../../data/services';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { AnimatedIcon } from '../../components/AnimatedIcon';
+import { Phone, CheckCircle, ShieldCheck, Zap, HardHat } from 'lucide-react';
+
+const breadcrumbs = [
+  { name: 'Home', href: '/' },
+  { name: 'Services', href: '/services' }
+];
+---
+
+<BaseLayout 
+  title="Professional Tree Services in South Carolina | Expert Arborists"
+  description="Explore our comprehensive range of professional tree services in South Carolina. From safe residential removal to 24/7 emergency storm response."
+>
+  <Header slot="header" />
+
+  <!-- Hero Section -->
+  <section class="relative pt-32 pb-24 md:pt-48 md:pb-36 bg-neutral-900 overflow-hidden">
+    <div class="absolute inset-0 z-0">
+      <div class="absolute inset-0 bg-primary-900/85 backdrop-blur-sm z-10"></div>
+      <img src="https://picture-search.skywork.ai/skills/upload/2026-04-16/712d56dbaa2d449b9d82456ac57ef3e3_fb7c0.png" alt="South Carolina Tree Removal Services" class="w-full h-full object-cover" />
+    </div>
+
+    <div class="container mx-auto px-4 md:px-8 max-w-7xl relative z-20 text-center text-white">
+      <nav class="flex justify-center mb-8">
+        <ol class="flex items-center gap-2 text-sm font-medium text-primary-200">
+          {breadcrumbs.map((bc, idx) => (
+            <li class="flex items-center gap-2">
+              <a href={bc.href} class="hover:text-white transition-colors">{bc.name}</a>
+              {idx < breadcrumbs.length - 1 && <span class="text-primary-500">/</span>}
+            </li>
+          ))}
+        </ol>
+      </nav>
+      <h1 class="text-4xl md:text-6xl font-bold font-heading mb-8 leading-tight max-w-4xl mx-auto">
+        Our Professional <span class="text-primary-400">Tree Services</span>
+      </h1>
+      <p class="text-xl text-primary-50 max-w-2xl mx-auto leading-relaxed mb-12">
+        Providing expert care for South Carolina's canopy with state-of-the-art equipment and certified arborist supervision.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services Grid -->
+  <section class="py-24 bg-white">
+    <div class="container mx-auto px-4 md:px-8 max-w-7xl">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {services.map(service => (
+          <a href={`/services/${service.slug}`} class="group bg-neutral-50 rounded-2xl overflow-hidden border border-neutral-200 hover:border-primary-500 hover:bg-white hover:shadow-2xl transition-all duration-300 flex flex-col h-full">
+            <div class="h-64 overflow-hidden relative">
+              <img src={service.image || `/images/services/${service.slug}.webp`} alt={service.name} class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+            </div>
+            <div class="p-10 flex flex-col flex-grow">
+              <div class="flex items-center gap-3 mb-4">
+                <AnimatedIcon client:load icon={CheckCircle} className="text-primary-600 group-hover:text-primary-700" animation="bounce" />
+                <h3 class="text-2xl font-bold font-heading text-neutral-900 group-hover:text-primary-700 transition-colors">{service.name}</h3>
+              </div>
+              <p class="text-neutral-600 mb-8 leading-relaxed line-clamp-3">
+                {service.description}
+              </p>
+              <div class="mt-auto flex items-center justify-between">
+                <span class="text-primary-600 font-bold flex items-center gap-2">
+                  View Service Details <span class="group-hover:translate-x-1 transition-transform">&rarr;</span>
+                </span>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-24 bg-primary-600 text-white relative overflow-hidden text-center">
+    <div class="container mx-auto px-4 md:px-8 max-w-3xl relative z-10">
+      <h2 class="text-3xl md:text-5xl font-bold font-heading mb-8 leading-tight">Need a Custom Quote for Your Property?</h2>
+      <p class="text-xl text-primary-50 mb-12 leading-relaxed">
+        Our experts are ready to provide a detailed assessment of your tree care needs anywhere in South Carolina.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="/contact" class="bg-white text-primary-700 px-10 py-5 rounded-md font-bold text-xl hover:bg-primary-50 transition-all shadow-xl">
+          Request Free Quote
+        </a>
+        <a href={`tel:${site.phone}`} class="bg-primary-700 text-white border border-primary-500 px-10 py-5 rounded-md font-bold text-xl hover:bg-primary-800 transition-all flex items-center justify-center gap-3">
+          <AnimatedIcon client:load icon={Phone} animation="shake" />
+          {site.phone}
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</BaseLayout>

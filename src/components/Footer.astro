@@ -1,0 +1,109 @@
+---
+import { site } from '../data/site';
+import { services } from '../data/services';
+import { locations } from '../data/locations';
+import { Phone, Mail, MapPin } from 'lucide-react';
+import { AnimatedIcon } from './AnimatedIcon';
+import { Facebook, Instagram, Twitter, Linkedin } from './SocialIcons';
+---
+
+<footer class="bg-neutral-900 text-white pt-24 pb-12">
+  <div class="container mx-auto px-4 md:px-8 max-w-7xl">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16 border-b border-neutral-700 pb-16">
+      <!-- Column 1: Brand -->
+      <div class="space-y-6">
+        <h2 class="text-2xl font-bold font-heading">{site.name}</h2>
+        <p class="text-neutral-400 text-sm leading-relaxed max-w-xs">
+          Professional arborist-led tree services across South Carolina. Specializing in safe removal, emergency response, and proactive property maintenance.
+        </p>
+        <div class="flex space-x-4">
+          <a href="#" class="text-neutral-400 hover:text-primary-500 transition-colors group">
+            <AnimatedIcon client:load icon={Facebook} size={20} animation="pulse" />
+          </a>
+          <a href="#" class="text-neutral-400 hover:text-primary-500 transition-colors group">
+            <AnimatedIcon client:load icon={Instagram} size={20} animation="pulse" />
+          </a>
+          <a href="#" class="text-neutral-400 hover:text-primary-500 transition-colors group">
+            <AnimatedIcon client:load icon={Twitter} size={20} animation="pulse" />
+          </a>
+          <a href="#" class="text-neutral-400 hover:text-primary-500 transition-colors group">
+            <AnimatedIcon client:load icon={Linkedin} size={20} animation="pulse" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Column 2: Services -->
+      <div>
+        <h3 class="text-lg font-semibold mb-6">Our Services</h3>
+        <ul class="space-y-3">
+          {services.slice(0, 5).map((service) => (
+            <li>
+              <a href={`/services/${service.slug}`} class="text-neutral-300 hover:text-primary-400 text-sm transition-colors">
+                {service.name}
+              </a>
+            </li>
+          ))}
+          <li>
+            <a href="/services" class="text-primary-500 hover:text-primary-400 text-sm font-medium transition-colors">
+              View All Services &rarr;
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Service Areas -->
+      <div>
+        <h3 class="text-lg font-semibold mb-6">Service Areas</h3>
+        <ul class="space-y-3">
+          {locations.slice(0, 5).map((loc) => (
+            <li>
+              <a href={`/locations/${loc.slug}`} class="text-neutral-300 hover:text-primary-400 text-sm transition-colors">
+                {loc.name}, SC
+              </a>
+            </li>
+          ))}
+          <li>
+            <a href="/locations" class="text-primary-500 hover:text-primary-400 text-sm font-medium transition-colors">
+              View All Areas &rarr;
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Column 4: Contact -->
+      <div>
+        <h3 class="text-lg font-semibold mb-6">Get in Touch</h3>
+        <ul class="space-y-4">
+          <li class="flex items-start space-x-3 group">
+            <AnimatedIcon client:load icon={Phone} size={18} className="text-primary-500 shrink-0 mt-1" animation="shake" />
+            <a href={`tel:${site.phone}`} class="text-neutral-300 hover:text-white text-sm transition-colors">
+              {site.phone}
+            </a>
+          </li>
+          <li class="flex items-start space-x-3 group">
+            <AnimatedIcon client:load icon={Mail} size={18} className="text-primary-500 shrink-0 mt-1" animation="pulse" />
+            <a href={`mailto:${site.email}`} class="text-neutral-300 hover:text-white text-sm transition-colors break-all">
+              {site.email}
+            </a>
+          </li>
+          <li class="flex items-start space-x-3 group">
+            <AnimatedIcon client:load icon={MapPin} size={18} className="text-primary-500 shrink-0 mt-1" animation="bounce" />
+            <span class="text-neutral-300 text-sm">
+              {site.address.street}<br />
+              {site.address.city}, {site.address.state} {site.address.zip}
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="flex flex-col md:flex-row justify-between items-center text-xs text-neutral-500 gap-4">
+      <p>&copy; {new Date().getFullYear()} {site.legalName}. All rights reserved.</p>
+      <div class="flex space-x-6">
+        <a href="/privacy" class="hover:text-primary-400 transition-colors underline underline-offset-4 decoration-neutral-700">Privacy Policy</a>
+        <a href="/terms" class="hover:text-primary-400 transition-colors underline underline-offset-4 decoration-neutral-700">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>

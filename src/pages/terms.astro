@@ -1,0 +1,93 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { site } from '../data/site';
+import { FileText, Scale, Gavel, AlertCircle } from 'lucide-react';
+
+const lastUpdated = "April 16, 2026";
+---
+
+<BaseLayout 
+  title={`Terms & Conditions | ${site.name}`}
+  description={`Review the terms and conditions for tree removal, pruning, and emergency services provided by ${site.name} in South Carolina.`}
+>
+  <Header slot="header" />
+
+  <section class="relative pt-32 pb-16 bg-neutral-900 overflow-hidden text-white">
+    <div class="container mx-auto px-4 relative z-10 text-center">
+      <h1 class="text-4xl md:text-6xl font-bold font-heading mb-6">Terms & Conditions</h1>
+      <p class="text-xl text-neutral-400 max-w-2xl mx-auto">
+        Please read these terms carefully before scheduling services with {site.name}.
+      </p>
+      <p class="mt-8 text-sm text-primary-500 font-bold uppercase tracking-widest">Last Updated: {lastUpdated}</p>
+    </div>
+  </section>
+
+  <section class="py-24 bg-white">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <div class="prose prose-lg text-neutral-600 max-w-none prose-headings:font-heading prose-headings:text-neutral-900 prose-strong:text-neutral-900">
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16 not-prose">
+          <div class="p-8 bg-neutral-50 rounded-2xl border border-neutral-100">
+            <Scale className="text-primary-600 mb-4" size={32} />
+            <h3 class="text-xl font-bold text-neutral-900 mb-2">Legal Compliance</h3>
+            <p class="text-sm text-neutral-500">All services are performed in accordance with South Carolina state laws.</p>
+          </div>
+          <div class="p-8 bg-neutral-50 rounded-2xl border border-neutral-100">
+            <AlertCircle className="text-primary-600 mb-4" size={32} />
+            <h3 class="text-xl font-bold text-neutral-900 mb-2">Safety First</h3>
+            <p class="text-sm text-neutral-500">We reserve the right to pause work if weather or site conditions are unsafe.</p>
+          </div>
+        </div>
+
+        <h2>1. Acceptance of Terms</h2>
+        <p>
+          By accessing this website or scheduling services with <strong>{site.name}</strong>, you agree to be bound by these Terms and Conditions and all applicable laws and regulations in the State of South Carolina.
+        </p>
+
+        <h2>2. Service Estimates</h2>
+        <p>
+          All estimates provided are based on a visual inspection of the property and the information provided by the client. Estimates are valid for 30 days. We reserve the right to adjust pricing if the scope of work changes significantly or if hidden hazards (e.g., underground utilities not marked) are discovered.
+        </p>
+
+        <h2>3. Scheduling and Cancellations</h2>
+        <p>
+          We strive to maintain our schedule, but tree work is highly dependent on weather conditions. We reserve the right to reschedule services to ensure the safety of our crews and your property. Please provide at least 48 hours' notice for cancellations.
+        </p>
+
+        <h2>4. Property Access and Preparation</h2>
+        <p>
+          The client is responsible for providing clear access to the work area. This includes moving vehicles, clearing outdoor furniture, and ensuring pets and children remain indoors during operations. <strong>{site.name}</strong> is not responsible for damage to unmarked underground utilities, including irrigation systems, invisible fences, or lighting.
+        </p>
+
+        <h2>5. Insurance and Liability</h2>
+        <p>
+          <strong>{site.name}</strong> maintains comprehensive general liability and workers' compensation insurance. We utilize zero-impact rigging and property protection mats to minimize impact, but clients should be aware that heavy equipment may cause minor, temporary marks on turf or driveways.
+        </p>
+
+        <h2>6. Payment Terms</h2>
+        <p>
+          Payment is due upon completion of the service unless otherwise agreed upon in writing. We accept major credit cards, checks, and electronic payments. Late payments may be subject to interest charges.
+        </p>
+
+        <h2>7. Governing Law</h2>
+        <p>
+          These terms are governed by and construed in accordance with the laws of the State of South Carolina. Any disputes relating to these terms will be subject to the exclusive jurisdiction of the courts of South Carolina.
+        </p>
+
+        <h2>8. Contact Information</h2>
+        <p>
+          For any questions regarding our terms, please contact us:
+        </p>
+        <p>
+          <strong>{site.name}</strong><br />
+          Phone: {site.phone}<br />
+          Email: {site.email}
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</BaseLayout>

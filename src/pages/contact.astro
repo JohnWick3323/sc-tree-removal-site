@@ -1,0 +1,205 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { site } from '../data/site';
+import { AnimatedIcon } from '../components/AnimatedIcon';
+import { Phone, Mail, MapPin, Send, MessageSquare, Clock, ShieldCheck, BadgeCheck } from 'lucide-react';
+
+const breadcrumbs = [
+  { name: 'Home', href: '/' },
+  { name: 'Contact', href: '/contact' }
+];
+---
+
+<BaseLayout 
+  title="Get a Free Tree Removal Quote | Contact South Carolina Tree Removal"
+  description="Contact South Carolina Tree Removal for a free, no-obligation estimate on tree removal, trimming, and emergency storm services. Serving all of South Carolina."
+>
+  <Header slot="header" />
+
+  <!-- Hero Section -->
+  <section class="relative pt-32 pb-24 md:pt-48 md:pb-36 bg-neutral-900 overflow-hidden">
+    <div class="absolute inset-0 z-0">
+      <div class="absolute inset-0 bg-primary-900/90 backdrop-blur-sm z-10"></div>
+      <img src="https://picture-search.skywork.ai/skills/upload/2026-04-16/b0b9cc30855f4af7b58b277d45e408da_57623.png" alt="Contact South Carolina Tree Removal" class="w-full h-full object-cover" />
+    </div>
+
+    <div class="container mx-auto px-4 md:px-8 max-w-7xl relative z-20 text-center text-white">
+      <nav class="flex justify-center mb-8">
+        <ol class="flex items-center gap-2 text-sm font-medium text-primary-200">
+          {breadcrumbs.map((bc, idx) => (
+            <li class="flex items-center gap-2">
+              <a href={bc.href} class="hover:text-white transition-colors">{bc.name}</a>
+              {idx < breadcrumbs.length - 1 && <span class="text-primary-500">/</span>}
+            </li>
+          ))}
+        </ol>
+      </nav>
+      <h1 class="text-4xl md:text-6xl font-bold font-heading mb-8 leading-tight max-w-4xl mx-auto">
+        Contact Our <span class="text-primary-400">Arborist Experts</span> Today
+      </h1>
+      <p class="text-xl text-primary-50 max-w-2xl mx-auto leading-relaxed mb-12">
+        Whether you have an emergency after a storm or need a quote for seasonal maintenance, we are ready to help with safe, professional service across SC.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Grid -->
+  <section class="py-24 bg-white">
+    <div class="container mx-auto px-4 md:px-8 max-w-7xl">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
+        <!-- Contact Information -->
+        <div>
+          <h2 class="text-3xl md:text-4xl font-bold font-heading text-neutral-900 mb-8 leading-tight">
+            How Can We <span class="text-primary-600">Help</span> You?
+          </h2>
+          <p class="text-lg text-neutral-600 mb-12 leading-relaxed">
+            Our team is available 24/7 for emergency tree failures. For general quotes and non-emergency maintenance, we typically respond to inquiries within 2-4 business hours.
+          </p>
+
+          <div class="space-y-8 mb-16">
+            <div class="flex items-start gap-6 p-8 bg-neutral-50 rounded-3xl border border-neutral-100 group hover:border-primary-500 transition-all">
+              <div class="bg-primary-600 text-white p-4 rounded-2xl shadow-lg group-hover:scale-110 transition-transform shrink-0">
+                <AnimatedIcon client:load icon={Phone} size={24} animation="shake" />
+              </div>
+              <div>
+                <p class="text-xs font-bold text-neutral-400 uppercase tracking-widest mb-1">Call Our Experts</p>
+                <a href={`tel:${site.phone}`} class="text-2xl font-bold text-neutral-900 hover:text-primary-700 transition-colors">
+                  {site.phone}
+                </a>
+                <p class="text-primary-600 text-sm font-bold mt-2 flex items-center gap-2">
+                  <AnimatedIcon client:load icon={Clock} size={16} animation="pulse" /> 24/7 Emergency Storm Response
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-6 p-8 bg-neutral-50 rounded-3xl border border-neutral-100 group hover:border-primary-500 transition-all">
+              <div class="bg-primary-600 text-white p-4 rounded-2xl shadow-lg group-hover:scale-110 transition-transform shrink-0">
+                <AnimatedIcon client:load icon={Mail} size={24} animation="pulse" />
+              </div>
+              <div>
+                <p class="text-xs font-bold text-neutral-400 uppercase tracking-widest mb-1">Email Our Team</p>
+                <a href={`mailto:${site.email}`} class="text-2xl font-bold text-neutral-900 hover:text-primary-700 transition-colors break-all">
+                  {site.email}
+                </a>
+                <p class="text-neutral-500 text-sm mt-2">Expect a reply within 4 hours</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-6 p-8 bg-neutral-50 rounded-3xl border border-neutral-100 group hover:border-primary-500 transition-all">
+              <div class="bg-primary-600 text-white p-4 rounded-2xl shadow-lg group-hover:scale-110 transition-transform shrink-0">
+                <AnimatedIcon client:load icon={MapPin} size={24} animation="bounce" />
+              </div>
+              <div>
+                <p class="text-xs font-bold text-neutral-400 uppercase tracking-widest mb-1">Regional Headquarters</p>
+                <p class="text-xl font-bold text-neutral-900">
+                  {site.address.street}<br />
+                  {site.address.city}, {site.address.state} {site.address.zip}
+                </p>
+                <p class="text-neutral-500 text-sm mt-2">Serving all of South Carolina from 4 Hubs</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Trust Badges -->
+           <div class="grid grid-cols-2 gap-6">
+              <div class="flex items-center gap-4 text-neutral-700 font-bold">
+                 <ShieldCheck className="text-primary-600" /> Fully Licensed
+              </div>
+              <div class="flex items-center gap-4 text-neutral-700 font-bold">
+                 <ShieldCheck className="text-primary-600" /> Fully Insured
+              </div>
+              <div class="flex items-center gap-4 text-neutral-700 font-bold">
+                 <BadgeCheck className="text-primary-600" /> Arborist Supervised
+              </div>
+              <div class="flex items-center gap-4 text-neutral-700 font-bold">
+                 <BadgeCheck className="text-primary-600" /> Satisfaction Guaranteed
+              </div>
+           </div>
+        </div>
+
+        <!-- Contact Form Column -->
+        <div class="lg:sticky lg:top-32 h-fit">
+          <div class="bg-white p-10 rounded-3xl border border-neutral-200 shadow-2xl relative overflow-hidden">
+             <div class="absolute top-0 left-0 w-full h-2 bg-primary-600"></div>
+             <h3 class="text-2xl font-bold text-neutral-900 mb-8 flex items-center gap-3">
+               <Send size={24} className="text-primary-600" />
+               Request a Free Estimate
+             </h3>
+             <form action="#" class="space-y-6">
+               <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                 <div>
+                   <label for="name" class="block text-sm font-bold text-neutral-700 mb-2 uppercase tracking-wide">Full Name</label>
+                   <input type="text" id="name" name="name" placeholder="Your Name" class="w-full bg-neutral-50 border border-neutral-200 p-4 rounded-xl focus:ring-2 focus:ring-primary-600 focus:border-transparent outline-none transition-all" required />
+                 </div>
+                 <div>
+                   <label for="phone" class="block text-sm font-bold text-neutral-700 mb-2 uppercase tracking-wide">Phone Number</label>
+                   <input type="tel" id="phone" name="phone" placeholder="(XXX) XXX-XXXX" class="w-full bg-neutral-50 border border-neutral-200 p-4 rounded-xl focus:ring-2 focus:ring-primary-600 focus:border-transparent outline-none transition-all" required />
+                 </div>
+               </div>
+
+               <div>
+                 <label for="email" class="block text-sm font-bold text-neutral-700 mb-2 uppercase tracking-wide">Email Address</label>
+                 <input type="email" id="email" name="email" placeholder="email@example.com" class="w-full bg-neutral-50 border border-neutral-200 p-4 rounded-xl focus:ring-2 focus:ring-primary-600 focus:border-transparent outline-none transition-all" required />
+               </div>
+
+               <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                 <div>
+                   <label for="service" class="block text-sm font-bold text-neutral-700 mb-2 uppercase tracking-wide">Service Needed</label>
+                   <select id="service" name="service" class="w-full bg-neutral-50 border border-neutral-200 p-4 rounded-xl focus:ring-2 focus:ring-primary-600 focus:border-transparent outline-none transition-all">
+                     <option>Tree Removal</option>
+                     <option>Emergency Storm Response</option>
+                     <option>Trimming & Pruning</option>
+                     <option>Stump Grinding</option>
+                     <option>Land Clearing</option>
+                     <option>Other</option>
+                   </select>
+                 </div>
+                 <div>
+                   <label for="location" class="block text-sm font-bold text-neutral-700 mb-2 uppercase tracking-wide">Service Location (City)</label>
+                   <input type="text" id="location" name="location" placeholder="e.g. Charleston, SC" class="w-full bg-neutral-50 border border-neutral-200 p-4 rounded-xl focus:ring-2 focus:ring-primary-600 focus:border-transparent outline-none transition-all" required />
+                 </div>
+               </div>
+
+               <div>
+                 <label for="message" class="block text-sm font-bold text-neutral-700 mb-2 uppercase tracking-wide">Project Details</label>
+                 <textarea id="message" name="message" rows="5" placeholder="Tell us about your project or emergency..." class="w-full bg-neutral-50 border border-neutral-200 p-4 rounded-xl focus:ring-2 focus:ring-primary-600 focus:border-transparent outline-none transition-all resize-none" required></textarea>
+               </div>
+
+               <button type="submit" class="w-full bg-primary-600 hover:bg-primary-700 text-white font-bold py-5 rounded-xl text-lg shadow-xl hover:shadow-2xl transition-all flex items-center justify-center gap-3">
+                 <Send size={20} />
+                 Send Request
+               </button>
+               <p class="text-xs text-neutral-500 text-center mt-6">
+                 By submitting this form, you agree to our privacy policy and consent to being contacted by our team regarding your estimate request.
+               </p>
+             </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Google Map Section -->
+  <section class="py-24 bg-neutral-50">
+    <div class="container mx-auto px-4 md:px-8 max-w-7xl">
+       <div class="text-center mb-12">
+          <h2 class="text-3xl font-bold font-heading text-neutral-900">Serving the Entire Palmetto State</h2>
+          <p class="text-lg text-neutral-600 mt-4">Visit us or call for dispatch across all SC regions.</p>
+       </div>
+       <div class="bg-white p-4 rounded-3xl border border-neutral-200 shadow-xl overflow-hidden h-[450px]">
+         <iframe 
+           src={`https://www.google.com/maps/embed/v1/place?key=${site.googleMapsEmbedKey}&q=${encodeURIComponent(site.address.street + ' ' + site.address.city + ' ' + site.address.state)}`} 
+           width="100%" 
+           height="100%" 
+           style="border:0;border-radius:24px" 
+           allowfullscreen 
+           loading="lazy">
+         </iframe>
+       </div>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</BaseLayout>

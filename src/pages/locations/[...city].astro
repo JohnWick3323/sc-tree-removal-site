@@ -1,0 +1,253 @@
+---
+import { site } from '../../data/site';
+import { Phone, CheckCircle, ShieldCheck, Zap, HardHat, MapPin, Map, Star, Award, Info, Quote, HelpCircle, ArrowRight } from 'lucide-react';
+import { AnimatedIcon } from '../../components/AnimatedIcon';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { services } from '../../data/services';
+import { locations } from '../../data/locations';
+import { combinations } from '../../data/combinations';
+
+export async function getStaticPaths() {
+  return locations.map(location => ({
+    params: { city: location.slug || undefined },
+    props: { location }
+  }));
+}
+
+const { location } = Astro.props;
+
+// --- SEO MACHINE LOGIC: LOCALIZATION & LINKING ---
+const pageTitle = `Professional Tree Removal in ${location.name}, SC | Certified arborist`;
+const pageDesc = `Looking for tree services in ${location.name}? We offer safe tree removal, emergency response, and pruning in ${location.county}. Certified arborists, 24/7 service.`;
+
+// Get local versions of services (linking to combination pages)
+const localServices = services.map(s => {
+  const combo = combinations.find(c => c.serviceSlug === s.slug && c.locationSlug === location.slug);
+  return { ...s, combo };
+});
+
+// Nearby cities for "We Also Serve"
+const nearbyCities = locations.filter(l => l.county === location.county && l.slug !== location.slug).slice(0, 8);
+
+// FAQ Logic (Location Specific)
+const localFaqs = [
+  {
+    question: `Why is professional arborist care critical for ${location.name} properties?`,
+    answer: `In ${location.name}, the local environment—ranging from ${location.soilType} to humid subtropical cycles—requires specialized knowledge. Certified arborists ensure that tree maintenance and removals are performed with structural precision, protecting your home's foundation and overall landscape value.`
+  },
+  {
+    question: `How quickly can you respond to storm emergencies in ${location.name}?`,
+    answer: `We provide 24/7 priority emergency response across ${location.name} and the greater ${location.county} area. Our local crews are typically on-site within 2-4 hours after severe weather to stabilize hazards and clear access to your property.`
+  },
+  {
+    question: `Are your services compliant with ${location.name} HOA and municipal regulations?`,
+    answer: `Absolutely. We are well-versed in the specific tree preservation ordinances of ${location.county} and the HOA requirements of neighborhoods like ${location.neighborhoods.slice(0, 2).join(' and ')}. We handle all necessary permits and ensure every job meets local arborist standards.`
+  },
+  {
+    question: `What are the most common tree health issues in ${location.name}?`,
+    answer: `In this part of South Carolina, we frequently manage issues related to Pine Beetles, Oak Wilt, and root stability challenges caused by ${location.soilType}. Our local insight allows us to provide accurate health assessments and preventative care tailored to ${location.name}'s specific ecosystem.`
+  }
+];
+
+// Schema.org - LocalBusiness
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": `South Carolina Tree Removal - ${location.name}`,
+  "telephone": site.phone,
+  "url": `${site.url}/locations/${location.slug}`,
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": location.name,
+    "addressRegion": "SC",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": location.geo.lat,
+    "longitude": location.geo.lng
+  },
+  "areaServed": location.name
+};
+---
+
+<BaseLayout title={pageTitle} description={pageDesc}>
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  <Header slot="header" />
+  
+  <!-- Hero Section -->
+  <section class="relative pt-32 pb-24 bg-neutral-900 overflow-hidden">
+    <div class="absolute inset-0 opacity-40">
+      <img src={location.image} alt={`Professional tree services in ${location.name}, SC`} class="w-full h-full object-cover" />
+      <div class="absolute inset-0 bg-gradient-to-t from-neutral-900 via-neutral-900/60 to-transparent"></div>
+    </div>
+    
+    <div class="container mx-auto px-4 relative z-10 text-white">
+      <div class="max-w-4xl">
+        <nav class="flex mb-8 text-sm font-medium text-primary-400/80 gap-2 items-center">
+          <a href="/" class="hover:text-primary-300 text-primary-400">Home</a>
+          <span>/</span>
+          <a href="/locations" class="hover:text-primary-300 text-primary-400">Locations</a>
+          <span>/</span>
+          <span class="text-white">{location.name}</span>
+        </nav>
+        
+        <h1 class="text-5xl md:text-7xl font-bold font-heading mb-8 leading-tight">
+          Tree Removal Experts in <span class="text-primary-400">{location.name}, SC</span>
+        </h1>
+        <p class="text-xl text-neutral-300 mb-12 leading-relaxed max-w-2xl">
+          Restoring safety and beauty to <strong>{location.name}</strong> properties with arborist-led care tailored to <strong>{location.county}</strong>'s unique ecosystem.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href={`tel:${site.phone}`} class="bg-primary-600 hover:bg-primary-700 text-white px-10 py-5 rounded-md font-bold text-xl transition-all flex items-center justify-center gap-3 shadow-xl hover:-translate-y-1">
+            <Phone size={24} />
+            {site.phone}
+          </a>
+          <a href="/contact" class="bg-white text-neutral-900 px-10 py-5 rounded-md font-bold text-xl hover:bg-neutral-100 transition-all text-center">
+            Free Online Estimate
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Content Section -->
+  <section class="py-24 bg-white">
+    <div class="container mx-auto px-4 max-w-7xl">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-20">
+        <div class="lg:col-span-2 prose prose-lg text-neutral-600 max-w-none prose-headings:font-heading prose-headings:text-neutral-900 prose-strong:text-neutral-900 prose-a:text-primary-600">
+          
+          <h2>Expert Arborist Services for {location.name} Residents</h2>
+          <p>
+            Maintaining a safe and beautiful property in <strong>{location.name}</strong> requires specialized knowledge of South Carolina tree species and environmental conditions. 
+            Our team understands the specific challenges faced by homeowners in the <strong>{location.county}</strong> area—from the <strong>{location.soilType}</strong> conditions to the local <strong>{location.waterRestrictions}</strong> that impact tree stability and growth.
+          </p>
+          
+          <div class="my-12 p-8 bg-primary-50 rounded-3xl border border-primary-100 italic">
+             <p class="mb-0 text-neutral-700 leading-relaxed">
+               <strong>Local arborist Insight:</strong> "{location.localInsight}"
+             </p>
+          </div>
+
+          <p>
+            Whether you are located in <strong>{location.neighborhoods[0]}</strong> or near <strong>{location.landmarks[0]?.name || 'local landmarks'}</strong>, 
+            our crews utilize zero-impact techniques to protect your structures while removing or maintaining hazardous timber. 
+            We pride ourselves on arborist-certified supervision for every major job in <strong>{location.name}</strong>.
+          </p>
+
+          <h3 class="mt-16 mb-8">Our Local Services in {location.name}</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 not-prose">
+            {localServices.map(service => (
+              <a href={`/services/${service.slug}/${location.slug}`} class="group p-6 bg-white border border-neutral-200 rounded-2xl hover:border-primary-500 hover:shadow-xl transition-all">
+                <h4 class="text-xl font-bold text-neutral-900 mb-3 group-hover:text-primary-700 transition-colors">{service.name}</h4>
+                <p class="text-neutral-600 text-sm mb-4 line-clamp-2">{service.description}</p>
+                <span class="text-primary-600 font-bold text-xs flex items-center gap-2 uppercase tracking-widest">
+                  {location.name} Details <ArrowRight size={14} />
+                </span>
+              </a>
+            ))}
+          </div>
+
+          <!-- FAQ SECTION: Dedicated to Location (SEO Machine Item 4) -->
+          <h3 class="mt-20 mb-8">Common Questions About Tree Care in {location.name}</h3>
+          <div class="not-prose space-y-4">
+            {localFaqs.map(faq => (
+              <div class="border border-neutral-200 rounded-2xl p-8 bg-neutral-50 shadow-sm">
+                <h4 class="font-bold text-neutral-900 mb-4 flex gap-3 text-lg">
+                  <HelpCircle size={24} className="text-primary-600 shrink-0 mt-1" /> 
+                  {faq.question}
+                </h4>
+                <p class="text-neutral-600 pl-9 leading-relaxed italic">
+                  {faq.answer}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="space-y-12">
+          <!-- Area Summary Card -->
+          <div class="bg-neutral-900 p-8 rounded-3xl text-white shadow-2xl sticky top-32 border border-neutral-800">
+            <h3 class="text-2xl font-bold mb-6 flex items-center gap-3">
+              <MapPin size={24} className="text-primary-400" />
+              Service Summary
+            </h3>
+            <div class="space-y-6">
+              <div>
+                <p class="text-xs uppercase tracking-widest text-primary-500 font-bold mb-1">Primary County</p>
+                <p class="font-medium">{location.county}</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-widest text-primary-500 font-bold mb-1">Soil Anchor Conditions</p>
+                <p class="font-medium">{location.soilType}</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-widest text-primary-500 font-bold mb-1">Coverage Area</p>
+                <p class="text-sm text-neutral-400 mt-2">{location.neighborhoods.slice(0, 3).join(', ')} and surrounding regions.</p>
+              </div>
+              <div class="pt-6 border-t border-white/10">
+                <a href={`tel:${site.phone}`} class="block w-full bg-primary-600 text-center py-4 rounded-xl font-bold hover:bg-primary-700 transition-colors">
+                  {site.phone}
+                </a>
+                <p class="text-center text-[10px] text-neutral-500 mt-4 uppercase tracking-widest">Licensed • Insured • Professional</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Map Embed -->
+          <div class="rounded-3xl overflow-hidden border border-neutral-200 shadow-sm h-72 grayscale">
+             <iframe
+                width="100%"
+                height="100%"
+                style="border:0"
+                loading="lazy"
+                allowfullscreen
+                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyAIWoZdoDfMNVAmW4uJ1q-tcT9f1Ec9_8k&q=${encodeURIComponent(`${location.name}, South Carolina`)}`}>
+              </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WE ALSO SERVE Section (Inter-linking) -->
+  <section class="py-24 bg-neutral-50 border-y border-neutral-200">
+    <div class="container mx-auto px-4 max-w-7xl">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold font-heading text-neutral-900 mb-4">Nearby Areas We Serve Near {location.name}</h2>
+        <p class="text-neutral-600">Local arborist expertise for {location.county} communities.</p>
+      </div>
+      <div class="flex flex-wrap justify-center gap-4">
+        {nearbyCities.map(city => (
+          <a href={`/locations/${city.slug}`} class="px-6 py-3 bg-white border border-neutral-200 rounded-full text-neutral-700 font-bold hover:border-primary-500 hover:text-primary-700 transition-all shadow-sm">
+            {city.name}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Bottom CTA -->
+  <section class="py-24 bg-primary-600 text-white text-center relative overflow-hidden">
+    <div class="container mx-auto px-4 relative z-10">
+      <h2 class="text-3xl md:text-6xl font-bold font-heading mb-8">Trusted Tree Care in {location.name}</h2>
+      <p class="text-xl text-primary-100 mb-12 max-w-2xl mx-auto leading-relaxed">
+        Join hundreds of homeowners in <strong>{location.name}</strong> who trust South Carolina's arborist-led team for safe and efficient service.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-6">
+        <a href={`tel:${site.phone}`} class="inline-flex items-center gap-3 bg-white text-primary-700 px-10 py-5 rounded-md font-bold text-xl hover:bg-primary-50 transition-all shadow-2xl">
+          <Phone size={24} />
+          Call Now
+        </a>
+        <a href="/contact" class="inline-flex items-center gap-3 bg-primary-800 text-white border border-primary-400 px-10 py-5 rounded-md font-bold text-xl hover:bg-primary-900 transition-all">
+          Request Quote
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</BaseLayout>

@@ -1,0 +1,99 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { site } from '../data/site';
+import { ShieldCheck, Lock, Eye, FileText } from 'lucide-react';
+
+const lastUpdated = "April 16, 2026";
+---
+
+<BaseLayout 
+  title={`Privacy Policy | ${site.name}`}
+  description={`Learn how ${site.name} protects your personal information and privacy while providing tree services across South Carolina.`}
+>
+  <Header slot="header" />
+
+  <section class="relative pt-32 pb-16 bg-neutral-900 overflow-hidden text-white">
+    <div class="container mx-auto px-4 relative z-10 text-center">
+      <h1 class="text-4xl md:text-6xl font-bold font-heading mb-6">Privacy Policy</h1>
+      <p class="text-xl text-neutral-400 max-w-2xl mx-auto">
+        Your privacy is important to us. This policy outlines how we handle your data with transparency and security.
+      </p>
+      <p class="mt-8 text-sm text-primary-500 font-bold uppercase tracking-widest">Last Updated: {lastUpdated}</p>
+    </div>
+  </section>
+
+  <section class="py-24 bg-white">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <div class="prose prose-lg text-neutral-600 max-w-none prose-headings:font-heading prose-headings:text-neutral-900 prose-strong:text-neutral-900">
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16 not-prose">
+          <div class="p-8 bg-neutral-50 rounded-2xl border border-neutral-100">
+            <Lock className="text-primary-600 mb-4" size={32} />
+            <h3 class="text-xl font-bold text-neutral-900 mb-2">Secure Data</h3>
+            <p class="text-sm text-neutral-500">We use industry-standard encryption to protect your personal information.</p>
+          </div>
+          <div class="p-8 bg-neutral-50 rounded-2xl border border-neutral-100">
+            <Eye className="text-primary-600 mb-4" size={32} />
+            <h3 class="text-xl font-bold text-neutral-900 mb-2">No Selling</h3>
+            <p class="text-sm text-neutral-500">We never sell your data to third-party marketing companies.</p>
+          </div>
+        </div>
+
+        <h2>1. Information We Collect</h2>
+        <p>
+          We collect information that you provide directly to us when you request an estimate, schedule a service, or contact us. This includes:
+        </p>
+        <ul>
+          <li><strong>Contact Details:</strong> Name, email address, phone number, and physical address.</li>
+          <li><strong>Property Information:</strong> Photos or descriptions of trees and property layout provided for estimation purposes.</li>
+          <li><strong>Communications:</strong> Records of our correspondence with you.</li>
+        </ul>
+
+        <h2>2. How We Use Your Information</h2>
+        <p>
+          We use the information we collect to:
+        </p>
+        <ul>
+          <li>Provide, maintain, and improve our tree services.</li>
+          <li>Process transactions and send related information, including confirmations and invoices.</li>
+          <li>Send technical notices, updates, security alerts, and support messages.</li>
+          <li>Respond to your comments, questions, and requests.</li>
+        </ul>
+
+        <h2>3. Data Security</h2>
+        <p>
+          We take reasonable measures to help protect information about you from loss, theft, misuse, and unauthorized access, disclosure, alteration, and destruction.
+        </p>
+
+        <h2>4. Sharing of Information</h2>
+        <p>
+          We do not share your personal information with third parties except as follows:
+        </p>
+        <ul>
+          <li>With vendors, consultants, and other service providers who need access to such information to carry out work on our behalf (e.g., payment processors).</li>
+          <li>In response to a request for information if we believe disclosure is in accordance with, or required by, any applicable law or legal process.</li>
+          <li>With your consent or at your direction.</li>
+        </ul>
+
+        <h2>5. Cookies and Tracking</h2>
+        <p>
+          Our website may use cookies to enhance user experience and gather anonymous usage statistics. You can choose to set your web browser to refuse cookies, or to alert you when cookies are being sent.
+        </p>
+
+        <h2>6. Contact Us</h2>
+        <p>
+          If you have any questions about this Privacy Policy, please contact us at:
+        </p>
+        <p>
+          <strong>{site.name}</strong><br />
+          Email: {site.email}<br />
+          Phone: {site.phone}
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</BaseLayout>

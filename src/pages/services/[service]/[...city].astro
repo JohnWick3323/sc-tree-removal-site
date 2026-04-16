@@ -1,0 +1,296 @@
+---
+import { locations } from '../../../data/locations';
+import { services } from '../../../data/services';
+import { combinations } from '../../../data/combinations';
+import { site } from '../../../data/site';
+import { AnimatedIcon } from '../../../components/AnimatedIcon';
+import { Phone, CheckCircle, ShieldCheck, Zap, HardHat, MapPin, Star, Award, Clock, HelpCircle, ArrowRight, TreePine, Construction, AlertTriangle, CloudLightning } from 'lucide-react';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+
+export async function getStaticPaths() {
+  const paths = [];
+  for (const location of locations) {
+    for (const service of services) {
+      const combo = combinations.find(c => c.serviceSlug === service.slug && c.locationSlug === location.slug);
+      paths.push({
+        params: { service: service.slug, city: location.slug || undefined },
+        props: { location, service, combo }
+      });
+    }
+  }
+  return paths;
+}
+
+const { location, service, combo } = Astro.props;
+
+// SEO Machine Logic
+const pageTitle = `${service.name} ${location.name}, SC | Professional arborist Service`;
+const pageDesc = `Looking for ${service.name.toLowerCase()} in ${location.name}? Our certified arborists offer safe, 24/7 ${service.name.toLowerCase()} in ${location.county}. Free estimates. Call ${site.phone}.`;
+
+const nearbyAreas = locations.filter(l => l.county === location.county && l.slug !== location.slug).slice(0, 6);
+const relatedServices = services.filter(s => s.slug !== service.slug).slice(0, 3);
+const localizedIntro = combo?.uniqueIntro || `Providing expert ${service.name.toLowerCase()} in ${location.name} requires a deep understanding of South Carolina arborist standards and the unique environmental stressors of ${location.county}.`;
+const allFaqs = [...service.faqs.slice(0, 3), ...(combo?.uniqueFaqs || [])];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": `South Carolina Tree Removal - ${location.name}`,
+      "image": service.image,
+      "telephone": site.phone,
+      "url": `${site.url}/services/${service.slug}/${location.slug}`,
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": location.name,
+        "addressRegion": "SC",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": location.geo.lat,
+        "longitude": location.geo.lng
+      },
+      "areaServed": location.name
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": allFaqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
+      }))
+    }
+  ]
+};
+---
+
+<BaseLayout title={pageTitle} description={pageDesc}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <Header slot="header" />
+  
+  <section class="relative pt-32 pb-24 bg-neutral-900 overflow-hidden text-white">
+    <div class="absolute inset-0 z-0">
+      <img src={service.image || `/images/services/${service.slug}.webp`} alt={`${service.name} in ${location.name}, SC`} class="w-full h-full object-cover opacity-40" />
+      <div class="absolute inset-0 bg-gradient-to-t from-neutral-900 via-neutral-900/60 to-transparent"></div>
+    </div>
+    
+    <div class="container mx-auto px-4 relative z-10">
+      <div class="max-w-4xl">
+        <nav class="flex mb-8 text-sm font-medium text-primary-400/80 gap-2 items-center">
+          <a href="/" class="hover:text-primary-300">Home</a>
+          <span>/</span>
+          <a href="/services" class="hover:text-primary-300">Services</a>
+          <span>/</span>
+          <span class="text-white">{service.name} {location.name}</span>
+        </nav>
+        <h1 class="text-5xl md:text-7xl font-bold font-heading mb-8 leading-tight">
+          Reliable {service.name} <br/>in <span class="text-primary-400">{location.name}, SC</span>
+        </h1>
+        <p class="text-xl text-neutral-300 mb-12 leading-relaxed max-w-2xl">
+          Certified arborist-led {service.name.toLowerCase()} for <strong>{location.name}</strong> homes and businesses. 24/7 emergency response and zero-impact property protection guaranteed.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href={`tel:${site.phone}`} class="bg-primary-600 hover:bg-primary-700 text-white px-10 py-5 rounded-md font-bold text-xl transition-all flex items-center justify-center gap-3 shadow-xl hover:-translate-y-1 text-center">
+            <AnimatedIcon client:load icon={Phone} size={24} animation="shake" />
+            {site.phone}
+          </a>
+          <a href="/contact" class="bg-white text-neutral-900 px-10 py-5 rounded-md font-bold text-xl hover:bg-neutral-100 transition-all text-center">
+            Free Online Estimate
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-24 bg-white">
+    <div class="container mx-auto px-4 max-w-7xl">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-20">
+        <div class="lg:col-span-2">
+          <article class="prose prose-lg text-neutral-600 max-w-none prose-headings:font-heading prose-headings:text-neutral-900 prose-strong:text-neutral-900 prose-a:text-primary-600">
+            
+            <h2>Expert {service.name} Solutions for {location.name} Property Owners</h2>
+            <p>
+              {localizedIntro}
+            </p>
+            
+            <p>
+              Properties in <strong>{location.name}</strong> and throughout <strong>{location.county}</strong> often face challenges related to <strong>{location.soilType}</strong>. 
+              This soil composition can lead to specific root instability issues, especially during South Carolina's intense hurricane seasons. 
+              Our team of arborist-led professionals understands exactly how to manage {service.name.toLowerCase()} in these local conditions, 
+              ensuring that your property remains safe and your landscape's value is preserved.
+            </p>
+
+            <div class="my-12 p-8 bg-neutral-50 rounded-3xl border border-neutral-100 italic">
+               <p class="mb-0 text-neutral-700">
+                 <strong>Related Coverage:</strong> If you are looking for certified tree care nearby, we also provide 
+                 <a href={`/services/${service.slug}/columbia`} class="text-primary-600 font-bold decoration-primary-200 underline-offset-4">professional ${service.name.toLowerCase()} in Columbia, SC</a>, 
+                 <a href={`/services/${service.slug}/charleston`} class="text-primary-600 font-bold decoration-primary-200 underline-offset-4">certified arborist ${service.name.toLowerCase()} in Charleston</a>, 
+                 and high-capacity 
+                 <a href={`/services/${service.slug}/greenville`} class="text-primary-600 font-bold decoration-primary-200 underline-offset-4">arborist services in Greenville</a>.
+               </p>
+            </div>
+
+            <div class="my-16 p-10 bg-primary-900 rounded-[2rem] text-white not-prose relative overflow-hidden">
+               <div class="relative z-10 flex flex-col md:flex-row justify-between items-center gap-8">
+                  <div class="text-center md:text-left">
+                    <h3 class="text-3xl font-bold mb-2">Need {service.name} Fast?</h3>
+                    <p class="text-primary-200">Our local crews are currently serving {location.name}.</p>
+                  </div>
+                  <a href={`tel:${site.phone}`} class="bg-primary-500 hover:bg-primary-400 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all flex items-center gap-2">
+                    <Zap size={20} /> Request Priority Service
+                  </a>
+               </div>
+               <div class="absolute -right-10 -bottom-10 opacity-10">
+                  <TreePine size={200} />
+               </div>
+            </div>
+
+            <h3>Our Detailed {service.name} Process</h3>
+            <p>{service.longContent.methodology}</p>
+            <p>
+              In <strong>{location.name}</strong>, we take extra precautions to identify underground utilities before any heavy work begins. 
+              Given the density of neighborhoods like <strong>{location.neighborhoods.slice(0, 2).join(' and ')}</strong>, our zero-impact rigging 
+              is essential for protecting structures and power lines.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 my-16 not-prose">
+               <div class="bg-neutral-50 p-8 rounded-2xl border border-neutral-100">
+                  <div class="w-12 h-12 bg-primary-100 text-primary-600 rounded-lg flex items-center justify-center mb-6">
+                    <CloudLightning size={24} />
+                  </div>
+                  <h4 class="text-xl font-bold text-neutral-900 mb-4">Seasonal Factors in {location.name}</h4>
+                  <p class="text-neutral-600 leading-relaxed text-sm">
+                    {service.longContent.seasonalConsiderations}
+                  </p>
+               </div>
+               <div class="bg-neutral-50 p-8 rounded-2xl border border-neutral-100">
+                  <div class="w-12 h-12 bg-primary-100 text-primary-600 rounded-lg flex items-center justify-center mb-6">
+                    <AlertTriangle size={24} />
+                  </div>
+                  <h4 class="text-xl font-bold text-neutral-900 mb-4">Common {location.name} Problems</h4>
+                  <p class="text-neutral-600 leading-relaxed text-sm">
+                    {service.longContent.homeownerProblems}
+                  </p>
+               </div>
+            </div>
+
+            <h3>Local {location.name} arborist Advice</h3>
+            <p>{service.longContent.localAdvice}</p>
+            <p>
+              If you live near <strong>{location.landmarks[0]?.name || 'the local city center'}</strong>, you may have specific municipal or 
+              HOA requirements for tree maintenance. Our team is well-versed in <strong>{location.hoaNotes}</strong> and 
+              the local <strong>{location.waterRestrictions}</strong> that may affect your post-service landscaping.
+            </p>
+
+            <h3 id="faqs" class="mt-16">Frequently Asked Questions in {location.name}</h3>
+            <div class="not-prose space-y-4">
+              {allFaqs.map(faq => (
+                <details class="group border border-neutral-200 rounded-2xl p-6 bg-neutral-50 [&_summary::-webkit-details-marker]:hidden">
+                  <summary class="flex items-center justify-between cursor-pointer">
+                    <h4 class="font-bold text-neutral-900 flex gap-3 text-lg">
+                      <HelpCircle size={22} className="text-primary-600 shrink-0" /> 
+                      {faq.question}
+                    </h4>
+                    <span class="ml-4 flex-shrink-0 transition duration-300 group-open:-rotate-180">
+                      <ArrowRight size={20} />
+                    </span>
+                  </summary>
+                  <p class="mt-4 text-neutral-600 pl-8 leading-relaxed">
+                    {faq.answer}
+                  </p>
+                </details>
+              ))}
+            </div>
+          </article>
+        </div>
+
+        <div class="space-y-12">
+          <div class="bg-neutral-900 p-8 rounded-3xl text-white shadow-2xl sticky top-32 border border-neutral-800">
+            <h3 class="text-2xl font-bold mb-6 flex items-center gap-3">
+              <MapPin size={24} className="text-primary-400" />
+              Service in {location.name}
+            </h3>
+            <div class="space-y-6">
+              <div>
+                <p class="text-xs uppercase tracking-widest text-primary-500 font-bold mb-1">Regional Office</p>
+                <p class="font-medium">{location.county}, South Carolina</p>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-widest text-primary-500 font-bold mb-1">Local Service Areas</p>
+                <div class="flex flex-wrap gap-2 mt-3">
+                  {location.neighborhoods.slice(0, 8).map(n => (
+                    <span class="px-2 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-medium text-neutral-300 uppercase tracking-tighter">
+                      {n}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              <div class="pt-6 border-t border-white/10">
+                <p class="text-primary-400 font-bold mb-4">Get a professional, arborist-led quote for your {location.name} property today.</p>
+                <a href={`tel:${site.phone}`} class="block w-full bg-primary-600 text-center py-4 rounded-xl font-bold hover:bg-primary-700 transition-colors">
+                  Get Free Estimate
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white p-8 rounded-3xl border border-neutral-200">
+            <h3 class="text-xl font-bold mb-6 text-neutral-900">Related arborist Services</h3>
+            <div class="space-y-4">
+              {relatedServices.map(rs => (
+                <a href={`/services/${rs.slug}/${location.slug}`} class="flex items-center justify-between p-4 bg-neutral-50 rounded-xl hover:bg-primary-50 transition-colors group">
+                  <span class="font-medium text-neutral-700 group-hover:text-primary-700">{rs.name}</span>
+                  <ArrowRight size={16} className="text-neutral-400 group-hover:text-primary-600" />
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-24 bg-neutral-50 border-y border-neutral-200">
+    <div class="container mx-auto px-4 max-w-7xl">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold font-heading text-neutral-900 mb-4">Nearby Communities We Also Serve</h2>
+        <p class="text-neutral-600">Local arborist expertise for {location.county} and surrounding areas.</p>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+        {nearbyAreas.map(area => (
+          <a href={`/services/${service.slug}/${area.slug}`} class="px-4 py-3 bg-white border border-neutral-200 rounded-xl text-center text-sm font-bold text-neutral-700 hover:border-primary-500 hover:text-primary-700 transition-all shadow-sm">
+            {area.name}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="py-24 bg-primary-600 text-white text-center relative overflow-hidden">
+    <div class="container mx-auto px-4 relative z-10">
+      <h2 class="text-3xl md:text-6xl font-bold font-heading mb-8">Ready to Secure Your {location.name} Property?</h2>
+      <p class="text-xl text-primary-100 mb-12 max-w-2xl mx-auto leading-relaxed">
+        Our certified arborists provide the highest level of safety and care for <strong>{location.name}</strong> property owners. Schedule your free evaluation today.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-6">
+        <a href={`tel:${site.phone}`} class="inline-flex items-center gap-3 bg-white text-primary-700 px-10 py-5 rounded-md font-bold text-xl hover:bg-primary-50 transition-all shadow-2xl">
+          <Phone size={24} />
+          {site.phone}
+        </a>
+        <a href="/contact" class="inline-flex items-center gap-3 bg-primary-800 text-white border border-primary-400 px-10 py-5 rounded-md font-bold text-xl hover:bg-primary-900 transition-all">
+          Schedule Free Quote
+        </a>
+      </div>
+    </div>
+    <div class="absolute top-0 left-0 w-full h-full opacity-5 pointer-events-none">
+       <div class="absolute top-10 left-10"><TreePine size={120} /></div>
+       <div class="absolute bottom-10 right-10"><Construction size={120} /></div>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</BaseLayout>

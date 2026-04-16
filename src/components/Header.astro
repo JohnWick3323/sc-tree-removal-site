@@ -1,0 +1,150 @@
+---
+import { site } from '../data/site';
+import { services } from '../data/services';
+import { Phone, Menu, X, ChevronDown } from 'lucide-react';
+import { AnimatedIcon } from './AnimatedIcon';
+---
+
+<header id="site-header" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 h-18 md:h-20 bg-transparent text-white">
+  <div class="container mx-auto px-4 md:px-8 max-w-7xl h-full flex items-center justify-between">
+    <!-- Logo -->
+    <a href="/" class="text-xl md:text-2xl font-bold font-heading shrink-0 flex items-center gap-2 group">
+      <div class="bg-primary-600 p-1 rounded-sm group-hover:scale-110 transition-transform">
+        <span class="text-white block w-6 h-6 leading-none text-center">T</span>
+      </div>
+      <span class="tracking-tight hidden sm:inline">{site.name}</span>
+      <span class="tracking-tight sm:hidden">SC Tree</span>
+    </a>
+
+    <!-- Desktop Nav -->
+    <nav class="hidden lg:flex items-center gap-10">
+      <div class="relative group">
+        <a href="/services" class="flex items-center gap-1 font-medium hover:text-primary-500 transition-colors py-2 text-sm xl:text-base">
+          Services <ChevronDown size={14} className="mt-0.5 group-hover:rotate-180 transition-transform" />
+        </a>
+        <!-- Dropdown -->
+        <div class="absolute top-full -left-4 w-64 bg-white shadow-xl rounded-lg opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-200 border border-neutral-100 mt-2 overflow-hidden">
+          <ul class="py-2">
+            {services.map(s => (
+              <li>
+                <a href={`/services/${s.slug}`} class="block px-6 py-3 text-sm text-neutral-800 hover:bg-primary-50 hover:text-primary-700 transition-colors">
+                  {s.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+      <a href="/locations" class="font-medium hover:text-primary-500 transition-colors text-sm xl:text-base">Service Areas</a>
+      <a href="/about" class="font-medium hover:text-primary-500 transition-colors text-sm xl:text-base">About Us</a>
+      <a href="/contact" class="font-medium hover:text-primary-500 transition-colors text-sm xl:text-base">Contact</a>
+    </nav>
+
+    <!-- Right Side -->
+    <div class="flex items-center gap-4">
+      <a href={`tel:${site.phone}`} class="hidden md:flex items-center gap-2 text-sm font-semibold hover:text-primary-400 transition-colors group">
+        <AnimatedIcon client:load icon={Phone} size={18} className="text-primary-500" animation="shake" />
+        {site.phone}
+      </a>
+      <a href="/contact" class="bg-primary-600 hover:bg-primary-700 text-white px-5 md:px-7 py-2 md:py-2.5 rounded-md font-semibold text-sm xl:text-base transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 whitespace-nowrap">
+        Free Estimate
+      </a>
+      
+      <!-- Mobile Menu Toggle -->
+      <button id="mobile-menu-toggle" class="lg:hidden p-1.5 text-inherit" aria-label="Toggle Menu">
+        <Menu id="menu-icon" size={28} />
+        <X id="close-icon" size={28} className="hidden" />
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu Overlay -->
+  <div id="mobile-menu" class="fixed inset-0 top-[64px] md:top-[72px] bg-white text-neutral-900 z-40 lg:hidden opacity-0 pointer-events-none transition-all duration-300">
+    <div class="container mx-auto px-6 py-10 flex flex-col gap-8 h-full overflow-y-auto">
+      <div class="space-y-6">
+        <p class="text-xs font-bold text-neutral-400 uppercase tracking-widest border-b border-neutral-100 pb-2">Main Menu</p>
+        <ul class="space-y-5">
+          <li><a href="/" class="text-2xl font-bold font-heading hover:text-primary-600">Home</a></li>
+          <li><a href="/services" class="text-2xl font-bold font-heading hover:text-primary-600">Services</a></li>
+          <li><a href="/locations" class="text-2xl font-bold font-heading hover:text-primary-600">Service Areas</a></li>
+          <li><a href="/about" class="text-2xl font-bold font-heading hover:text-primary-600">About Us</a></li>
+          <li><a href="/contact" class="text-2xl font-bold font-heading hover:text-primary-600">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="space-y-6">
+        <p class="text-xs font-bold text-neutral-400 uppercase tracking-widest border-b border-neutral-100 pb-2">Our Core Services</p>
+        <ul class="grid grid-cols-1 gap-4">
+          {services.slice(0, 4).map(s => (
+            <li>
+              <a href={`/services/${s.slug}`} class="flex items-center gap-3 p-4 bg-neutral-50 rounded-lg hover:bg-primary-50 transition-colors group">
+                <span class="font-medium text-neutral-800 group-hover:text-primary-700">{s.name}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div class="mt-auto pb-10 space-y-6">
+        <div class="p-6 bg-primary-600 rounded-xl text-white">
+          <p class="font-bold text-lg mb-2">Need Help Now?</p>
+          <p class="text-primary-100 text-sm mb-4">Our emergency storm response crews are available 24/7 across South Carolina.</p>
+          <a href={`tel:${site.phone}`} class="flex items-center justify-center gap-3 bg-white text-primary-700 py-3 rounded-lg font-bold group">
+            <AnimatedIcon client:load icon={Phone} size={20} animation="shake" />
+            {site.phone}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+  const header = document.getElementById('site-header');
+  const toggle = document.getElementById('mobile-menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+  const menuIcon = document.getElementById('menu-icon');
+  const closeIcon = document.getElementById('close-icon');
+
+  // Handle scroll behavior
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 50) {
+      header?.classList.remove('bg-transparent', 'text-white');
+      header?.classList.add('bg-white', 'text-neutral-900', 'shadow-md');
+    } else {
+      if (!menu?.classList.contains('opacity-100')) {
+        header?.classList.add('bg-transparent', 'text-white');
+        header?.classList.remove('bg-white', 'text-neutral-900', 'shadow-md');
+      }
+    }
+  });
+
+  // Handle mobile menu toggle
+  toggle?.addEventListener('click', () => {
+    const isOpen = menu?.classList.contains('opacity-100');
+    
+    if (isOpen) {
+      menu?.classList.remove('opacity-100', 'pointer-events-auto');
+      menu?.classList.add('opacity-0', 'pointer-events-none');
+      menuIcon?.classList.remove('hidden');
+      closeIcon?.classList.add('hidden');
+      document.body.style.overflow = '';
+      
+      // Restore transparent header if at top
+      if (window.scrollY <= 50) {
+        header?.classList.add('bg-transparent', 'text-white');
+        header?.classList.remove('bg-white', 'text-neutral-900', 'shadow-md');
+      }
+    } else {
+      menu?.classList.add('opacity-100', 'pointer-events-auto');
+      menu?.classList.remove('opacity-0', 'pointer-events-none');
+      menuIcon?.classList.add('hidden');
+      closeIcon?.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+      
+      // Ensure header is solid when menu is open
+      header?.classList.remove('bg-transparent', 'text-white');
+      header?.classList.add('bg-white', 'text-neutral-900', 'shadow-md');
+    }
+  });
+</script>
