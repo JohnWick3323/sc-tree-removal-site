@@ -18,16 +18,16 @@ import { Facebook, Instagram, Twitter, Linkedin } from './SocialIcons';
         </p>
         <div class="flex space-x-4">
           <a href="#" class="text-neutral-400 hover:text-primary-500 transition-colors group">
-            <AnimatedIcon client:load icon={Facebook} size={20} animation="pulse" />
+            <Facebook size={20} />
           </a>
           <a href="#" class="text-neutral-400 hover:text-primary-500 transition-colors group">
-            <AnimatedIcon client:load icon={Instagram} size={20} animation="pulse" />
+            <Instagram size={20} />
           </a>
           <a href="#" class="text-neutral-400 hover:text-primary-500 transition-colors group">
-            <AnimatedIcon client:load icon={Twitter} size={20} animation="pulse" />
+            <Twitter size={20} />
           </a>
           <a href="#" class="text-neutral-400 hover:text-primary-500 transition-colors group">
-            <AnimatedIcon client:load icon={Linkedin} size={20} animation="pulse" />
+            <Linkedin size={20} />
           </a>
         </div>
       </div>
@@ -75,19 +75,19 @@ import { Facebook, Instagram, Twitter, Linkedin } from './SocialIcons';
         <h3 class="text-lg font-semibold mb-6">Get in Touch</h3>
         <ul class="space-y-4">
           <li class="flex items-start space-x-3 group">
-            <AnimatedIcon client:load icon={Phone} size={18} className="text-primary-500 shrink-0 mt-1" animation="shake" />
+            <Phone size={18} className="text-primary-500 shrink-0 mt-1" />
             <a href={`tel:${site.phone}`} class="text-neutral-300 hover:text-white text-sm transition-colors">
               {site.phone}
             </a>
           </li>
           <li class="flex items-start space-x-3 group">
-            <AnimatedIcon client:load icon={Mail} size={18} className="text-primary-500 shrink-0 mt-1" animation="pulse" />
+            <Mail size={18} className="text-primary-500 shrink-0 mt-1" />
             <a href={`mailto:${site.email}`} class="text-neutral-300 hover:text-white text-sm transition-colors break-all">
               {site.email}
             </a>
           </li>
           <li class="flex items-start space-x-3 group">
-            <AnimatedIcon client:load icon={MapPin} size={18} className="text-primary-500 shrink-0 mt-1" animation="bounce" />
+            <MapPin size={18} className="text-primary-500 shrink-0 mt-1" />
             <span class="text-neutral-300 text-sm">
               {site.address.street}<br />
               {site.address.city}, {site.address.state} {site.address.zip}
