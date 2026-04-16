@@ -31,3 +31,4 @@ export const AnimatedIcon: React.FC<AnimatedIconProps> = ({
     </motion.div>
   );
 };
+// Force build v2
