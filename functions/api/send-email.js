@@ -14,7 +14,7 @@ export async function onRequestPost(context) {
 
     // API Key from site.ts (or we could use env.RESEND_API_KEY for better security)
     // For now, using a hardcoded placeholder to match site.ts if needed, but best practice is ENV.
-    const resend = new Resend('re_WQRUsjvv_51EBkRDD89PeoV2QupBzN99j');
+    const resend = new Resend('re_9poG2ga6_MjfFFZsKPQx24TPK8pTRPpAS');
 
     const { data, error } = await resend.emails.send({
       from: 'SC Tree Removal <leads@southcarolinatreeremovalexperts.com>',

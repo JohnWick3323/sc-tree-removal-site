@@ -17,5 +17,5 @@ export const site = {
     twitter: 'https://x.com'
   },
   googleMapsEmbedKey: 'AIzaSyAIWoZdoDfMNVAmW4uJ1q-tcT9f1Ec9_8k',
-  resendApiKey: 're_WQRUsjvv_51EBkRDD89PeoV2QupBzN99j'
+  resendApiKey: 're_9poG2ga6_MjfFFZsKPQx24TPK8pTRPpAS'
 };
