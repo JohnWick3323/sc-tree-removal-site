@@ -94,7 +94,7 @@ const jsonLd = {
           Certified arborist-led {service.name.toLowerCase()} for <strong>{location.name}</strong> homes and businesses. 24/7 emergency response and zero-impact property protection guaranteed.
         </p>
         <div class="flex flex-col sm:flex-row gap-4">
-          <a href={`tel:${site.phone}/`} class="bg-primary-600 hover:bg-primary-700 text-white px-10 py-5 rounded-md font-bold text-xl transition-all flex items-center justify-center gap-3 shadow-xl hover:-translate-y-1 text-center">
+          <a href={`tel:${site.phone}`} class="bg-primary-600 hover:bg-primary-700 text-white px-10 py-5 rounded-md font-bold text-xl transition-all flex items-center justify-center gap-3 shadow-xl hover:-translate-y-1 text-center">
             <AnimatedIcon client:load icon={Phone} size={24} animation="shake" />
             {site.phone}
           </a>
@@ -140,7 +140,7 @@ const jsonLd = {
                     <h3 class="text-3xl font-bold mb-2">Need {service.name} Fast?</h3>
                     <p class="text-primary-200">Our local crews are currently serving {location.name}.</p>
                   </div>
-                  <a href={`tel:${site.phone}/`} class="bg-primary-500 hover:bg-primary-400 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all flex items-center gap-2">
+                  <a href={`tel:${site.phone}`} class="bg-primary-500 hover:bg-primary-400 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all flex items-center gap-2">
                     <Zap size={20} /> Request Priority Service
                   </a>
                </div>
@@ -231,7 +231,7 @@ const jsonLd = {
               </div>
               <div class="pt-6 border-t border-white/10">
                 <p class="text-primary-400 font-bold mb-4">Get a professional, arborist-led quote for your {location.name} property today.</p>
-                <a href={`tel:${site.phone}/`} class="block w-full bg-primary-600 text-center py-4 rounded-xl font-bold hover:bg-primary-700 transition-colors">
+                <a href={`tel:${site.phone}`} class="block w-full bg-primary-600 text-center py-4 rounded-xl font-bold hover:bg-primary-700 transition-colors">
                   Get Free Estimate
                 </a>
               </div>
@@ -277,7 +277,7 @@ const jsonLd = {
         Our certified arborists provide the highest level of safety and care for <strong>{location.name}</strong> property owners. Schedule your free evaluation today.
       </p>
       <div class="flex flex-col sm:flex-row justify-center gap-6">
-        <a href={`tel:${site.phone}/`} class="inline-flex items-center gap-3 bg-white text-primary-700 px-10 py-5 rounded-md font-bold text-xl hover:bg-primary-50 transition-all shadow-2xl">
+        <a href={`tel:${site.phone}`} class="inline-flex items-center gap-3 bg-white text-primary-700 px-10 py-5 rounded-md font-bold text-xl hover:bg-primary-50 transition-all shadow-2xl">
           <Phone size={24} />
           {site.phone}
         </a>
