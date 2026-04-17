@@ -130,32 +130,6 @@ export const services: Service[] = [
       homeownerProblems: "The most common problem homeowners face after a storm is the complexity of insurance claims. Most people don't know that 'preventative removal' isn't usually covered, but 'structural extraction' is. We solve this by providing a detailed arborist reports that explicitly state the hazard and the necessity of the emergency work. Another major issue is property access; a single fallen tree across a driveway can trap residents and prevent emergency vehicles from reaching the home. We prioritize 'Access Clearing' to ensure your family can move safely. We also address the 'Secondary Hazard' problem: trees that didn't fall during the storm but were severely weakened. Our arborists perform a post-storm audit of your entire property to identify these 'silent failures'—hairline trunk cracks or shifted root plates—that could lead to a fall in the next minor wind event."
     }
   },
-  {
-    slug: 'tree-trimming-pruning',
-    name: 'Tree Trimming & Pruning',
-    image: 'https://picture-search.skywork.ai/skills/upload/2026-04-16/978844885f064fa9aa53c30633db9c4b_aea6a.png',
-    description: 'Health-focused tree maintenance to improve longevity and storm resistance. Our South Carolina arborist-led pruning services enhance the beauty and safety of your property\'s canopy.',
-    metaDescription: 'Professional tree trimming and pruning in South Carolina. Improve tree health and storm safety with arborist-supervised maintenance.',
-    heroHeading: 'Arborist-Led Pruning for a Healthier SC Canopy',
-    features: [
-      'Crown thinning & reduction',
-      'Deadwood removal',
-      'Structure-clearance pruning',
-      'Young tree structural training',
-      'Storm-resistance thinning'
-    ],
-    process: [
-      'Species-specific health evaluation',
-      'Identifying structural defects and deadwood',
-      'Strategic pruning using arborist-standard cuts',
-      'Canopy balancing for wind load reduction',
-      'Debris chipping and site cleanup'
-    ],
-    faqs: [
-      {
-        question: 'When is the best time to prune trees in South Carolina?',
-        answer: 'The dormant season (late fall through winter) is generally best for major pruning as it minimizes stress and disease risk. However, deadwood removal and safety-related trimming can be performed year-round in SC\'s climate.'
-      },
       {
         question: 'How much should be trimmed off a tree?',
         answer: 'As a rule, we never remove more than 25% of a tree\'s live canopy in a single season. Over-pruning (topping) is detrimental to tree health and is a practice we strictly avoid to ensure your SC trees remain strong.'

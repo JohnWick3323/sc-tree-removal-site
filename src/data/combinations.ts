@@ -68,20 +68,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Charleston before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "charleston",
-    "uniqueIntro": "From residential backyards to commercial lots in Charleston, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Charleston residential structures",
-      "Root plate stability in Sandy coastal loam conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Charleston?",
-        "answer": "Usually completed in one day for standard properties in Charleston."
-      },
       {
         "question": "Do I need a permit in Charleston?",
         "answer": "We help navigate South Carolina and Charleston municipal arborist permits."
@@ -194,20 +180,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Columbia before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "columbia",
-    "uniqueIntro": "Columbia's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Columbia residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Columbia?",
-        "answer": "Usually completed in one day for standard properties in Columbia."
-      },
       {
         "question": "Do I need a permit in Columbia?",
         "answer": "We help navigate South Carolina and Columbia municipal arborist permits."
@@ -320,20 +292,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in North Charleston before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "north-charleston",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout North Charleston, SC.",
-    "localProblems": [
-      "Hazardous trees near North Charleston residential structures",
-      "Root plate stability in Sandy coastal loam conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in North charleston?",
-        "answer": "Usually completed in one day for standard properties in North charleston."
-      },
       {
         "question": "Do I need a permit in North charleston?",
         "answer": "We help navigate South Carolina and North Charleston municipal arborist permits."
@@ -446,20 +404,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Mount Pleasant before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "mount-pleasant",
-    "uniqueIntro": "From residential backyards to commercial lots in Mount Pleasant, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Mount Pleasant residential structures",
-      "Root plate stability in Sandy coastal loam conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Mount Pleasant?",
-        "answer": "Usually completed in one day for standard properties in Mount Pleasant."
-      },
       {
         "question": "Do I need a permit in Mount Pleasant?",
         "answer": "We help navigate South Carolina and Mount Pleasant municipal arborist permits."
@@ -572,20 +516,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Rock Hill before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "rock-hill",
-    "uniqueIntro": "Property owners in Rock Hill trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Rock Hill residential structures",
-      "Root plate stability in Red clay and rocky foothills conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Rock Hill?",
-        "answer": "Usually completed in one day for standard properties in Rock Hill."
-      },
       {
         "question": "Do I need a permit in Rock Hill?",
         "answer": "We help navigate South Carolina and Rock Hill municipal arborist permits."
@@ -698,20 +628,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Greenville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "greenville",
-    "uniqueIntro": "Greenville's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Greenville residential structures",
-      "Root plate stability in Red clay and rocky foothills conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Greenville?",
-        "answer": "Usually completed in one day for standard properties in Greenville."
-      },
       {
         "question": "Do I need a permit in Greenville?",
         "answer": "We help navigate South Carolina and Greenville municipal arborist permits."
@@ -824,20 +740,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Summerville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "summerville",
-    "uniqueIntro": "From residential backyards to commercial lots in Summerville, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Summerville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Summerville?",
-        "answer": "Usually completed in one day for standard properties in Summerville."
-      },
       {
         "question": "Do I need a permit in Summerville?",
         "answer": "We help navigate South Carolina and Summerville municipal arborist permits."
@@ -950,20 +852,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Goose creek before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "goose-creek",
-    "uniqueIntro": "Goose Creek's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Goose creek residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Goose creek?",
-        "answer": "Usually completed in one day for standard properties in Goose creek."
-      },
       {
         "question": "Do I need a permit in Goose creek?",
         "answer": "We help navigate South Carolina and Goose creek municipal arborist permits."
@@ -1076,20 +964,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Sumter before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "sumter",
-    "uniqueIntro": "Sumter's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Sumter residential structures",
-      "Root plate stability in Sandy loam and river basin deposits conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Sumter?",
-        "answer": "Usually completed in one day for standard properties in Sumter."
-      },
       {
         "question": "Do I need a permit in Sumter?",
         "answer": "We help navigate South Carolina and Sumter municipal arborist permits."
@@ -1202,20 +1076,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Florence before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "florence",
-    "uniqueIntro": "Property owners in Florence trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Florence residential structures",
-      "Root plate stability in Sandy loam and river basin deposits conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Florence?",
-        "answer": "Usually completed in one day for standard properties in Florence."
-      },
       {
         "question": "Do I need a permit in Florence?",
         "answer": "We help navigate South Carolina and Florence municipal arborist permits."
@@ -1328,20 +1188,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Spartanburg before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "spartanburg",
-    "uniqueIntro": "Maintaining property safety in Spartanburg requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Spartanburg residential structures",
-      "Root plate stability in Red clay and rocky foothills conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Spartanburg?",
-        "answer": "Usually completed in one day for standard properties in Spartanburg."
-      },
       {
         "question": "Do I need a permit in Spartanburg?",
         "answer": "We help navigate South Carolina and Spartanburg municipal arborist permits."
@@ -1454,20 +1300,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Hilton Head Island before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "hilton-head-island",
-    "uniqueIntro": "Maintaining property safety in Hilton Head Island requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Hilton Head Island residential structures",
-      "Root plate stability in Sandy coastal loam conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Hilton Head Island?",
-        "answer": "Usually completed in one day for standard properties in Hilton Head Island."
-      },
       {
         "question": "Do I need a permit in Hilton Head Island?",
         "answer": "We help navigate South Carolina and Hilton Head Island municipal arborist permits."
@@ -1580,20 +1412,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Greer before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "greer",
-    "uniqueIntro": "Greer's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Greer residential structures",
-      "Root plate stability in Red clay and rocky foothills conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Greer?",
-        "answer": "Usually completed in one day for standard properties in Greer."
-      },
       {
         "question": "Do I need a permit in Greer?",
         "answer": "We help navigate South Carolina and Greer municipal arborist permits."
@@ -1706,20 +1524,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Myrtle Beach before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "myrtle-beach",
-    "uniqueIntro": "From residential backyards to commercial lots in Myrtle Beach, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Myrtle Beach residential structures",
-      "Root plate stability in Sandy coastal loam conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Myrtle Beach?",
-        "answer": "Usually completed in one day for standard properties in Myrtle Beach."
-      },
       {
         "question": "Do I need a permit in Myrtle Beach?",
         "answer": "We help navigate South Carolina and Myrtle Beach municipal arborist permits."
@@ -1832,20 +1636,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Aiken before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "aiken",
-    "uniqueIntro": "Property owners in Aiken trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Aiken residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Aiken?",
-        "answer": "Usually completed in one day for standard properties in Aiken."
-      },
       {
         "question": "Do I need a permit in Aiken?",
         "answer": "We help navigate South Carolina and Aiken municipal arborist permits."
@@ -1958,20 +1748,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Bluffton before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "bluffton",
-    "uniqueIntro": "Bluffton's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Bluffton residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Bluffton?",
-        "answer": "Usually completed in one day for standard properties in Bluffton."
-      },
       {
         "question": "Do I need a permit in Bluffton?",
         "answer": "We help navigate South Carolina and Bluffton municipal arborist permits."
@@ -2084,20 +1860,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Anderson before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "anderson",
-    "uniqueIntro": "From residential backyards to commercial lots in Anderson, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Anderson residential structures",
-      "Root plate stability in Red clay and rocky foothills conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Anderson?",
-        "answer": "Usually completed in one day for standard properties in Anderson."
-      },
       {
         "question": "Do I need a permit in Anderson?",
         "answer": "We help navigate South Carolina and Anderson municipal arborist permits."
@@ -2210,20 +1972,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Fort Mill before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "fort-mill",
-    "uniqueIntro": "Property owners in Fort Mill trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Fort Mill residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Fort Mill?",
-        "answer": "Usually completed in one day for standard properties in Fort Mill."
-      },
       {
         "question": "Do I need a permit in Fort Mill?",
         "answer": "We help navigate South Carolina and Fort Mill municipal arborist permits."
@@ -2336,20 +2084,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Mauldin before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "mauldin",
-    "uniqueIntro": "Maintaining property safety in Mauldin requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Mauldin residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Mauldin?",
-        "answer": "Usually completed in one day for standard properties in Mauldin."
-      },
       {
         "question": "Do I need a permit in Mauldin?",
         "answer": "We help navigate South Carolina and Mauldin municipal arborist permits."
@@ -2462,20 +2196,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Conway before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "conway",
-    "uniqueIntro": "Property owners in Conway trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Conway residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Conway?",
-        "answer": "Usually completed in one day for standard properties in Conway."
-      },
       {
         "question": "Do I need a permit in Conway?",
         "answer": "We help navigate South Carolina and Conway municipal arborist permits."
@@ -2588,20 +2308,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in carolina Forest before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "carolina-forest",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Carolina Forest, SC.",
-    "localProblems": [
-      "Hazardous trees near carolina Forest residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in carolina Forest?",
-        "answer": "Usually completed in one day for standard properties in carolina Forest."
-      },
       {
         "question": "Do I need a permit in carolina Forest?",
         "answer": "We help navigate South Carolina and carolina Forest municipal arborist permits."
@@ -2714,20 +2420,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Socastee before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "socastee",
-    "uniqueIntro": "Property owners in Socastee trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Socastee residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Socastee?",
-        "answer": "Usually completed in one day for standard properties in Socastee."
-      },
       {
         "question": "Do I need a permit in Socastee?",
         "answer": "We help navigate South Carolina and Socastee municipal arborist permits."
@@ -2840,20 +2532,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in North Augusta before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "north-augusta",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout North Augusta, SC.",
-    "localProblems": [
-      "Hazardous trees near North Augusta residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in North Augusta?",
-        "answer": "Usually completed in one day for standard properties in North Augusta."
-      },
       {
         "question": "Do I need a permit in North Augusta?",
         "answer": "We help navigate South Carolina and North Augusta municipal arborist permits."
@@ -2966,20 +2644,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Simpsonville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "simpsonville",
-    "uniqueIntro": "From residential backyards to commercial lots in Simpsonville, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Simpsonville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Simpsonville?",
-        "answer": "Usually completed in one day for standard properties in Simpsonville."
-      },
       {
         "question": "Do I need a permit in Simpsonville?",
         "answer": "We help navigate South Carolina and Simpsonville municipal arborist permits."
@@ -3092,20 +2756,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Lexington before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "lexington",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Lexington, SC.",
-    "localProblems": [
-      "Hazardous trees near Lexington residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Lexington?",
-        "answer": "Usually completed in one day for standard properties in Lexington."
-      },
       {
         "question": "Do I need a permit in Lexington?",
         "answer": "We help navigate South Carolina and Lexington municipal arborist permits."
@@ -3218,20 +2868,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Easley before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "easley",
-    "uniqueIntro": "Easley's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Easley residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Easley?",
-        "answer": "Usually completed in one day for standard properties in Easley."
-      },
       {
         "question": "Do I need a permit in Easley?",
         "answer": "We help navigate South Carolina and Easley municipal arborist permits."
@@ -3344,20 +2980,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Taylors before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "taylors",
-    "uniqueIntro": "Property owners in Taylors trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Taylors residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Taylors?",
-        "answer": "Usually completed in one day for standard properties in Taylors."
-      },
       {
         "question": "Do I need a permit in Taylors?",
         "answer": "We help navigate South Carolina and Taylors municipal arborist permits."
@@ -3470,20 +3092,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Greenwood before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "greenwood",
-    "uniqueIntro": "Maintaining property safety in Greenwood requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Greenwood residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Greenwood?",
-        "answer": "Usually completed in one day for standard properties in Greenwood."
-      },
       {
         "question": "Do I need a permit in Greenwood?",
         "answer": "We help navigate South Carolina and Greenwood municipal arborist permits."
@@ -3596,20 +3204,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in St. Andrews before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "st.-andrews",
-    "uniqueIntro": "From residential backyards to commercial lots in St. Andrews, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near St. Andrews residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in St. Andrews?",
-        "answer": "Usually completed in one day for standard properties in St. Andrews."
-      },
       {
         "question": "Do I need a permit in St. Andrews?",
         "answer": "We help navigate South Carolina and St. Andrews municipal arborist permits."
@@ -3722,20 +3316,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Wade Hampton before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "wade-hampton",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Wade Hampton, SC.",
-    "localProblems": [
-      "Hazardous trees near Wade Hampton residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Wade Hampton?",
-        "answer": "Usually completed in one day for standard properties in Wade Hampton."
-      },
       {
         "question": "Do I need a permit in Wade Hampton?",
         "answer": "We help navigate South Carolina and Wade Hampton municipal arborist permits."
@@ -3848,20 +3428,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Hanahan before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "hanahan",
-    "uniqueIntro": "Property owners in Hanahan trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Hanahan residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Hanahan?",
-        "answer": "Usually completed in one day for standard properties in Hanahan."
-      },
       {
         "question": "Do I need a permit in Hanahan?",
         "answer": "We help navigate South Carolina and Hanahan municipal arborist permits."
@@ -3974,20 +3540,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in North Myrtle Beach before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "north-myrtle-beach",
-    "uniqueIntro": "From residential backyards to commercial lots in North Myrtle Beach, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near North Myrtle Beach residential structures",
-      "Root plate stability in Sandy coastal loam conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in North Myrtle Beach?",
-        "answer": "Usually completed in one day for standard properties in North Myrtle Beach."
-      },
       {
         "question": "Do I need a permit in North Myrtle Beach?",
         "answer": "We help navigate South Carolina and North Myrtle Beach municipal arborist permits."
@@ -4100,20 +3652,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Five Forks before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "five-forks",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Five Forks, SC.",
-    "localProblems": [
-      "Hazardous trees near Five Forks residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Five Forks?",
-        "answer": "Usually completed in one day for standard properties in Five Forks."
-      },
       {
         "question": "Do I need a permit in Five Forks?",
         "answer": "We help navigate South Carolina and Five Forks municipal arborist permits."
@@ -4226,20 +3764,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Clemson before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "clemson",
-    "uniqueIntro": "From residential backyards to commercial lots in Clemson, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Clemson residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Clemson?",
-        "answer": "Usually completed in one day for standard properties in Clemson."
-      },
       {
         "question": "Do I need a permit in Clemson?",
         "answer": "We help navigate South Carolina and Clemson municipal arborist permits."
@@ -4352,20 +3876,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in West Columbia before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "west-columbia",
-    "uniqueIntro": "West Columbia's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near West Columbia residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in West columbia?",
-        "answer": "Usually completed in one day for standard properties in West columbia."
-      },
       {
         "question": "Do I need a permit in West columbia?",
         "answer": "We help navigate South Carolina and West Columbia municipal arborist permits."
@@ -4478,20 +3988,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Dentsville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "dentsville",
-    "uniqueIntro": "From residential backyards to commercial lots in Dentsville, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Dentsville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Dentsville?",
-        "answer": "Usually completed in one day for standard properties in Dentsville."
-      },
       {
         "question": "Do I need a permit in Dentsville?",
         "answer": "We help navigate South Carolina and Dentsville municipal arborist permits."
@@ -4604,20 +4100,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Berea before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "berea",
-    "uniqueIntro": "From residential backyards to commercial lots in Berea, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Berea residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Berea?",
-        "answer": "Usually completed in one day for standard properties in Berea."
-      },
       {
         "question": "Do I need a permit in Berea?",
         "answer": "We help navigate South Carolina and Berea municipal arborist permits."
@@ -4730,20 +4212,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Seven Oaks before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "seven-oaks",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Seven Oaks, SC.",
-    "localProblems": [
-      "Hazardous trees near Seven Oaks residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Seven Oaks?",
-        "answer": "Usually completed in one day for standard properties in Seven Oaks."
-      },
       {
         "question": "Do I need a permit in Seven Oaks?",
         "answer": "We help navigate South Carolina and Seven Oaks municipal arborist permits."
@@ -4856,20 +4324,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Red Hill before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "red-hill",
-    "uniqueIntro": "From residential backyards to commercial lots in Red Hill, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Red Hill residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Red Hill?",
-        "answer": "Usually completed in one day for standard properties in Red Hill."
-      },
       {
         "question": "Do I need a permit in Red Hill?",
         "answer": "We help navigate South Carolina and Red Hill municipal arborist permits."
@@ -4982,20 +4436,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Ladson before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "ladson",
-    "uniqueIntro": "From residential backyards to commercial lots in Ladson, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Ladson residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Ladson?",
-        "answer": "Usually completed in one day for standard properties in Ladson."
-      },
       {
         "question": "Do I need a permit in Ladson?",
         "answer": "We help navigate South Carolina and Ladson municipal arborist permits."
@@ -5108,20 +4548,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Port Royal before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "port-royal",
-    "uniqueIntro": "From residential backyards to commercial lots in Port Royal, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Port Royal residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Port Royal?",
-        "answer": "Usually completed in one day for standard properties in Port Royal."
-      },
       {
         "question": "Do I need a permit in Port Royal?",
         "answer": "We help navigate South Carolina and Port Royal municipal arborist permits."
@@ -5234,20 +4660,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Lake Wylie before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "lake-wylie",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Lake Wylie, SC.",
-    "localProblems": [
-      "Hazardous trees near Lake Wylie residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Lake Wylie?",
-        "answer": "Usually completed in one day for standard properties in Lake Wylie."
-      },
       {
         "question": "Do I need a permit in Lake Wylie?",
         "answer": "We help navigate South Carolina and Lake Wylie municipal arborist permits."
@@ -5360,20 +4772,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Gantt before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "gantt",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Gantt, SC.",
-    "localProblems": [
-      "Hazardous trees near Gantt residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Gantt?",
-        "answer": "Usually completed in one day for standard properties in Gantt."
-      },
       {
         "question": "Do I need a permit in Gantt?",
         "answer": "We help navigate South Carolina and Gantt municipal arborist permits."
@@ -5486,20 +4884,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Cayce before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "cayce",
-    "uniqueIntro": "Property owners in Cayce trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Cayce residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Cayce?",
-        "answer": "Usually completed in one day for standard properties in Cayce."
-      },
       {
         "question": "Do I need a permit in Cayce?",
         "answer": "We help navigate South Carolina and Cayce municipal arborist permits."
@@ -5612,20 +4996,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Beaufort before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "beaufort",
-    "uniqueIntro": "From residential backyards to commercial lots in Beaufort, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Beaufort residential structures",
-      "Root plate stability in Sandy coastal loam conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Beaufort?",
-        "answer": "Usually completed in one day for standard properties in Beaufort."
-      },
       {
         "question": "Do I need a permit in Beaufort?",
         "answer": "We help navigate South Carolina and Beaufort municipal arborist permits."
@@ -5738,20 +5108,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Moncks corner before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "moncks-corner",
-    "uniqueIntro": "From residential backyards to commercial lots in Moncks Corner, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Moncks corner residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Moncks corner?",
-        "answer": "Usually completed in one day for standard properties in Moncks corner."
-      },
       {
         "question": "Do I need a permit in Moncks corner?",
         "answer": "We help navigate South Carolina and Moncks corner municipal arborist permits."
@@ -5864,20 +5220,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Orangeburg before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "orangeburg",
-    "uniqueIntro": "From residential backyards to commercial lots in Orangeburg, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Orangeburg residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Orangeburg?",
-        "answer": "Usually completed in one day for standard properties in Orangeburg."
-      },
       {
         "question": "Do I need a permit in Orangeburg?",
         "answer": "We help navigate South Carolina and Orangeburg municipal arborist permits."
@@ -5990,20 +5332,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Tega cay before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "tega-cay",
-    "uniqueIntro": "From residential backyards to commercial lots in Tega Cay, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Tega cay residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Tega cay?",
-        "answer": "Usually completed in one day for standard properties in Tega cay."
-      },
       {
         "question": "Do I need a permit in Tega cay?",
         "answer": "We help navigate South Carolina and Tega cay municipal arborist permits."
@@ -6116,20 +5444,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Gaffney before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "gaffney",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Gaffney, SC.",
-    "localProblems": [
-      "Hazardous trees near Gaffney residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Gaffney?",
-        "answer": "Usually completed in one day for standard properties in Gaffney."
-      },
       {
         "question": "Do I need a permit in Gaffney?",
         "answer": "We help navigate South Carolina and Gaffney municipal arborist permits."
@@ -6242,20 +5556,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Parker before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "parker",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Parker, SC.",
-    "localProblems": [
-      "Hazardous trees near Parker residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Parker?",
-        "answer": "Usually completed in one day for standard properties in Parker."
-      },
       {
         "question": "Do I need a permit in Parker?",
         "answer": "We help navigate South Carolina and Parker municipal arborist permits."
@@ -6368,20 +5668,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in James Island before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "james-island",
-    "uniqueIntro": "From residential backyards to commercial lots in James Island, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near James Island residential structures",
-      "Root plate stability in Sandy coastal loam conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in James Island?",
-        "answer": "Usually completed in one day for standard properties in James Island."
-      },
       {
         "question": "Do I need a permit in James Island?",
         "answer": "We help navigate South Carolina and James Island municipal arborist permits."
@@ -6494,20 +5780,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Irmo before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "irmo",
-    "uniqueIntro": "Irmo's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Irmo residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Irmo?",
-        "answer": "Usually completed in one day for standard properties in Irmo."
-      },
       {
         "question": "Do I need a permit in Irmo?",
         "answer": "We help navigate South Carolina and Irmo municipal arborist permits."
@@ -6620,20 +5892,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Oak Grove before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "oak-grove",
-    "uniqueIntro": "Maintaining property safety in Oak Grove requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Oak Grove residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Oak Grove?",
-        "answer": "Usually completed in one day for standard properties in Oak Grove."
-      },
       {
         "question": "Do I need a permit in Oak Grove?",
         "answer": "We help navigate South Carolina and Oak Grove municipal arborist permits."
@@ -6746,20 +6004,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Boiling Springs before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "boiling-springs",
-    "uniqueIntro": "Property owners in Boiling Springs trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Boiling Springs residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Boiling Springs?",
-        "answer": "Usually completed in one day for standard properties in Boiling Springs."
-      },
       {
         "question": "Do I need a permit in Boiling Springs?",
         "answer": "We help navigate South Carolina and Boiling Springs municipal arborist permits."
@@ -6872,20 +6116,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Garden city before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "garden-city",
-    "uniqueIntro": "Garden City's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Garden city residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Garden city?",
-        "answer": "Usually completed in one day for standard properties in Garden city."
-      },
       {
         "question": "Do I need a permit in Garden city?",
         "answer": "We help navigate South Carolina and Garden city municipal arborist permits."
@@ -6998,20 +6228,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Newberry before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "newberry",
-    "uniqueIntro": "Property owners in Newberry trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Newberry residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Newberry?",
-        "answer": "Usually completed in one day for standard properties in Newberry."
-      },
       {
         "question": "Do I need a permit in Newberry?",
         "answer": "We help navigate South Carolina and Newberry municipal arborist permits."
@@ -7124,20 +6340,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Powdersville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "powdersville",
-    "uniqueIntro": "Property owners in Powdersville trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Powdersville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Powdersville?",
-        "answer": "Usually completed in one day for standard properties in Powdersville."
-      },
       {
         "question": "Do I need a permit in Powdersville?",
         "answer": "We help navigate South Carolina and Powdersville municipal arborist permits."
@@ -7250,20 +6452,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Fountain Inn before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "fountain-inn",
-    "uniqueIntro": "Fountain Inn's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Fountain Inn residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Fountain Inn?",
-        "answer": "Usually completed in one day for standard properties in Fountain Inn."
-      },
       {
         "question": "Do I need a permit in Fountain Inn?",
         "answer": "We help navigate South Carolina and Fountain Inn municipal arborist permits."
@@ -7376,20 +6564,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Red Bank before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "red-bank",
-    "uniqueIntro": "Property owners in Red Bank trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Red Bank residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Red Bank?",
-        "answer": "Usually completed in one day for standard properties in Red Bank."
-      },
       {
         "question": "Do I need a permit in Red Bank?",
         "answer": "We help navigate South Carolina and Red Bank municipal arborist permits."
@@ -7502,20 +6676,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Forest Acres before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "forest-acres",
-    "uniqueIntro": "Forest Acres's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Forest Acres residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Forest Acres?",
-        "answer": "Usually completed in one day for standard properties in Forest Acres."
-      },
       {
         "question": "Do I need a permit in Forest Acres?",
         "answer": "We help navigate South Carolina and Forest Acres municipal arborist permits."
@@ -7628,20 +6788,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Murrells Inlet before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "murrells-inlet",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Murrells Inlet, SC.",
-    "localProblems": [
-      "Hazardous trees near Murrells Inlet residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Murrells Inlet?",
-        "answer": "Usually completed in one day for standard properties in Murrells Inlet."
-      },
       {
         "question": "Do I need a permit in Murrells Inlet?",
         "answer": "We help navigate South Carolina and Murrells Inlet municipal arborist permits."
@@ -7754,20 +6900,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Little River before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "little-river",
-    "uniqueIntro": "Maintaining property safety in Little River requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Little River residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Little River?",
-        "answer": "Usually completed in one day for standard properties in Little River."
-      },
       {
         "question": "Do I need a permit in Little River?",
         "answer": "We help navigate South Carolina and Little River municipal arborist permits."
@@ -7880,20 +7012,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Woodfield before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "woodfield",
-    "uniqueIntro": "Property owners in Woodfield trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Woodfield residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Woodfield?",
-        "answer": "Usually completed in one day for standard properties in Woodfield."
-      },
       {
         "question": "Do I need a permit in Woodfield?",
         "answer": "We help navigate South Carolina and Woodfield municipal arborist permits."
@@ -8006,20 +7124,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Lugoff before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "lugoff",
-    "uniqueIntro": "From residential backyards to commercial lots in Lugoff, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Lugoff residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Lugoff?",
-        "answer": "Usually completed in one day for standard properties in Lugoff."
-      },
       {
         "question": "Do I need a permit in Lugoff?",
         "answer": "We help navigate South Carolina and Lugoff municipal arborist permits."
@@ -8132,20 +7236,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Laurens before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "laurens",
-    "uniqueIntro": "Maintaining property safety in Laurens requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Laurens residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Laurens?",
-        "answer": "Usually completed in one day for standard properties in Laurens."
-      },
       {
         "question": "Do I need a permit in Laurens?",
         "answer": "We help navigate South Carolina and Laurens municipal arborist permits."
@@ -8258,20 +7348,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Litchfield Beach before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "litchfield-beach",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Litchfield Beach, SC.",
-    "localProblems": [
-      "Hazardous trees near Litchfield Beach residential structures",
-      "Root plate stability in Sandy coastal loam conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Litchfield Beach?",
-        "answer": "Usually completed in one day for standard properties in Litchfield Beach."
-      },
       {
         "question": "Do I need a permit in Litchfield Beach?",
         "answer": "We help navigate South Carolina and Litchfield Beach municipal arborist permits."
@@ -8384,20 +7460,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Seneca before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "seneca",
-    "uniqueIntro": "Property owners in Seneca trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Seneca residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Seneca?",
-        "answer": "Usually completed in one day for standard properties in Seneca."
-      },
       {
         "question": "Do I need a permit in Seneca?",
         "answer": "We help navigate South Carolina and Seneca municipal arborist permits."
@@ -8510,20 +7572,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Sangaree before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "sangaree",
-    "uniqueIntro": "Sangaree's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Sangaree residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Sangaree?",
-        "answer": "Usually completed in one day for standard properties in Sangaree."
-      },
       {
         "question": "Do I need a permit in Sangaree?",
         "answer": "We help navigate South Carolina and Sangaree municipal arborist permits."
@@ -8636,20 +7684,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Lancaster before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "lancaster",
-    "uniqueIntro": "Property owners in Lancaster trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Lancaster residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Lancaster?",
-        "answer": "Usually completed in one day for standard properties in Lancaster."
-      },
       {
         "question": "Do I need a permit in Lancaster?",
         "answer": "We help navigate South Carolina and Lancaster municipal arborist permits."
@@ -8762,20 +7796,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in York before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "york",
-    "uniqueIntro": "York's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near York residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in York?",
-        "answer": "Usually completed in one day for standard properties in York."
-      },
       {
         "question": "Do I need a permit in York?",
         "answer": "We help navigate South Carolina and York municipal arborist permits."
@@ -8888,20 +7908,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Georgetown before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "georgetown",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Georgetown, SC.",
-    "localProblems": [
-      "Hazardous trees near Georgetown residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Georgetown?",
-        "answer": "Usually completed in one day for standard properties in Georgetown."
-      },
       {
         "question": "Do I need a permit in Georgetown?",
         "answer": "We help navigate South Carolina and Georgetown municipal arborist permits."
@@ -9014,20 +8020,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Union before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "union",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Union, SC.",
-    "localProblems": [
-      "Hazardous trees near Union residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Union?",
-        "answer": "Usually completed in one day for standard properties in Union."
-      },
       {
         "question": "Do I need a permit in Union?",
         "answer": "We help navigate South Carolina and Union municipal arborist permits."
@@ -9140,20 +8132,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Hardeeville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "hardeeville",
-    "uniqueIntro": "Property owners in Hardeeville trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Hardeeville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Hardeeville?",
-        "answer": "Usually completed in one day for standard properties in Hardeeville."
-      },
       {
         "question": "Do I need a permit in Hardeeville?",
         "answer": "We help navigate South Carolina and Hardeeville municipal arborist permits."
@@ -9266,20 +8244,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Sans Souci before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "sans-souci",
-    "uniqueIntro": "Sans Souci's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Sans Souci residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Sans Souci?",
-        "answer": "Usually completed in one day for standard properties in Sans Souci."
-      },
       {
         "question": "Do I need a permit in Sans Souci?",
         "answer": "We help navigate South Carolina and Sans Souci municipal arborist permits."
@@ -9392,20 +8356,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Travelers Rest before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "travelers-rest",
-    "uniqueIntro": "Property owners in Travelers Rest trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Travelers Rest residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Travelers Rest?",
-        "answer": "Usually completed in one day for standard properties in Travelers Rest."
-      },
       {
         "question": "Do I need a permit in Travelers Rest?",
         "answer": "We help navigate South Carolina and Travelers Rest municipal arborist permits."
@@ -9518,20 +8468,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Camden before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "camden",
-    "uniqueIntro": "Property owners in Camden trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Camden residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Camden?",
-        "answer": "Usually completed in one day for standard properties in Camden."
-      },
       {
         "question": "Do I need a permit in Camden?",
         "answer": "We help navigate South Carolina and Camden municipal arborist permits."
@@ -9644,20 +8580,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Clinton before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "clinton",
-    "uniqueIntro": "Clinton's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Clinton residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Clinton?",
-        "answer": "Usually completed in one day for standard properties in Clinton."
-      },
       {
         "question": "Do I need a permit in Clinton?",
         "answer": "We help navigate South Carolina and Clinton municipal arborist permits."
@@ -9770,20 +8692,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Burton before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "burton",
-    "uniqueIntro": "Maintaining property safety in Burton requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Burton residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Burton?",
-        "answer": "Usually completed in one day for standard properties in Burton."
-      },
       {
         "question": "Do I need a permit in Burton?",
         "answer": "We help navigate South Carolina and Burton municipal arborist permits."
@@ -9896,20 +8804,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Homeland Park before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "homeland-park",
-    "uniqueIntro": "From residential backyards to commercial lots in Homeland Park, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Homeland Park residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Homeland Park?",
-        "answer": "Usually completed in one day for standard properties in Homeland Park."
-      },
       {
         "question": "Do I need a permit in Homeland Park?",
         "answer": "We help navigate South Carolina and Homeland Park municipal arborist permits."
@@ -10022,20 +8916,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Hartsville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "hartsville",
-    "uniqueIntro": "Hartsville's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Hartsville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Hartsville?",
-        "answer": "Usually completed in one day for standard properties in Hartsville."
-      },
       {
         "question": "Do I need a permit in Hartsville?",
         "answer": "We help navigate South Carolina and Hartsville municipal arborist permits."
@@ -10148,20 +9028,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Forestbrook before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "forestbrook",
-    "uniqueIntro": "Property owners in Forestbrook trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Forestbrook residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Forestbrook?",
-        "answer": "Usually completed in one day for standard properties in Forestbrook."
-      },
       {
         "question": "Do I need a permit in Forestbrook?",
         "answer": "We help navigate South Carolina and Forestbrook municipal arborist permits."
@@ -10274,20 +9140,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Centerville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "centerville",
-    "uniqueIntro": "From residential backyards to commercial lots in Centerville, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Centerville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Centerville?",
-        "answer": "Usually completed in one day for standard properties in Centerville."
-      },
       {
         "question": "Do I need a permit in Centerville?",
         "answer": "We help navigate South Carolina and Centerville municipal arborist permits."
@@ -10400,20 +9252,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in White Knoll before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "white-knoll",
-    "uniqueIntro": "Property owners in White Knoll trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near White Knoll residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in White Knoll?",
-        "answer": "Usually completed in one day for standard properties in White Knoll."
-      },
       {
         "question": "Do I need a permit in White Knoll?",
         "answer": "We help navigate South Carolina and White Knoll municipal arborist permits."
@@ -10526,20 +9364,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Welcome before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "welcome",
-    "uniqueIntro": "From residential backyards to commercial lots in Welcome, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Welcome residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Welcome?",
-        "answer": "Usually completed in one day for standard properties in Welcome."
-      },
       {
         "question": "Do I need a permit in Welcome?",
         "answer": "We help navigate South Carolina and Welcome municipal arborist permits."
@@ -10652,20 +9476,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Valley Falls before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "valley-falls",
-    "uniqueIntro": "From residential backyards to commercial lots in Valley Falls, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Valley Falls residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Valley Falls?",
-        "answer": "Usually completed in one day for standard properties in Valley Falls."
-      },
       {
         "question": "Do I need a permit in Valley Falls?",
         "answer": "We help navigate South Carolina and Valley Falls municipal arborist permits."
@@ -10778,20 +9588,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Bennettsville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "bennettsville",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Bennettsville, SC.",
-    "localProblems": [
-      "Hazardous trees near Bennettsville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Bennettsville?",
-        "answer": "Usually completed in one day for standard properties in Bennettsville."
-      },
       {
         "question": "Do I need a permit in Bennettsville?",
         "answer": "We help navigate South Carolina and Bennettsville municipal arborist permits."
@@ -10904,20 +9700,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Lake Murray of Richland before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "lake-murray-of-richland",
-    "uniqueIntro": "Maintaining property safety in Lake Murray Of Richland requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Lake Murray of Richland residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Lake Murray of Richland?",
-        "answer": "Usually completed in one day for standard properties in Lake Murray of Richland."
-      },
       {
         "question": "Do I need a permit in Lake Murray of Richland?",
         "answer": "We help navigate South Carolina and Lake Murray of Richland municipal arborist permits."
@@ -11030,20 +9812,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Clover before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "clover",
-    "uniqueIntro": "Maintaining property safety in Clover requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Clover residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Clover?",
-        "answer": "Usually completed in one day for standard properties in Clover."
-      },
       {
         "question": "Do I need a permit in Clover?",
         "answer": "We help navigate South Carolina and Clover municipal arborist permits."
@@ -11156,20 +9924,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Dillon before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "dillon",
-    "uniqueIntro": "Maintaining property safety in Dillon requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Dillon residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Dillon?",
-        "answer": "Usually completed in one day for standard properties in Dillon."
-      },
       {
         "question": "Do I need a permit in Dillon?",
         "answer": "We help navigate South Carolina and Dillon municipal arborist permits."
@@ -11282,20 +10036,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Marion before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "marion",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Marion, SC.",
-    "localProblems": [
-      "Hazardous trees near Marion residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Marion?",
-        "answer": "Usually completed in one day for standard properties in Marion."
-      },
       {
         "question": "Do I need a permit in Marion?",
         "answer": "We help navigate South Carolina and Marion municipal arborist permits."
@@ -11408,20 +10148,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Clemson University before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "clemson-university",
-    "uniqueIntro": "Clemson University's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Clemson University residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Clemson University?",
-        "answer": "Usually completed in one day for standard properties in Clemson University."
-      },
       {
         "question": "Do I need a permit in Clemson University?",
         "answer": "We help navigate South Carolina and Clemson University municipal arborist permits."
@@ -11534,20 +10260,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Darlington before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "darlington",
-    "uniqueIntro": "Property owners in Darlington trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Darlington residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Darlington?",
-        "answer": "Usually completed in one day for standard properties in Darlington."
-      },
       {
         "question": "Do I need a permit in Darlington?",
         "answer": "We help navigate South Carolina and Darlington municipal arborist permits."
@@ -11660,20 +10372,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Lyman before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "lyman",
-    "uniqueIntro": "Property owners in Lyman trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Lyman residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Lyman?",
-        "answer": "Usually completed in one day for standard properties in Lyman."
-      },
       {
         "question": "Do I need a permit in Lyman?",
         "answer": "We help navigate South Carolina and Lyman municipal arborist permits."
@@ -11786,20 +10484,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Lake city before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "lake-city",
-    "uniqueIntro": "Lake City's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Lake city residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Lake city?",
-        "answer": "Usually completed in one day for standard properties in Lake city."
-      },
       {
         "question": "Do I need a permit in Lake city?",
         "answer": "We help navigate South Carolina and Lake city municipal arborist permits."
@@ -11912,20 +10596,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Belvedere before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "belvedere",
-    "uniqueIntro": "Property owners in Belvedere trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Belvedere residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Belvedere?",
-        "answer": "Usually completed in one day for standard properties in Belvedere."
-      },
       {
         "question": "Do I need a permit in Belvedere?",
         "answer": "We help navigate South Carolina and Belvedere municipal arborist permits."
@@ -12038,20 +10708,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Walterboro before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "walterboro",
-    "uniqueIntro": "Maintaining property safety in Walterboro requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Walterboro residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Walterboro?",
-        "answer": "Usually completed in one day for standard properties in Walterboro."
-      },
       {
         "question": "Do I need a permit in Walterboro?",
         "answer": "We help navigate South Carolina and Walterboro municipal arborist permits."
@@ -12164,20 +10820,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Laurel Bay before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "laurel-bay",
-    "uniqueIntro": "Property owners in Laurel Bay trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Laurel Bay residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Laurel Bay?",
-        "answer": "Usually completed in one day for standard properties in Laurel Bay."
-      },
       {
         "question": "Do I need a permit in Laurel Bay?",
         "answer": "We help navigate South Carolina and Laurel Bay municipal arborist permits."
@@ -12290,20 +10932,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Piedmont before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "piedmont",
-    "uniqueIntro": "Maintaining property safety in Piedmont requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Piedmont residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Piedmont?",
-        "answer": "Usually completed in one day for standard properties in Piedmont."
-      },
       {
         "question": "Do I need a permit in Piedmont?",
         "answer": "We help navigate South Carolina and Piedmont municipal arborist permits."
@@ -12416,20 +11044,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Hollywood before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "hollywood",
-    "uniqueIntro": "Property owners in Hollywood trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Hollywood residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Hollywood?",
-        "answer": "Usually completed in one day for standard properties in Hollywood."
-      },
       {
         "question": "Do I need a permit in Hollywood?",
         "answer": "We help navigate South Carolina and Hollywood municipal arborist permits."
@@ -12542,20 +11156,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Central before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "central",
-    "uniqueIntro": "Property owners in Central trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Central residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Central?",
-        "answer": "Usually completed in one day for standard properties in Central."
-      },
       {
         "question": "Do I need a permit in Central?",
         "answer": "We help navigate South Carolina and Central municipal arborist permits."
@@ -12668,20 +11268,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Chester before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "chester",
-    "uniqueIntro": "Chester's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Chester residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Chester?",
-        "answer": "Usually completed in one day for standard properties in Chester."
-      },
       {
         "question": "Do I need a permit in Chester?",
         "answer": "We help navigate South Carolina and Chester municipal arborist permits."
@@ -12794,20 +11380,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Cheraw before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "cheraw",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Cheraw, SC.",
-    "localProblems": [
-      "Hazardous trees near Cheraw residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Cheraw?",
-        "answer": "Usually completed in one day for standard properties in Cheraw."
-      },
       {
         "question": "Do I need a permit in Cheraw?",
         "answer": "We help navigate South Carolina and Cheraw municipal arborist permits."
@@ -12920,20 +11492,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Batesburg-Leesville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "batesburg-leesville",
-    "uniqueIntro": "From residential backyards to commercial lots in Batesburg Leesville, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Batesburg-Leesville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Batesburg-Leesville?",
-        "answer": "Usually completed in one day for standard properties in Batesburg-Leesville."
-      },
       {
         "question": "Do I need a permit in Batesburg-Leesville?",
         "answer": "We help navigate South Carolina and Batesburg-Leesville municipal arborist permits."
@@ -13046,20 +11604,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Abbeville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "abbeville",
-    "uniqueIntro": "Abbeville's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Abbeville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Abbeville?",
-        "answer": "Usually completed in one day for standard properties in Abbeville."
-      },
       {
         "question": "Do I need a permit in Abbeville?",
         "answer": "We help navigate South Carolina and Abbeville municipal arborist permits."
@@ -13172,20 +11716,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Blythewood before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "blythewood",
-    "uniqueIntro": "Property owners in Blythewood trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Blythewood residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Blythewood?",
-        "answer": "Usually completed in one day for standard properties in Blythewood."
-      },
       {
         "question": "Do I need a permit in Blythewood?",
         "answer": "We help navigate South Carolina and Blythewood municipal arborist permits."
@@ -13298,20 +11828,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Barnwell before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "barnwell",
-    "uniqueIntro": "Maintaining property safety in Barnwell requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Barnwell residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Barnwell?",
-        "answer": "Usually completed in one day for standard properties in Barnwell."
-      },
       {
         "question": "Do I need a permit in Barnwell?",
         "answer": "We help navigate South Carolina and Barnwell municipal arborist permits."
@@ -13424,20 +11940,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Baxter Village before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "baxter-village",
-    "uniqueIntro": "Property owners in Baxter Village trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Baxter Village residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Baxter Village?",
-        "answer": "Usually completed in one day for standard properties in Baxter Village."
-      },
       {
         "question": "Do I need a permit in Baxter Village?",
         "answer": "We help navigate South Carolina and Baxter Village municipal arborist permits."
@@ -13550,20 +12052,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in India Hook before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "india-hook",
-    "uniqueIntro": "From residential backyards to commercial lots in India Hook, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near India Hook residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in India Hook?",
-        "answer": "Usually completed in one day for standard properties in India Hook."
-      },
       {
         "question": "Do I need a permit in India Hook?",
         "answer": "We help navigate South Carolina and India Hook municipal arborist permits."
@@ -13676,20 +12164,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Belton before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "belton",
-    "uniqueIntro": "Property owners in Belton trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Belton residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Belton?",
-        "answer": "Usually completed in one day for standard properties in Belton."
-      },
       {
         "question": "Do I need a permit in Belton?",
         "answer": "We help navigate South Carolina and Belton municipal arborist permits."
@@ -13802,20 +12276,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Isle of Palms before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "isle-of-palms",
-    "uniqueIntro": "Isle Of Palms's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Isle of Palms residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Isle of Palms?",
-        "answer": "Usually completed in one day for standard properties in Isle of Palms."
-      },
       {
         "question": "Do I need a permit in Isle of Palms?",
         "answer": "We help navigate South Carolina and Isle of Palms municipal arborist permits."
@@ -13928,20 +12388,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Woodruff before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "woodruff",
-    "uniqueIntro": "From residential backyards to commercial lots in Woodruff, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Woodruff residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Woodruff?",
-        "answer": "Usually completed in one day for standard properties in Woodruff."
-      },
       {
         "question": "Do I need a permit in Woodruff?",
         "answer": "We help navigate South Carolina and Woodruff municipal arborist permits."
@@ -14054,20 +12500,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Newport before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "newport",
-    "uniqueIntro": "Property owners in Newport trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Newport residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Newport?",
-        "answer": "Usually completed in one day for standard properties in Newport."
-      },
       {
         "question": "Do I need a permit in Newport?",
         "answer": "We help navigate South Carolina and Newport municipal arborist permits."
@@ -14180,20 +12612,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Surfside Beach before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "surfside-beach",
-    "uniqueIntro": "Surfside Beach's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Surfside Beach residential structures",
-      "Root plate stability in Sandy coastal loam conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Surfside Beach?",
-        "answer": "Usually completed in one day for standard properties in Surfside Beach."
-      },
       {
         "question": "Do I need a permit in Surfside Beach?",
         "answer": "We help navigate South Carolina and Surfside Beach municipal arborist permits."
@@ -14306,20 +12724,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Saxon before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "saxon",
-    "uniqueIntro": "Property owners in Saxon trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Saxon residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Saxon?",
-        "answer": "Usually completed in one day for standard properties in Saxon."
-      },
       {
         "question": "Do I need a permit in Saxon?",
         "answer": "We help navigate South Carolina and Saxon municipal arborist permits."
@@ -14432,20 +12836,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Walhalla before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "walhalla",
-    "uniqueIntro": "Walhalla's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Walhalla residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Walhalla?",
-        "answer": "Usually completed in one day for standard properties in Walhalla."
-      },
       {
         "question": "Do I need a permit in Walhalla?",
         "answer": "We help navigate South Carolina and Walhalla municipal arborist permits."
@@ -14558,20 +12948,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Williamston before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "williamston",
-    "uniqueIntro": "Property owners in Williamston trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Williamston residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Williamston?",
-        "answer": "Usually completed in one day for standard properties in Williamston."
-      },
       {
         "question": "Do I need a permit in Williamston?",
         "answer": "We help navigate South Carolina and Williamston municipal arborist permits."
@@ -14684,20 +13060,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Brookdale before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "brookdale",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Brookdale, SC.",
-    "localProblems": [
-      "Hazardous trees near Brookdale residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Brookdale?",
-        "answer": "Usually completed in one day for standard properties in Brookdale."
-      },
       {
         "question": "Do I need a permit in Brookdale?",
         "answer": "We help navigate South Carolina and Brookdale municipal arborist permits."
@@ -14810,20 +13172,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Duncan before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "duncan",
-    "uniqueIntro": "Maintaining property safety in Duncan requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Duncan residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Duncan?",
-        "answer": "Usually completed in one day for standard properties in Duncan."
-      },
       {
         "question": "Do I need a permit in Duncan?",
         "answer": "We help navigate South Carolina and Duncan municipal arborist permits."
@@ -14936,20 +13284,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Mullins before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "mullins",
-    "uniqueIntro": "Maintaining property safety in Mullins requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Mullins residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Mullins?",
-        "answer": "Usually completed in one day for standard properties in Mullins."
-      },
       {
         "question": "Do I need a permit in Mullins?",
         "answer": "We help navigate South Carolina and Mullins municipal arborist permits."
@@ -15062,20 +13396,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Northlake before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "northlake",
-    "uniqueIntro": "Maintaining property safety in Northlake requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Northlake residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Northlake?",
-        "answer": "Usually completed in one day for standard properties in Northlake."
-      },
       {
         "question": "Do I need a permit in Northlake?",
         "answer": "We help navigate South Carolina and Northlake municipal arborist permits."
@@ -15188,20 +13508,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Manning before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "manning",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Manning, SC.",
-    "localProblems": [
-      "Hazardous trees near Manning residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Manning?",
-        "answer": "Usually completed in one day for standard properties in Manning."
-      },
       {
         "question": "Do I need a permit in Manning?",
         "answer": "We help navigate South Carolina and Manning municipal arborist permits."
@@ -15314,20 +13620,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Southern Shops before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "southern-shops",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Southern Shops, SC.",
-    "localProblems": [
-      "Hazardous trees near Southern Shops residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Southern Shops?",
-        "answer": "Usually completed in one day for standard properties in Southern Shops."
-      },
       {
         "question": "Do I need a permit in Southern Shops?",
         "answer": "We help navigate South Carolina and Southern Shops municipal arborist permits."
@@ -15440,20 +13732,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Roebuck before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "roebuck",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Roebuck, SC.",
-    "localProblems": [
-      "Hazardous trees near Roebuck residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Roebuck?",
-        "answer": "Usually completed in one day for standard properties in Roebuck."
-      },
       {
         "question": "Do I need a permit in Roebuck?",
         "answer": "We help navigate South Carolina and Roebuck municipal arborist permits."
@@ -15566,20 +13844,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Wyboo before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "wyboo",
-    "uniqueIntro": "From residential backyards to commercial lots in Wyboo, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Wyboo residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Wyboo?",
-        "answer": "Usually completed in one day for standard properties in Wyboo."
-      },
       {
         "question": "Do I need a permit in Wyboo?",
         "answer": "We help navigate South Carolina and Wyboo municipal arborist permits."
@@ -15692,20 +13956,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Ridgeland before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "ridgeland",
-    "uniqueIntro": "Ridgeland's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Ridgeland residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Ridgeland?",
-        "answer": "Usually completed in one day for standard properties in Ridgeland."
-      },
       {
         "question": "Do I need a permit in Ridgeland?",
         "answer": "We help navigate South Carolina and Ridgeland municipal arborist permits."
@@ -15818,20 +14068,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Whitney before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "whitney",
-    "uniqueIntro": "Maintaining property safety in Whitney requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Whitney residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Whitney?",
-        "answer": "Usually completed in one day for standard properties in Whitney."
-      },
       {
         "question": "Do I need a permit in Whitney?",
         "answer": "We help navigate South Carolina and Whitney municipal arborist permits."
@@ -15944,20 +14180,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Honea Path before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "honea-path",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Honea Path, SC.",
-    "localProblems": [
-      "Hazardous trees near Honea Path residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Honea Path?",
-        "answer": "Usually completed in one day for standard properties in Honea Path."
-      },
       {
         "question": "Do I need a permit in Honea Path?",
         "answer": "We help navigate South Carolina and Honea Path municipal arborist permits."
@@ -16070,20 +14292,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Andrews before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "andrews",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Andrews, SC.",
-    "localProblems": [
-      "Hazardous trees near Andrews residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Andrews?",
-        "answer": "Usually completed in one day for standard properties in Andrews."
-      },
       {
         "question": "Do I need a permit in Andrews?",
         "answer": "We help navigate South Carolina and Andrews municipal arborist permits."
@@ -16196,20 +14404,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in East Camden before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "east-camden",
-    "uniqueIntro": "Property owners in East Camden trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near East Camden residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in East camden?",
-        "answer": "Usually completed in one day for standard properties in East camden."
-      },
       {
         "question": "Do I need a permit in East camden?",
         "answer": "We help navigate South Carolina and East Camden municipal arborist permits."
@@ -16322,20 +14516,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Pendleton before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "pendleton",
-    "uniqueIntro": "Maintaining property safety in Pendleton requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Pendleton residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Pendleton?",
-        "answer": "Usually completed in one day for standard properties in Pendleton."
-      },
       {
         "question": "Do I need a permit in Pendleton?",
         "answer": "We help navigate South Carolina and Pendleton municipal arborist permits."
@@ -16448,20 +14628,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in capitol View before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "capitol-view",
-    "uniqueIntro": "Property owners in Capitol View trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near capitol View residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in capitol View?",
-        "answer": "Usually completed in one day for standard properties in capitol View."
-      },
       {
         "question": "Do I need a permit in capitol View?",
         "answer": "We help navigate South Carolina and capitol View municipal arborist permits."
@@ -16574,20 +14740,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Dunean before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "dunean",
-    "uniqueIntro": "Property owners in Dunean trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Dunean residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Dunean?",
-        "answer": "Usually completed in one day for standard properties in Dunean."
-      },
       {
         "question": "Do I need a permit in Dunean?",
         "answer": "We help navigate South Carolina and Dunean municipal arborist permits."
@@ -16700,20 +14852,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Dalzell before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "dalzell",
-    "uniqueIntro": "Dalzell's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Dalzell residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Dalzell?",
-        "answer": "Usually completed in one day for standard properties in Dalzell."
-      },
       {
         "question": "Do I need a permit in Dalzell?",
         "answer": "We help navigate South Carolina and Dalzell municipal arborist permits."
@@ -16826,20 +14964,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Clearwater before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "clearwater",
-    "uniqueIntro": "Clearwater's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Clearwater residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Clearwater?",
-        "answer": "Usually completed in one day for standard properties in Clearwater."
-      },
       {
         "question": "Do I need a permit in Clearwater?",
         "answer": "We help navigate South Carolina and Clearwater municipal arborist permits."
@@ -16952,20 +15076,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Pickens before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "pickens",
-    "uniqueIntro": "Maintaining property safety in Pickens requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Pickens residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Pickens?",
-        "answer": "Usually completed in one day for standard properties in Pickens."
-      },
       {
         "question": "Do I need a permit in Pickens?",
         "answer": "We help navigate South Carolina and Pickens municipal arborist permits."
@@ -17078,20 +15188,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Wellford before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "wellford",
-    "uniqueIntro": "Maintaining property safety in Wellford requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Wellford residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Wellford?",
-        "answer": "Usually completed in one day for standard properties in Wellford."
-      },
       {
         "question": "Do I need a permit in Wellford?",
         "answer": "We help navigate South Carolina and Wellford municipal arborist permits."
@@ -17204,20 +15300,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Liberty before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "liberty",
-    "uniqueIntro": "Liberty's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Liberty residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Liberty?",
-        "answer": "Usually completed in one day for standard properties in Liberty."
-      },
       {
         "question": "Do I need a permit in Liberty?",
         "answer": "We help navigate South Carolina and Liberty municipal arborist permits."
@@ -17330,20 +15412,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Golden Grove before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "golden-grove",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Golden Grove, SC.",
-    "localProblems": [
-      "Hazardous trees near Golden Grove residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Golden Grove?",
-        "answer": "Usually completed in one day for standard properties in Golden Grove."
-      },
       {
         "question": "Do I need a permit in Golden Grove?",
         "answer": "We help navigate South Carolina and Golden Grove municipal arborist permits."
@@ -17456,20 +15524,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in North Hartsville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "north-hartsville",
-    "uniqueIntro": "Maintaining property safety in North Hartsville requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near North Hartsville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in North Hartsville?",
-        "answer": "Usually completed in one day for standard properties in North Hartsville."
-      },
       {
         "question": "Do I need a permit in North Hartsville?",
         "answer": "We help navigate South Carolina and North Hartsville municipal arborist permits."
@@ -17582,20 +15636,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Hilltop before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "hilltop",
-    "uniqueIntro": "From residential backyards to commercial lots in Hilltop, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Hilltop residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Hilltop?",
-        "answer": "Usually completed in one day for standard properties in Hilltop."
-      },
       {
         "question": "Do I need a permit in Hilltop?",
         "answer": "We help navigate South Carolina and Hilltop municipal arborist permits."
@@ -17708,20 +15748,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Winnsboro before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "winnsboro",
-    "uniqueIntro": "From residential backyards to commercial lots in Winnsboro, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Winnsboro residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Winnsboro?",
-        "answer": "Usually completed in one day for standard properties in Winnsboro."
-      },
       {
         "question": "Do I need a permit in Winnsboro?",
         "answer": "We help navigate South Carolina and Winnsboro municipal arborist permits."
@@ -17834,20 +15860,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Kingstree before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "kingstree",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Kingstree, SC.",
-    "localProblems": [
-      "Hazardous trees near Kingstree residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Kingstree?",
-        "answer": "Usually completed in one day for standard properties in Kingstree."
-      },
       {
         "question": "Do I need a permit in Kingstree?",
         "answer": "We help navigate South Carolina and Kingstree municipal arborist permits."
@@ -17960,20 +15972,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Denmark before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "denmark",
-    "uniqueIntro": "Maintaining property safety in Denmark requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Denmark residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Denmark?",
-        "answer": "Usually completed in one day for standard properties in Denmark."
-      },
       {
         "question": "Do I need a permit in Denmark?",
         "answer": "We help navigate South Carolina and Denmark municipal arborist permits."
@@ -18086,20 +16084,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Lakewood before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "lakewood",
-    "uniqueIntro": "Maintaining property safety in Lakewood requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Lakewood residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Lakewood?",
-        "answer": "Usually completed in one day for standard properties in Lakewood."
-      },
       {
         "question": "Do I need a permit in Lakewood?",
         "answer": "We help navigate South Carolina and Lakewood municipal arborist permits."
@@ -18212,20 +16196,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Saluda before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "saluda",
-    "uniqueIntro": "Maintaining property safety in Saluda requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Saluda residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Saluda?",
-        "answer": "Usually completed in one day for standard properties in Saluda."
-      },
       {
         "question": "Do I need a permit in Saluda?",
         "answer": "We help navigate South Carolina and Saluda municipal arborist permits."
@@ -18338,20 +16308,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Lesslie before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "lesslie",
-    "uniqueIntro": "Lesslie's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Lesslie residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Lesslie?",
-        "answer": "Usually completed in one day for standard properties in Lesslie."
-      },
       {
         "question": "Do I need a permit in Lesslie?",
         "answer": "We help navigate South Carolina and Lesslie municipal arborist permits."
@@ -18464,20 +16420,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Gloverville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "gloverville",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Gloverville, SC.",
-    "localProblems": [
-      "Hazardous trees near Gloverville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Gloverville?",
-        "answer": "Usually completed in one day for standard properties in Gloverville."
-      },
       {
         "question": "Do I need a permit in Gloverville?",
         "answer": "We help navigate South Carolina and Gloverville municipal arborist permits."
@@ -18590,20 +16532,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Bamberg before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "bamberg",
-    "uniqueIntro": "From residential backyards to commercial lots in Bamberg, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Bamberg residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Bamberg?",
-        "answer": "Usually completed in one day for standard properties in Bamberg."
-      },
       {
         "question": "Do I need a permit in Bamberg?",
         "answer": "We help navigate South Carolina and Bamberg municipal arborist permits."
@@ -18716,20 +16644,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Keowee Key before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "keowee-key",
-    "uniqueIntro": "Keowee Key's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Keowee Key residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Keowee Key?",
-        "answer": "Usually completed in one day for standard properties in Keowee Key."
-      },
       {
         "question": "Do I need a permit in Keowee Key?",
         "answer": "We help navigate South Carolina and Keowee Key municipal arborist permits."
@@ -18842,20 +16756,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Burnettown before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "burnettown",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Burnettown, SC.",
-    "localProblems": [
-      "Hazardous trees near Burnettown residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Burnettown?",
-        "answer": "Usually completed in one day for standard properties in Burnettown."
-      },
       {
         "question": "Do I need a permit in Burnettown?",
         "answer": "We help navigate South Carolina and Burnettown municipal arborist permits."
@@ -18968,20 +16868,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Arthurtown before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "arthurtown",
-    "uniqueIntro": "From residential backyards to commercial lots in Arthurtown, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Arthurtown residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Arthurtown?",
-        "answer": "Usually completed in one day for standard properties in Arthurtown."
-      },
       {
         "question": "Do I need a permit in Arthurtown?",
         "answer": "We help navigate South Carolina and Arthurtown municipal arborist permits."
@@ -19094,20 +16980,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Inman before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "inman",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Inman, SC.",
-    "localProblems": [
-      "Hazardous trees near Inman residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Inman?",
-        "answer": "Usually completed in one day for standard properties in Inman."
-      },
       {
         "question": "Do I need a permit in Inman?",
         "answer": "We help navigate South Carolina and Inman municipal arborist permits."
@@ -19220,20 +17092,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Bishopville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "bishopville",
-    "uniqueIntro": "Bishopville's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Bishopville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Bishopville?",
-        "answer": "Usually completed in one day for standard properties in Bishopville."
-      },
       {
         "question": "Do I need a permit in Bishopville?",
         "answer": "We help navigate South Carolina and Bishopville municipal arborist permits."
@@ -19346,20 +17204,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in East Gaffney before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "east-gaffney",
-    "uniqueIntro": "Maintaining property safety in East Gaffney requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near East Gaffney residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in East Gaffney?",
-        "answer": "Usually completed in one day for standard properties in East Gaffney."
-      },
       {
         "question": "Do I need a permit in East Gaffney?",
         "answer": "We help navigate South Carolina and East Gaffney municipal arborist permits."
@@ -19472,20 +17316,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Elgin cDP before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "elgin-cdp",
-    "uniqueIntro": "Property owners in Elgin Cdp trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Elgin cDP residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Elgin cDP?",
-        "answer": "Usually completed in one day for standard properties in Elgin cDP."
-      },
       {
         "question": "Do I need a permit in Elgin cDP?",
         "answer": "We help navigate South Carolina and Elgin cDP municipal arborist permits."
@@ -19598,20 +17428,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Williston before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "williston",
-    "uniqueIntro": "Williston's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Williston residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Williston?",
-        "answer": "Usually completed in one day for standard properties in Williston."
-      },
       {
         "question": "Do I need a permit in Williston?",
         "answer": "We help navigate South Carolina and Williston municipal arborist permits."
@@ -19724,20 +17540,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Arcadia before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "arcadia",
-    "uniqueIntro": "Property owners in Arcadia trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Arcadia residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Arcadia?",
-        "answer": "Usually completed in one day for standard properties in Arcadia."
-      },
       {
         "question": "Do I need a permit in Arcadia?",
         "answer": "We help navigate South Carolina and Arcadia municipal arborist permits."
@@ -19850,20 +17652,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Cherryvale before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "cherryvale",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Cherryvale, SC.",
-    "localProblems": [
-      "Hazardous trees near Cherryvale residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Cherryvale?",
-        "answer": "Usually completed in one day for standard properties in Cherryvale."
-      },
       {
         "question": "Do I need a permit in Cherryvale?",
         "answer": "We help navigate South Carolina and Cherryvale municipal arborist permits."
@@ -19976,20 +17764,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Mccormick before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "mccormick",
-    "uniqueIntro": "From residential backyards to commercial lots in Mccormick, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Mccormick residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Mccormick?",
-        "answer": "Usually completed in one day for standard properties in Mccormick."
-      },
       {
         "question": "Do I need a permit in Mccormick?",
         "answer": "We help navigate South Carolina and Mccormick municipal arborist permits."
@@ -20102,20 +17876,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Pageland before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "pageland",
-    "uniqueIntro": "Pageland's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Pageland residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Pageland?",
-        "answer": "Usually completed in one day for standard properties in Pageland."
-      },
       {
         "question": "Do I need a permit in Pageland?",
         "answer": "We help navigate South Carolina and Pageland municipal arborist permits."
@@ -20228,20 +17988,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Hampton before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "hampton",
-    "uniqueIntro": "Hampton's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Hampton residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Hampton?",
-        "answer": "Usually completed in one day for standard properties in Hampton."
-      },
       {
         "question": "Do I need a permit in Hampton?",
         "answer": "We help navigate South Carolina and Hampton municipal arborist permits."
@@ -20354,20 +18100,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Springdale town before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "springdale-town",
-    "uniqueIntro": "Maintaining property safety in Springdale Town requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Springdale town residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Springdale town?",
-        "answer": "Usually completed in one day for standard properties in Springdale town."
-      },
       {
         "question": "Do I need a permit in Springdale town?",
         "answer": "We help navigate South Carolina and Springdale town municipal arborist permits."
@@ -20480,20 +18212,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Allendale before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "allendale",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Allendale, SC.",
-    "localProblems": [
-      "Hazardous trees near Allendale residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Allendale?",
-        "answer": "Usually completed in one day for standard properties in Allendale."
-      },
       {
         "question": "Do I need a permit in Allendale?",
         "answer": "We help navigate South Carolina and Allendale municipal arborist permits."
@@ -20606,20 +18324,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Pine Ridge town before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "pine-ridge-town",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Pine Ridge Town, SC.",
-    "localProblems": [
-      "Hazardous trees near Pine Ridge town residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Pine Ridge town?",
-        "answer": "Usually completed in one day for standard properties in Pine Ridge town."
-      },
       {
         "question": "Do I need a permit in Pine Ridge town?",
         "answer": "We help navigate South Carolina and Pine Ridge town municipal arborist permits."
@@ -20732,20 +18436,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Arkwright before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "arkwright",
-    "uniqueIntro": "Maintaining property safety in Arkwright requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Arkwright residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Arkwright?",
-        "answer": "Usually completed in one day for standard properties in Arkwright."
-      },
       {
         "question": "Do I need a permit in Arkwright?",
         "answer": "We help navigate South Carolina and Arkwright municipal arborist permits."
@@ -20858,20 +18548,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Springdale cDP before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "springdale-cdp",
-    "uniqueIntro": "Property owners in Springdale Cdp trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Springdale cDP residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Springdale cDP?",
-        "answer": "Usually completed in one day for standard properties in Springdale cDP."
-      },
       {
         "question": "Do I need a permit in Springdale cDP?",
         "answer": "We help navigate South Carolina and Springdale cDP municipal arborist permits."
@@ -20984,20 +18660,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Ninety Six before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "ninety-six",
-    "uniqueIntro": "Maintaining property safety in Ninety Six requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Ninety Six residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Ninety Six?",
-        "answer": "Usually completed in one day for standard properties in Ninety Six."
-      },
       {
         "question": "Do I need a permit in Ninety Six?",
         "answer": "We help navigate South Carolina and Ninety Six municipal arborist permits."
@@ -21110,20 +18772,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Ravenel before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "ravenel",
-    "uniqueIntro": "Maintaining property safety in Ravenel requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Ravenel residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Ravenel?",
-        "answer": "Usually completed in one day for standard properties in Ravenel."
-      },
       {
         "question": "Do I need a permit in Ravenel?",
         "answer": "We help navigate South Carolina and Ravenel municipal arborist permits."
@@ -21236,20 +18884,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Loris before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "loris",
-    "uniqueIntro": "From residential backyards to commercial lots in Loris, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Loris residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Loris?",
-        "answer": "Usually completed in one day for standard properties in Loris."
-      },
       {
         "question": "Do I need a permit in Loris?",
         "answer": "We help navigate South Carolina and Loris municipal arborist permits."
@@ -21362,20 +18996,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in New Ellenton before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "new-ellenton",
-    "uniqueIntro": "Property owners in New Ellenton trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near New Ellenton residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in New Ellenton?",
-        "answer": "Usually completed in one day for standard properties in New Ellenton."
-      },
       {
         "question": "Do I need a permit in New Ellenton?",
         "answer": "We help navigate South Carolina and New Ellenton municipal arborist permits."
@@ -21488,20 +19108,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Edgefield before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "edgefield",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Edgefield, SC.",
-    "localProblems": [
-      "Hazardous trees near Edgefield residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Edgefield?",
-        "answer": "Usually completed in one day for standard properties in Edgefield."
-      },
       {
         "question": "Do I need a permit in Edgefield?",
         "answer": "We help navigate South Carolina and Edgefield municipal arborist permits."
@@ -21614,20 +19220,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Landrum before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "landrum",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Landrum, SC.",
-    "localProblems": [
-      "Hazardous trees near Landrum residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Landrum?",
-        "answer": "Usually completed in one day for standard properties in Landrum."
-      },
       {
         "question": "Do I need a permit in Landrum?",
         "answer": "We help navigate South Carolina and Landrum municipal arborist permits."
@@ -21740,20 +19332,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Graniteville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "graniteville",
-    "uniqueIntro": "Property owners in Graniteville trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Graniteville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Graniteville?",
-        "answer": "Usually completed in one day for standard properties in Graniteville."
-      },
       {
         "question": "Do I need a permit in Graniteville?",
         "answer": "We help navigate South Carolina and Graniteville municipal arborist permits."
@@ -21866,20 +19444,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Johnston before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "johnston",
-    "uniqueIntro": "From residential backyards to commercial lots in Johnston, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Johnston residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Johnston?",
-        "answer": "Usually completed in one day for standard properties in Johnston."
-      },
       {
         "question": "Do I need a permit in Johnston?",
         "answer": "We help navigate South Carolina and Johnston municipal arborist permits."
@@ -21992,20 +19556,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Sullivan's Island before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "sullivan's-island",
-    "uniqueIntro": "Sullivan'S Island's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Sullivan's Island residential structures",
-      "Root plate stability in Sandy coastal loam conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Sullivan's Island?",
-        "answer": "Usually completed in one day for standard properties in Sullivan's Island."
-      },
       {
         "question": "Do I need a permit in Sullivan's Island?",
         "answer": "We help navigate South Carolina and Sullivan's Island municipal arborist permits."
@@ -22118,20 +19668,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Kershaw before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "kershaw",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Kershaw, SC.",
-    "localProblems": [
-      "Hazardous trees near Kershaw residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Kershaw?",
-        "answer": "Usually completed in one day for standard properties in Kershaw."
-      },
       {
         "question": "Do I need a permit in Kershaw?",
         "answer": "We help navigate South Carolina and Kershaw municipal arborist permits."
@@ -22244,20 +19780,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Mccoll before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "mccoll",
-    "uniqueIntro": "Mccoll's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Mccoll residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Mccoll?",
-        "answer": "Usually completed in one day for standard properties in Mccoll."
-      },
       {
         "question": "Do I need a permit in Mccoll?",
         "answer": "We help navigate South Carolina and Mccoll municipal arborist permits."
@@ -22370,20 +19892,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in South congaree before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "south-congaree",
-    "uniqueIntro": "Property owners in South Congaree trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near South congaree residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in South congaree?",
-        "answer": "Usually completed in one day for standard properties in South congaree."
-      },
       {
         "question": "Do I need a permit in South congaree?",
         "answer": "We help navigate South Carolina and South congaree municipal arborist permits."
@@ -22496,20 +20004,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Pimlico before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "pimlico",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Pimlico, SC.",
-    "localProblems": [
-      "Hazardous trees near Pimlico residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Pimlico?",
-        "answer": "Usually completed in one day for standard properties in Pimlico."
-      },
       {
         "question": "Do I need a permit in Pimlico?",
         "answer": "We help navigate South Carolina and Pimlico municipal arborist permits."
@@ -22622,20 +20116,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Estill before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "estill",
-    "uniqueIntro": "Estill's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Estill residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Estill?",
-        "answer": "Usually completed in one day for standard properties in Estill."
-      },
       {
         "question": "Do I need a permit in Estill?",
         "answer": "We help navigate South Carolina and Estill municipal arborist permits."
@@ -22748,20 +20228,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Westminster before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "westminster",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Westminster, SC.",
-    "localProblems": [
-      "Hazardous trees near Westminster residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Westminster?",
-        "answer": "Usually completed in one day for standard properties in Westminster."
-      },
       {
         "question": "Do I need a permit in Westminster?",
         "answer": "We help navigate South Carolina and Westminster municipal arborist permits."
@@ -22874,20 +20340,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Slater-Marietta before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "slater-marietta",
-    "uniqueIntro": "Property owners in Slater Marietta trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Slater-Marietta residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Slater-Marietta?",
-        "answer": "Usually completed in one day for standard properties in Slater-Marietta."
-      },
       {
         "question": "Do I need a permit in Slater-Marietta?",
         "answer": "We help navigate South Carolina and Slater-Marietta municipal arborist permits."
@@ -23000,20 +20452,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Privateer before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "privateer",
-    "uniqueIntro": "Privateer's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Privateer residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Privateer?",
-        "answer": "Usually completed in one day for standard properties in Privateer."
-      },
       {
         "question": "Do I need a permit in Privateer?",
         "answer": "We help navigate South Carolina and Privateer municipal arborist permits."
@@ -23126,20 +20564,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Varnville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "varnville",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Varnville, SC.",
-    "localProblems": [
-      "Hazardous trees near Varnville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Varnville?",
-        "answer": "Usually completed in one day for standard properties in Varnville."
-      },
       {
         "question": "Do I need a permit in Varnville?",
         "answer": "We help navigate South Carolina and Varnville municipal arborist permits."
@@ -23252,20 +20676,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Ben Avon before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "ben-avon",
-    "uniqueIntro": "From residential backyards to commercial lots in Ben Avon, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Ben Avon residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Ben Avon?",
-        "answer": "Usually completed in one day for standard properties in Ben Avon."
-      },
       {
         "question": "Do I need a permit in Ben Avon?",
         "answer": "We help navigate South Carolina and Ben Avon municipal arborist permits."
@@ -23378,20 +20788,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Kiawah Island before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "kiawah-island",
-    "uniqueIntro": "Maintaining property safety in Kiawah Island requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Kiawah Island residential structures",
-      "Root plate stability in Sandy coastal loam conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Kiawah Island?",
-        "answer": "Usually completed in one day for standard properties in Kiawah Island."
-      },
       {
         "question": "Do I need a permit in Kiawah Island?",
         "answer": "We help navigate South Carolina and Kiawah Island municipal arborist permits."
@@ -23504,20 +20900,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Tigerville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "tigerville",
-    "uniqueIntro": "Tigerville's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Tigerville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Tigerville?",
-        "answer": "Usually completed in one day for standard properties in Tigerville."
-      },
       {
         "question": "Do I need a permit in Tigerville?",
         "answer": "We help navigate South Carolina and Tigerville municipal arborist permits."
@@ -23630,20 +21012,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Timmonsville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "timmonsville",
-    "uniqueIntro": "Property owners in Timmonsville trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Timmonsville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Timmonsville?",
-        "answer": "Usually completed in one day for standard properties in Timmonsville."
-      },
       {
         "question": "Do I need a permit in Timmonsville?",
         "answer": "We help navigate South Carolina and Timmonsville municipal arborist permits."
@@ -23756,20 +21124,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Blacksburg before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "blacksburg",
-    "uniqueIntro": "Property owners in Blacksburg trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Blacksburg residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Blacksburg?",
-        "answer": "Usually completed in one day for standard properties in Blacksburg."
-      },
       {
         "question": "Do I need a permit in Blacksburg?",
         "answer": "We help navigate South Carolina and Blacksburg municipal arborist permits."
@@ -23882,20 +21236,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Elgin town before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "elgin-town",
-    "uniqueIntro": "Property owners in Elgin Town trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Elgin town residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Elgin town?",
-        "answer": "Usually completed in one day for standard properties in Elgin town."
-      },
       {
         "question": "Do I need a permit in Elgin town?",
         "answer": "We help navigate South Carolina and Elgin town municipal arborist permits."
@@ -24008,20 +21348,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Seabrook Island before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "seabrook-island",
-    "uniqueIntro": "Seabrook Island's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Seabrook Island residential structures",
-      "Root plate stability in Sandy coastal loam conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Seabrook Island?",
-        "answer": "Usually completed in one day for standard properties in Seabrook Island."
-      },
       {
         "question": "Do I need a permit in Seabrook Island?",
         "answer": "We help navigate South Carolina and Seabrook Island municipal arborist permits."
@@ -24134,20 +21460,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Wedgefield before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "wedgefield",
-    "uniqueIntro": "Property owners in Wedgefield trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Wedgefield residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Wedgefield?",
-        "answer": "Usually completed in one day for standard properties in Wedgefield."
-      },
       {
         "question": "Do I need a permit in Wedgefield?",
         "answer": "We help navigate South Carolina and Wedgefield municipal arborist permits."
@@ -24260,20 +21572,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Fairfax before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "fairfax",
-    "uniqueIntro": "Maintaining property safety in Fairfax requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Fairfax residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Fairfax?",
-        "answer": "Usually completed in one day for standard properties in Fairfax."
-      },
       {
         "question": "Do I need a permit in Fairfax?",
         "answer": "We help navigate South Carolina and Fairfax municipal arborist permits."
@@ -24386,20 +21684,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Blackville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "blackville",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Blackville, SC.",
-    "localProblems": [
-      "Hazardous trees near Blackville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Blackville?",
-        "answer": "Usually completed in one day for standard properties in Blackville."
-      },
       {
         "question": "Do I need a permit in Blackville?",
         "answer": "We help navigate South Carolina and Blackville municipal arborist permits."
@@ -24512,20 +21796,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Shell Point before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "shell-point",
-    "uniqueIntro": "Maintaining property safety in Shell Point requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Shell Point residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Shell Point?",
-        "answer": "Usually completed in one day for standard properties in Shell Point."
-      },
       {
         "question": "Do I need a permit in Shell Point?",
         "answer": "We help navigate South Carolina and Shell Point municipal arborist permits."
@@ -24638,20 +21908,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Watts Mills before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "watts-mills",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Watts Mills, SC.",
-    "localProblems": [
-      "Hazardous trees near Watts Mills residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Watts Mills?",
-        "answer": "Usually completed in one day for standard properties in Watts Mills."
-      },
       {
         "question": "Do I need a permit in Watts Mills?",
         "answer": "We help navigate South Carolina and Watts Mills municipal arborist permits."
@@ -24764,20 +22020,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Riverview before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "riverview",
-    "uniqueIntro": "Riverview's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Riverview residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Riverview?",
-        "answer": "Usually completed in one day for standard properties in Riverview."
-      },
       {
         "question": "Do I need a permit in Riverview?",
         "answer": "We help navigate South Carolina and Riverview municipal arborist permits."
@@ -24890,20 +22132,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Gaston before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "gaston",
-    "uniqueIntro": "Maintaining property safety in Gaston requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Gaston residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Gaston?",
-        "answer": "Usually completed in one day for standard properties in Gaston."
-      },
       {
         "question": "Do I need a permit in Gaston?",
         "answer": "We help navigate South Carolina and Gaston municipal arborist permits."
@@ -25016,20 +22244,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Pacolet before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "pacolet",
-    "uniqueIntro": "Maintaining property safety in Pacolet requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Pacolet residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Pacolet?",
-        "answer": "Usually completed in one day for standard properties in Pacolet."
-      },
       {
         "question": "Do I need a permit in Pacolet?",
         "answer": "We help navigate South Carolina and Pacolet municipal arborist permits."
@@ -25142,20 +22356,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in calhoun Falls before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "calhoun-falls",
-    "uniqueIntro": "Property owners in Calhoun Falls trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near calhoun Falls residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in calhoun Falls?",
-        "answer": "Usually completed in one day for standard properties in calhoun Falls."
-      },
       {
         "question": "Do I need a permit in calhoun Falls?",
         "answer": "We help navigate South Carolina and calhoun Falls municipal arborist permits."
@@ -25268,20 +22468,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Ware Shoals before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "ware-shoals",
-    "uniqueIntro": "Ware Shoals's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Ware Shoals residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Ware Shoals?",
-        "answer": "Usually completed in one day for standard properties in Ware Shoals."
-      },
       {
         "question": "Do I need a permit in Ware Shoals?",
         "answer": "We help navigate South Carolina and Ware Shoals municipal arborist permits."
@@ -25394,20 +22580,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in St. Matthews before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "st.-matthews",
-    "uniqueIntro": "St. Matthews's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near St. Matthews residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in St. Matthews?",
-        "answer": "Usually completed in one day for standard properties in St. Matthews."
-      },
       {
         "question": "Do I need a permit in St. Matthews?",
         "answer": "We help navigate South Carolina and St. Matthews municipal arborist permits."
@@ -25520,20 +22692,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Mayo before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "mayo",
-    "uniqueIntro": "From residential backyards to commercial lots in Mayo, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Mayo residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Mayo?",
-        "answer": "Usually completed in one day for standard properties in Mayo."
-      },
       {
         "question": "Do I need a permit in Mayo?",
         "answer": "We help navigate South Carolina and Mayo municipal arborist permits."
@@ -25646,20 +22804,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Wilkinson Heights before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "wilkinson-heights",
-    "uniqueIntro": "From residential backyards to commercial lots in Wilkinson Heights, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Wilkinson Heights residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Wilkinson Heights?",
-        "answer": "Usually completed in one day for standard properties in Wilkinson Heights."
-      },
       {
         "question": "Do I need a permit in Wilkinson Heights?",
         "answer": "We help navigate South Carolina and Wilkinson Heights municipal arborist permits."
@@ -25772,20 +22916,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Edisto before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "edisto",
-    "uniqueIntro": "Property owners in Edisto trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Edisto residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Edisto?",
-        "answer": "Usually completed in one day for standard properties in Edisto."
-      },
       {
         "question": "Do I need a permit in Edisto?",
         "answer": "We help navigate South Carolina and Edisto municipal arborist permits."
@@ -25898,20 +23028,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in St. George before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "st.-george",
-    "uniqueIntro": "From residential backyards to commercial lots in St. George, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near St. George residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in St. George?",
-        "answer": "Usually completed in one day for standard properties in St. George."
-      },
       {
         "question": "Do I need a permit in St. George?",
         "answer": "We help navigate South Carolina and St. George municipal arborist permits."
@@ -26024,20 +23140,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Eureka Mill before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "eureka-mill",
-    "uniqueIntro": "Property owners in Eureka Mill trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Eureka Mill residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Eureka Mill?",
-        "answer": "Usually completed in one day for standard properties in Eureka Mill."
-      },
       {
         "question": "Do I need a permit in Eureka Mill?",
         "answer": "We help navigate South Carolina and Eureka Mill municipal arborist permits."
@@ -26150,20 +23252,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Jackson before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "jackson",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Jackson, SC.",
-    "localProblems": [
-      "Hazardous trees near Jackson residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Jackson?",
-        "answer": "Usually completed in one day for standard properties in Jackson."
-      },
       {
         "question": "Do I need a permit in Jackson?",
         "answer": "We help navigate South Carolina and Jackson municipal arborist permits."
@@ -26276,20 +23364,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Judson before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "judson",
-    "uniqueIntro": "Maintaining property safety in Judson requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Judson residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Judson?",
-        "answer": "Usually completed in one day for standard properties in Judson."
-      },
       {
         "question": "Do I need a permit in Judson?",
         "answer": "We help navigate South Carolina and Judson municipal arborist permits."
@@ -26402,20 +23476,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Irwin before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "irwin",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Irwin, SC.",
-    "localProblems": [
-      "Hazardous trees near Irwin residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Irwin?",
-        "answer": "Usually completed in one day for standard properties in Irwin."
-      },
       {
         "question": "Do I need a permit in Irwin?",
         "answer": "We help navigate South Carolina and Irwin municipal arborist permits."
@@ -26528,20 +23588,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Cowpens before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "cowpens",
-    "uniqueIntro": "Property owners in Cowpens trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Cowpens residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Cowpens?",
-        "answer": "Usually completed in one day for standard properties in Cowpens."
-      },
       {
         "question": "Do I need a permit in Cowpens?",
         "answer": "We help navigate South Carolina and Cowpens municipal arborist permits."
@@ -26654,20 +23700,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Langley before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "langley",
-    "uniqueIntro": "Langley's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Langley residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Langley?",
-        "answer": "Usually completed in one day for standard properties in Langley."
-      },
       {
         "question": "Do I need a permit in Langley?",
         "answer": "We help navigate South Carolina and Langley municipal arborist permits."
@@ -26780,20 +23812,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Monarch Mill before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "monarch-mill",
-    "uniqueIntro": "From residential backyards to commercial lots in Monarch Mill, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Monarch Mill residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Monarch Mill?",
-        "answer": "Usually completed in one day for standard properties in Monarch Mill."
-      },
       {
         "question": "Do I need a permit in Monarch Mill?",
         "answer": "We help navigate South Carolina and Monarch Mill municipal arborist permits."
@@ -26906,20 +23924,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Arial before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "arial",
-    "uniqueIntro": "Maintaining property safety in Arial requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Arial residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Arial?",
-        "answer": "Usually completed in one day for standard properties in Arial."
-      },
       {
         "question": "Do I need a permit in Arial?",
         "answer": "We help navigate South Carolina and Arial municipal arborist permits."
@@ -27032,20 +24036,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Stateburg before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "stateburg",
-    "uniqueIntro": "Property owners in Stateburg trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Stateburg residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Stateburg?",
-        "answer": "Usually completed in one day for standard properties in Stateburg."
-      },
       {
         "question": "Do I need a permit in Stateburg?",
         "answer": "We help navigate South Carolina and Stateburg municipal arborist permits."
@@ -27158,20 +24148,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Hopkins before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "hopkins",
-    "uniqueIntro": "Property owners in Hopkins trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Hopkins residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Hopkins?",
-        "answer": "Usually completed in one day for standard properties in Hopkins."
-      },
       {
         "question": "Do I need a permit in Hopkins?",
         "answer": "We help navigate South Carolina and Hopkins municipal arborist permits."
@@ -27284,20 +24260,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Reidville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "reidville",
-    "uniqueIntro": "Maintaining property safety in Reidville requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Reidville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Reidville?",
-        "answer": "Usually completed in one day for standard properties in Reidville."
-      },
       {
         "question": "Do I need a permit in Reidville?",
         "answer": "We help navigate South Carolina and Reidville municipal arborist permits."
@@ -27410,20 +24372,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in city View before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "city-view",
-    "uniqueIntro": "Property owners in City View trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near city View residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in city View?",
-        "answer": "Usually completed in one day for standard properties in city View."
-      },
       {
         "question": "Do I need a permit in city View?",
         "answer": "We help navigate South Carolina and city View municipal arborist permits."
@@ -27536,20 +24484,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in camp croft before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "camp-croft",
-    "uniqueIntro": "Maintaining property safety in Camp Croft requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near camp croft residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in camp croft?",
-        "answer": "Usually completed in one day for standard properties in camp croft."
-      },
       {
         "question": "Do I need a permit in camp croft?",
         "answer": "We help navigate South Carolina and camp croft municipal arborist permits."
@@ -27662,20 +24596,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Winnsboro Mills before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "winnsboro-mills",
-    "uniqueIntro": "Winnsboro Mills's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Winnsboro Mills residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Winnsboro Mills?",
-        "answer": "Usually completed in one day for standard properties in Winnsboro Mills."
-      },
       {
         "question": "Do I need a permit in Winnsboro Mills?",
         "answer": "We help navigate South Carolina and Winnsboro Mills municipal arborist permits."
@@ -27788,20 +24708,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Great Falls before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "great-falls",
-    "uniqueIntro": "Great Falls's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Great Falls residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Great Falls?",
-        "answer": "Usually completed in one day for standard properties in Great Falls."
-      },
       {
         "question": "Do I need a permit in Great Falls?",
         "answer": "We help navigate South Carolina and Great Falls municipal arborist permits."
@@ -27914,20 +24820,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Utica before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "utica",
-    "uniqueIntro": "Property owners in Utica trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Utica residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Utica?",
-        "answer": "Usually completed in one day for standard properties in Utica."
-      },
       {
         "question": "Do I need a permit in Utica?",
         "answer": "We help navigate South Carolina and Utica municipal arborist permits."
@@ -28040,20 +24932,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Fairforest before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "fairforest",
-    "uniqueIntro": "Maintaining property safety in Fairforest requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Fairforest residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Fairforest?",
-        "answer": "Usually completed in one day for standard properties in Fairforest."
-      },
       {
         "question": "Do I need a permit in Fairforest?",
         "answer": "We help navigate South Carolina and Fairforest municipal arborist permits."
@@ -28166,20 +25044,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in South Sumter before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "south-sumter",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout South Sumter, SC.",
-    "localProblems": [
-      "Hazardous trees near South Sumter residential structures",
-      "Root plate stability in Sandy loam and river basin deposits conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in South Sumter?",
-        "answer": "Usually completed in one day for standard properties in South Sumter."
-      },
       {
         "question": "Do I need a permit in South Sumter?",
         "answer": "We help navigate South Carolina and South Sumter municipal arborist permits."
@@ -28292,20 +25156,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Awendaw before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "awendaw",
-    "uniqueIntro": "Awendaw's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Awendaw residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Awendaw?",
-        "answer": "Usually completed in one day for standard properties in Awendaw."
-      },
       {
         "question": "Do I need a permit in Awendaw?",
         "answer": "We help navigate South Carolina and Awendaw municipal arborist permits."
@@ -28418,20 +25268,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Ridgeville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "ridgeville",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Ridgeville, SC.",
-    "localProblems": [
-      "Hazardous trees near Ridgeville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Ridgeville?",
-        "answer": "Usually completed in one day for standard properties in Ridgeville."
-      },
       {
         "question": "Do I need a permit in Ridgeville?",
         "answer": "We help navigate South Carolina and Ridgeville municipal arborist permits."
@@ -28544,20 +25380,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Chapin before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "chapin",
-    "uniqueIntro": "Maintaining property safety in Chapin requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Chapin residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Chapin?",
-        "answer": "Usually completed in one day for standard properties in Chapin."
-      },
       {
         "question": "Do I need a permit in Chapin?",
         "answer": "We help navigate South Carolina and Chapin municipal arborist permits."
@@ -28670,20 +25492,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in cane Savannah before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "cane-savannah",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Cane Savannah, SC.",
-    "localProblems": [
-      "Hazardous trees near cane Savannah residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in cane Savannah?",
-        "answer": "Usually completed in one day for standard properties in cane Savannah."
-      },
       {
         "question": "Do I need a permit in cane Savannah?",
         "answer": "We help navigate South Carolina and cane Savannah municipal arborist permits."
@@ -28796,20 +25604,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Latta before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "latta",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Latta, SC.",
-    "localProblems": [
-      "Hazardous trees near Latta residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Latta?",
-        "answer": "Usually completed in one day for standard properties in Latta."
-      },
       {
         "question": "Do I need a permit in Latta?",
         "answer": "We help navigate South Carolina and Latta municipal arborist permits."
@@ -28922,20 +25716,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Bonneau Beach before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "bonneau-beach",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Bonneau Beach, SC.",
-    "localProblems": [
-      "Hazardous trees near Bonneau Beach residential structures",
-      "Root plate stability in Sandy coastal loam conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Bonneau Beach?",
-        "answer": "Usually completed in one day for standard properties in Bonneau Beach."
-      },
       {
         "question": "Do I need a permit in Bonneau Beach?",
         "answer": "We help navigate South Carolina and Bonneau Beach municipal arborist permits."
@@ -29048,20 +25828,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Pelzer before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "pelzer",
-    "uniqueIntro": "Pelzer's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Pelzer residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Pelzer?",
-        "answer": "Usually completed in one day for standard properties in Pelzer."
-      },
       {
         "question": "Do I need a permit in Pelzer?",
         "answer": "We help navigate South Carolina and Pelzer municipal arborist permits."
@@ -29174,20 +25940,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Murphys Estates before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "murphys-estates",
-    "uniqueIntro": "Maintaining property safety in Murphys Estates requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Murphys Estates residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Murphys Estates?",
-        "answer": "Usually completed in one day for standard properties in Murphys Estates."
-      },
       {
         "question": "Do I need a permit in Murphys Estates?",
         "answer": "We help navigate South Carolina and Murphys Estates municipal arborist permits."
@@ -29300,20 +26052,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Catawba before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "catawba",
-    "uniqueIntro": "From residential backyards to commercial lots in Catawba, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Catawba residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Catawba?",
-        "answer": "Usually completed in one day for standard properties in Catawba."
-      },
       {
         "question": "Do I need a permit in Catawba?",
         "answer": "We help navigate South Carolina and Catawba municipal arborist permits."
@@ -29426,20 +26164,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Chesterfield before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "chesterfield",
-    "uniqueIntro": "From residential backyards to commercial lots in Chesterfield, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Chesterfield residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Chesterfield?",
-        "answer": "Usually completed in one day for standard properties in Chesterfield."
-      },
       {
         "question": "Do I need a permit in Chesterfield?",
         "answer": "We help navigate South Carolina and Chesterfield municipal arborist permits."
@@ -29552,20 +26276,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Joanna before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "joanna",
-    "uniqueIntro": "Maintaining property safety in Joanna requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Joanna residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Joanna?",
-        "answer": "Usually completed in one day for standard properties in Joanna."
-      },
       {
         "question": "Do I need a permit in Joanna?",
         "answer": "We help navigate South Carolina and Joanna municipal arborist permits."
@@ -29678,20 +26388,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in St. Stephen before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "st.-stephen",
-    "uniqueIntro": "Maintaining property safety in St. Stephen requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near St. Stephen residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in St. Stephen?",
-        "answer": "Usually completed in one day for standard properties in St. Stephen."
-      },
       {
         "question": "Do I need a permit in St. Stephen?",
         "answer": "We help navigate South Carolina and St. Stephen municipal arborist permits."
@@ -29804,20 +26500,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Holly Hill before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "holly-hill",
-    "uniqueIntro": "From residential backyards to commercial lots in Holly Hill, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Holly Hill residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Holly Hill?",
-        "answer": "Usually completed in one day for standard properties in Holly Hill."
-      },
       {
         "question": "Do I need a permit in Holly Hill?",
         "answer": "We help navigate South Carolina and Holly Hill municipal arborist permits."
@@ -29930,20 +26612,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Gadsden before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "gadsden",
-    "uniqueIntro": "Property owners in Gadsden trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Gadsden residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Gadsden?",
-        "answer": "Usually completed in one day for standard properties in Gadsden."
-      },
       {
         "question": "Do I need a permit in Gadsden?",
         "answer": "We help navigate South Carolina and Gadsden municipal arborist permits."
@@ -30056,20 +26724,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Beech Island before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "beech-island",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Beech Island, SC.",
-    "localProblems": [
-      "Hazardous trees near Beech Island residential structures",
-      "Root plate stability in Sandy coastal loam conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Beech Island?",
-        "answer": "Usually completed in one day for standard properties in Beech Island."
-      },
       {
         "question": "Do I need a permit in Beech Island?",
         "answer": "We help navigate South Carolina and Beech Island municipal arborist permits."
@@ -30182,20 +26836,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Meggett before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "meggett",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Meggett, SC.",
-    "localProblems": [
-      "Hazardous trees near Meggett residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Meggett?",
-        "answer": "Usually completed in one day for standard properties in Meggett."
-      },
       {
         "question": "Do I need a permit in Meggett?",
         "answer": "We help navigate South Carolina and Meggett municipal arborist permits."
@@ -30308,20 +26948,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Branchville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "branchville",
-    "uniqueIntro": "Property owners in Branchville trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Branchville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Branchville?",
-        "answer": "Usually completed in one day for standard properties in Branchville."
-      },
       {
         "question": "Do I need a permit in Branchville?",
         "answer": "We help navigate South Carolina and Branchville municipal arborist permits."
@@ -30434,20 +27060,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Homewood before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "homewood",
-    "uniqueIntro": "Maintaining property safety in Homewood requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Homewood residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Homewood?",
-        "answer": "Usually completed in one day for standard properties in Homewood."
-      },
       {
         "question": "Do I need a permit in Homewood?",
         "answer": "We help navigate South Carolina and Homewood municipal arborist permits."
@@ -30560,20 +27172,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Whitmire before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "whitmire",
-    "uniqueIntro": "Whitmire's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Whitmire residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Whitmire?",
-        "answer": "Usually completed in one day for standard properties in Whitmire."
-      },
       {
         "question": "Do I need a permit in Whitmire?",
         "answer": "We help navigate South Carolina and Whitmire municipal arborist permits."
@@ -30686,20 +27284,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Lake Secession before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "lake-secession",
-    "uniqueIntro": "From residential backyards to commercial lots in Lake Secession, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Lake Secession residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Lake Secession?",
-        "answer": "Usually completed in one day for standard properties in Lake Secession."
-      },
       {
         "question": "Do I need a permit in Lake Secession?",
         "answer": "We help navigate South Carolina and Lake Secession municipal arborist permits."
@@ -30812,20 +27396,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Olympia before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "olympia",
-    "uniqueIntro": "From residential backyards to commercial lots in Olympia, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Olympia residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Olympia?",
-        "answer": "Usually completed in one day for standard properties in Olympia."
-      },
       {
         "question": "Do I need a permit in Olympia?",
         "answer": "We help navigate South Carolina and Olympia municipal arborist permits."
@@ -30938,20 +27508,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Lamar before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "lamar",
-    "uniqueIntro": "Property owners in Lamar trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Lamar residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Lamar?",
-        "answer": "Usually completed in one day for standard properties in Lamar."
-      },
       {
         "question": "Do I need a permit in Lamar?",
         "answer": "We help navigate South Carolina and Lamar municipal arborist permits."
@@ -31064,20 +27620,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Conestee before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "conestee",
-    "uniqueIntro": "Conestee's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Conestee residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Conestee?",
-        "answer": "Usually completed in one day for standard properties in Conestee."
-      },
       {
         "question": "Do I need a permit in Conestee?",
         "answer": "We help navigate South Carolina and Conestee municipal arborist permits."
@@ -31190,20 +27732,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Santee before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "santee",
-    "uniqueIntro": "Santee's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Santee residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Santee?",
-        "answer": "Usually completed in one day for standard properties in Santee."
-      },
       {
         "question": "Do I need a permit in Santee?",
         "answer": "We help navigate South Carolina and Santee municipal arborist permits."
@@ -31316,20 +27844,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Buffalo before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "buffalo",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Buffalo, SC.",
-    "localProblems": [
-      "Hazardous trees near Buffalo residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Buffalo?",
-        "answer": "Usually completed in one day for standard properties in Buffalo."
-      },
       {
         "question": "Do I need a permit in Buffalo?",
         "answer": "We help navigate South Carolina and Buffalo municipal arborist permits."
@@ -31442,20 +27956,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in West Pelzer before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "west-pelzer",
-    "uniqueIntro": "Maintaining property safety in West Pelzer requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near West Pelzer residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in West Pelzer?",
-        "answer": "Usually completed in one day for standard properties in West Pelzer."
-      },
       {
         "question": "Do I need a permit in West Pelzer?",
         "answer": "We help navigate South Carolina and West Pelzer municipal arborist permits."
@@ -31568,20 +28068,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Fort Lawn before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "fort-lawn",
-    "uniqueIntro": "Fort Lawn's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Fort Lawn residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Fort Lawn?",
-        "answer": "Usually completed in one day for standard properties in Fort Lawn."
-      },
       {
         "question": "Do I need a permit in Fort Lawn?",
         "answer": "We help navigate South Carolina and Fort Lawn municipal arborist permits."
@@ -31694,20 +28180,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Edmund before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "edmund",
-    "uniqueIntro": "Property owners in Edmund trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Edmund residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Edmund?",
-        "answer": "Usually completed in one day for standard properties in Edmund."
-      },
       {
         "question": "Do I need a permit in Edmund?",
         "answer": "We help navigate South Carolina and Edmund municipal arborist permits."
@@ -31820,20 +28292,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Due West before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "due-west",
-    "uniqueIntro": "Due West's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Due West residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Due West?",
-        "answer": "Usually completed in one day for standard properties in Due West."
-      },
       {
         "question": "Do I need a permit in Due West?",
         "answer": "We help navigate South Carolina and Due West municipal arborist permits."
@@ -31946,20 +28404,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Cottageville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "cottageville",
-    "uniqueIntro": "From residential backyards to commercial lots in Cottageville, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Cottageville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Cottageville?",
-        "answer": "Usually completed in one day for standard properties in Cottageville."
-      },
       {
         "question": "Do I need a permit in Cottageville?",
         "answer": "We help navigate South Carolina and Cottageville municipal arborist permits."
@@ -32072,20 +28516,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Prosperity before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "prosperity",
-    "uniqueIntro": "Maintaining property safety in Prosperity requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Prosperity residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Prosperity?",
-        "answer": "Usually completed in one day for standard properties in Prosperity."
-      },
       {
         "question": "Do I need a permit in Prosperity?",
         "answer": "We help navigate South Carolina and Prosperity municipal arborist permits."
@@ -32198,20 +28628,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Johnsonville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "johnsonville",
-    "uniqueIntro": "Johnsonville's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Johnsonville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Johnsonville?",
-        "answer": "Usually completed in one day for standard properties in Johnsonville."
-      },
       {
         "question": "Do I need a permit in Johnsonville?",
         "answer": "We help navigate South Carolina and Johnsonville municipal arborist permits."
@@ -32324,20 +28740,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Seabrook before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "seabrook",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Seabrook, SC.",
-    "localProblems": [
-      "Hazardous trees near Seabrook residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Seabrook?",
-        "answer": "Usually completed in one day for standard properties in Seabrook."
-      },
       {
         "question": "Do I need a permit in Seabrook?",
         "answer": "We help navigate South Carolina and Seabrook municipal arborist permits."
@@ -32450,20 +28852,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Six Mile before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "six-mile",
-    "uniqueIntro": "Maintaining property safety in Six Mile requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Six Mile residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Six Mile?",
-        "answer": "Usually completed in one day for standard properties in Six Mile."
-      },
       {
         "question": "Do I need a permit in Six Mile?",
         "answer": "We help navigate South Carolina and Six Mile municipal arborist permits."
@@ -32576,20 +28964,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Gayle Mill before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "gayle-mill",
-    "uniqueIntro": "Property owners in Gayle Mill trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Gayle Mill residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Gayle Mill?",
-        "answer": "Usually completed in one day for standard properties in Gayle Mill."
-      },
       {
         "question": "Do I need a permit in Gayle Mill?",
         "answer": "We help navigate South Carolina and Gayle Mill municipal arborist permits."
@@ -32702,20 +29076,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Pamplico before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "pamplico",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Pamplico, SC.",
-    "localProblems": [
-      "Hazardous trees near Pamplico residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Pamplico?",
-        "answer": "Usually completed in one day for standard properties in Pamplico."
-      },
       {
         "question": "Do I need a permit in Pamplico?",
         "answer": "We help navigate South Carolina and Pamplico municipal arborist permits."
@@ -32828,20 +29188,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Dunbar before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "dunbar",
-    "uniqueIntro": "Maintaining property safety in Dunbar requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Dunbar residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Dunbar?",
-        "answer": "Usually completed in one day for standard properties in Dunbar."
-      },
       {
         "question": "Do I need a permit in Dunbar?",
         "answer": "We help navigate South Carolina and Dunbar municipal arborist permits."
@@ -32954,20 +29300,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Pelion before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "pelion",
-    "uniqueIntro": "Property owners in Pelion trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Pelion residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Pelion?",
-        "answer": "Usually completed in one day for standard properties in Pelion."
-      },
       {
         "question": "Do I need a permit in Pelion?",
         "answer": "We help navigate South Carolina and Pelion municipal arborist permits."
@@ -33080,20 +29412,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in McBee before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "mcbee",
-    "uniqueIntro": "Maintaining property safety in Mcbee requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near McBee residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in McBee?",
-        "answer": "Usually completed in one day for standard properties in McBee."
-      },
       {
         "question": "Do I need a permit in McBee?",
         "answer": "We help navigate South Carolina and McBee municipal arborist permits."
@@ -33206,20 +29524,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Wagener before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "wagener",
-    "uniqueIntro": "From residential backyards to commercial lots in Wagener, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Wagener residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Wagener?",
-        "answer": "Usually completed in one day for standard properties in Wagener."
-      },
       {
         "question": "Do I need a permit in Wagener?",
         "answer": "We help navigate South Carolina and Wagener municipal arborist permits."
@@ -33332,20 +29636,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Iva before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "iva",
-    "uniqueIntro": "From residential backyards to commercial lots in Iva, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Iva residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Iva?",
-        "answer": "Usually completed in one day for standard properties in Iva."
-      },
       {
         "question": "Do I need a permit in Iva?",
         "answer": "We help navigate South Carolina and Iva municipal arborist permits."
@@ -33458,20 +29748,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Folly Beach before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "folly-beach",
-    "uniqueIntro": "Maintaining property safety in Folly Beach requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Folly Beach residential structures",
-      "Root plate stability in Sandy coastal loam conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Folly Beach?",
-        "answer": "Usually completed in one day for standard properties in Folly Beach."
-      },
       {
         "question": "Do I need a permit in Folly Beach?",
         "answer": "We help navigate South Carolina and Folly Beach municipal arborist permits."
@@ -33584,20 +29860,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Drayton before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "drayton",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Drayton, SC.",
-    "localProblems": [
-      "Hazardous trees near Drayton residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Drayton?",
-        "answer": "Usually completed in one day for standard properties in Drayton."
-      },
       {
         "question": "Do I need a permit in Drayton?",
         "answer": "We help navigate South Carolina and Drayton municipal arborist permits."
@@ -33710,20 +29972,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Elloree before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "elloree",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Elloree, SC.",
-    "localProblems": [
-      "Hazardous trees near Elloree residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Elloree?",
-        "answer": "Usually completed in one day for standard properties in Elloree."
-      },
       {
         "question": "Do I need a permit in Elloree?",
         "answer": "We help navigate South Carolina and Elloree municipal arborist permits."
@@ -33836,20 +30084,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in La France before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "la-france",
-    "uniqueIntro": "From residential backyards to commercial lots in La France, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near La France residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in La France?",
-        "answer": "Usually completed in one day for standard properties in La France."
-      },
       {
         "question": "Do I need a permit in La France?",
         "answer": "We help navigate South Carolina and La France municipal arborist permits."
@@ -33962,20 +30196,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Aynor before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "aynor",
-    "uniqueIntro": "Aynor's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Aynor residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Aynor?",
-        "answer": "Usually completed in one day for standard properties in Aynor."
-      },
       {
         "question": "Do I need a permit in Aynor?",
         "answer": "We help navigate South Carolina and Aynor municipal arborist permits."
@@ -34088,20 +30308,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Yemassee before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "yemassee",
-    "uniqueIntro": "Yemassee's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Yemassee residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Yemassee?",
-        "answer": "Usually completed in one day for standard properties in Yemassee."
-      },
       {
         "question": "Do I need a permit in Yemassee?",
         "answer": "We help navigate South Carolina and Yemassee municipal arborist permits."
@@ -34214,20 +30420,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Cateechee before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "cateechee",
-    "uniqueIntro": "Cateechee's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Cateechee residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Cateechee?",
-        "answer": "Usually completed in one day for standard properties in Cateechee."
-      },
       {
         "question": "Do I need a permit in Cateechee?",
         "answer": "We help navigate South Carolina and Cateechee municipal arborist permits."
@@ -34340,20 +30532,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Clifton before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "clifton",
-    "uniqueIntro": "From residential backyards to commercial lots in Clifton, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Clifton residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Clifton?",
-        "answer": "Usually completed in one day for standard properties in Clifton."
-      },
       {
         "question": "Do I need a permit in Clifton?",
         "answer": "We help navigate South Carolina and Clifton municipal arborist permits."
@@ -34466,20 +30644,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Oakland before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "oakland",
-    "uniqueIntro": "From residential backyards to commercial lots in Oakland, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Oakland residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Oakland?",
-        "answer": "Usually completed in one day for standard properties in Oakland."
-      },
       {
         "question": "Do I need a permit in Oakland?",
         "answer": "We help navigate South Carolina and Oakland municipal arborist permits."
@@ -34592,20 +30756,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Dale before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "dale",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Dale, SC.",
-    "localProblems": [
-      "Hazardous trees near Dale residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Dale?",
-        "answer": "Usually completed in one day for standard properties in Dale."
-      },
       {
         "question": "Do I need a permit in Dale?",
         "answer": "We help navigate South Carolina and Dale municipal arborist permits."
@@ -34718,20 +30868,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Inman Mills before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "inman-mills",
-    "uniqueIntro": "Inman Mills's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Inman Mills residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Inman Mills?",
-        "answer": "Usually completed in one day for standard properties in Inman Mills."
-      },
       {
         "question": "Do I need a permit in Inman Mills?",
         "answer": "We help navigate South Carolina and Inman Mills municipal arborist permits."
@@ -34844,20 +30980,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Dovesville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "dovesville",
-    "uniqueIntro": "Dovesville's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Dovesville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Dovesville?",
-        "answer": "Usually completed in one day for standard properties in Dovesville."
-      },
       {
         "question": "Do I need a permit in Dovesville?",
         "answer": "We help navigate South Carolina and Dovesville municipal arborist permits."
@@ -34970,20 +31092,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Pinopolis before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "pinopolis",
-    "uniqueIntro": "Pinopolis's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Pinopolis residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Pinopolis?",
-        "answer": "Usually completed in one day for standard properties in Pinopolis."
-      },
       {
         "question": "Do I need a permit in Pinopolis?",
         "answer": "We help navigate South Carolina and Pinopolis municipal arborist permits."
@@ -35096,20 +31204,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Jonesville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "jonesville",
-    "uniqueIntro": "From residential backyards to commercial lots in Jonesville, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Jonesville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Jonesville?",
-        "answer": "Usually completed in one day for standard properties in Jonesville."
-      },
       {
         "question": "Do I need a permit in Jonesville?",
         "answer": "We help navigate South Carolina and Jonesville municipal arborist permits."
@@ -35222,20 +31316,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in North before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "north",
-    "uniqueIntro": "From residential backyards to commercial lots in North, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near North residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in North?",
-        "answer": "Usually completed in one day for standard properties in North."
-      },
       {
         "question": "Do I need a permit in North?",
         "answer": "We help navigate South Carolina and North municipal arborist permits."
@@ -35348,20 +31428,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Quinby before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "quinby",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Quinby, SC.",
-    "localProblems": [
-      "Hazardous trees near Quinby residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Quinby?",
-        "answer": "Usually completed in one day for standard properties in Quinby."
-      },
       {
         "question": "Do I need a permit in Quinby?",
         "answer": "We help navigate South Carolina and Quinby municipal arborist permits."
@@ -35474,20 +31540,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Scranton before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "scranton",
-    "uniqueIntro": "Property owners in Scranton trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Scranton residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Scranton?",
-        "answer": "Usually completed in one day for standard properties in Scranton."
-      },
       {
         "question": "Do I need a permit in Scranton?",
         "answer": "We help navigate South Carolina and Scranton municipal arborist permits."
@@ -35600,20 +31652,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Edisto Beach before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "edisto-beach",
-    "uniqueIntro": "Edisto Beach's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Edisto Beach residential structures",
-      "Root plate stability in Sandy coastal loam conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Edisto Beach?",
-        "answer": "Usually completed in one day for standard properties in Edisto Beach."
-      },
       {
         "question": "Do I need a permit in Edisto Beach?",
         "answer": "We help navigate South Carolina and Edisto Beach municipal arborist permits."
@@ -35726,20 +31764,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Harleyville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "harleyville",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Harleyville, SC.",
-    "localProblems": [
-      "Hazardous trees near Harleyville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Harleyville?",
-        "answer": "Usually completed in one day for standard properties in Harleyville."
-      },
       {
         "question": "Do I need a permit in Harleyville?",
         "answer": "We help navigate South Carolina and Harleyville municipal arborist permits."
@@ -35852,20 +31876,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Sandy Springs before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "sandy-springs",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Sandy Springs, SC.",
-    "localProblems": [
-      "Hazardous trees near Sandy Springs residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Sandy Springs?",
-        "answer": "Usually completed in one day for standard properties in Sandy Springs."
-      },
       {
         "question": "Do I need a permit in Sandy Springs?",
         "answer": "We help navigate South Carolina and Sandy Springs municipal arborist permits."
@@ -35978,20 +31988,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Van Wyck before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "van-wyck",
-    "uniqueIntro": "From residential backyards to commercial lots in Van Wyck, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Van Wyck residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Van Wyck?",
-        "answer": "Usually completed in one day for standard properties in Van Wyck."
-      },
       {
         "question": "Do I need a permit in Van Wyck?",
         "answer": "We help navigate South Carolina and Van Wyck municipal arborist permits."
@@ -36104,20 +32100,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Arcadia Lakes before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "arcadia-lakes",
-    "uniqueIntro": "Arcadia Lakes's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Arcadia Lakes residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Arcadia Lakes?",
-        "answer": "Usually completed in one day for standard properties in Arcadia Lakes."
-      },
       {
         "question": "Do I need a permit in Arcadia Lakes?",
         "answer": "We help navigate South Carolina and Arcadia Lakes municipal arborist permits."
@@ -36230,20 +32212,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Campobello before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "campobello",
-    "uniqueIntro": "Maintaining property safety in Campobello requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Campobello residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Campobello?",
-        "answer": "Usually completed in one day for standard properties in Campobello."
-      },
       {
         "question": "Do I need a permit in Campobello?",
         "answer": "We help navigate South Carolina and Campobello municipal arborist permits."
@@ -36356,20 +32324,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in The cliffs Valley before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "the-cliffs-valley",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout The Cliffs Valley, SC.",
-    "localProblems": [
-      "Hazardous trees near The cliffs Valley residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in The cliffs Valley?",
-        "answer": "Usually completed in one day for standard properties in The cliffs Valley."
-      },
       {
         "question": "Do I need a permit in The cliffs Valley?",
         "answer": "We help navigate South Carolina and The cliffs Valley municipal arborist permits."
@@ -36482,20 +32436,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Jefferson before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "jefferson",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Jefferson, SC.",
-    "localProblems": [
-      "Hazardous trees near Jefferson residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Jefferson?",
-        "answer": "Usually completed in one day for standard properties in Jefferson."
-      },
       {
         "question": "Do I need a permit in Jefferson?",
         "answer": "We help navigate South Carolina and Jefferson municipal arborist permits."
@@ -36608,20 +32548,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Heath Springs before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "heath-springs",
-    "uniqueIntro": "Heath Springs's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Heath Springs residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Heath Springs?",
-        "answer": "Usually completed in one day for standard properties in Heath Springs."
-      },
       {
         "question": "Do I need a permit in Heath Springs?",
         "answer": "We help navigate South Carolina and Heath Springs municipal arborist permits."
@@ -36734,20 +32660,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Pinewood before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "pinewood",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Pinewood, SC.",
-    "localProblems": [
-      "Hazardous trees near Pinewood residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Pinewood?",
-        "answer": "Usually completed in one day for standard properties in Pinewood."
-      },
       {
         "question": "Do I need a permit in Pinewood?",
         "answer": "We help navigate South Carolina and Pinewood municipal arborist permits."
@@ -36860,20 +32772,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in East Sumter before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "east-sumter",
-    "uniqueIntro": "From residential backyards to commercial lots in East Sumter, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near East Sumter residential structures",
-      "Root plate stability in Sandy loam and river basin deposits conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in East Sumter?",
-        "answer": "Usually completed in one day for standard properties in East Sumter."
-      },
       {
         "question": "Do I need a permit in East Sumter?",
         "answer": "We help navigate South Carolina and East Sumter municipal arborist permits."
@@ -36986,20 +32884,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Warrenville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "warrenville",
-    "uniqueIntro": "From residential backyards to commercial lots in Warrenville, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Warrenville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Warrenville?",
-        "answer": "Usually completed in one day for standard properties in Warrenville."
-      },
       {
         "question": "Do I need a permit in Warrenville?",
         "answer": "We help navigate South Carolina and Warrenville municipal arborist permits."
@@ -37112,20 +32996,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Gray court before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "gray-court",
-    "uniqueIntro": "Gray Court's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Gray court residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Gray court?",
-        "answer": "Usually completed in one day for standard properties in Gray court."
-      },
       {
         "question": "Do I need a permit in Gray court?",
         "answer": "We help navigate South Carolina and Gray court municipal arborist permits."
@@ -37238,20 +33108,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Mcclellanville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "mcclellanville",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Mcclellanville, SC.",
-    "localProblems": [
-      "Hazardous trees near Mcclellanville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Mcclellanville?",
-        "answer": "Usually completed in one day for standard properties in Mcclellanville."
-      },
       {
         "question": "Do I need a permit in Mcclellanville?",
         "answer": "We help navigate South Carolina and Mcclellanville municipal arborist permits."
@@ -37364,20 +33220,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Newtown before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "newtown",
-    "uniqueIntro": "From residential backyards to commercial lots in Newtown, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Newtown residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Newtown?",
-        "answer": "Usually completed in one day for standard properties in Newtown."
-      },
       {
         "question": "Do I need a permit in Newtown?",
         "answer": "We help navigate South Carolina and Newtown municipal arborist permits."
@@ -37490,20 +33332,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Fripp Island before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "fripp-island",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Fripp Island, SC.",
-    "localProblems": [
-      "Hazardous trees near Fripp Island residential structures",
-      "Root plate stability in Sandy coastal loam conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Fripp Island?",
-        "answer": "Usually completed in one day for standard properties in Fripp Island."
-      },
       {
         "question": "Do I need a permit in Fripp Island?",
         "answer": "We help navigate South Carolina and Fripp Island municipal arborist permits."
@@ -37616,20 +33444,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Hamer before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "hamer",
-    "uniqueIntro": "Hamer's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Hamer residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Hamer?",
-        "answer": "Usually completed in one day for standard properties in Hamer."
-      },
       {
         "question": "Do I need a permit in Hamer?",
         "answer": "We help navigate South Carolina and Hamer municipal arborist permits."
@@ -37742,20 +33556,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Bucksport before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "bucksport",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Bucksport, SC.",
-    "localProblems": [
-      "Hazardous trees near Bucksport residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Bucksport?",
-        "answer": "Usually completed in one day for standard properties in Bucksport."
-      },
       {
         "question": "Do I need a permit in Bucksport?",
         "answer": "We help navigate South Carolina and Bucksport municipal arborist permits."
@@ -37868,20 +33668,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Swansea before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "swansea",
-    "uniqueIntro": "Swansea's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Swansea residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Swansea?",
-        "answer": "Usually completed in one day for standard properties in Swansea."
-      },
       {
         "question": "Do I need a permit in Swansea?",
         "answer": "We help navigate South Carolina and Swansea municipal arborist permits."
@@ -37994,20 +33780,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Norris before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "norris",
-    "uniqueIntro": "Property owners in Norris trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Norris residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Norris?",
-        "answer": "Usually completed in one day for standard properties in Norris."
-      },
       {
         "question": "Do I need a permit in Norris?",
         "answer": "We help navigate South Carolina and Norris municipal arborist permits."
@@ -38120,20 +33892,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Ridge Spring before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "ridge-spring",
-    "uniqueIntro": "From residential backyards to commercial lots in Ridge Spring, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Ridge Spring residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Ridge Spring?",
-        "answer": "Usually completed in one day for standard properties in Ridge Spring."
-      },
       {
         "question": "Do I need a permit in Ridge Spring?",
         "answer": "We help navigate South Carolina and Ridge Spring municipal arborist permits."
@@ -38246,20 +34004,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Summerton before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "summerton",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Summerton, SC.",
-    "localProblems": [
-      "Hazardous trees near Summerton residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Summerton?",
-        "answer": "Usually completed in one day for standard properties in Summerton."
-      },
       {
         "question": "Do I need a permit in Summerton?",
         "answer": "We help navigate South Carolina and Summerton municipal arborist permits."
@@ -38372,20 +34116,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Turbeville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "turbeville",
-    "uniqueIntro": "Maintaining property safety in Turbeville requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Turbeville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Turbeville?",
-        "answer": "Usually completed in one day for standard properties in Turbeville."
-      },
       {
         "question": "Do I need a permit in Turbeville?",
         "answer": "We help navigate South Carolina and Turbeville municipal arborist permits."
@@ -38498,20 +34228,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Lake View before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "lake-view",
-    "uniqueIntro": "Lake View's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Lake View residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Lake View?",
-        "answer": "Usually completed in one day for standard properties in Lake View."
-      },
       {
         "question": "Do I need a permit in Lake View?",
         "answer": "We help navigate South Carolina and Lake View municipal arborist permits."
@@ -38624,20 +34340,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in DeBordieu colony before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "debordieu-colony",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Debordieu Colony, SC.",
-    "localProblems": [
-      "Hazardous trees near DeBordieu colony residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in DeBordieu colony?",
-        "answer": "Usually completed in one day for standard properties in DeBordieu colony."
-      },
       {
         "question": "Do I need a permit in DeBordieu colony?",
         "answer": "We help navigate South Carolina and DeBordieu colony municipal arborist permits."
@@ -38750,20 +34452,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Clio before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "clio",
-    "uniqueIntro": "Property owners in Clio trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Clio residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Clio?",
-        "answer": "Usually completed in one day for standard properties in Clio."
-      },
       {
         "question": "Do I need a permit in Clio?",
         "answer": "We help navigate South Carolina and Clio municipal arborist permits."
@@ -38876,20 +34564,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Mayesville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "mayesville",
-    "uniqueIntro": "From residential backyards to commercial lots in Mayesville, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Mayesville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Mayesville?",
-        "answer": "Usually completed in one day for standard properties in Mayesville."
-      },
       {
         "question": "Do I need a permit in Mayesville?",
         "answer": "We help navigate South Carolina and Mayesville municipal arborist permits."
@@ -39002,20 +34676,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Wallace before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "wallace",
-    "uniqueIntro": "Wallace's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Wallace residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Wallace?",
-        "answer": "Usually completed in one day for standard properties in Wallace."
-      },
       {
         "question": "Do I need a permit in Wallace?",
         "answer": "We help navigate South Carolina and Wallace municipal arborist permits."
@@ -39128,20 +34788,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Manville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "manville",
-    "uniqueIntro": "Property owners in Manville trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Manville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Manville?",
-        "answer": "Usually completed in one day for standard properties in Manville."
-      },
       {
         "question": "Do I need a permit in Manville?",
         "answer": "We help navigate South Carolina and Manville municipal arborist permits."
@@ -39254,20 +34900,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Bowman before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "bowman",
-    "uniqueIntro": "Property owners in Bowman trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Bowman residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Bowman?",
-        "answer": "Usually completed in one day for standard properties in Bowman."
-      },
       {
         "question": "Do I need a permit in Bowman?",
         "answer": "We help navigate South Carolina and Bowman municipal arborist permits."
@@ -39380,20 +35012,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Lincolnville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "lincolnville",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Lincolnville, SC.",
-    "localProblems": [
-      "Hazardous trees near Lincolnville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Lincolnville?",
-        "answer": "Usually completed in one day for standard properties in Lincolnville."
-      },
       {
         "question": "Do I need a permit in Lincolnville?",
         "answer": "We help navigate South Carolina and Lincolnville municipal arborist permits."
@@ -39506,20 +35124,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Pine Ridge cDP before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "pine-ridge-cdp",
-    "uniqueIntro": "Property owners in Pine Ridge Cdp trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Pine Ridge cDP residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Pine Ridge cDP?",
-        "answer": "Usually completed in one day for standard properties in Pine Ridge cDP."
-      },
       {
         "question": "Do I need a permit in Pine Ridge cDP?",
         "answer": "We help navigate South Carolina and Pine Ridge cDP municipal arborist permits."
@@ -39632,20 +35236,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Unity before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "unity",
-    "uniqueIntro": "Property owners in Unity trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Unity residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Unity?",
-        "answer": "Usually completed in one day for standard properties in Unity."
-      },
       {
         "question": "Do I need a permit in Unity?",
         "answer": "We help navigate South Carolina and Unity municipal arborist permits."
@@ -39758,20 +35348,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Eastover before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "eastover",
-    "uniqueIntro": "From residential backyards to commercial lots in Eastover, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Eastover residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Eastover?",
-        "answer": "Usually completed in one day for standard properties in Eastover."
-      },
       {
         "question": "Do I need a permit in Eastover?",
         "answer": "We help navigate South Carolina and Eastover municipal arborist permits."
@@ -39884,20 +35460,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in chickasaw Point before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "chickasaw-point",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Chickasaw Point, SC.",
-    "localProblems": [
-      "Hazardous trees near chickasaw Point residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in chickasaw Point?",
-        "answer": "Usually completed in one day for standard properties in chickasaw Point."
-      },
       {
         "question": "Do I need a permit in chickasaw Point?",
         "answer": "We help navigate South Carolina and chickasaw Point municipal arborist permits."
@@ -40010,20 +35572,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Modoc before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "modoc",
-    "uniqueIntro": "From residential backyards to commercial lots in Modoc, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Modoc residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Modoc?",
-        "answer": "Usually completed in one day for standard properties in Modoc."
-      },
       {
         "question": "Do I need a permit in Modoc?",
         "answer": "We help navigate South Carolina and Modoc municipal arborist permits."
@@ -40136,20 +35684,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Chesnee before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "chesnee",
-    "uniqueIntro": "Chesnee's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Chesnee residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Chesnee?",
-        "answer": "Usually completed in one day for standard properties in Chesnee."
-      },
       {
         "question": "Do I need a permit in Chesnee?",
         "answer": "We help navigate South Carolina and Chesnee municipal arborist permits."
@@ -40262,20 +35796,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Olanta before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "olanta",
-    "uniqueIntro": "Olanta's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Olanta residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Olanta?",
-        "answer": "Usually completed in one day for standard properties in Olanta."
-      },
       {
         "question": "Do I need a permit in Olanta?",
         "answer": "We help navigate South Carolina and Olanta municipal arborist permits."
@@ -40388,20 +35908,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Fairview crossroads before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "fairview-crossroads",
-    "uniqueIntro": "Fairview Crossroads's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Fairview crossroads residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Fairview crossroads?",
-        "answer": "Usually completed in one day for standard properties in Fairview crossroads."
-      },
       {
         "question": "Do I need a permit in Fairview crossroads?",
         "answer": "We help navigate South Carolina and Fairview crossroads municipal arborist permits."
@@ -40514,20 +36020,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Centenary before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "centenary",
-    "uniqueIntro": "Centenary's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Centenary residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Centenary?",
-        "answer": "Usually completed in one day for standard properties in Centenary."
-      },
       {
         "question": "Do I need a permit in Centenary?",
         "answer": "We help navigate South Carolina and Centenary municipal arborist permits."
@@ -40640,20 +36132,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Bonneau before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "bonneau",
-    "uniqueIntro": "Property owners in Bonneau trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Bonneau residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Bonneau?",
-        "answer": "Usually completed in one day for standard properties in Bonneau."
-      },
       {
         "question": "Do I need a permit in Bonneau?",
         "answer": "We help navigate South Carolina and Bonneau municipal arborist permits."
@@ -40766,20 +36244,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Fair Play before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "fair-play",
-    "uniqueIntro": "Maintaining property safety in Fair Play requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Fair Play residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Fair Play?",
-        "answer": "Usually completed in one day for standard properties in Fair Play."
-      },
       {
         "question": "Do I need a permit in Fair Play?",
         "answer": "We help navigate South Carolina and Fair Play municipal arborist permits."
@@ -40892,20 +36356,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Daufuskie Island before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "daufuskie-island",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Daufuskie Island, SC.",
-    "localProblems": [
-      "Hazardous trees near Daufuskie Island residential structures",
-      "Root plate stability in Sandy coastal loam conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Daufuskie Island?",
-        "answer": "Usually completed in one day for standard properties in Daufuskie Island."
-      },
       {
         "question": "Do I need a permit in Daufuskie Island?",
         "answer": "We help navigate South Carolina and Daufuskie Island municipal arborist permits."
@@ -41018,20 +36468,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Briarcliffe Acres before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "briarcliffe-acres",
-    "uniqueIntro": "Maintaining property safety in Briarcliffe Acres requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Briarcliffe Acres residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Briarcliffe Acres?",
-        "answer": "Usually completed in one day for standard properties in Briarcliffe Acres."
-      },
       {
         "question": "Do I need a permit in Briarcliffe Acres?",
         "answer": "We help navigate South Carolina and Briarcliffe Acres municipal arborist permits."
@@ -41144,20 +36580,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Coward before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "coward",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Coward, SC.",
-    "localProblems": [
-      "Hazardous trees near Coward residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Coward?",
-        "answer": "Usually completed in one day for standard properties in Coward."
-      },
       {
         "question": "Do I need a permit in Coward?",
         "answer": "We help navigate South Carolina and Coward municipal arborist permits."
@@ -41270,20 +36692,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Gilbert before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "gilbert",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Gilbert, SC.",
-    "localProblems": [
-      "Hazardous trees near Gilbert residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Gilbert?",
-        "answer": "Usually completed in one day for standard properties in Gilbert."
-      },
       {
         "question": "Do I need a permit in Gilbert?",
         "answer": "We help navigate South Carolina and Gilbert municipal arborist permits."
@@ -41396,20 +36804,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Furman before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "furman",
-    "uniqueIntro": "From residential backyards to commercial lots in Furman, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Furman residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Furman?",
-        "answer": "Usually completed in one day for standard properties in Furman."
-      },
       {
         "question": "Do I need a permit in Furman?",
         "answer": "We help navigate South Carolina and Furman municipal arborist permits."
@@ -41522,20 +36916,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Elliott before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "elliott",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Elliott, SC.",
-    "localProblems": [
-      "Hazardous trees near Elliott residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Elliott?",
-        "answer": "Usually completed in one day for standard properties in Elliott."
-      },
       {
         "question": "Do I need a permit in Elliott?",
         "answer": "We help navigate South Carolina and Elliott municipal arborist permits."
@@ -41648,20 +37028,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Startex before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "startex",
-    "uniqueIntro": "From residential backyards to commercial lots in Startex, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Startex residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Startex?",
-        "answer": "Usually completed in one day for standard properties in Startex."
-      },
       {
         "question": "Do I need a permit in Startex?",
         "answer": "We help navigate South Carolina and Startex municipal arborist permits."
@@ -41774,20 +37140,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Hickory Grove before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "hickory-grove",
-    "uniqueIntro": "Maintaining property safety in Hickory Grove requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Hickory Grove residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Hickory Grove?",
-        "answer": "Usually completed in one day for standard properties in Hickory Grove."
-      },
       {
         "question": "Do I need a permit in Hickory Grove?",
         "answer": "We help navigate South Carolina and Hickory Grove municipal arborist permits."
@@ -41900,20 +37252,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Lane before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "lane",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Lane, SC.",
-    "localProblems": [
-      "Hazardous trees near Lane residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Lane?",
-        "answer": "Usually completed in one day for standard properties in Lane."
-      },
       {
         "question": "Do I need a permit in Lane?",
         "answer": "We help navigate South Carolina and Lane municipal arborist permits."
@@ -42026,20 +37364,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Summit before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "summit",
-    "uniqueIntro": "Summit's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Summit residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Summit?",
-        "answer": "Usually completed in one day for standard properties in Summit."
-      },
       {
         "question": "Do I need a permit in Summit?",
         "answer": "We help navigate South Carolina and Summit municipal arborist permits."
@@ -42152,20 +37476,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Carlisle before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "carlisle",
-    "uniqueIntro": "Carlisle's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Carlisle residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Carlisle?",
-        "answer": "Usually completed in one day for standard properties in Carlisle."
-      },
       {
         "question": "Do I need a permit in Carlisle?",
         "answer": "We help navigate South Carolina and Carlisle municipal arborist permits."
@@ -42278,20 +37588,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Brunson before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "brunson",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Brunson, SC.",
-    "localProblems": [
-      "Hazardous trees near Brunson residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Brunson?",
-        "answer": "Usually completed in one day for standard properties in Brunson."
-      },
       {
         "question": "Do I need a permit in Brunson?",
         "answer": "We help navigate South Carolina and Brunson municipal arborist permits."
@@ -42404,20 +37700,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Little Rock before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "little-rock",
-    "uniqueIntro": "Property owners in Little Rock trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Little Rock residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Little Rock?",
-        "answer": "Usually completed in one day for standard properties in Little Rock."
-      },
       {
         "question": "Do I need a permit in Little Rock?",
         "answer": "We help navigate South Carolina and Little Rock municipal arborist permits."
@@ -42530,20 +37812,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Buford before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "buford",
-    "uniqueIntro": "Maintaining property safety in Buford requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Buford residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Buford?",
-        "answer": "Usually completed in one day for standard properties in Buford."
-      },
       {
         "question": "Do I need a permit in Buford?",
         "answer": "We help navigate South Carolina and Buford municipal arborist permits."
@@ -42656,20 +37924,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in cross Hill before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "cross-hill",
-    "uniqueIntro": "Maintaining property safety in Cross Hill requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near cross Hill residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in cross Hill?",
-        "answer": "Usually completed in one day for standard properties in cross Hill."
-      },
       {
         "question": "Do I need a permit in cross Hill?",
         "answer": "We help navigate South Carolina and cross Hill municipal arborist permits."
@@ -42782,20 +38036,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Finklea before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "finklea",
-    "uniqueIntro": "Finklea's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Finklea residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Finklea?",
-        "answer": "Usually completed in one day for standard properties in Finklea."
-      },
       {
         "question": "Do I need a permit in Finklea?",
         "answer": "We help navigate South Carolina and Finklea municipal arborist permits."
@@ -42908,20 +38148,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Patrick before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "patrick",
-    "uniqueIntro": "Maintaining property safety in Patrick requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Patrick residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Patrick?",
-        "answer": "Usually completed in one day for standard properties in Patrick."
-      },
       {
         "question": "Do I need a permit in Patrick?",
         "answer": "We help navigate South Carolina and Patrick municipal arborist permits."
@@ -43034,20 +38260,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Cameron before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "cameron",
-    "uniqueIntro": "Property owners in Cameron trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Cameron residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Cameron?",
-        "answer": "Usually completed in one day for standard properties in Cameron."
-      },
       {
         "question": "Do I need a permit in Cameron?",
         "answer": "We help navigate South Carolina and Cameron municipal arborist permits."
@@ -43160,20 +38372,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Helena before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "helena",
-    "uniqueIntro": "Property owners in Helena trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Helena residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Helena?",
-        "answer": "Usually completed in one day for standard properties in Helena."
-      },
       {
         "question": "Do I need a permit in Helena?",
         "answer": "We help navigate South Carolina and Helena municipal arborist permits."
@@ -43286,20 +38484,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Springfield before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "springfield",
-    "uniqueIntro": "From residential backyards to commercial lots in Springfield, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Springfield residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Springfield?",
-        "answer": "Usually completed in one day for standard properties in Springfield."
-      },
       {
         "question": "Do I need a permit in Springfield?",
         "answer": "We help navigate South Carolina and Springfield municipal arborist permits."
@@ -43412,20 +38596,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in North Santee before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "north-santee",
-    "uniqueIntro": "North Santee's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near North Santee residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in North Santee?",
-        "answer": "Usually completed in one day for standard properties in North Santee."
-      },
       {
         "question": "Do I need a permit in North Santee?",
         "answer": "We help navigate South Carolina and North Santee municipal arborist permits."
@@ -43538,20 +38708,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Danwood before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "danwood",
-    "uniqueIntro": "From residential backyards to commercial lots in Danwood, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Danwood residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Danwood?",
-        "answer": "Usually completed in one day for standard properties in Danwood."
-      },
       {
         "question": "Do I need a permit in Danwood?",
         "answer": "We help navigate South Carolina and Danwood municipal arborist permits."
@@ -43664,20 +38820,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Ehrhardt before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "ehrhardt",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Ehrhardt, SC.",
-    "localProblems": [
-      "Hazardous trees near Ehrhardt residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Ehrhardt?",
-        "answer": "Usually completed in one day for standard properties in Ehrhardt."
-      },
       {
         "question": "Do I need a permit in Ehrhardt?",
         "answer": "We help navigate South Carolina and Ehrhardt municipal arborist permits."
@@ -43790,20 +38932,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Lockhart before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "lockhart",
-    "uniqueIntro": "Property owners in Lockhart trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Lockhart residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Lockhart?",
-        "answer": "Usually completed in one day for standard properties in Lockhart."
-      },
       {
         "question": "Do I need a permit in Lockhart?",
         "answer": "We help navigate South Carolina and Lockhart municipal arborist permits."
@@ -43916,20 +39044,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Little Mountain before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "little-mountain",
-    "uniqueIntro": "Property owners in Little Mountain trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Little Mountain residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Little Mountain?",
-        "answer": "Usually completed in one day for standard properties in Little Mountain."
-      },
       {
         "question": "Do I need a permit in Little Mountain?",
         "answer": "We help navigate South Carolina and Little Mountain municipal arborist permits."
@@ -44042,20 +39156,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Bethune before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "bethune",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Bethune, SC.",
-    "localProblems": [
-      "Hazardous trees near Bethune residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Bethune?",
-        "answer": "Usually completed in one day for standard properties in Bethune."
-      },
       {
         "question": "Do I need a permit in Bethune?",
         "answer": "We help navigate South Carolina and Bethune municipal arborist permits."
@@ -44168,20 +39268,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Adams Run before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "adams-run",
-    "uniqueIntro": "Property owners in Adams Run trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Adams Run residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Adams Run?",
-        "answer": "Usually completed in one day for standard properties in Adams Run."
-      },
       {
         "question": "Do I need a permit in Adams Run?",
         "answer": "We help navigate South Carolina and Adams Run municipal arborist permits."
@@ -44294,20 +39380,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Enoree before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "enoree",
-    "uniqueIntro": "Maintaining property safety in Enoree requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Enoree residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Enoree?",
-        "answer": "Usually completed in one day for standard properties in Enoree."
-      },
       {
         "question": "Do I need a permit in Enoree?",
         "answer": "We help navigate South Carolina and Enoree municipal arborist permits."
@@ -44420,20 +39492,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Sheldon before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "sheldon",
-    "uniqueIntro": "Maintaining property safety in Sheldon requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Sheldon residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Sheldon?",
-        "answer": "Usually completed in one day for standard properties in Sheldon."
-      },
       {
         "question": "Do I need a permit in Sheldon?",
         "answer": "We help navigate South Carolina and Sheldon municipal arborist permits."
@@ -44546,20 +39604,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Hilda before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "hilda",
-    "uniqueIntro": "Maintaining property safety in Hilda requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Hilda residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Hilda?",
-        "answer": "Usually completed in one day for standard properties in Hilda."
-      },
       {
         "question": "Do I need a permit in Hilda?",
         "answer": "We help navigate South Carolina and Hilda municipal arborist permits."
@@ -44672,20 +39716,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in West Union before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "west-union",
-    "uniqueIntro": "Property owners in West Union trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near West Union residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in West Union?",
-        "answer": "Usually completed in one day for standard properties in West Union."
-      },
       {
         "question": "Do I need a permit in West Union?",
         "answer": "We help navigate South Carolina and West Union municipal arborist permits."
@@ -44798,20 +39828,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Hemingway before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "hemingway",
-    "uniqueIntro": "Hemingway's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Hemingway residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Hemingway?",
-        "answer": "Usually completed in one day for standard properties in Hemingway."
-      },
       {
         "question": "Do I need a permit in Hemingway?",
         "answer": "We help navigate South Carolina and Hemingway municipal arborist permits."
@@ -44924,20 +39940,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Grover before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "grover",
-    "uniqueIntro": "Grover's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Grover residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Grover?",
-        "answer": "Usually completed in one day for standard properties in Grover."
-      },
       {
         "question": "Do I need a permit in Grover?",
         "answer": "We help navigate South Carolina and Grover municipal arborist permits."
@@ -45050,20 +40052,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Greeleyville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "greeleyville",
-    "uniqueIntro": "From residential backyards to commercial lots in Greeleyville, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Greeleyville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Greeleyville?",
-        "answer": "Usually completed in one day for standard properties in Greeleyville."
-      },
       {
         "question": "Do I need a permit in Greeleyville?",
         "answer": "We help navigate South Carolina and Greeleyville municipal arborist permits."
@@ -45176,20 +40164,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Cash before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "cash",
-    "uniqueIntro": "From residential backyards to commercial lots in Cash, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Cash residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Cash?",
-        "answer": "Usually completed in one day for standard properties in Cash."
-      },
       {
         "question": "Do I need a permit in Cash?",
         "answer": "We help navigate South Carolina and Cash municipal arborist permits."
@@ -45302,20 +40276,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Society Hill before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "society-hill",
-    "uniqueIntro": "From residential backyards to commercial lots in Society Hill, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Society Hill residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Society Hill?",
-        "answer": "Usually completed in one day for standard properties in Society Hill."
-      },
       {
         "question": "Do I need a permit in Society Hill?",
         "answer": "We help navigate South Carolina and Society Hill municipal arborist permits."
@@ -45428,20 +40388,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Sharon before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "sharon",
-    "uniqueIntro": "From residential backyards to commercial lots in Sharon, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Sharon residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Sharon?",
-        "answer": "Usually completed in one day for standard properties in Sharon."
-      },
       {
         "question": "Do I need a permit in Sharon?",
         "answer": "We help navigate South Carolina and Sharon municipal arborist permits."
@@ -45554,20 +40500,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Eutawville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "eutawville",
-    "uniqueIntro": "From residential backyards to commercial lots in Eutawville, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Eutawville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Eutawville?",
-        "answer": "Usually completed in one day for standard properties in Eutawville."
-      },
       {
         "question": "Do I need a permit in Eutawville?",
         "answer": "We help navigate South Carolina and Eutawville municipal arborist permits."
@@ -45680,20 +40612,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Rowesville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "rowesville",
-    "uniqueIntro": "Rowesville's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Rowesville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Rowesville?",
-        "answer": "Usually completed in one day for standard properties in Rowesville."
-      },
       {
         "question": "Do I need a permit in Rowesville?",
         "answer": "We help navigate South Carolina and Rowesville municipal arborist permits."
@@ -45806,20 +40724,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Alcolu before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "alcolu",
-    "uniqueIntro": "From residential backyards to commercial lots in Alcolu, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Alcolu residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Alcolu?",
-        "answer": "Usually completed in one day for standard properties in Alcolu."
-      },
       {
         "question": "Do I need a permit in Alcolu?",
         "answer": "We help navigate South Carolina and Alcolu municipal arborist permits."
@@ -45932,20 +40836,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in South Union before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "south-union",
-    "uniqueIntro": "From residential backyards to commercial lots in South Union, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near South Union residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in South Union?",
-        "answer": "Usually completed in one day for standard properties in South Union."
-      },
       {
         "question": "Do I need a permit in South Union?",
         "answer": "We help navigate South Carolina and South Union municipal arborist permits."
@@ -46058,20 +40948,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Mount carmel before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "mount-carmel",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Mount Carmel, SC.",
-    "localProblems": [
-      "Hazardous trees near Mount carmel residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Mount carmel?",
-        "answer": "Usually completed in one day for standard properties in Mount carmel."
-      },
       {
         "question": "Do I need a permit in Mount carmel?",
         "answer": "We help navigate South Carolina and Mount carmel municipal arborist permits."
@@ -46184,20 +41060,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Cokesbury before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "cokesbury",
-    "uniqueIntro": "Property owners in Cokesbury trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Cokesbury residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Cokesbury?",
-        "answer": "Usually completed in one day for standard properties in Cokesbury."
-      },
       {
         "question": "Do I need a permit in Cokesbury?",
         "answer": "We help navigate South Carolina and Cokesbury municipal arborist permits."
@@ -46310,20 +41172,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Donalds before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "donalds",
-    "uniqueIntro": "Maintaining property safety in Donalds requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Donalds residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Donalds?",
-        "answer": "Usually completed in one day for standard properties in Donalds."
-      },
       {
         "question": "Do I need a permit in Donalds?",
         "answer": "We help navigate South Carolina and Donalds municipal arborist permits."
@@ -46436,20 +41284,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Neeses before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "neeses",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Neeses, SC.",
-    "localProblems": [
-      "Hazardous trees near Neeses residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Neeses?",
-        "answer": "Usually completed in one day for standard properties in Neeses."
-      },
       {
         "question": "Do I need a permit in Neeses?",
         "answer": "We help navigate South Carolina and Neeses municipal arborist permits."
@@ -46562,20 +41396,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Ruby before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "ruby",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Ruby, SC.",
-    "localProblems": [
-      "Hazardous trees near Ruby residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Ruby?",
-        "answer": "Usually completed in one day for standard properties in Ruby."
-      },
       {
         "question": "Do I need a permit in Ruby?",
         "answer": "We help navigate South Carolina and Ruby municipal arborist permits."
@@ -46688,20 +41508,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Richburg before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "richburg",
-    "uniqueIntro": "Richburg's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Richburg residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Richburg?",
-        "answer": "Usually completed in one day for standard properties in Richburg."
-      },
       {
         "question": "Do I need a permit in Richburg?",
         "answer": "We help navigate South Carolina and Richburg municipal arborist permits."
@@ -46814,20 +41620,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Oswego before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "oswego",
-    "uniqueIntro": "Maintaining property safety in Oswego requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Oswego residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Oswego?",
-        "answer": "Usually completed in one day for standard properties in Oswego."
-      },
       {
         "question": "Do I need a permit in Oswego?",
         "answer": "We help navigate South Carolina and Oswego municipal arborist permits."
@@ -46940,20 +41732,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Paxville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "paxville",
-    "uniqueIntro": "Maintaining property safety in Paxville requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Paxville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Paxville?",
-        "answer": "Usually completed in one day for standard properties in Paxville."
-      },
       {
         "question": "Do I need a permit in Paxville?",
         "answer": "We help navigate South Carolina and Paxville municipal arborist permits."
@@ -47066,20 +41844,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Newry before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "newry",
-    "uniqueIntro": "Maintaining property safety in Newry requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Newry residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Newry?",
-        "answer": "Usually completed in one day for standard properties in Newry."
-      },
       {
         "question": "Do I need a permit in Newry?",
         "answer": "We help navigate South Carolina and Newry municipal arborist permits."
@@ -47192,20 +41956,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Promised Land before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "promised-land",
-    "uniqueIntro": "Maintaining property safety in Promised Land requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Promised Land residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Promised Land?",
-        "answer": "Usually completed in one day for standard properties in Promised Land."
-      },
       {
         "question": "Do I need a permit in Promised Land?",
         "answer": "We help navigate South Carolina and Promised Land municipal arborist permits."
@@ -47318,20 +42068,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Atlantic Beach before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "atlantic-beach",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Atlantic Beach, SC.",
-    "localProblems": [
-      "Hazardous trees near Atlantic Beach residential structures",
-      "Root plate stability in Sandy coastal loam conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Atlantic Beach?",
-        "answer": "Usually completed in one day for standard properties in Atlantic Beach."
-      },
       {
         "question": "Do I need a permit in Atlantic Beach?",
         "answer": "We help navigate South Carolina and Atlantic Beach municipal arborist permits."
@@ -47444,20 +42180,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Norway before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "norway",
-    "uniqueIntro": "Norway's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Norway residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Norway?",
-        "answer": "Usually completed in one day for standard properties in Norway."
-      },
       {
         "question": "Do I need a permit in Norway?",
         "answer": "We help navigate South Carolina and Norway municipal arborist permits."
@@ -47570,20 +42292,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Mcconnells before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "mcconnells",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Mcconnells, SC.",
-    "localProblems": [
-      "Hazardous trees near Mcconnells residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Mcconnells?",
-        "answer": "Usually completed in one day for standard properties in Mcconnells."
-      },
       {
         "question": "Do I need a permit in Mcconnells?",
         "answer": "We help navigate South Carolina and Mcconnells municipal arborist permits."
@@ -47696,20 +42404,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Gillisonville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "gillisonville",
-    "uniqueIntro": "Maintaining property safety in Gillisonville requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Gillisonville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Gillisonville?",
-        "answer": "Usually completed in one day for standard properties in Gillisonville."
-      },
       {
         "question": "Do I need a permit in Gillisonville?",
         "answer": "We help navigate South Carolina and Gillisonville municipal arborist permits."
@@ -47822,20 +42516,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Trenton before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "trenton",
-    "uniqueIntro": "Maintaining property safety in Trenton requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Trenton residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Trenton?",
-        "answer": "Usually completed in one day for standard properties in Trenton."
-      },
       {
         "question": "Do I need a permit in Trenton?",
         "answer": "We help navigate South Carolina and Trenton municipal arborist permits."
@@ -47948,20 +42628,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Lowrys before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "lowrys",
-    "uniqueIntro": "From residential backyards to commercial lots in Lowrys, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Lowrys residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Lowrys?",
-        "answer": "Usually completed in one day for standard properties in Lowrys."
-      },
       {
         "question": "Do I need a permit in Lowrys?",
         "answer": "We help navigate South Carolina and Lowrys municipal arborist permits."
@@ -48074,20 +42740,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Salley before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "salley",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Salley, SC.",
-    "localProblems": [
-      "Hazardous trees near Salley residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Salley?",
-        "answer": "Usually completed in one day for standard properties in Salley."
-      },
       {
         "question": "Do I need a permit in Salley?",
         "answer": "We help navigate South Carolina and Salley municipal arborist permits."
@@ -48200,20 +42852,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Windsor before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "windsor",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Windsor, SC.",
-    "localProblems": [
-      "Hazardous trees near Windsor residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Windsor?",
-        "answer": "Usually completed in one day for standard properties in Windsor."
-      },
       {
         "question": "Do I need a permit in Windsor?",
         "answer": "We help navigate South Carolina and Windsor municipal arborist permits."
@@ -48326,20 +42964,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Perry before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "perry",
-    "uniqueIntro": "Perry's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Perry residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Perry?",
-        "answer": "Usually completed in one day for standard properties in Perry."
-      },
       {
         "question": "Do I need a permit in Perry?",
         "answer": "We help navigate South Carolina and Perry municipal arborist permits."
@@ -48452,20 +43076,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Antreville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "antreville",
-    "uniqueIntro": "From residential backyards to commercial lots in Antreville, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Antreville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Antreville?",
-        "answer": "Usually completed in one day for standard properties in Antreville."
-      },
       {
         "question": "Do I need a permit in Antreville?",
         "answer": "We help navigate South Carolina and Antreville municipal arborist permits."
@@ -48578,20 +43188,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Russellville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "russellville",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Russellville, SC.",
-    "localProblems": [
-      "Hazardous trees near Russellville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Russellville?",
-        "answer": "Usually completed in one day for standard properties in Russellville."
-      },
       {
         "question": "Do I need a permit in Russellville?",
         "answer": "We help navigate South Carolina and Russellville municipal arborist permits."
@@ -48704,20 +43300,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Harbor Island before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "harbor-island",
-    "uniqueIntro": "Property owners in Harbor Island trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Harbor Island residential structures",
-      "Root plate stability in Sandy coastal loam conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Harbor Island?",
-        "answer": "Usually completed in one day for standard properties in Harbor Island."
-      },
       {
         "question": "Do I need a permit in Harbor Island?",
         "answer": "We help navigate South Carolina and Harbor Island municipal arborist permits."
@@ -48830,20 +43412,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Reevesville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "reevesville",
-    "uniqueIntro": "From residential backyards to commercial lots in Reevesville, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Reevesville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Reevesville?",
-        "answer": "Usually completed in one day for standard properties in Reevesville."
-      },
       {
         "question": "Do I need a permit in Reevesville?",
         "answer": "We help navigate South Carolina and Reevesville municipal arborist permits."
@@ -48956,20 +43524,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Jacksonboro before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "jacksonboro",
-    "uniqueIntro": "From residential backyards to commercial lots in Jacksonboro, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Jacksonboro residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Jacksonboro?",
-        "answer": "Usually completed in one day for standard properties in Jacksonboro."
-      },
       {
         "question": "Do I need a permit in Jacksonboro?",
         "answer": "We help navigate South Carolina and Jacksonboro municipal arborist permits."
@@ -49082,20 +43636,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Snelling before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "snelling",
-    "uniqueIntro": "Snelling's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Snelling residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Snelling?",
-        "answer": "Usually completed in one day for standard properties in Snelling."
-      },
       {
         "question": "Do I need a permit in Snelling?",
         "answer": "We help navigate South Carolina and Snelling municipal arborist permits."
@@ -49208,20 +43748,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Rembert before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "rembert",
-    "uniqueIntro": "Property owners in Rembert trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Rembert residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Rembert?",
-        "answer": "Usually completed in one day for standard properties in Rembert."
-      },
       {
         "question": "Do I need a permit in Rembert?",
         "answer": "We help navigate South Carolina and Rembert municipal arborist permits."
@@ -49334,20 +43860,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Glendale before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "glendale",
-    "uniqueIntro": "Maintaining property safety in Glendale requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Glendale residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Glendale?",
-        "answer": "Usually completed in one day for standard properties in Glendale."
-      },
       {
         "question": "Do I need a permit in Glendale?",
         "answer": "We help navigate South Carolina and Glendale municipal arborist permits."
@@ -49460,20 +43972,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Ward before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "ward",
-    "uniqueIntro": "Maintaining property safety in Ward requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Ward residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Ward?",
-        "answer": "Usually completed in one day for standard properties in Ward."
-      },
       {
         "question": "Do I need a permit in Ward?",
         "answer": "We help navigate South Carolina and Ward municipal arborist permits."
@@ -49586,20 +44084,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Ridgeway before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "ridgeway",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Ridgeway, SC.",
-    "localProblems": [
-      "Hazardous trees near Ridgeway residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Ridgeway?",
-        "answer": "Usually completed in one day for standard properties in Ridgeway."
-      },
       {
         "question": "Do I need a permit in Ridgeway?",
         "answer": "We help navigate South Carolina and Ridgeway municipal arborist permits."
@@ -49712,20 +44196,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Lynchburg before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "lynchburg",
-    "uniqueIntro": "From residential backyards to commercial lots in Lynchburg, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Lynchburg residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Lynchburg?",
-        "answer": "Usually completed in one day for standard properties in Lynchburg."
-      },
       {
         "question": "Do I need a permit in Lynchburg?",
         "answer": "We help navigate South Carolina and Lynchburg municipal arborist permits."
@@ -49838,20 +44308,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Daviston before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "daviston",
-    "uniqueIntro": "From residential backyards to commercial lots in Daviston, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Daviston residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Daviston?",
-        "answer": "Usually completed in one day for standard properties in Daviston."
-      },
       {
         "question": "Do I need a permit in Daviston?",
         "answer": "We help navigate South Carolina and Daviston municipal arborist permits."
@@ -49964,20 +44420,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Waterloo before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "waterloo",
-    "uniqueIntro": "From residential backyards to commercial lots in Waterloo, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Waterloo residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Waterloo?",
-        "answer": "Usually completed in one day for standard properties in Waterloo."
-      },
       {
         "question": "Do I need a permit in Waterloo?",
         "answer": "We help navigate South Carolina and Waterloo municipal arborist permits."
@@ -50090,20 +44532,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Stuckey before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "stuckey",
-    "uniqueIntro": "From residential backyards to commercial lots in Stuckey, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Stuckey residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Stuckey?",
-        "answer": "Usually completed in one day for standard properties in Stuckey."
-      },
       {
         "question": "Do I need a permit in Stuckey?",
         "answer": "We help navigate South Carolina and Stuckey municipal arborist permits."
@@ -50216,20 +44644,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Converse before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "converse",
-    "uniqueIntro": "Maintaining property safety in Converse requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Converse residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Converse?",
-        "answer": "Usually completed in one day for standard properties in Converse."
-      },
       {
         "question": "Do I need a permit in Converse?",
         "answer": "We help navigate South Carolina and Converse municipal arborist permits."
@@ -50342,20 +44756,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Pauline before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "pauline",
-    "uniqueIntro": "Maintaining property safety in Pauline requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Pauline residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Pauline?",
-        "answer": "Usually completed in one day for standard properties in Pauline."
-      },
       {
         "question": "Do I need a permit in Pauline?",
         "answer": "We help navigate South Carolina and Pauline municipal arborist permits."
@@ -50468,20 +44868,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Lydia before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "lydia",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Lydia, SC.",
-    "localProblems": [
-      "Hazardous trees near Lydia residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Lydia?",
-        "answer": "Usually completed in one day for standard properties in Lydia."
-      },
       {
         "question": "Do I need a permit in Lydia?",
         "answer": "We help navigate South Carolina and Lydia municipal arborist permits."
@@ -50594,20 +44980,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Dacusville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "dacusville",
-    "uniqueIntro": "Property owners in Dacusville trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Dacusville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Dacusville?",
-        "answer": "Usually completed in one day for standard properties in Dacusville."
-      },
       {
         "question": "Do I need a permit in Dacusville?",
         "answer": "We help navigate South Carolina and Dacusville municipal arborist permits."
@@ -50720,20 +45092,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Cordova before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "cordova",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Cordova, SC.",
-    "localProblems": [
-      "Hazardous trees near Cordova residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Cordova?",
-        "answer": "Usually completed in one day for standard properties in Cordova."
-      },
       {
         "question": "Do I need a permit in Cordova?",
         "answer": "We help navigate South Carolina and Cordova municipal arborist permits."
@@ -50846,20 +45204,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Elko before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "elko",
-    "uniqueIntro": "Property owners in Elko trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Elko residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Elko?",
-        "answer": "Usually completed in one day for standard properties in Elko."
-      },
       {
         "question": "Do I need a permit in Elko?",
         "answer": "We help navigate South Carolina and Elko municipal arborist permits."
@@ -50972,20 +45316,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Wisacky before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "wisacky",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Wisacky, SC.",
-    "localProblems": [
-      "Hazardous trees near Wisacky residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Wisacky?",
-        "answer": "Usually completed in one day for standard properties in Wisacky."
-      },
       {
         "question": "Do I need a permit in Wisacky?",
         "answer": "We help navigate South Carolina and Wisacky municipal arborist permits."
@@ -51098,20 +45428,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Williams before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "williams",
-    "uniqueIntro": "Maintaining property safety in Williams requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Williams residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Williams?",
-        "answer": "Usually completed in one day for standard properties in Williams."
-      },
       {
         "question": "Do I need a permit in Williams?",
         "answer": "We help navigate South Carolina and Williams municipal arborist permits."
@@ -51224,20 +45540,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Gifford before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "gifford",
-    "uniqueIntro": "Gifford's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Gifford residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Gifford?",
-        "answer": "Usually completed in one day for standard properties in Gifford."
-      },
       {
         "question": "Do I need a permit in Gifford?",
         "answer": "We help navigate South Carolina and Gifford municipal arborist permits."
@@ -51350,20 +45652,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Lobeco before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "lobeco",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Lobeco, SC.",
-    "localProblems": [
-      "Hazardous trees near Lobeco residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Lobeco?",
-        "answer": "Usually completed in one day for standard properties in Lobeco."
-      },
       {
         "question": "Do I need a permit in Lobeco?",
         "answer": "We help navigate South Carolina and Lobeco municipal arborist permits."
@@ -51476,20 +45764,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Shiloh before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "shiloh",
-    "uniqueIntro": "From residential backyards to commercial lots in Shiloh, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Shiloh residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Shiloh?",
-        "answer": "Usually completed in one day for standard properties in Shiloh."
-      },
       {
         "question": "Do I need a permit in Shiloh?",
         "answer": "We help navigate South Carolina and Shiloh municipal arborist permits."
@@ -51602,20 +45876,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Kline before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "kline",
-    "uniqueIntro": "Kline's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Kline residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Kline?",
-        "answer": "Usually completed in one day for standard properties in Kline."
-      },
       {
         "question": "Do I need a permit in Kline?",
         "answer": "We help navigate South Carolina and Kline municipal arborist permits."
@@ -51728,20 +45988,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Starr before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "starr",
-    "uniqueIntro": "Maintaining property safety in Starr requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Starr residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Starr?",
-        "answer": "Usually completed in one day for standard properties in Starr."
-      },
       {
         "question": "Do I need a permit in Starr?",
         "answer": "We help navigate South Carolina and Starr municipal arborist permits."
@@ -51854,20 +46100,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Central Pacolet before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "central-pacolet",
-    "uniqueIntro": "Maintaining property safety in Central Pacolet requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Central Pacolet residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Central Pacolet?",
-        "answer": "Usually completed in one day for standard properties in Central Pacolet."
-      },
       {
         "question": "Do I need a permit in Central Pacolet?",
         "answer": "We help navigate South Carolina and Central Pacolet municipal arborist permits."
@@ -51980,20 +46212,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Glenn Springs before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "glenn-springs",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Glenn Springs, SC.",
-    "localProblems": [
-      "Hazardous trees near Glenn Springs residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Glenn Springs?",
-        "answer": "Usually completed in one day for standard properties in Glenn Springs."
-      },
       {
         "question": "Do I need a permit in Glenn Springs?",
         "answer": "We help navigate South Carolina and Glenn Springs municipal arborist permits."
@@ -52106,20 +46324,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Mulberry before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "mulberry",
-    "uniqueIntro": "Maintaining property safety in Mulberry requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Mulberry residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Mulberry?",
-        "answer": "Usually completed in one day for standard properties in Mulberry."
-      },
       {
         "question": "Do I need a permit in Mulberry?",
         "answer": "We help navigate South Carolina and Mulberry municipal arborist permits."
@@ -52232,20 +46436,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Monetta before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "monetta",
-    "uniqueIntro": "Property owners in Monetta trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Monetta residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Monetta?",
-        "answer": "Usually completed in one day for standard properties in Monetta."
-      },
       {
         "question": "Do I need a permit in Monetta?",
         "answer": "We help navigate South Carolina and Monetta municipal arborist permits."
@@ -52358,20 +46548,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Lowndesville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "lowndesville",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Lowndesville, SC.",
-    "localProblems": [
-      "Hazardous trees near Lowndesville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Lowndesville?",
-        "answer": "Usually completed in one day for standard properties in Lowndesville."
-      },
       {
         "question": "Do I need a permit in Lowndesville?",
         "answer": "We help navigate South Carolina and Lowndesville municipal arborist permits."
@@ -52484,20 +46660,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Olar before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "olar",
-    "uniqueIntro": "From residential backyards to commercial lots in Olar, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Olar residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Olar?",
-        "answer": "Usually completed in one day for standard properties in Olar."
-      },
       {
         "question": "Do I need a permit in Olar?",
         "answer": "We help navigate South Carolina and Olar municipal arborist permits."
@@ -52610,20 +46772,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Mount croghan before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "mount-croghan",
-    "uniqueIntro": "Mount Croghan's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Mount croghan residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Mount croghan?",
-        "answer": "Usually completed in one day for standard properties in Mount croghan."
-      },
       {
         "question": "Do I need a permit in Mount croghan?",
         "answer": "We help navigate South Carolina and Mount croghan municipal arborist permits."
@@ -52736,20 +46884,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Luray before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "luray",
-    "uniqueIntro": "From residential backyards to commercial lots in Luray, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Luray residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Luray?",
-        "answer": "Usually completed in one day for standard properties in Luray."
-      },
       {
         "question": "Do I need a permit in Luray?",
         "answer": "We help navigate South Carolina and Luray municipal arborist permits."
@@ -52862,20 +46996,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Hodges before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "hodges",
-    "uniqueIntro": "Maintaining property safety in Hodges requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Hodges residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Hodges?",
-        "answer": "Usually completed in one day for standard properties in Hodges."
-      },
       {
         "question": "Do I need a permit in Hodges?",
         "answer": "We help navigate South Carolina and Hodges municipal arborist permits."
@@ -52988,20 +47108,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Lodge before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "lodge",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Lodge, SC.",
-    "localProblems": [
-      "Hazardous trees near Lodge residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Lodge?",
-        "answer": "Usually completed in one day for standard properties in Lodge."
-      },
       {
         "question": "Do I need a permit in Lodge?",
         "answer": "We help navigate South Carolina and Lodge municipal arborist permits."
@@ -53114,20 +47220,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Troy before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "troy",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Troy, SC.",
-    "localProblems": [
-      "Hazardous trees near Troy residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Troy?",
-        "answer": "Usually completed in one day for standard properties in Troy."
-      },
       {
         "question": "Do I need a permit in Troy?",
         "answer": "We help navigate South Carolina and Troy municipal arborist permits."
@@ -53240,20 +47332,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Woodford before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "woodford",
-    "uniqueIntro": "Maintaining property safety in Woodford requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Woodford residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Woodford?",
-        "answer": "Usually completed in one day for standard properties in Woodford."
-      },
       {
         "question": "Do I need a permit in Woodford?",
         "answer": "We help navigate South Carolina and Woodford municipal arborist permits."
@@ -53366,20 +47444,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Bradley before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "bradley",
-    "uniqueIntro": "Property owners in Bradley trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Bradley residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Bradley?",
-        "answer": "Usually completed in one day for standard properties in Bradley."
-      },
       {
         "question": "Do I need a permit in Bradley?",
         "answer": "We help navigate South Carolina and Bradley municipal arborist permits."
@@ -53492,20 +47556,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Nichols before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "nichols",
-    "uniqueIntro": "Property owners in Nichols trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Nichols residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Nichols?",
-        "answer": "Usually completed in one day for standard properties in Nichols."
-      },
       {
         "question": "Do I need a permit in Nichols?",
         "answer": "We help navigate South Carolina and Nichols municipal arborist permits."
@@ -53618,20 +47668,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Livingston before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "livingston",
-    "uniqueIntro": "Livingston's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Livingston residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Livingston?",
-        "answer": "Usually completed in one day for standard properties in Livingston."
-      },
       {
         "question": "Do I need a permit in Livingston?",
         "answer": "We help navigate South Carolina and Livingston municipal arborist permits."
@@ -53744,20 +47780,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Silverstreet before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "silverstreet",
-    "uniqueIntro": "Maintaining property safety in Silverstreet requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Silverstreet residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Silverstreet?",
-        "answer": "Usually completed in one day for standard properties in Silverstreet."
-      },
       {
         "question": "Do I need a permit in Silverstreet?",
         "answer": "We help navigate South Carolina and Silverstreet municipal arborist permits."
@@ -53870,20 +47892,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Salem before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "salem",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Salem, SC.",
-    "localProblems": [
-      "Hazardous trees near Salem residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Salem?",
-        "answer": "Usually completed in one day for standard properties in Salem."
-      },
       {
         "question": "Do I need a permit in Salem?",
         "answer": "We help navigate South Carolina and Salem municipal arborist permits."
@@ -53996,20 +48004,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Floydale before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "floydale",
-    "uniqueIntro": "Maintaining property safety in Floydale requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Floydale residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Floydale?",
-        "answer": "Usually completed in one day for standard properties in Floydale."
-      },
       {
         "question": "Do I need a permit in Floydale?",
         "answer": "We help navigate South Carolina and Floydale municipal arborist permits."
@@ -54122,20 +48116,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Mountville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "mountville",
-    "uniqueIntro": "Maintaining property safety in Mountville requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Mountville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Mountville?",
-        "answer": "Usually completed in one day for standard properties in Mountville."
-      },
       {
         "question": "Do I need a permit in Mountville?",
         "answer": "We help navigate South Carolina and Mountville municipal arborist permits."
@@ -54248,20 +48228,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Foreston before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "foreston",
-    "uniqueIntro": "From residential backyards to commercial lots in Foreston, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Foreston residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Foreston?",
-        "answer": "Usually completed in one day for standard properties in Foreston."
-      },
       {
         "question": "Do I need a permit in Foreston?",
         "answer": "We help navigate South Carolina and Foreston municipal arborist permits."
@@ -54374,20 +48340,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Sellers before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "sellers",
-    "uniqueIntro": "From residential backyards to commercial lots in Sellers, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Sellers residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Sellers?",
-        "answer": "Usually completed in one day for standard properties in Sellers."
-      },
       {
         "question": "Do I need a permit in Sellers?",
         "answer": "We help navigate South Carolina and Sellers municipal arborist permits."
@@ -54500,20 +48452,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Smoaks before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "smoaks",
-    "uniqueIntro": "Maintaining property safety in Smoaks requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Smoaks residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Smoaks?",
-        "answer": "Usually completed in one day for standard properties in Smoaks."
-      },
       {
         "question": "Do I need a permit in Smoaks?",
         "answer": "We help navigate South Carolina and Smoaks municipal arborist permits."
@@ -54626,20 +48564,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Rockville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "rockville",
-    "uniqueIntro": "Property owners in Rockville trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Rockville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Rockville?",
-        "answer": "Usually completed in one day for standard properties in Rockville."
-      },
       {
         "question": "Do I need a permit in Rockville?",
         "answer": "We help navigate South Carolina and Rockville municipal arborist permits."
@@ -54752,20 +48676,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Scotia before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "scotia",
-    "uniqueIntro": "Scotia's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Scotia residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Scotia?",
-        "answer": "Usually completed in one day for standard properties in Scotia."
-      },
       {
         "question": "Do I need a permit in Scotia?",
         "answer": "We help navigate South Carolina and Scotia municipal arborist permits."
@@ -54878,20 +48788,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Boykin before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "boykin",
-    "uniqueIntro": "Property owners in Boykin trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Boykin residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Boykin?",
-        "answer": "Usually completed in one day for standard properties in Boykin."
-      },
       {
         "question": "Do I need a permit in Boykin?",
         "answer": "We help navigate South Carolina and Boykin municipal arborist permits."
@@ -55004,20 +48900,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Parksville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "parksville",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Parksville, SC.",
-    "localProblems": [
-      "Hazardous trees near Parksville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Parksville?",
-        "answer": "Usually completed in one day for standard properties in Parksville."
-      },
       {
         "question": "Do I need a permit in Parksville?",
         "answer": "We help navigate South Carolina and Parksville municipal arborist permits."
@@ -55130,20 +49012,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Pawleys Island before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "pawleys-island",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Pawleys Island, SC.",
-    "localProblems": [
-      "Hazardous trees near Pawleys Island residential structures",
-      "Root plate stability in Sandy coastal loam conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Pawleys Island?",
-        "answer": "Usually completed in one day for standard properties in Pawleys Island."
-      },
       {
         "question": "Do I need a permit in Pawleys Island?",
         "answer": "We help navigate South Carolina and Pawleys Island municipal arborist permits."
@@ -55256,20 +49124,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Zion before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "zion",
-    "uniqueIntro": "From residential backyards to commercial lots in Zion, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Zion residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Zion?",
-        "answer": "Usually completed in one day for standard properties in Zion."
-      },
       {
         "question": "Do I need a permit in Zion?",
         "answer": "We help navigate South Carolina and Zion municipal arborist permits."
@@ -55382,20 +49236,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Fingerville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "fingerville",
-    "uniqueIntro": "Fingerville's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Fingerville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Fingerville?",
-        "answer": "Usually completed in one day for standard properties in Fingerville."
-      },
       {
         "question": "Do I need a permit in Fingerville?",
         "answer": "We help navigate South Carolina and Fingerville municipal arborist permits."
@@ -55508,20 +49348,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Rains before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "rains",
-    "uniqueIntro": "From residential backyards to commercial lots in Rains, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Rains residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Rains?",
-        "answer": "Usually completed in one day for standard properties in Rains."
-      },
       {
         "question": "Do I need a permit in Rains?",
         "answer": "We help navigate South Carolina and Rains municipal arborist permits."
@@ -55634,20 +49460,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Ware Place before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "ware-place",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Ware Place, SC.",
-    "localProblems": [
-      "Hazardous trees near Ware Place residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Ware Place?",
-        "answer": "Usually completed in one day for standard properties in Ware Place."
-      },
       {
         "question": "Do I need a permit in Ware Place?",
         "answer": "We help navigate South Carolina and Ware Place municipal arborist permits."
@@ -55760,20 +49572,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Sycamore before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "sycamore",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Sycamore, SC.",
-    "localProblems": [
-      "Hazardous trees near Sycamore residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Sycamore?",
-        "answer": "Usually completed in one day for standard properties in Sycamore."
-      },
       {
         "question": "Do I need a permit in Sycamore?",
         "answer": "We help navigate South Carolina and Sycamore municipal arborist permits."
@@ -55886,20 +49684,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Ulmer before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "ulmer",
-    "uniqueIntro": "Ulmer's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Ulmer residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Ulmer?",
-        "answer": "Usually completed in one day for standard properties in Ulmer."
-      },
       {
         "question": "Do I need a permit in Ulmer?",
         "answer": "We help navigate South Carolina and Ulmer municipal arborist permits."
@@ -56012,20 +49796,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Vance before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "vance",
-    "uniqueIntro": "Maintaining property safety in Vance requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Vance residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Vance?",
-        "answer": "Usually completed in one day for standard properties in Vance."
-      },
       {
         "question": "Do I need a permit in Vance?",
         "answer": "We help navigate South Carolina and Vance municipal arborist permits."
@@ -56138,20 +49908,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Pomaria before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "pomaria",
-    "uniqueIntro": "From residential backyards to commercial lots in Pomaria, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Pomaria residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Pomaria?",
-        "answer": "Usually completed in one day for standard properties in Pomaria."
-      },
       {
         "question": "Do I need a permit in Pomaria?",
         "answer": "We help navigate South Carolina and Pomaria municipal arborist permits."
@@ -56264,20 +50020,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Browntown before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "browntown",
-    "uniqueIntro": "Property owners in Browntown trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Browntown residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Browntown?",
-        "answer": "Usually completed in one day for standard properties in Browntown."
-      },
       {
         "question": "Do I need a permit in Browntown?",
         "answer": "We help navigate South Carolina and Browntown municipal arborist permits."
@@ -56390,20 +50132,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Tamassee before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "tamassee",
-    "uniqueIntro": "From residential backyards to commercial lots in Tamassee, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Tamassee residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Tamassee?",
-        "answer": "Usually completed in one day for standard properties in Tamassee."
-      },
       {
         "question": "Do I need a permit in Tamassee?",
         "answer": "We help navigate South Carolina and Tamassee municipal arborist permits."
@@ -56516,20 +50244,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Willington before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "willington",
-    "uniqueIntro": "Maintaining property safety in Willington requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Willington residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Willington?",
-        "answer": "Usually completed in one day for standard properties in Willington."
-      },
       {
         "question": "Do I need a permit in Willington?",
         "answer": "We help navigate South Carolina and Willington municipal arborist permits."
@@ -56642,20 +50356,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Peak before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "peak",
-    "uniqueIntro": "Peak's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Peak residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Peak?",
-        "answer": "Usually completed in one day for standard properties in Peak."
-      },
       {
         "question": "Do I need a permit in Peak?",
         "answer": "We help navigate South Carolina and Peak municipal arborist permits."
@@ -56768,20 +50468,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Gramling before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "gramling",
-    "uniqueIntro": "From residential backyards to commercial lots in Gramling, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Gramling residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Gramling?",
-        "answer": "Usually completed in one day for standard properties in Gramling."
-      },
       {
         "question": "Do I need a permit in Gramling?",
         "answer": "We help navigate South Carolina and Gramling municipal arborist permits."
@@ -56894,20 +50580,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in clarks Hill before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "clarks-hill",
-    "uniqueIntro": "From residential backyards to commercial lots in Clarks Hill, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near clarks Hill residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in clarks Hill?",
-        "answer": "Usually completed in one day for standard properties in clarks Hill."
-      },
       {
         "question": "Do I need a permit in clarks Hill?",
         "answer": "We help navigate South Carolina and clarks Hill municipal arborist permits."
@@ -57020,20 +50692,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Jamestown before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "jamestown",
-    "uniqueIntro": "Property owners in Jamestown trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Jamestown residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Jamestown?",
-        "answer": "Usually completed in one day for standard properties in Jamestown."
-      },
       {
         "question": "Do I need a permit in Jamestown?",
         "answer": "We help navigate South Carolina and Jamestown municipal arborist permits."
@@ -57146,20 +50804,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Princeton before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "princeton",
-    "uniqueIntro": "From residential backyards to commercial lots in Princeton, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Princeton residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Princeton?",
-        "answer": "Usually completed in one day for standard properties in Princeton."
-      },
       {
         "question": "Do I need a permit in Princeton?",
         "answer": "We help navigate South Carolina and Princeton municipal arborist permits."
@@ -57272,20 +50916,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Plum Branch before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "plum-branch",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Plum Branch, SC.",
-    "localProblems": [
-      "Hazardous trees near Plum Branch residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Plum Branch?",
-        "answer": "Usually completed in one day for standard properties in Plum Branch."
-      },
       {
         "question": "Do I need a permit in Plum Branch?",
         "answer": "We help navigate South Carolina and Plum Branch municipal arborist permits."
@@ -57398,20 +51028,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in St. charles before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "st.-charles",
-    "uniqueIntro": "St. Charles's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near St. charles residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in St. charles?",
-        "answer": "Usually completed in one day for standard properties in St. charles."
-      },
       {
         "question": "Do I need a permit in St. charles?",
         "answer": "We help navigate South Carolina and St. charles municipal arborist permits."
@@ -57524,20 +51140,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Tatum before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "tatum",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Tatum, SC.",
-    "localProblems": [
-      "Hazardous trees near Tatum residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Tatum?",
-        "answer": "Usually completed in one day for standard properties in Tatum."
-      },
       {
         "question": "Do I need a permit in Tatum?",
         "answer": "We help navigate South Carolina and Tatum municipal arborist permits."
@@ -57650,20 +51252,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Tradesville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "tradesville",
-    "uniqueIntro": "From residential backyards to commercial lots in Tradesville, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Tradesville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Tradesville?",
-        "answer": "Usually completed in one day for standard properties in Tradesville."
-      },
       {
         "question": "Do I need a permit in Tradesville?",
         "answer": "We help navigate South Carolina and Tradesville municipal arborist permits."
@@ -57776,20 +51364,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Green Sea before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "green-sea",
-    "uniqueIntro": "Green Sea's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Green Sea residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Green Sea?",
-        "answer": "Usually completed in one day for standard properties in Green Sea."
-      },
       {
         "question": "Do I need a permit in Green Sea?",
         "answer": "We help navigate South Carolina and Green Sea municipal arborist permits."
@@ -57902,20 +51476,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Ashwood before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "ashwood",
-    "uniqueIntro": "Ashwood's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Ashwood residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Ashwood?",
-        "answer": "Usually completed in one day for standard properties in Ashwood."
-      },
       {
         "question": "Do I need a permit in Ashwood?",
         "answer": "We help navigate South Carolina and Ashwood municipal arborist permits."
@@ -58028,20 +51588,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Blenheim before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "blenheim",
-    "uniqueIntro": "Property owners in Blenheim trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near Blenheim residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Blenheim?",
-        "answer": "Usually completed in one day for standard properties in Blenheim."
-      },
       {
         "question": "Do I need a permit in Blenheim?",
         "answer": "We help navigate South Carolina and Blenheim municipal arborist permits."
@@ -58154,20 +51700,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Govan before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "govan",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Govan, SC.",
-    "localProblems": [
-      "Hazardous trees near Govan residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Govan?",
-        "answer": "Usually completed in one day for standard properties in Govan."
-      },
       {
         "question": "Do I need a permit in Govan?",
         "answer": "We help navigate South Carolina and Govan municipal arborist permits."
@@ -58280,20 +51812,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Jenkinsville before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "jenkinsville",
-    "uniqueIntro": "Maintaining property safety in Jenkinsville requires a professional approach to tree care.",
-    "localProblems": [
-      "Hazardous trees near Jenkinsville residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Jenkinsville?",
-        "answer": "Usually completed in one day for standard properties in Jenkinsville."
-      },
       {
         "question": "Do I need a permit in Jenkinsville?",
         "answer": "We help navigate South Carolina and Jenkinsville municipal arborist permits."
@@ -58406,20 +51924,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in caesars Head before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "caesars-head",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Caesars Head, SC.",
-    "localProblems": [
-      "Hazardous trees near caesars Head residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in caesars Head?",
-        "answer": "Usually completed in one day for standard properties in caesars Head."
-      },
       {
         "question": "Do I need a permit in caesars Head?",
         "answer": "We help navigate South Carolina and caesars Head municipal arborist permits."
@@ -58532,20 +52036,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Islandton before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "islandton",
-    "uniqueIntro": "Islandton's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Islandton residential structures",
-      "Root plate stability in Sandy coastal loam conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Islandton?",
-        "answer": "Usually completed in one day for standard properties in Islandton."
-      },
       {
         "question": "Do I need a permit in Islandton?",
         "answer": "We help navigate South Carolina and Islandton municipal arborist permits."
@@ -58658,20 +52148,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in coronaca before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "coronaca",
-    "uniqueIntro": "Coronaca's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near coronaca residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in coronaca?",
-        "answer": "Usually completed in one day for standard properties in coronaca."
-      },
       {
         "question": "Do I need a permit in coronaca?",
         "answer": "We help navigate South Carolina and coronaca municipal arborist permits."
@@ -58784,20 +52260,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in cherokee Falls before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "cherokee-falls",
-    "uniqueIntro": "Cherokee Falls's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near cherokee Falls residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in cherokee Falls?",
-        "answer": "Usually completed in one day for standard properties in cherokee Falls."
-      },
       {
         "question": "Do I need a permit in cherokee Falls?",
         "answer": "We help navigate South Carolina and cherokee Falls municipal arborist permits."
@@ -58910,20 +52372,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Longcreek before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "longcreek",
-    "uniqueIntro": "Longcreek's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Longcreek residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Longcreek?",
-        "answer": "Usually completed in one day for standard properties in Longcreek."
-      },
       {
         "question": "Do I need a permit in Longcreek?",
         "answer": "We help navigate South Carolina and Longcreek municipal arborist permits."
@@ -59036,20 +52484,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Smyrna before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "smyrna",
-    "uniqueIntro": "From residential backyards to commercial lots in Smyrna, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Smyrna residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Smyrna?",
-        "answer": "Usually completed in one day for standard properties in Smyrna."
-      },
       {
         "question": "Do I need a permit in Smyrna?",
         "answer": "We help navigate South Carolina and Smyrna municipal arborist permits."
@@ -59162,20 +52596,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in cope before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "cope",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Cope, SC.",
-    "localProblems": [
-      "Hazardous trees near cope residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in cope?",
-        "answer": "Usually completed in one day for standard properties in cope."
-      },
       {
         "question": "Do I need a permit in cope?",
         "answer": "We help navigate South Carolina and cope municipal arborist permits."
@@ -59288,20 +52708,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in cross Anchor before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "cross-anchor",
-    "uniqueIntro": "Property owners in Cross Anchor trust our certified crews for safe and efficient tree solutions.",
-    "localProblems": [
-      "Hazardous trees near cross Anchor residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in cross Anchor?",
-        "answer": "Usually completed in one day for standard properties in cross Anchor."
-      },
       {
         "question": "Do I need a permit in cross Anchor?",
         "answer": "We help navigate South Carolina and cross Anchor municipal arborist permits."
@@ -59414,20 +52820,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Abney crossroads before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "abney-crossroads",
-    "uniqueIntro": "From residential backyards to commercial lots in Abney Crossroads, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near Abney crossroads residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Abney crossroads?",
-        "answer": "Usually completed in one day for standard properties in Abney crossroads."
-      },
       {
         "question": "Do I need a permit in Abney crossroads?",
         "answer": "We help navigate South Carolina and Abney crossroads municipal arborist permits."
@@ -59540,20 +52932,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in coosawhatchie before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "coosawhatchie",
-    "uniqueIntro": "From residential backyards to commercial lots in Coosawhatchie, we provide top-tier tree care.",
-    "localProblems": [
-      "Hazardous trees near coosawhatchie residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in coosawhatchie?",
-        "answer": "Usually completed in one day for standard properties in coosawhatchie."
-      },
       {
         "question": "Do I need a permit in coosawhatchie?",
         "answer": "We help navigate South Carolina and coosawhatchie municipal arborist permits."
@@ -59666,20 +53044,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Live Oak before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "live-oak",
-    "uniqueIntro": "Live Oak's local environment demands expert tree removal and maintenance services.",
-    "localProblems": [
-      "Hazardous trees near Live Oak residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Live Oak?",
-        "answer": "Usually completed in one day for standard properties in Live Oak."
-      },
       {
         "question": "Do I need a permit in Live Oak?",
         "answer": "We help navigate South Carolina and Live Oak municipal arborist permits."
@@ -59792,20 +53156,6 @@ export const combinations: Combination[] = [
     ],
     "localTip": "Schedule maintenance in Ketchuptown before the hurricane season peaks."
   },
-  {
-    "serviceSlug": "tree-trimming-pruning",
-    "locationSlug": "ketchuptown",
-    "uniqueIntro": "Our arborist team understands the unique canopy challenges found throughout Ketchuptown, SC.",
-    "localProblems": [
-      "Hazardous trees near Ketchuptown residential structures",
-      "Root plate stability in Heavy Piedmont clay conditions",
-      "Storm damage risks unique to the South Carolina area"
-    ],
-    "uniqueFaqs": [
-      {
-        "question": "How long does Tree Trimming Pruning take in Ketchuptown?",
-        "answer": "Usually completed in one day for standard properties in Ketchuptown."
-      },
       {
         "question": "Do I need a permit in Ketchuptown?",
         "answer": "We help navigate South Carolina and Ketchuptown municipal arborist permits."
