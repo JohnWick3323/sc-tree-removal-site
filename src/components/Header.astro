@@ -1,8 +1,6 @@
 ---
 import { site } from '../data/site';
 import { services } from '../data/services';
-import { Phone, Menu, X, ChevronDown } from 'lucide-react';
-import { AnimatedIcon } from './AnimatedIcon';
 ---
 
 <header id="site-header" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 h-18 md:h-20 bg-transparent text-white">
@@ -20,7 +18,8 @@ import { AnimatedIcon } from './AnimatedIcon';
     <nav class="hidden lg:flex items-center gap-10">
       <div class="relative group">
         <a href="/services" class="flex items-center gap-1 font-medium hover:text-primary-500 transition-colors py-2 text-sm xl:text-base">
-          Services <ChevronDown size={14} className="mt-0.5 group-hover:rotate-180 transition-transform" />
+          Services 
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mt-0.5 group-hover:rotate-180 transition-transform"><path d="m6 9 6 6 6-6"/></svg>
         </a>
         <!-- Dropdown -->
         <div class="absolute top-full -left-4 w-64 bg-white shadow-xl rounded-lg opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto transition-all duration-200 border border-neutral-100 mt-2 overflow-hidden">
@@ -43,7 +42,9 @@ import { AnimatedIcon } from './AnimatedIcon';
     <!-- Right Side -->
     <div class="flex items-center gap-4">
       <a href={`tel:${site.phone}`} class="hidden md:flex items-center gap-2 text-sm font-semibold hover:text-primary-400 transition-colors group">
-        <AnimatedIcon client:load icon={Phone} size={18} className="text-primary-500" animation="shake" />
+        <div class="text-primary-500 animate-pulse group-hover:animate-bounce">
+           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        </div>
         {site.phone}
       </a>
       <a href="/contact" class="bg-primary-600 hover:bg-primary-700 text-white px-5 md:px-7 py-2 md:py-2.5 rounded-md font-semibold text-sm xl:text-base transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 whitespace-nowrap">
@@ -52,8 +53,8 @@ import { AnimatedIcon } from './AnimatedIcon';
       
       <!-- Mobile Menu Toggle -->
       <button id="mobile-menu-toggle" class="lg:hidden p-1.5 text-inherit" aria-label="Toggle Menu">
-        <Menu id="menu-icon" size={28} />
-        <X id="close-icon" size={28} className="hidden" />
+        <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+        <svg id="close-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="hidden"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
       </button>
     </div>
   </div>
@@ -90,7 +91,7 @@ import { AnimatedIcon } from './AnimatedIcon';
           <p class="font-bold text-lg mb-2">Need Help Now?</p>
           <p class="text-primary-100 text-sm mb-4">Our emergency storm response crews are available 24/7 across South Carolina.</p>
           <a href={`tel:${site.phone}`} class="flex items-center justify-center gap-3 bg-white text-primary-700 py-3 rounded-lg font-bold group">
-            <AnimatedIcon client:load icon={Phone} size={20} animation="shake" />
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="group-hover:animate-bounce"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
             {site.phone}
           </a>
         </div>
