@@ -20,7 +20,7 @@ const {
 
 // Logic for proper canonical URL
 const currentUrl = new URL(Astro.url.pathname.toLowerCase(), site.url).toString();
-const finalCanonical = (canonical || currentUrl).replace(/\/$/, '');
+const finalCanonical = (canonical || currentUrl).replace(/\/$/, '') + '/';
 
 const siteTitle = title.includes(site.name) ? title : `${title} | ${site.name}`;
 ---

@@ -89,7 +89,7 @@ const schema = {
         <nav class="flex mb-8 text-sm font-medium text-primary-400/80 gap-2 items-center">
           <a href="/" class="hover:text-primary-300 text-primary-400">Home</a>
           <span>/</span>
-          <a href="/locations" class="hover:text-primary-300 text-primary-400">Locations</a>
+          <a href="/locations/" class="hover:text-primary-300 text-primary-400">Locations</a>
           <span>/</span>
           <span class="text-white">{location.name}</span>
         </nav>
@@ -101,11 +101,11 @@ const schema = {
           Restoring safety and beauty to <strong>{location.name}</strong> properties with arborist-led care tailored to <strong>{location.county}</strong>'s unique ecosystem.
         </p>
         <div class="flex flex-col sm:flex-row gap-4">
-          <a href={`tel:${site.phone}`} class="bg-primary-600 hover:bg-primary-700 text-white px-10 py-5 rounded-md font-bold text-xl transition-all flex items-center justify-center gap-3 shadow-xl hover:-translate-y-1">
+          <a href={`tel:${site.phone}/`} class="bg-primary-600 hover:bg-primary-700 text-white px-10 py-5 rounded-md font-bold text-xl transition-all flex items-center justify-center gap-3 shadow-xl hover:-translate-y-1">
             <Phone size={24} />
             {site.phone}
           </a>
-          <a href="/contact" class="bg-white text-neutral-900 px-10 py-5 rounded-md font-bold text-xl hover:bg-neutral-100 transition-all text-center">
+          <a href="/contact/" class="bg-white text-neutral-900 px-10 py-5 rounded-md font-bold text-xl hover:bg-neutral-100 transition-all text-center">
             Free Online Estimate
           </a>
         </div>
@@ -202,7 +202,7 @@ const schema = {
           <h3 class="mt-16 mb-8">Our Local Services in {location.name}</h3>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6 not-prose">
             {localServices.map(service => (
-              <a href={`/services/${service.slug}/${location.slug}`} class="group p-6 bg-white border border-neutral-200 rounded-2xl hover:border-primary-500 hover:shadow-xl transition-all">
+              <a href={`/services/${service.slug}/${location.slug}/`} class="group p-6 bg-white border border-neutral-200 rounded-2xl hover:border-primary-500 hover:shadow-xl transition-all">
                 <h4 class="text-xl font-bold text-neutral-900 mb-3 group-hover:text-primary-700 transition-colors">{service.name}</h4>
                 <p class="text-neutral-600 text-sm mb-4 line-clamp-2">{service.description}</p>
                 <span class="text-primary-600 font-bold text-xs flex items-center gap-2 uppercase tracking-widest">
@@ -251,7 +251,7 @@ const schema = {
                 <p class="text-sm text-neutral-400 mt-2">{location.neighborhoods.slice(0, 3).join(', ')} and surrounding regions.</p>
               </div>
               <div class="pt-6 border-t border-white/10">
-                <a href={`tel:${site.phone}`} class="block w-full bg-primary-600 text-center py-4 rounded-xl font-bold hover:bg-primary-700 transition-colors">
+                <a href={`tel:${site.phone}/`} class="block w-full bg-primary-600 text-center py-4 rounded-xl font-bold hover:bg-primary-700 transition-colors">
                   {site.phone}
                 </a>
                 <p class="text-center text-[10px] text-neutral-500 mt-4 uppercase tracking-widest">Licensed • Insured • Professional</p>
@@ -284,7 +284,7 @@ const schema = {
       </div>
       <div class="flex flex-wrap justify-center gap-4">
         {nearbyCities.map(city => (
-          <a href={`/locations/${city.slug}`} class="px-6 py-3 bg-white border border-neutral-200 rounded-full text-neutral-700 font-bold hover:border-primary-500 hover:text-primary-700 transition-all shadow-sm">
+          <a href={`/locations/${city.slug}/`} class="px-6 py-3 bg-white border border-neutral-200 rounded-full text-neutral-700 font-bold hover:border-primary-500 hover:text-primary-700 transition-all shadow-sm">
             {city.name}
           </a>
         ))}
@@ -300,11 +300,11 @@ const schema = {
         Join hundreds of homeowners in <strong>{location.name}</strong> who trust South Carolina's arborist-led team for safe and efficient service.
       </p>
       <div class="flex flex-col sm:flex-row justify-center gap-6">
-        <a href={`tel:${site.phone}`} class="inline-flex items-center gap-3 bg-white text-primary-700 px-10 py-5 rounded-md font-bold text-xl hover:bg-primary-50 transition-all shadow-2xl">
+        <a href={`tel:${site.phone}/`} class="inline-flex items-center gap-3 bg-white text-primary-700 px-10 py-5 rounded-md font-bold text-xl hover:bg-primary-50 transition-all shadow-2xl">
           <Phone size={24} />
           Call Now
         </a>
-        <a href="/contact" class="inline-flex items-center gap-3 bg-primary-800 text-white border border-primary-400 px-10 py-5 rounded-md font-bold text-xl hover:bg-primary-900 transition-all">
+        <a href="/contact/" class="inline-flex items-center gap-3 bg-primary-800 text-white border border-primary-400 px-10 py-5 rounded-md font-bold text-xl hover:bg-primary-900 transition-all">
           Request Quote
         </a>
       </div>

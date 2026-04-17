@@ -17,7 +17,7 @@ import { services } from '../data/services';
     <!-- Desktop Nav -->
     <nav class="hidden lg:flex items-center gap-10">
       <div class="relative group">
-        <a href="/services" class="flex items-center gap-1 font-medium hover:text-primary-500 transition-colors py-2 text-sm xl:text-base">
+        <a href="/services/" class="flex items-center gap-1 font-medium hover:text-primary-500 transition-colors py-2 text-sm xl:text-base">
           Services 
           <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mt-0.5 group-hover:rotate-180 transition-transform"><path d="m6 9 6 6 6-6"/></svg>
         </a>
@@ -26,7 +26,7 @@ import { services } from '../data/services';
           <ul class="py-2">
             {services.map(s => (
               <li>
-                <a href={`/services/${s.slug}`} class="block px-6 py-3 text-sm text-neutral-800 hover:bg-primary-50 hover:text-primary-700 transition-colors">
+                <a href={`/services/${s.slug}/`} class="block px-6 py-3 text-sm text-neutral-800 hover:bg-primary-50 hover:text-primary-700 transition-colors">
                   {s.name}
                 </a>
               </li>
@@ -34,20 +34,20 @@ import { services } from '../data/services';
           </ul>
         </div>
       </div>
-      <a href="/locations" class="font-medium hover:text-primary-500 transition-colors text-sm xl:text-base">Service Areas</a>
-      <a href="/about" class="font-medium hover:text-primary-500 transition-colors text-sm xl:text-base">About Us</a>
-      <a href="/contact" class="font-medium hover:text-primary-500 transition-colors text-sm xl:text-base">Contact</a>
+      <a href="/locations/" class="font-medium hover:text-primary-500 transition-colors text-sm xl:text-base">Service Areas</a>
+      <a href="/about/" class="font-medium hover:text-primary-500 transition-colors text-sm xl:text-base">About Us</a>
+      <a href="/contact/" class="font-medium hover:text-primary-500 transition-colors text-sm xl:text-base">Contact</a>
     </nav>
 
     <!-- Right Side -->
     <div class="flex items-center gap-4">
-      <a href={`tel:${site.phone}`} class="hidden md:flex items-center gap-2 text-sm font-semibold hover:text-primary-400 transition-colors group">
+      <a href={`tel:${site.phone}/`} class="hidden md:flex items-center gap-2 text-sm font-semibold hover:text-primary-400 transition-colors group">
         <div class="text-primary-500 animate-pulse group-hover:animate-bounce">
            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
         </div>
         {site.phone}
       </a>
-      <a href="/contact" class="bg-primary-600 hover:bg-primary-700 text-white px-5 md:px-7 py-2 md:py-2.5 rounded-md font-semibold text-sm xl:text-base transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 whitespace-nowrap">
+      <a href="/contact/" class="bg-primary-600 hover:bg-primary-700 text-white px-5 md:px-7 py-2 md:py-2.5 rounded-md font-semibold text-sm xl:text-base transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 whitespace-nowrap">
         Free Estimate
       </a>
       
@@ -66,10 +66,10 @@ import { services } from '../data/services';
         <p class="text-xs font-bold text-neutral-400 uppercase tracking-widest border-b border-neutral-100 pb-2">Main Menu</p>
         <ul class="space-y-5">
           <li><a href="/" class="text-2xl font-bold font-heading hover:text-primary-600">Home</a></li>
-          <li><a href="/services" class="text-2xl font-bold font-heading hover:text-primary-600">Services</a></li>
-          <li><a href="/locations" class="text-2xl font-bold font-heading hover:text-primary-600">Service Areas</a></li>
-          <li><a href="/about" class="text-2xl font-bold font-heading hover:text-primary-600">About Us</a></li>
-          <li><a href="/contact" class="text-2xl font-bold font-heading hover:text-primary-600">Contact</a></li>
+          <li><a href="/services/" class="text-2xl font-bold font-heading hover:text-primary-600">Services</a></li>
+          <li><a href="/locations/" class="text-2xl font-bold font-heading hover:text-primary-600">Service Areas</a></li>
+          <li><a href="/about/" class="text-2xl font-bold font-heading hover:text-primary-600">About Us</a></li>
+          <li><a href="/contact/" class="text-2xl font-bold font-heading hover:text-primary-600">Contact</a></li>
         </ul>
       </div>
 
@@ -78,7 +78,7 @@ import { services } from '../data/services';
         <ul class="grid grid-cols-1 gap-4">
           {services.slice(0, 4).map(s => (
             <li>
-              <a href={`/services/${s.slug}`} class="flex items-center gap-3 p-4 bg-neutral-50 rounded-lg hover:bg-primary-50 transition-colors group">
+              <a href={`/services/${s.slug}/`} class="flex items-center gap-3 p-4 bg-neutral-50 rounded-lg hover:bg-primary-50 transition-colors group">
                 <span class="font-medium text-neutral-800 group-hover:text-primary-700">{s.name}</span>
               </a>
             </li>
@@ -90,7 +90,7 @@ import { services } from '../data/services';
         <div class="p-6 bg-primary-600 rounded-xl text-white">
           <p class="font-bold text-lg mb-2">Need Help Now?</p>
           <p class="text-primary-100 text-sm mb-4">Our emergency storm response crews are available 24/7 across South Carolina.</p>
-          <a href={`tel:${site.phone}`} class="flex items-center justify-center gap-3 bg-white text-primary-700 py-3 rounded-lg font-bold group">
+          <a href={`tel:${site.phone}/`} class="flex items-center justify-center gap-3 bg-white text-primary-700 py-3 rounded-lg font-bold group">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="group-hover:animate-bounce"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
             {site.phone}
           </a>
