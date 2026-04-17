@@ -1,0 +1,167 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { site } from '../data/site';
+import { AnimatedIcon } from '../components/AnimatedIcon';
+import { Phone, CheckCircle, ShieldCheck, Zap, HardHat, Award, Users, MapPin, TreePine, Heart } from 'lucide-react';
+
+const breadcrumbs = [
+  { name: 'Home', href: '/' },
+  { name: 'About Us', href: '/about' }
+];
+
+const values = [
+  {
+    title: "Certified Expertise",
+    desc: "Every major project is supervised by ISA-certified arborists to ensure safety and biological health.",
+    icon: Award
+  },
+  {
+    title: "Safety First",
+    desc: "We utilize advanced rigging and zero-impact techniques to protect your structures and family.",
+    icon: ShieldCheck
+  },
+  {
+    title: "Local Commitment",
+    desc: "As South Carolina locals, we understand the specific challenges of our state's varied ecosystems.",
+    icon: Heart
+  },
+  {
+    title: "Statewide Reach",
+    desc: "Built to scale, we maintain regional hubs to provide 24/7 coverage from the Lowcountry to the Upstate.",
+    icon: MapPin
+  }
+];
+---
+
+<BaseLayout 
+  title="About Our SC Arborist Team | South Carolina Tree Removal"
+  description="Learn about South Carolina Tree Removal's commitment to safety, certified arborist care, and statewide emergency response. Your trusted Palmetto State tree experts."
+>
+  <Header slot="header" />
+
+  <!-- Hero Section -->
+  <section class="relative pt-32 pb-24 md:pt-48 md:pb-36 bg-neutral-900 overflow-hidden">
+    <div class="absolute inset-0 z-0">
+      <div class="absolute inset-0 bg-primary-900/90 backdrop-blur-sm z-10"></div>
+      <img src="https://picture-search.skywork.ai/skills/upload/2026-04-16/8417e3420b2242318e6096ebfed1948f_ef0fd.png" alt="About South Carolina Tree Removal" class="w-full h-full object-cover" />
+    </div>
+
+    <div class="container mx-auto px-4 md:px-8 max-w-7xl relative z-20 text-center text-white">
+      <nav class="flex justify-center mb-8">
+        <ol class="flex items-center gap-2 text-sm font-medium text-primary-200">
+          {breadcrumbs.map((bc, idx) => (
+            <li class="flex items-center gap-2">
+              <a href={bc.href} class="hover:text-white transition-colors">{bc.name}</a>
+              {idx < breadcrumbs.length - 1 && <span class="text-primary-500">/</span>}
+            </li>
+          ))}
+        </ol>
+      </nav>
+      <h1 class="text-4xl md:text-6xl font-bold font-heading mb-8 leading-tight max-w-4xl mx-auto">
+        Protecting South Carolina's <span class="text-primary-400">Natural Canopy</span>
+      </h1>
+      <p class="text-xl text-primary-50 max-w-2xl mx-auto leading-relaxed">
+        Built on a foundation of safety, precision, and statewide availability, we are the Palmetto State's premier arborist-led service provider.
+      </p>
+    </div>
+  </section>
+
+  <!-- Mission Section -->
+  <section class="py-24 bg-white">
+    <div class="container mx-auto px-4 md:px-8 max-w-7xl">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+        <div>
+          <h2 class="text-3xl md:text-4xl font-bold font-heading text-neutral-900 mb-8 leading-tight">
+            Our Mission: Safety, Integrity, and <span class="text-primary-600">Arborist Excellence</span>
+          </h2>
+          <div class="prose prose-lg text-neutral-600">
+            <p>
+              South Carolina Tree Removal was founded with a singular focus: to bring professional, high-capacity arborist services to property owners across the entire state. We recognized a gap in the market for a tree care provider that could handle both high-stakes residential removals and large-scale commercial land clearing with the same level of certified expertise.
+            </p>
+            <p>
+              Today, we maintain a fleet of modern equipment and a team of specialists stationed at four regional hubs. This structure allows us to respond to storm emergencies within hours, while providing meticulous, planned maintenance for our long-term residential clients.
+            </p>
+          </div>
+          <div class="mt-12 flex flex-col sm:flex-row gap-6">
+            <div class="flex items-center gap-4 p-4 bg-neutral-50 rounded-2xl border border-neutral-100">
+               <div class="bg-primary-600 text-white p-3 rounded-xl shadow-lg">
+                  <Award size={24} />
+               </div>
+               <div>
+                  <p class="font-bold text-neutral-900">Certified Experts</p>
+                  <p class="text-xs text-neutral-500 uppercase tracking-widest">ISA Supervised</p>
+               </div>
+            </div>
+            <div class="flex items-center gap-4 p-4 bg-neutral-50 rounded-2xl border border-neutral-100">
+               <div class="bg-primary-600 text-white p-3 rounded-xl shadow-lg">
+                  <Users size={24} />
+               </div>
+               <div>
+                  <p class="font-bold text-neutral-900">SC Native Team</p>
+                  <p class="text-xs text-neutral-500 uppercase tracking-widest">Local Employment</p>
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="relative">
+          <div class="aspect-square rounded-[3rem] overflow-hidden shadow-2xl">
+            <img src="https://picture-search.skywork.ai/skills/upload/2026-04-16/712d56dbaa2d449b9d82456ac57ef3e3_fb7c0.png" alt="SC Tree Removal Team in Action" class="w-full h-full object-cover" />
+          </div>
+          <div class="absolute -bottom-10 -left-10 bg-primary-900 text-white p-10 rounded-3xl shadow-2xl max-w-xs hidden md:block">
+            <p class="text-4xl font-black mb-2 italic">100%</p>
+            <p class="text-sm font-bold uppercase tracking-widest text-primary-400 mb-4">Zero-Impact Guarantee</p>
+            <p class="text-xs text-primary-100 leading-relaxed">We guarantee that your structures and surrounding landscape will be protected throughout the entire project lifecycle.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Values -->
+  <section class="py-24 bg-neutral-50">
+    <div class="container mx-auto px-4 md:px-8 max-w-7xl">
+      <div class="text-center mb-16">
+        <h2 class="text-base font-bold text-primary-600 uppercase tracking-widest mb-4">What Drives Us</h2>
+        <p class="text-3xl md:text-5xl font-bold font-heading text-neutral-900">The Values That Guide Our Crews</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {values.map(v => (
+          <div class="bg-white p-8 rounded-3xl border border-neutral-200 shadow-sm hover:shadow-xl transition-all group">
+            <div class="w-16 h-16 bg-primary-100 text-primary-600 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-primary-600 group-hover:text-white transition-all">
+              <v.icon size={32} />
+            </div>
+            <h3 class="text-xl font-bold text-neutral-900 mb-4">{v.title}</h3>
+            <p class="text-neutral-600 text-sm leading-relaxed">{v.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-24 bg-primary-600 text-white relative overflow-hidden text-center">
+    <div class="container mx-auto px-4 md:px-8 max-w-3xl relative z-10">
+      <h2 class="text-3xl md:text-5xl font-bold font-heading mb-8 leading-tight">Ready to Work with the Palmetto State's Best?</h2>
+      <p class="text-xl text-primary-50 mb-12 leading-relaxed">
+        Experience the difference of arborist-led care. Schedule your free evaluation anywhere in South Carolina today.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="/contact/" class="bg-white text-primary-700 px-10 py-5 rounded-md font-bold text-xl hover:bg-primary-50 transition-all shadow-xl">
+          Get Started Now
+        </a>
+        <a href={`tel:${site.phone}`} class="bg-primary-700 text-white border border-primary-500 px-10 py-5 rounded-md font-bold text-xl hover:bg-primary-800 transition-all flex items-center justify-center gap-3">
+          <Phone size={24} />
+          {site.phone}
+        </a>
+      </div>
+    </div>
+    <div class="absolute top-0 left-0 w-full h-full opacity-5 pointer-events-none flex items-center justify-center">
+       <TreePine size={600} />
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</BaseLayout>
