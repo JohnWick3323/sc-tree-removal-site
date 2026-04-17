@@ -19,8 +19,8 @@ const {
 } = Astro.props;
 
 // Logic for proper canonical URL
-const currentUrl = new URL(Astro.url.pathname, site.url).href;
-const finalCanonical = canonical || currentUrl;
+const currentUrl = new URL(Astro.url.pathname, site.url).toString();
+const finalCanonical = (canonical || currentUrl).replace(/\/$/, '');
 
 const siteTitle = title.includes(site.name) ? title : `${title} | ${site.name}`;
 ---

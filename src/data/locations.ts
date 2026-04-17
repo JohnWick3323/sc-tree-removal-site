@@ -8,7 +8,7 @@ export interface Location {
 
 export const locations: Location[] = [
   {
-    "slug": "Charleston",
+    "slug": "charleston",
     "name": "Charleston",
     "county": "Charleston County",
     "zip": [
@@ -42,7 +42,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Columbia",
+    "slug": "columbia",
     "name": "Columbia",
     "county": "Richland County",
     "zip": [
@@ -76,7 +76,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "north-Charleston",
+    "slug": "north-charleston",
     "name": "North Charleston",
     "county": "Charleston County",
     "zip": [
@@ -654,7 +654,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Conway",
+    "slug": "conway",
     "name": "Conway",
     "county": "South Carolina",
     "zip": [
@@ -688,7 +688,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Carolina-forest",
+    "slug": "carolina-forest",
     "name": "Carolina Forest",
     "county": "South Carolina",
     "zip": [
@@ -1130,7 +1130,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Clemson",
+    "slug": "clemson",
     "name": "Clemson",
     "county": "South Carolina",
     "zip": [
@@ -1164,7 +1164,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "west-Columbia",
+    "slug": "west-columbia",
     "name": "West Columbia",
     "county": "South Carolina",
     "zip": [
@@ -1470,7 +1470,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Cayce",
+    "slug": "cayce",
     "name": "Cayce",
     "county": "South Carolina",
     "zip": [
@@ -2558,7 +2558,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Camden",
+    "slug": "camden",
     "name": "Camden",
     "county": "South Carolina",
     "zip": [
@@ -2592,7 +2592,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Clinton",
+    "slug": "clinton",
     "name": "Clinton",
     "county": "South Carolina",
     "zip": [
@@ -2762,7 +2762,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Centerville",
+    "slug": "centerville",
     "name": "Centerville",
     "county": "South Carolina",
     "zip": [
@@ -2966,7 +2966,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Clover",
+    "slug": "clover",
     "name": "Clover",
     "county": "South Carolina",
     "zip": [
@@ -3068,7 +3068,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Clemson-university",
+    "slug": "clemson-university",
     "name": "Clemson University",
     "county": "South Carolina",
     "zip": [
@@ -3374,7 +3374,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Central",
+    "slug": "central",
     "name": "Central",
     "county": "South Carolina",
     "zip": [
@@ -3408,7 +3408,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Chester",
+    "slug": "chester",
     "name": "Chester",
     "county": "South Carolina",
     "zip": [
@@ -3442,7 +3442,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Cheraw",
+    "slug": "cheraw",
     "name": "Cheraw",
     "county": "South Carolina",
     "zip": [
@@ -4360,7 +4360,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "east-Camden",
+    "slug": "east-camden",
     "name": "East Camden",
     "county": "South Carolina",
     "zip": [
@@ -7148,7 +7148,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Cowpens",
+    "slug": "cowpens",
     "name": "Cowpens",
     "county": "South Carolina",
     "zip": [
@@ -7930,7 +7930,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Chesterfield",
+    "slug": "chesterfield",
     "name": "Chesterfield",
     "county": "South Carolina",
     "zip": [
@@ -8372,7 +8372,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Conestee",
+    "slug": "conestee",
     "name": "Conestee",
     "county": "South Carolina",
     "zip": [
@@ -8610,7 +8610,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Cottageville",
+    "slug": "cottageville",
     "name": "Cottageville",
     "county": "South Carolina",
     "zip": [
@@ -9222,7 +9222,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Cateechee",
+    "slug": "cateechee",
     "name": "Cateechee",
     "county": "South Carolina",
     "zip": [
@@ -9256,7 +9256,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Clifton",
+    "slug": "clifton",
     "name": "Clifton",
     "county": "South Carolina",
     "zip": [
@@ -9766,7 +9766,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Campobello",
+    "slug": "campobello",
     "name": "Campobello",
     "county": "South Carolina",
     "zip": [
@@ -10446,7 +10446,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Clio",
+    "slug": "clio",
     "name": "Clio",
     "county": "South Carolina",
     "zip": [
@@ -10820,7 +10820,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Chesnee",
+    "slug": "chesnee",
     "name": "Chesnee",
     "county": "South Carolina",
     "zip": [
@@ -10922,7 +10922,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Centenary",
+    "slug": "centenary",
     "name": "Centenary",
     "county": "South Carolina",
     "zip": [
@@ -11092,7 +11092,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Coward",
+    "slug": "coward",
     "name": "Coward",
     "county": "South Carolina",
     "zip": [
@@ -11364,7 +11364,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Carlisle",
+    "slug": "carlisle",
     "name": "Carlisle",
     "county": "South Carolina",
     "zip": [
@@ -11602,7 +11602,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Cameron",
+    "slug": "cameron",
     "name": "Cameron",
     "county": "South Carolina",
     "zip": [
@@ -12180,7 +12180,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Cash",
+    "slug": "cash",
     "name": "Cash",
     "county": "South Carolina",
     "zip": [
@@ -12452,7 +12452,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Cokesbury",
+    "slug": "cokesbury",
     "name": "Cokesbury",
     "county": "South Carolina",
     "zip": [
@@ -13540,7 +13540,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Converse",
+    "slug": "converse",
     "name": "Converse",
     "county": "South Carolina",
     "zip": [
@@ -13676,7 +13676,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Cordova",
+    "slug": "cordova",
     "name": "Cordova",
     "county": "South Carolina",
     "zip": [
@@ -13982,7 +13982,7 @@ export const locations: Location[] = [
     }
   },
   {
-    "slug": "Central-pacolet",
+    "slug": "central-pacolet",
     "name": "Central Pacolet",
     "county": "South Carolina",
     "zip": [
