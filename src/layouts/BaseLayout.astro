@@ -15,8 +15,12 @@ const {
   description = "Professional tree removal, trimming, and emergency storm response across South Carolina. Certified arborist supervised, licensed, and fully insured.",
   image = "https://picture-search.skywork.ai/skills/upload/2026-04-16/b96dcad1b1db45609d978cd70f7d1f45_406e6.png",
   type = "website",
-  canonical = Astro.url.href
+  canonical
 } = Astro.props;
+
+// Logic for proper canonical URL
+const currentUrl = new URL(Astro.url.pathname, site.url).href;
+const finalCanonical = canonical || currentUrl;
 
 const siteTitle = title.includes(site.name) ? title : `${title} | ${site.name}`;
 ---
@@ -31,7 +35,7 @@ const siteTitle = title.includes(site.name) ? title : `${title} | ${site.name}`;
     
     <title>{siteTitle}</title>
     <meta name="description" content={description} />
-    <link rel="canonical" href={canonical} />
+    <link rel="canonical" href={finalCanonical} />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content={type} />
