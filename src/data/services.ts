@@ -130,35 +130,6 @@ export const services: Service[] = [
       homeownerProblems: "The most common problem homeowners face after a storm is the complexity of insurance claims. Most people don't know that 'preventative removal' isn't usually covered, but 'structural extraction' is. We solve this by providing a detailed arborist reports that explicitly state the hazard and the necessity of the emergency work. Another major issue is property access; a single fallen tree across a driveway can trap residents and prevent emergency vehicles from reaching the home. We prioritize 'Access Clearing' to ensure your family can move safely. We also address the 'Secondary Hazard' problem: trees that didn't fall during the storm but were severely weakened. Our arborists perform a post-storm audit of your entire property to identify these 'silent failures'—hairline trunk cracks or shifted root plates—that could lead to a fall in the next minor wind event."
     }
   },
-      {
-        question: 'How much should be trimmed off a tree?',
-        answer: 'As a rule, we never remove more than 25% of a tree\'s live canopy in a single season. Over-pruning (topping) is detrimental to tree health and is a practice we strictly avoid to ensure your SC trees remain strong.'
-      },
-      {
-        question: 'Why is "topping" bad for my trees?',
-        answer: 'Topping creates large wounds that don\'t heal properly, leading to decay and weak "sucker" growth that breaks easily in South Carolina storms. We use proper "reduction" cuts that maintain the tree\'s natural shape and structural integrity.'
-      },
-      {
-        question: 'Does trimming help with hurricane resistance?',
-        answer: 'Yes. "Thinning" the canopy allows wind to pass through the tree rather than acting like a sail. This significantly reduces the leverage on the root system during SC hurricanes and high-wind events.'
-      },
-      {
-        question: 'Can pruning save a diseased tree?',
-        answer: 'Often, yes. By removing infected limbs (sanitation pruning), we can stop the spread of many local SC fungi and pests, potentially saving the entire tree and your property value.'
-      },
-      {
-        question: 'How often should my SC trees be pruned?',
-        answer: 'Most mature trees benefit from a professional arborist review every 3-5 years. Faster-growing species or those near power lines may require a 2-year cycle.'
-      }
-    ],
-    commonIssues: ['Overgrown canopy', 'Dead branch hazards', 'Roof encroachment', 'Sightline obstruction'],
-    longContent: {
-      methodology: "Our methodology adheres to the ANSI A300 arborist standards, the gold standard for tree care. We begin with a 'Canopy Audit' to identify the 'Three Ds': Dead, Damaged, or Diseased wood. Our climbers use low-impact techniques, often utilizing 'Spurless' climbing to avoid wounding the bark of trees intended for preservation. We specialize in 'Directional Pruning,' which guides growth away from structures and power lines without sacrificing the tree's natural form. For larger specimens, we employ 'Crown Thinning' to increase airflow and light penetration—two critical factors in South Carolina's humid climate that help prevent fungal growth and pest infestations. Every cut is made at the 'Branch Collar,' ensuring the tree can properly compartmentalize the wound and heal. We avoid 'topping' at all costs, as this outdated practice leads to weak, hazardous regrowth and permanent structural decline.",
-      localAdvice: "Pruning in South Carolina requires a deep understanding of our native arborist environment. For example, our iconic Live Oaks require 'Structural Pruning' to manage their massive, low-hanging lateral limbs, which can become incredibly heavy and prone to failure if not balanced correctly. Conversely, our fast-growing Loblolly Pines benefit from 'Deadwooding' to prevent hazardous limbs from falling during high-wind events. We also advise homeowners on the timing of pruning to avoid attracting the Southern Pine Beetle, which is drawn to the scent of fresh pine resin during certain times of the year. In the coastal regions, we focus on 'Hurricane Thinning'—reducing the 'sail area' of the canopy so that high winds pass through the tree rather than toppling it. Our local knowledge ensures that your pruning schedule aligns with the specific biological needs of South Carolina's diverse tree species.",
-      seasonalConsiderations: "The ideal window for major structural pruning in South Carolina is during the dormant season, typically from December through February. During this time, the tree's energy is stored in the root system, and the risk of disease transmission is at its lowest. However, 'Hazard Pruning'—the removal of dead or dangerous limbs—is a year-round necessity in SC. Spring is an excellent time for 'Structural Training' of young trees, ensuring they develop a strong central leader before the rapid growth of summer. We caution homeowners against heavy pruning in the extreme heat of mid-summer, as this can lead to 'Sunscald' on newly exposed interior branches. By following a seasonal arborist plan, you can ensure that your trees are prepared for the summer storm season and the potential ice loads of an Upstate winter.",
-      homeownerProblems: "The most common problem we encounter is 'The Topping Trap.' Homeowners often hire unlicensed 'tree guys' who top trees to reduce their height, not realizing they are creating a future disaster. We solve this by performing 'Corrective Pruning' on previously damaged trees to restore as much structural integrity as possible. Another frequent issue is 'Building Encroachment,' where branches are rubbing against siding or shingles, creating entry points for moisture and pests. We provide 'Clearance Pruning' that maintains a safe distance from your home while preserving the tree's health. We also address 'Sightline Obstruction' for driveways and signage, ensuring safety without unnecessary removals. Finally, many residents struggle with 'Interior Die-back' caused by an overly dense canopy. Our thinning services restore light to your lawn and undergrowth, creates a more vibrant and healthy ecosystem on your South Carolina property."
-    }
-  },
   {
     slug: 'stump-grinding',
     name: 'Stump Grinding',
