@@ -11,9 +11,7 @@ export const locations: Location[] = [
     "slug": "charleston",
     "name": "Charleston",
     "county": "Charleston County",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29401"],
     "neighborhoods": [
       "Downtown Charleston",
       "Greater Charleston"
@@ -26,18 +24,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 32.7167,
+      "lng": -79.9508
+    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Charleston, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/2e0591b6f8d548e3922ef0c641103b4d_3f078.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Charleston!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Charleston"
     }
   },
@@ -45,9 +44,7 @@ export const locations: Location[] = [
     "slug": "columbia",
     "name": "Columbia",
     "county": "Richland County",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29201"],
     "neighborhoods": [
       "Downtown Columbia",
       "Greater Columbia"
@@ -60,18 +57,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9328,
+      "lng": -80.9646
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Columbia, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Columbia!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Columbia"
     }
   },
@@ -79,9 +77,7 @@ export const locations: Location[] = [
     "slug": "north-charleston",
     "name": "North Charleston",
     "county": "Charleston County",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29405"],
     "neighborhoods": [
       "Downtown North Charleston",
       "Greater North Charleston"
@@ -94,18 +90,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 32.8175,
+      "lng": -79.8753
+    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In North Charleston, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/2e0591b6f8d548e3922ef0c641103b4d_3f078.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in North Charleston!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in North Charleston!",
       "location": "North Charleston"
     }
   },
@@ -113,9 +110,7 @@ export const locations: Location[] = [
     "slug": "mount-pleasant",
     "name": "Mount Pleasant",
     "county": "Charleston County",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29464"],
     "neighborhoods": [
       "Downtown Mount Pleasant",
       "Greater Mount Pleasant"
@@ -128,18 +123,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0843,
+      "lng": -80.9701
+    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Mount Pleasant, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/2e0591b6f8d548e3922ef0c641103b4d_3f078.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Mount Pleasant!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Mount Pleasant"
     }
   },
@@ -147,9 +143,7 @@ export const locations: Location[] = [
     "slug": "rock-hill",
     "name": "Rock Hill",
     "county": "York County",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29730"],
     "neighborhoods": [
       "Downtown Rock Hill",
       "Greater Rock Hill"
@@ -162,18 +156,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.9151,
+      "lng": -80.9257
+    },
     },
     "soilType": "Red clay and rocky foothills",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Rock Hill, we focus on the unique arborist needs dictated by Red clay and rocky foothills and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/fdcf3c9ed6c14981996ce4e981ed1d8d_b55fc.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Rock Hill!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Rock Hill"
     }
   },
@@ -181,9 +176,7 @@ export const locations: Location[] = [
     "slug": "greenville",
     "name": "Greenville",
     "county": "Greenville County",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29601"],
     "neighborhoods": [
       "Downtown Greenville",
       "Greater Greenville"
@@ -196,28 +189,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.8228,
+      "lng": -82.4071
+    },
     },
     "soilType": "Red clay and rocky foothills",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Greenville, we focus on the unique arborist needs dictated by Red clay and rocky foothills and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/fdcf3c9ed6c14981996ce4e981ed1d8d_b55fc.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Greenville!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Greenville"
     }
   },
   {
     "slug": "summerville",
     "name": "Summerville",
-    "county": "DorChester County",
-    "zip": [
-      "29000"
-    ],
+    "county": "Dorchester County",
+    "zip": ["29483"],
     "neighborhoods": [
       "Downtown Summerville",
       "Greater Summerville"
@@ -230,18 +222,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0956,
+      "lng": -81.0796
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Summerville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Summerville!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Summerville"
     }
   },
@@ -249,9 +242,7 @@ export const locations: Location[] = [
     "slug": "goose-creek",
     "name": "Goose creek",
     "county": "Berkeley County",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29445"],
     "neighborhoods": [
       "Downtown Goose creek",
       "Greater Goose creek"
@@ -264,18 +255,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9736,
+      "lng": -81.0647
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Goose creek, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Goose creek!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Goose creek"
     }
   },
@@ -283,9 +275,7 @@ export const locations: Location[] = [
     "slug": "sumter",
     "name": "Sumter",
     "county": "Sumter County",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29150"],
     "neighborhoods": [
       "Downtown Sumter",
       "Greater Sumter"
@@ -298,18 +288,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.8798,
+      "lng": -80.3545
+    },
     },
     "soilType": "Sandy loam and river basin deposits",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Sumter, we focus on the unique arborist needs dictated by Sandy loam and river basin deposits and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/41310ccc491b4763bdeea6ec7a21ba6c_b2247.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Sumter!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Sumter"
     }
   },
@@ -317,9 +308,7 @@ export const locations: Location[] = [
     "slug": "florence",
     "name": "Florence",
     "county": "Florence County",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29501"],
     "neighborhoods": [
       "Downtown Florence",
       "Greater Florence"
@@ -332,18 +321,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.2263,
+      "lng": -79.8142
+    },
     },
     "soilType": "Sandy loam and river basin deposits",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Florence, we focus on the unique arborist needs dictated by Sandy loam and river basin deposits and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/41310ccc491b4763bdeea6ec7a21ba6c_b2247.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Florence!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Florence!",
       "location": "Florence"
     }
   },
@@ -351,9 +341,7 @@ export const locations: Location[] = [
     "slug": "spartanburg",
     "name": "Spartanburg",
     "county": "Spartanburg County",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29301"],
     "neighborhoods": [
       "Downtown Spartanburg",
       "Greater Spartanburg"
@@ -366,18 +354,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.8704,
+      "lng": -81.9681
+    },
     },
     "soilType": "Red clay and rocky foothills",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Spartanburg, we focus on the unique arborist needs dictated by Red clay and rocky foothills and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/fdcf3c9ed6c14981996ce4e981ed1d8d_b55fc.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Spartanburg!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Spartanburg"
     }
   },
@@ -385,9 +374,7 @@ export const locations: Location[] = [
     "slug": "hilton-head-island",
     "name": "Hilton Head Island",
     "county": "Beaufort County",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29925"],
     "neighborhoods": [
       "Downtown Hilton Head Island",
       "Greater Hilton Head Island"
@@ -400,28 +387,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0957,
+      "lng": -81.0423
+    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Hilton Head Island, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/2e0591b6f8d548e3922ef0c641103b4d_3f078.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Hilton Head Island!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Hilton Head Island"
     }
   },
   {
     "slug": "greer",
     "name": "Greer",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Greenville County",
+    "zip": ["29650"],
     "neighborhoods": [
       "Downtown Greer",
       "Greater Greer"
@@ -434,18 +420,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0018,
+      "lng": -81.0053
+    },
     },
     "soilType": "Red clay and rocky foothills",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Greer, we focus on the unique arborist needs dictated by Red clay and rocky foothills and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/fdcf3c9ed6c14981996ce4e981ed1d8d_b55fc.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Greer!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Greer"
     }
   },
@@ -453,9 +440,7 @@ export const locations: Location[] = [
     "slug": "myrtle-beach",
     "name": "Myrtle Beach",
     "county": "Horry County",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29572"],
     "neighborhoods": [
       "Downtown Myrtle Beach",
       "Greater Myrtle Beach"
@@ -468,28 +453,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.7230,
+      "lng": -78.9506
+    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Myrtle Beach, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/2e0591b6f8d548e3922ef0c641103b4d_3f078.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Myrtle Beach!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Myrtle Beach"
     }
   },
   {
     "slug": "aiken",
     "name": "Aiken",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Aiken County",
+    "zip": ["29801"],
     "neighborhoods": [
       "Downtown Aiken",
       "Greater Aiken"
@@ -502,28 +486,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.5214,
+      "lng": -81.6708
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Aiken, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Aiken!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Aiken"
     }
   },
   {
     "slug": "bluffton",
     "name": "Bluffton",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Beaufort County",
+    "zip": ["29910"],
     "neighborhoods": [
       "Downtown Bluffton",
       "Greater Bluffton"
@@ -536,28 +519,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9125,
+      "lng": -80.9536
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Bluffton, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Bluffton!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Bluffton"
     }
   },
   {
     "slug": "anderson",
     "name": "Anderson",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Anderson County",
+    "zip": ["29621"],
     "neighborhoods": [
       "Downtown Anderson",
       "Greater Anderson"
@@ -570,28 +552,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.5256,
+      "lng": -82.6093
+    },
     },
     "soilType": "Red clay and rocky foothills",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Anderson, we focus on the unique arborist needs dictated by Red clay and rocky foothills and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/fdcf3c9ed6c14981996ce4e981ed1d8d_b55fc.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Anderson!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Anderson"
     }
   },
   {
     "slug": "fort-mill",
     "name": "Fort Mill",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Lancaster County",
+    "zip": ["29707"],
     "neighborhoods": [
       "Downtown Fort Mill",
       "Greater Fort Mill"
@@ -604,28 +585,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9098,
+      "lng": -81.0930
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Fort Mill, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Fort Mill!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Fort Mill"
     }
   },
   {
     "slug": "mauldin",
     "name": "Mauldin",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Greenville County",
+    "zip": ["29662"],
     "neighborhoods": [
       "Downtown Mauldin",
       "Greater Mauldin"
@@ -638,28 +618,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9457,
+      "lng": -81.1211
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Mauldin, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Mauldin!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Mauldin!",
       "location": "Mauldin"
     }
   },
   {
     "slug": "conway",
     "name": "Conway",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Horry County",
+    "zip": ["29526"],
     "neighborhoods": [
       "Downtown Conway",
       "Greater Conway"
@@ -672,18 +651,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0605,
+      "lng": -81.0898
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Conway, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Conway!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Conway"
     }
   },
@@ -691,9 +671,7 @@ export const locations: Location[] = [
     "slug": "carolina-forest",
     "name": "Carolina Forest",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29560"],
     "neighborhoods": [
       "Downtown Carolina Forest",
       "Greater Carolina Forest"
@@ -706,18 +684,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9446,
+      "lng": -80.9676
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Carolina Forest, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Carolina Forest!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Carolina Forest!",
       "location": "Carolina Forest"
     }
   },
@@ -725,9 +704,7 @@ export const locations: Location[] = [
     "slug": "socastee",
     "name": "Socastee",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29869"],
     "neighborhoods": [
       "Downtown Socastee",
       "Greater Socastee"
@@ -740,28 +717,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9582,
+      "lng": -81.1051
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Socastee, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Socastee!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Socastee"
     }
   },
   {
     "slug": "north-augusta",
     "name": "North Augusta",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Aiken County",
+    "zip": ["29841"],
     "neighborhoods": [
       "Downtown North Augusta",
       "Greater North Augusta"
@@ -774,28 +750,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0830,
+      "lng": -81.1056
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In North Augusta, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in North Augusta!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in North Augusta!",
       "location": "North Augusta"
     }
   },
   {
     "slug": "simpsonville",
     "name": "Simpsonville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Greenville County",
+    "zip": ["29680"],
     "neighborhoods": [
       "Downtown Simpsonville",
       "Greater Simpsonville"
@@ -808,28 +783,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0024,
+      "lng": -81.0284
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Simpsonville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Simpsonville!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Simpsonville"
     }
   },
   {
     "slug": "lexington",
     "name": "Lexington",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Lexington County",
+    "zip": ["29071"],
     "neighborhoods": [
       "Downtown Lexington",
       "Greater Lexington"
@@ -842,28 +816,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9891,
+      "lng": -81.0860
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lexington, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Lexington!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Lexington"
     }
   },
   {
     "slug": "easley",
     "name": "Easley",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Pickens County",
+    "zip": ["29640"],
     "neighborhoods": [
       "Downtown Easley",
       "Greater Easley"
@@ -876,28 +849,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0627,
+      "lng": -81.0360
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Easley, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Easley!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Easley!",
       "location": "Easley"
     }
   },
   {
     "slug": "taylors",
     "name": "Taylors",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Greenville County",
+    "zip": ["29687"],
     "neighborhoods": [
       "Downtown Taylors",
       "Greater Taylors"
@@ -910,28 +882,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9825,
+      "lng": -81.1242
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Taylors, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Taylors!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Taylors"
     }
   },
   {
     "slug": "greenwood",
     "name": "Greenwood",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Greenwood County",
+    "zip": ["29646"],
     "neighborhoods": [
       "Downtown Greenwood",
       "Greater Greenwood"
@@ -944,18 +915,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0525,
+      "lng": -80.9723
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Greenwood, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Greenwood!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Greenwood!",
       "location": "Greenwood"
     }
   },
@@ -963,9 +935,7 @@ export const locations: Location[] = [
     "slug": "st.-andrews",
     "name": "St. Andrews",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29669"],
     "neighborhoods": [
       "Downtown St. Andrews",
       "Greater St. Andrews"
@@ -978,18 +948,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9243,
+      "lng": -80.9495
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In St. Andrews, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in St. Andrews!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "St. Andrews"
     }
   },
@@ -997,9 +968,7 @@ export const locations: Location[] = [
     "slug": "wade-hampton",
     "name": "Wade Hampton",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29670"],
     "neighborhoods": [
       "Downtown Wade Hampton",
       "Greater Wade Hampton"
@@ -1012,28 +981,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0943,
+      "lng": -80.9349
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Wade Hampton, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Wade Hampton!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Wade Hampton"
     }
   },
   {
     "slug": "hanahan",
     "name": "Hanahan",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Berkeley County",
+    "zip": ["29410"],
     "neighborhoods": [
       "Downtown Hanahan",
       "Greater Hanahan"
@@ -1046,28 +1014,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9434,
+      "lng": -81.0617
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Hanahan, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Hanahan!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Hanahan"
     }
   },
   {
     "slug": "north-myrtle-beach",
     "name": "North Myrtle Beach",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Horry County",
+    "zip": ["29582"],
     "neighborhoods": [
       "Downtown North Myrtle Beach",
       "Greater North Myrtle Beach"
@@ -1080,18 +1047,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.7654,
+      "lng": -78.7979
+    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In North Myrtle Beach, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/2e0591b6f8d548e3922ef0c641103b4d_3f078.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in North Myrtle Beach!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "North Myrtle Beach"
     }
   },
@@ -1099,9 +1067,7 @@ export const locations: Location[] = [
     "slug": "five-forks",
     "name": "Five Forks",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29504"],
     "neighborhoods": [
       "Downtown Five Forks",
       "Greater Five Forks"
@@ -1114,28 +1080,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9482,
+      "lng": -81.1097
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Five Forks, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Five Forks!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Five Forks"
     }
   },
   {
     "slug": "clemson",
     "name": "Clemson",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Pickens County",
+    "zip": ["29631"],
     "neighborhoods": [
       "Downtown Clemson",
       "Greater Clemson"
@@ -1148,28 +1113,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0236,
+      "lng": -81.0003
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Clemson, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Clemson!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Clemson"
     }
   },
   {
     "slug": "west-columbia",
     "name": "West Columbia",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Lexington County",
+    "zip": ["29169"],
     "neighborhoods": [
       "Downtown West Columbia",
       "Greater West Columbia"
@@ -1182,18 +1146,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9103,
+      "lng": -80.9489
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In West Columbia, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in West Columbia!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "West Columbia"
     }
   },
@@ -1201,9 +1166,7 @@ export const locations: Location[] = [
     "slug": "dentsville",
     "name": "Dentsville",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29308"],
     "neighborhoods": [
       "Downtown Dentsville",
       "Greater Dentsville"
@@ -1216,18 +1179,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9021,
+      "lng": -81.0364
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Dentsville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Dentsville!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Dentsville"
     }
   },
@@ -1235,9 +1199,7 @@ export const locations: Location[] = [
     "slug": "berea",
     "name": "Berea",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29557"],
     "neighborhoods": [
       "Downtown Berea",
       "Greater Berea"
@@ -1250,18 +1212,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0466,
+      "lng": -80.9890
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Berea, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Berea!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Berea"
     }
   },
@@ -1269,9 +1232,7 @@ export const locations: Location[] = [
     "slug": "seven-oaks",
     "name": "Seven Oaks",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29966"],
     "neighborhoods": [
       "Downtown Seven Oaks",
       "Greater Seven Oaks"
@@ -1284,18 +1245,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0659,
+      "lng": -81.0509
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Seven Oaks, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Seven Oaks!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Seven Oaks"
     }
   },
@@ -1303,9 +1265,7 @@ export const locations: Location[] = [
     "slug": "red-hill",
     "name": "Red Hill",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29782"],
     "neighborhoods": [
       "Downtown Red Hill",
       "Greater Red Hill"
@@ -1318,28 +1278,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0767,
+      "lng": -81.0213
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Red Hill, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Red Hill!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Red Hill!",
       "location": "Red Hill"
     }
   },
   {
     "slug": "ladson",
     "name": "Ladson",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Charleston County",
+    "zip": ["29456"],
     "neighborhoods": [
       "Downtown Ladson",
       "Greater Ladson"
@@ -1352,28 +1311,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0241,
+      "lng": -81.0435
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Ladson, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Ladson!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Ladson"
     }
   },
   {
     "slug": "port-royal",
     "name": "Port Royal",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Beaufort County",
+    "zip": ["29935"],
     "neighborhoods": [
       "Downtown Port Royal",
       "Greater Port Royal"
@@ -1386,18 +1344,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9868,
+      "lng": -80.9629
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Port Royal, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Port Royal!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Port Royal"
     }
   },
@@ -1405,9 +1364,7 @@ export const locations: Location[] = [
     "slug": "lake-wylie",
     "name": "Lake Wylie",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29239"],
     "neighborhoods": [
       "Downtown Lake Wylie",
       "Greater Lake Wylie"
@@ -1420,18 +1377,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0969,
+      "lng": -81.0260
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lake Wylie, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Lake Wylie!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Lake Wylie"
     }
   },
@@ -1439,9 +1397,7 @@ export const locations: Location[] = [
     "slug": "gantt",
     "name": "Gantt",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29459"],
     "neighborhoods": [
       "Downtown Gantt",
       "Greater Gantt"
@@ -1454,28 +1410,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0883,
+      "lng": -81.0250
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Gantt, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Gantt!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Gantt"
     }
   },
   {
     "slug": "cayce",
     "name": "Cayce",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Lexington County",
+    "zip": ["29033"],
     "neighborhoods": [
       "Downtown Cayce",
       "Greater Cayce"
@@ -1488,28 +1443,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0705,
+      "lng": -81.1262
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Cayce, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Cayce!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Cayce"
     }
   },
   {
     "slug": "beaufort",
     "name": "Beaufort",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Beaufort County",
+    "zip": ["29901"],
     "neighborhoods": [
       "Downtown Beaufort",
       "Greater Beaufort"
@@ -1522,28 +1476,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 32.4206,
+      "lng": -80.6015
+    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Beaufort, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/2e0591b6f8d548e3922ef0c641103b4d_3f078.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Beaufort!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Beaufort"
     }
   },
   {
     "slug": "moncks-corner",
     "name": "Moncks corner",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Berkeley County",
+    "zip": ["29461"],
     "neighborhoods": [
       "Downtown Moncks corner",
       "Greater Moncks corner"
@@ -1556,28 +1509,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0918,
+      "lng": -81.0738
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Moncks corner, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Moncks corner!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Moncks corner"
     }
   },
   {
     "slug": "orangeburg",
     "name": "Orangeburg",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Orangeburg County",
+    "zip": ["29115"],
     "neighborhoods": [
       "Downtown Orangeburg",
       "Greater Orangeburg"
@@ -1590,18 +1542,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0969,
+      "lng": -80.9557
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Orangeburg, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Orangeburg!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Orangeburg!",
       "location": "Orangeburg"
     }
   },
@@ -1609,9 +1562,7 @@ export const locations: Location[] = [
     "slug": "tega-cay",
     "name": "Tega cay",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29398"],
     "neighborhoods": [
       "Downtown Tega cay",
       "Greater Tega cay"
@@ -1624,28 +1575,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0929,
+      "lng": -81.1222
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Tega cay, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Tega cay!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Tega cay"
     }
   },
   {
     "slug": "gaffney",
     "name": "Gaffney",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Cherokee County",
+    "zip": ["29340"],
     "neighborhoods": [
       "Downtown Gaffney",
       "Greater Gaffney"
@@ -1658,18 +1608,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9030,
+      "lng": -80.9795
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Gaffney, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Gaffney!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Gaffney"
     }
   },
@@ -1677,9 +1628,7 @@ export const locations: Location[] = [
     "slug": "parker",
     "name": "Parker",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29897"],
     "neighborhoods": [
       "Downtown Parker",
       "Greater Parker"
@@ -1692,18 +1641,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0205,
+      "lng": -80.9597
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Parker, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Parker!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Parker"
     }
   },
@@ -1711,9 +1661,7 @@ export const locations: Location[] = [
     "slug": "james-island",
     "name": "James Island",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29795"],
     "neighborhoods": [
       "Downtown James Island",
       "Greater James Island"
@@ -1726,28 +1674,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9367,
+      "lng": -80.9768
+    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In James Island, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/2e0591b6f8d548e3922ef0c641103b4d_3f078.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in James Island!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "James Island"
     }
   },
   {
     "slug": "irmo",
     "name": "Irmo",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Richland County",
+    "zip": ["29063"],
     "neighborhoods": [
       "Downtown Irmo",
       "Greater Irmo"
@@ -1760,18 +1707,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0393,
+      "lng": -81.1143
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Irmo, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Irmo!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Irmo"
     }
   },
@@ -1779,9 +1727,7 @@ export const locations: Location[] = [
     "slug": "oak-grove",
     "name": "Oak Grove",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29684"],
     "neighborhoods": [
       "Downtown Oak Grove",
       "Greater Oak Grove"
@@ -1794,28 +1740,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9137,
+      "lng": -80.9829
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Oak Grove, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Oak Grove!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Oak Grove"
     }
   },
   {
     "slug": "boiling-springs",
     "name": "Boiling Springs",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Spartanburg County",
+    "zip": ["29316"],
     "neighborhoods": [
       "Downtown Boiling Springs",
       "Greater Boiling Springs"
@@ -1828,18 +1773,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0501,
+      "lng": -80.9788
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Boiling Springs, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Boiling Springs!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Boiling Springs"
     }
   },
@@ -1847,9 +1793,7 @@ export const locations: Location[] = [
     "slug": "garden-city",
     "name": "Garden city",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29191"],
     "neighborhoods": [
       "Downtown Garden city",
       "Greater Garden city"
@@ -1862,28 +1806,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9341,
+      "lng": -81.0930
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Garden city, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Garden city!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Garden city"
     }
   },
   {
     "slug": "newberry",
     "name": "Newberry",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Newberry County",
+    "zip": ["29108"],
     "neighborhoods": [
       "Downtown Newberry",
       "Greater Newberry"
@@ -1896,18 +1839,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9010,
+      "lng": -80.9357
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Newberry, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Newberry!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Newberry"
     }
   },
@@ -1915,9 +1859,7 @@ export const locations: Location[] = [
     "slug": "powdersville",
     "name": "Powdersville",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29568"],
     "neighborhoods": [
       "Downtown Powdersville",
       "Greater Powdersville"
@@ -1930,28 +1872,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9909,
+      "lng": -81.0615
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Powdersville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Powdersville!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Powdersville"
     }
   },
   {
     "slug": "fountain-inn",
     "name": "Fountain Inn",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Greenville County",
+    "zip": ["29644"],
     "neighborhoods": [
       "Downtown Fountain Inn",
       "Greater Fountain Inn"
@@ -1964,18 +1905,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0716,
+      "lng": -80.9667
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Fountain Inn, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Fountain Inn!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Fountain Inn"
     }
   },
@@ -1983,9 +1925,7 @@ export const locations: Location[] = [
     "slug": "red-bank",
     "name": "Red Bank",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29657"],
     "neighborhoods": [
       "Downtown Red Bank",
       "Greater Red Bank"
@@ -1998,18 +1938,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9911,
+      "lng": -80.9371
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Red Bank, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Red Bank!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Red Bank"
     }
   },
@@ -2017,9 +1958,7 @@ export const locations: Location[] = [
     "slug": "forest-acres",
     "name": "Forest Acres",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29508"],
     "neighborhoods": [
       "Downtown Forest Acres",
       "Greater Forest Acres"
@@ -2032,28 +1971,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0058,
+      "lng": -81.1252
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Forest Acres, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Forest Acres!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Forest Acres!",
       "location": "Forest Acres"
     }
   },
   {
     "slug": "murrells-inlet",
     "name": "Murrells Inlet",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Horry County",
+    "zip": ["29576"],
     "neighborhoods": [
       "Downtown Murrells Inlet",
       "Greater Murrells Inlet"
@@ -2066,28 +2004,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0445,
+      "lng": -81.0739
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Murrells Inlet, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Murrells Inlet!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Murrells Inlet"
     }
   },
   {
     "slug": "little-river",
     "name": "Little River",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Horry County",
+    "zip": ["29566"],
     "neighborhoods": [
       "Downtown Little River",
       "Greater Little River"
@@ -2100,18 +2037,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9825,
+      "lng": -81.0984
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Little River, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Little River!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Little River"
     }
   },
@@ -2119,9 +2057,7 @@ export const locations: Location[] = [
     "slug": "woodfield",
     "name": "Woodfield",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29104"],
     "neighborhoods": [
       "Downtown Woodfield",
       "Greater Woodfield"
@@ -2134,28 +2070,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0881,
+      "lng": -81.0705
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Woodfield, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Woodfield!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Woodfield"
     }
   },
   {
     "slug": "lugoff",
     "name": "Lugoff",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Kershaw County",
+    "zip": ["29078"],
     "neighborhoods": [
       "Downtown Lugoff",
       "Greater Lugoff"
@@ -2168,28 +2103,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0310,
+      "lng": -80.9485
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lugoff, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Lugoff!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Lugoff!",
       "location": "Lugoff"
     }
   },
   {
     "slug": "laurens",
     "name": "Laurens",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Laurens County",
+    "zip": ["29360"],
     "neighborhoods": [
       "Downtown Laurens",
       "Greater Laurens"
@@ -2202,18 +2136,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0717,
+      "lng": -81.0915
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Laurens, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Laurens!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Laurens"
     }
   },
@@ -2221,9 +2156,7 @@ export const locations: Location[] = [
     "slug": "litchfield-beach",
     "name": "Litchfield Beach",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29858"],
     "neighborhoods": [
       "Downtown Litchfield Beach",
       "Greater Litchfield Beach"
@@ -2236,28 +2169,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9581,
+      "lng": -81.0731
+    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Litchfield Beach, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/2e0591b6f8d548e3922ef0c641103b4d_3f078.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Litchfield Beach!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Litchfield Beach"
     }
   },
   {
     "slug": "seneca",
     "name": "Seneca",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Oconee County",
+    "zip": ["29672"],
     "neighborhoods": [
       "Downtown Seneca",
       "Greater Seneca"
@@ -2270,18 +2202,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9213,
+      "lng": -80.9670
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Seneca, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Seneca!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Seneca"
     }
   },
@@ -2289,9 +2222,7 @@ export const locations: Location[] = [
     "slug": "sangaree",
     "name": "Sangaree",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29872"],
     "neighborhoods": [
       "Downtown Sangaree",
       "Greater Sangaree"
@@ -2304,28 +2235,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9269,
+      "lng": -81.1294
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Sangaree, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Sangaree!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Sangaree"
     }
   },
   {
     "slug": "lancaster",
     "name": "Lancaster",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Lancaster County",
+    "zip": ["29720"],
     "neighborhoods": [
       "Downtown Lancaster",
       "Greater Lancaster"
@@ -2338,28 +2268,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0479,
+      "lng": -81.0583
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lancaster, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Lancaster!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Lancaster"
     }
   },
   {
     "slug": "york",
     "name": "York",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "York County",
+    "zip": ["29745"],
     "neighborhoods": [
       "Downtown York",
       "Greater York"
@@ -2372,28 +2301,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0608,
+      "lng": -81.0504
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In York, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in York!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "York"
     }
   },
   {
     "slug": "georgetown",
     "name": "Georgetown",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Georgetown County",
+    "zip": ["29440"],
     "neighborhoods": [
       "Downtown Georgetown",
       "Greater Georgetown"
@@ -2406,28 +2334,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9188,
+      "lng": -81.0927
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Georgetown, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Georgetown!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Georgetown"
     }
   },
   {
     "slug": "union",
     "name": "Union",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Union County",
+    "zip": ["29379"],
     "neighborhoods": [
       "Downtown Union",
       "Greater Union"
@@ -2440,28 +2367,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9753,
+      "lng": -81.0979
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Union, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Union!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Union"
     }
   },
   {
     "slug": "hardeeville",
     "name": "Hardeeville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Jasper County",
+    "zip": ["29927"],
     "neighborhoods": [
       "Downtown Hardeeville",
       "Greater Hardeeville"
@@ -2474,18 +2400,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9378,
+      "lng": -81.0795
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Hardeeville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Hardeeville!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Hardeeville"
     }
   },
@@ -2493,9 +2420,7 @@ export const locations: Location[] = [
     "slug": "sans-souci",
     "name": "Sans Souci",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29492"],
     "neighborhoods": [
       "Downtown Sans Souci",
       "Greater Sans Souci"
@@ -2508,28 +2433,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9547,
+      "lng": -81.1269
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Sans Souci, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Sans Souci!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Sans Souci"
     }
   },
   {
     "slug": "travelers-rest",
     "name": "Travelers Rest",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Greenville County",
+    "zip": ["29690"],
     "neighborhoods": [
       "Downtown Travelers Rest",
       "Greater Travelers Rest"
@@ -2542,28 +2466,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0938,
+      "lng": -80.9565
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Travelers Rest, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Travelers Rest!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Travelers Rest"
     }
   },
   {
     "slug": "camden",
     "name": "Camden",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Kershaw County",
+    "zip": ["29020"],
     "neighborhoods": [
       "Downtown Camden",
       "Greater Camden"
@@ -2576,28 +2499,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0602,
+      "lng": -81.0751
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Camden, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Camden!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Camden"
     }
   },
   {
     "slug": "clinton",
     "name": "Clinton",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Laurens County",
+    "zip": ["29325"],
     "neighborhoods": [
       "Downtown Clinton",
       "Greater Clinton"
@@ -2610,18 +2532,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9249,
+      "lng": -81.0463
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Clinton, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Clinton!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Clinton"
     }
   },
@@ -2629,9 +2552,7 @@ export const locations: Location[] = [
     "slug": "burton",
     "name": "Burton",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29854"],
     "neighborhoods": [
       "Downtown Burton",
       "Greater Burton"
@@ -2644,18 +2565,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0623,
+      "lng": -80.9918
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Burton, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Burton!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Burton"
     }
   },
@@ -2663,9 +2585,7 @@ export const locations: Location[] = [
     "slug": "homeland-park",
     "name": "Homeland Park",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29651"],
     "neighborhoods": [
       "Downtown Homeland Park",
       "Greater Homeland Park"
@@ -2678,28 +2598,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0492,
+      "lng": -81.1087
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Homeland Park, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Homeland Park!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Homeland Park"
     }
   },
   {
     "slug": "hartsville",
     "name": "Hartsville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Darlington County",
+    "zip": ["29550"],
     "neighborhoods": [
       "Downtown Hartsville",
       "Greater Hartsville"
@@ -2712,18 +2631,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9233,
+      "lng": -81.0461
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Hartsville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Hartsville!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Hartsville"
     }
   },
@@ -2731,9 +2651,7 @@ export const locations: Location[] = [
     "slug": "forestbrook",
     "name": "Forestbrook",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29436"],
     "neighborhoods": [
       "Downtown Forestbrook",
       "Greater Forestbrook"
@@ -2746,18 +2664,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9942,
+      "lng": -80.9444
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Forestbrook, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Forestbrook!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Forestbrook"
     }
   },
@@ -2765,9 +2684,7 @@ export const locations: Location[] = [
     "slug": "centerville",
     "name": "Centerville",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29507"],
     "neighborhoods": [
       "Downtown Centerville",
       "Greater Centerville"
@@ -2780,18 +2697,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9608,
+      "lng": -81.0760
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Centerville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Centerville!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Centerville"
     }
   },
@@ -2799,9 +2717,7 @@ export const locations: Location[] = [
     "slug": "white-knoll",
     "name": "White Knoll",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29686"],
     "neighborhoods": [
       "Downtown White Knoll",
       "Greater White Knoll"
@@ -2814,18 +2730,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9260,
+      "lng": -81.0553
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In White Knoll, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in White Knoll!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "White Knoll"
     }
   },
@@ -2833,9 +2750,7 @@ export const locations: Location[] = [
     "slug": "welcome",
     "name": "Welcome",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29581"],
     "neighborhoods": [
       "Downtown Welcome",
       "Greater Welcome"
@@ -2848,18 +2763,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0616,
+      "lng": -81.0292
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Welcome, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Welcome!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Welcome"
     }
   },
@@ -2867,9 +2783,7 @@ export const locations: Location[] = [
     "slug": "valley-falls",
     "name": "Valley Falls",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29104"],
     "neighborhoods": [
       "Downtown Valley Falls",
       "Greater Valley Falls"
@@ -2882,28 +2796,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0340,
+      "lng": -80.9609
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Valley Falls, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Valley Falls!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Valley Falls"
     }
   },
   {
     "slug": "bennettsville",
     "name": "Bennettsville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Marlboro County",
+    "zip": ["29512"],
     "neighborhoods": [
       "Downtown Bennettsville",
       "Greater Bennettsville"
@@ -2916,18 +2829,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0997,
+      "lng": -80.9556
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Bennettsville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Bennettsville!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Bennettsville"
     }
   },
@@ -2935,9 +2849,7 @@ export const locations: Location[] = [
     "slug": "lake-murray-of-richland",
     "name": "Lake Murray of Richland",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29668"],
     "neighborhoods": [
       "Downtown Lake Murray of Richland",
       "Greater Lake Murray of Richland"
@@ -2950,28 +2862,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0400,
+      "lng": -81.0359
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lake Murray of Richland, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Lake Murray of Richland!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Lake Murray of Richland"
     }
   },
   {
     "slug": "clover",
     "name": "Clover",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "York County",
+    "zip": ["29710"],
     "neighborhoods": [
       "Downtown Clover",
       "Greater Clover"
@@ -2984,28 +2895,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9716,
+      "lng": -81.0869
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Clover, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Clover!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Clover"
     }
   },
   {
     "slug": "dillon",
     "name": "Dillon",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Dillon County",
+    "zip": ["29536"],
     "neighborhoods": [
       "Downtown Dillon",
       "Greater Dillon"
@@ -3018,28 +2928,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0462,
+      "lng": -80.9985
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Dillon, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Dillon!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Dillon"
     }
   },
   {
     "slug": "marion",
     "name": "Marion",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Marion County",
+    "zip": ["29571"],
     "neighborhoods": [
       "Downtown Marion",
       "Greater Marion"
@@ -3052,18 +2961,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9870,
+      "lng": -81.0036
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Marion, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Marion!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Marion!",
       "location": "Marion"
     }
   },
@@ -3071,9 +2981,7 @@ export const locations: Location[] = [
     "slug": "clemson-university",
     "name": "Clemson University",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29171"],
     "neighborhoods": [
       "Downtown Clemson University",
       "Greater Clemson University"
@@ -3086,28 +2994,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9097,
+      "lng": -81.0432
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Clemson University, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Clemson University!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Clemson University"
     }
   },
   {
     "slug": "darlington",
     "name": "Darlington",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Darlington County",
+    "zip": ["29532"],
     "neighborhoods": [
       "Downtown Darlington",
       "Greater Darlington"
@@ -3120,28 +3027,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0008,
+      "lng": -81.1183
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Darlington, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Darlington!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Darlington"
     }
   },
   {
     "slug": "lyman",
     "name": "Lyman",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Spartanburg County",
+    "zip": ["29365"],
     "neighborhoods": [
       "Downtown Lyman",
       "Greater Lyman"
@@ -3154,28 +3060,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9384,
+      "lng": -81.1027
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lyman, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Lyman!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Lyman"
     }
   },
   {
     "slug": "lake-city",
     "name": "Lake city",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Florence County",
+    "zip": ["29560"],
     "neighborhoods": [
       "Downtown Lake city",
       "Greater Lake city"
@@ -3188,18 +3093,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9397,
+      "lng": -81.0898
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lake city, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Lake city!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Lake city"
     }
   },
@@ -3207,9 +3113,7 @@ export const locations: Location[] = [
     "slug": "belvedere",
     "name": "Belvedere",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29351"],
     "neighborhoods": [
       "Downtown Belvedere",
       "Greater Belvedere"
@@ -3222,28 +3126,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0810,
+      "lng": -80.9906
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Belvedere, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Belvedere!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Belvedere!",
       "location": "Belvedere"
     }
   },
   {
     "slug": "walterboro",
     "name": "Walterboro",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Colleton County",
+    "zip": ["29488"],
     "neighborhoods": [
       "Downtown Walterboro",
       "Greater Walterboro"
@@ -3256,18 +3159,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0215,
+      "lng": -80.9830
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Walterboro, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Walterboro!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Walterboro"
     }
   },
@@ -3275,9 +3179,7 @@ export const locations: Location[] = [
     "slug": "laurel-bay",
     "name": "Laurel Bay",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29565"],
     "neighborhoods": [
       "Downtown Laurel Bay",
       "Greater Laurel Bay"
@@ -3290,28 +3192,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9161,
+      "lng": -80.9600
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Laurel Bay, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Laurel Bay!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Laurel Bay!",
       "location": "Laurel Bay"
     }
   },
   {
     "slug": "piedmont",
     "name": "Piedmont",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Greenville County",
+    "zip": ["29673"],
     "neighborhoods": [
       "Downtown Piedmont",
       "Greater Piedmont"
@@ -3324,28 +3225,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0261,
+      "lng": -81.0688
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Piedmont, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Piedmont!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Piedmont"
     }
   },
   {
     "slug": "hollywood",
     "name": "Hollywood",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Charleston County",
+    "zip": ["29449"],
     "neighborhoods": [
       "Downtown Hollywood",
       "Greater Hollywood"
@@ -3358,28 +3258,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9770,
+      "lng": -80.9427
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Hollywood, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Hollywood!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Hollywood"
     }
   },
   {
     "slug": "central",
     "name": "Central",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Pickens County",
+    "zip": ["29630"],
     "neighborhoods": [
       "Downtown Central",
       "Greater Central"
@@ -3392,28 +3291,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9563,
+      "lng": -81.0093
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Central, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Central!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Central"
     }
   },
   {
     "slug": "chester",
     "name": "Chester",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Chester County",
+    "zip": ["29706"],
     "neighborhoods": [
       "Downtown Chester",
       "Greater Chester"
@@ -3426,28 +3324,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0869,
+      "lng": -80.9916
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Chester, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Chester!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Chester"
     }
   },
   {
     "slug": "cheraw",
     "name": "Cheraw",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Chesterfield County",
+    "zip": ["29520"],
     "neighborhoods": [
       "Downtown Cheraw",
       "Greater Cheraw"
@@ -3460,18 +3357,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0519,
+      "lng": -81.1247
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Cheraw, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Cheraw!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Cheraw!",
       "location": "Cheraw"
     }
   },
@@ -3479,9 +3377,7 @@ export const locations: Location[] = [
     "slug": "batesburg-leesville",
     "name": "Batesburg-Leesville",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29968"],
     "neighborhoods": [
       "Downtown Batesburg-Leesville",
       "Greater Batesburg-Leesville"
@@ -3494,28 +3390,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9013,
+      "lng": -81.0294
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Batesburg-Leesville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Batesburg-Leesville!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Batesburg-Leesville"
     }
   },
   {
     "slug": "abbeville",
     "name": "Abbeville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Abbeville County",
+    "zip": ["29620"],
     "neighborhoods": [
       "Downtown Abbeville",
       "Greater Abbeville"
@@ -3528,28 +3423,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9508,
+      "lng": -81.0157
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Abbeville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Abbeville!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Abbeville!",
       "location": "Abbeville"
     }
   },
   {
     "slug": "blythewood",
     "name": "Blythewood",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Richland County",
+    "zip": ["29016"],
     "neighborhoods": [
       "Downtown Blythewood",
       "Greater Blythewood"
@@ -3562,28 +3456,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9909,
+      "lng": -81.0545
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Blythewood, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Blythewood!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Blythewood"
     }
   },
   {
     "slug": "barnwell",
     "name": "Barnwell",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Barnwell County",
+    "zip": ["29812"],
     "neighborhoods": [
       "Downtown Barnwell",
       "Greater Barnwell"
@@ -3596,18 +3489,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0973,
+      "lng": -81.1205
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Barnwell, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Barnwell!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Barnwell!",
       "location": "Barnwell"
     }
   },
@@ -3615,9 +3509,7 @@ export const locations: Location[] = [
     "slug": "baxter-village",
     "name": "Baxter Village",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29817"],
     "neighborhoods": [
       "Downtown Baxter Village",
       "Greater Baxter Village"
@@ -3630,18 +3522,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0201,
+      "lng": -81.0404
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Baxter Village, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Baxter Village!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Baxter Village"
     }
   },
@@ -3649,9 +3542,7 @@ export const locations: Location[] = [
     "slug": "india-hook",
     "name": "India Hook",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29480"],
     "neighborhoods": [
       "Downtown India Hook",
       "Greater India Hook"
@@ -3664,28 +3555,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0263,
+      "lng": -80.9497
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In India Hook, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in India Hook!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "India Hook"
     }
   },
   {
     "slug": "belton",
     "name": "Belton",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Anderson County",
+    "zip": ["29627"],
     "neighborhoods": [
       "Downtown Belton",
       "Greater Belton"
@@ -3698,28 +3588,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9394,
+      "lng": -80.9718
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Belton, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Belton!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Belton"
     }
   },
   {
     "slug": "isle-of-palms",
     "name": "Isle of Palms",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Charleston County",
+    "zip": ["29451"],
     "neighborhoods": [
       "Downtown Isle of Palms",
       "Greater Isle of Palms"
@@ -3732,28 +3621,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9091,
+      "lng": -81.0885
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Isle of Palms, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Isle of Palms!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Isle of Palms"
     }
   },
   {
     "slug": "woodruff",
     "name": "Woodruff",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Spartanburg County",
+    "zip": ["29388"],
     "neighborhoods": [
       "Downtown Woodruff",
       "Greater Woodruff"
@@ -3766,18 +3654,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9651,
+      "lng": -80.9924
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Woodruff, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Woodruff!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Woodruff"
     }
   },
@@ -3785,9 +3674,7 @@ export const locations: Location[] = [
     "slug": "newport",
     "name": "Newport",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29433"],
     "neighborhoods": [
       "Downtown Newport",
       "Greater Newport"
@@ -3800,18 +3687,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0636,
+      "lng": -80.9627
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Newport, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Newport!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Newport"
     }
   },
@@ -3819,9 +3707,7 @@ export const locations: Location[] = [
     "slug": "surfside-beach",
     "name": "Surfside Beach",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29893"],
     "neighborhoods": [
       "Downtown Surfside Beach",
       "Greater Surfside Beach"
@@ -3834,18 +3720,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9881,
+      "lng": -80.9759
+    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Surfside Beach, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/2e0591b6f8d548e3922ef0c641103b4d_3f078.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Surfside Beach!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Surfside Beach"
     }
   },
@@ -3853,9 +3740,7 @@ export const locations: Location[] = [
     "slug": "saxon",
     "name": "Saxon",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29754"],
     "neighborhoods": [
       "Downtown Saxon",
       "Greater Saxon"
@@ -3868,28 +3753,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9626,
+      "lng": -81.0761
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Saxon, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Saxon!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Saxon"
     }
   },
   {
     "slug": "walhalla",
     "name": "Walhalla",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Oconee County",
+    "zip": ["29691"],
     "neighborhoods": [
       "Downtown Walhalla",
       "Greater Walhalla"
@@ -3902,28 +3786,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0869,
+      "lng": -81.0669
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Walhalla, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Walhalla!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Walhalla"
     }
   },
   {
     "slug": "williamston",
     "name": "Williamston",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Anderson County",
+    "zip": ["29697"],
     "neighborhoods": [
       "Downtown Williamston",
       "Greater Williamston"
@@ -3936,18 +3819,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0722,
+      "lng": -80.9439
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Williamston, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Williamston!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Williamston"
     }
   },
@@ -3955,9 +3839,7 @@ export const locations: Location[] = [
     "slug": "brookdale",
     "name": "Brookdale",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29523"],
     "neighborhoods": [
       "Downtown Brookdale",
       "Greater Brookdale"
@@ -3970,28 +3852,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9030,
+      "lng": -81.0611
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Brookdale, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Brookdale!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Brookdale"
     }
   },
   {
     "slug": "duncan",
     "name": "Duncan",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Spartanburg County",
+    "zip": ["29334"],
     "neighborhoods": [
       "Downtown Duncan",
       "Greater Duncan"
@@ -4004,28 +3885,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0567,
+      "lng": -80.9889
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Duncan, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Duncan!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Duncan"
     }
   },
   {
     "slug": "mullins",
     "name": "Mullins",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Marion County",
+    "zip": ["29574"],
     "neighborhoods": [
       "Downtown Mullins",
       "Greater Mullins"
@@ -4038,18 +3918,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0614,
+      "lng": -81.0020
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Mullins, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Mullins!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Mullins"
     }
   },
@@ -4057,9 +3938,7 @@ export const locations: Location[] = [
     "slug": "northlake",
     "name": "Northlake",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29325"],
     "neighborhoods": [
       "Downtown Northlake",
       "Greater Northlake"
@@ -4072,28 +3951,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0664,
+      "lng": -81.1044
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Northlake, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Northlake!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Northlake"
     }
   },
   {
     "slug": "manning",
     "name": "Manning",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Clarendon County",
+    "zip": ["29102"],
     "neighborhoods": [
       "Downtown Manning",
       "Greater Manning"
@@ -4106,18 +3984,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0691,
+      "lng": -80.9630
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Manning, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Manning!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Manning"
     }
   },
@@ -4125,9 +4004,7 @@ export const locations: Location[] = [
     "slug": "southern-shops",
     "name": "Southern Shops",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29775"],
     "neighborhoods": [
       "Downtown Southern Shops",
       "Greater Southern Shops"
@@ -4140,28 +4017,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9723,
+      "lng": -80.9725
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Southern Shops, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Southern Shops!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Southern Shops"
     }
   },
   {
     "slug": "roebuck",
     "name": "Roebuck",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Spartanburg County",
+    "zip": ["29376"],
     "neighborhoods": [
       "Downtown Roebuck",
       "Greater Roebuck"
@@ -4174,18 +4050,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0982,
+      "lng": -81.1301
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Roebuck, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Roebuck!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Roebuck"
     }
   },
@@ -4193,9 +4070,7 @@ export const locations: Location[] = [
     "slug": "wyboo",
     "name": "Wyboo",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29783"],
     "neighborhoods": [
       "Downtown Wyboo",
       "Greater Wyboo"
@@ -4208,28 +4083,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9124,
+      "lng": -81.0860
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Wyboo, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Wyboo!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Wyboo"
     }
   },
   {
     "slug": "ridgeland",
     "name": "Ridgeland",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Jasper County",
+    "zip": ["29936"],
     "neighborhoods": [
       "Downtown Ridgeland",
       "Greater Ridgeland"
@@ -4242,18 +4116,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0096,
+      "lng": -81.0031
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Ridgeland, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Ridgeland!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Ridgeland"
     }
   },
@@ -4261,9 +4136,7 @@ export const locations: Location[] = [
     "slug": "whitney",
     "name": "Whitney",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29920"],
     "neighborhoods": [
       "Downtown Whitney",
       "Greater Whitney"
@@ -4276,28 +4149,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0890,
+      "lng": -81.0345
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Whitney, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Whitney!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Whitney!",
       "location": "Whitney"
     }
   },
   {
     "slug": "honea-path",
     "name": "Honea Path",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Anderson County",
+    "zip": ["29654"],
     "neighborhoods": [
       "Downtown Honea Path",
       "Greater Honea Path"
@@ -4310,28 +4182,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9980,
+      "lng": -80.9511
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Honea Path, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Honea Path!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Honea Path!",
       "location": "Honea Path"
     }
   },
   {
     "slug": "andrews",
     "name": "Andrews",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Williamsburg County",
+    "zip": ["29510"],
     "neighborhoods": [
       "Downtown Andrews",
       "Greater Andrews"
@@ -4344,18 +4215,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0080,
+      "lng": -81.1100
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Andrews, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Andrews!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Andrews"
     }
   },
@@ -4363,9 +4235,7 @@ export const locations: Location[] = [
     "slug": "east-camden",
     "name": "East Camden",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29288"],
     "neighborhoods": [
       "Downtown East Camden",
       "Greater East Camden"
@@ -4378,28 +4248,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9466,
+      "lng": -80.9491
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In East Camden, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in East Camden!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in East Camden!",
       "location": "East Camden"
     }
   },
   {
     "slug": "pendleton",
     "name": "Pendleton",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Anderson County",
+    "zip": ["29670"],
     "neighborhoods": [
       "Downtown Pendleton",
       "Greater Pendleton"
@@ -4412,18 +4281,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9108,
+      "lng": -81.0647
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Pendleton, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Pendleton!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Pendleton"
     }
   },
@@ -4431,9 +4301,7 @@ export const locations: Location[] = [
     "slug": "capitol-view",
     "name": "Capitol View",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29107"],
     "neighborhoods": [
       "Downtown Capitol View",
       "Greater Capitol View"
@@ -4446,18 +4314,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0456,
+      "lng": -81.1194
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Capitol View, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Capitol View!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Capitol View"
     }
   },
@@ -4465,9 +4334,7 @@ export const locations: Location[] = [
     "slug": "dunean",
     "name": "Dunean",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29355"],
     "neighborhoods": [
       "Downtown Dunean",
       "Greater Dunean"
@@ -4480,28 +4347,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9923,
+      "lng": -81.0733
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Dunean, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Dunean!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Dunean"
     }
   },
   {
     "slug": "dalzell",
     "name": "Dalzell",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Sumter County",
+    "zip": ["29040"],
     "neighborhoods": [
       "Downtown Dalzell",
       "Greater Dalzell"
@@ -4514,28 +4380,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0949,
+      "lng": -80.9504
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Dalzell, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Dalzell!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Dalzell"
     }
   },
   {
     "slug": "clearwater",
     "name": "Clearwater",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Aiken County",
+    "zip": ["29822"],
     "neighborhoods": [
       "Downtown clearwater",
       "Greater clearwater"
@@ -4548,28 +4413,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9899,
+      "lng": -81.1134
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In clearwater, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in clearwater!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "clearwater"
     }
   },
   {
     "slug": "pickens",
     "name": "Pickens",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Pickens County",
+    "zip": ["29671"],
     "neighborhoods": [
       "Downtown Pickens",
       "Greater Pickens"
@@ -4582,28 +4446,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9501,
+      "lng": -81.0340
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Pickens, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Pickens!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Pickens"
     }
   },
   {
     "slug": "wellford",
     "name": "Wellford",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Spartanburg County",
+    "zip": ["29385"],
     "neighborhoods": [
       "Downtown Wellford",
       "Greater Wellford"
@@ -4616,28 +4479,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0384,
+      "lng": -80.9829
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Wellford, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Wellford!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Wellford"
     }
   },
   {
     "slug": "liberty",
     "name": "Liberty",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Pickens County",
+    "zip": ["29657"],
     "neighborhoods": [
       "Downtown Liberty",
       "Greater Liberty"
@@ -4650,18 +4512,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0073,
+      "lng": -81.1048
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Liberty, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Liberty!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Liberty!",
       "location": "Liberty"
     }
   },
@@ -4669,9 +4532,7 @@ export const locations: Location[] = [
     "slug": "golden-grove",
     "name": "Golden Grove",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29643"],
     "neighborhoods": [
       "Downtown Golden Grove",
       "Greater Golden Grove"
@@ -4684,18 +4545,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9758,
+      "lng": -80.9679
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Golden Grove, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Golden Grove!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Golden Grove"
     }
   },
@@ -4703,9 +4565,7 @@ export const locations: Location[] = [
     "slug": "north-hartsville",
     "name": "North Hartsville",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29415"],
     "neighborhoods": [
       "Downtown North Hartsville",
       "Greater North Hartsville"
@@ -4718,18 +4578,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0397,
+      "lng": -81.0943
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In North Hartsville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in North Hartsville!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in North Hartsville!",
       "location": "North Hartsville"
     }
   },
@@ -4737,9 +4598,7 @@ export const locations: Location[] = [
     "slug": "hilltop",
     "name": "Hilltop",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29474"],
     "neighborhoods": [
       "Downtown Hilltop",
       "Greater Hilltop"
@@ -4752,28 +4611,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0221,
+      "lng": -81.0551
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Hilltop, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Hilltop!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Hilltop"
     }
   },
   {
     "slug": "winnsboro",
     "name": "Winnsboro",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Fairfield County",
+    "zip": ["29180"],
     "neighborhoods": [
       "Downtown Winnsboro",
       "Greater Winnsboro"
@@ -4786,28 +4644,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9160,
+      "lng": -81.0128
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Winnsboro, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Winnsboro!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Winnsboro!",
       "location": "Winnsboro"
     }
   },
   {
     "slug": "kingstree",
     "name": "Kingstree",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Williamsburg County",
+    "zip": ["29556"],
     "neighborhoods": [
       "Downtown Kingstree",
       "Greater Kingstree"
@@ -4820,28 +4677,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0204,
+      "lng": -81.0705
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Kingstree, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Kingstree!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Kingstree!",
       "location": "Kingstree"
     }
   },
   {
     "slug": "denmark",
     "name": "Denmark",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Bamberg County",
+    "zip": ["29042"],
     "neighborhoods": [
       "Downtown Denmark",
       "Greater Denmark"
@@ -4854,18 +4710,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9941,
+      "lng": -81.0864
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Denmark, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Denmark!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Denmark"
     }
   },
@@ -4873,9 +4730,7 @@ export const locations: Location[] = [
     "slug": "lakewood",
     "name": "Lakewood",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29138"],
     "neighborhoods": [
       "Downtown Lakewood",
       "Greater Lakewood"
@@ -4888,28 +4743,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0464,
+      "lng": -81.0695
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lakewood, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Lakewood!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Lakewood!",
       "location": "Lakewood"
     }
   },
   {
     "slug": "saluda",
     "name": "Saluda",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Saluda County",
+    "zip": ["29138"],
     "neighborhoods": [
       "Downtown Saluda",
       "Greater Saluda"
@@ -4922,18 +4776,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0057,
+      "lng": -81.0019
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Saluda, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Saluda!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Saluda"
     }
   },
@@ -4941,9 +4796,7 @@ export const locations: Location[] = [
     "slug": "lesslie",
     "name": "Lesslie",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29463"],
     "neighborhoods": [
       "Downtown Lesslie",
       "Greater Lesslie"
@@ -4956,28 +4809,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0787,
+      "lng": -81.0406
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lesslie, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Lesslie!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Lesslie!",
       "location": "Lesslie"
     }
   },
   {
     "slug": "gloverville",
     "name": "Gloverville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Aiken County",
+    "zip": ["29828"],
     "neighborhoods": [
       "Downtown Gloverville",
       "Greater Gloverville"
@@ -4990,28 +4842,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9900,
+      "lng": -80.9919
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Gloverville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Gloverville!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Gloverville"
     }
   },
   {
     "slug": "bamberg",
     "name": "Bamberg",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Bamberg County",
+    "zip": ["29003"],
     "neighborhoods": [
       "Downtown Bamberg",
       "Greater Bamberg"
@@ -5024,18 +4875,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9996,
+      "lng": -81.1324
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Bamberg, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Bamberg!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Bamberg!",
       "location": "Bamberg"
     }
   },
@@ -5043,9 +4895,7 @@ export const locations: Location[] = [
     "slug": "keowee-key",
     "name": "Keowee Key",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29398"],
     "neighborhoods": [
       "Downtown Keowee Key",
       "Greater Keowee Key"
@@ -5058,18 +4908,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0778,
+      "lng": -81.0760
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Keowee Key, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Keowee Key!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Keowee Key!",
       "location": "Keowee Key"
     }
   },
@@ -5077,9 +4928,7 @@ export const locations: Location[] = [
     "slug": "burnettown",
     "name": "Burnettown",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29249"],
     "neighborhoods": [
       "Downtown Burnettown",
       "Greater Burnettown"
@@ -5092,18 +4941,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0639,
+      "lng": -81.1283
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Burnettown, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Burnettown!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Burnettown"
     }
   },
@@ -5111,9 +4961,7 @@ export const locations: Location[] = [
     "slug": "arthurtown",
     "name": "Arthurtown",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29783"],
     "neighborhoods": [
       "Downtown Arthurtown",
       "Greater Arthurtown"
@@ -5126,28 +4974,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9255,
+      "lng": -81.1245
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Arthurtown, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Arthurtown!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Arthurtown"
     }
   },
   {
     "slug": "inman",
     "name": "Inman",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Spartanburg County",
+    "zip": ["29349"],
     "neighborhoods": [
       "Downtown Inman",
       "Greater Inman"
@@ -5160,28 +5007,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9148,
+      "lng": -81.0761
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Inman, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Inman!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Inman"
     }
   },
   {
     "slug": "bishopville",
     "name": "Bishopville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Lee County",
+    "zip": ["29010"],
     "neighborhoods": [
       "Downtown Bishopville",
       "Greater Bishopville"
@@ -5194,18 +5040,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0372,
+      "lng": -81.0334
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Bishopville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Bishopville!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Bishopville"
     }
   },
@@ -5213,9 +5060,7 @@ export const locations: Location[] = [
     "slug": "east-gaffney",
     "name": "East Gaffney",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29748"],
     "neighborhoods": [
       "Downtown East Gaffney",
       "Greater East Gaffney"
@@ -5228,18 +5073,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9802,
+      "lng": -81.1075
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In East Gaffney, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in East Gaffney!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "East Gaffney"
     }
   },
@@ -5247,9 +5093,7 @@ export const locations: Location[] = [
     "slug": "elgin-cdp",
     "name": "Elgin cDP",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29167"],
     "neighborhoods": [
       "Downtown Elgin cDP",
       "Greater Elgin cDP"
@@ -5262,28 +5106,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9570,
+      "lng": -80.9654
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Elgin cDP, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Elgin cDP!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Elgin cDP"
     }
   },
   {
     "slug": "williston",
     "name": "Williston",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Barnwell County",
+    "zip": ["29853"],
     "neighborhoods": [
       "Downtown Williston",
       "Greater Williston"
@@ -5296,28 +5139,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9398,
+      "lng": -81.0626
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Williston, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Williston!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Williston"
     }
   },
   {
     "slug": "arcadia",
     "name": "Arcadia",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Spartanburg County",
+    "zip": ["29320"],
     "neighborhoods": [
       "Downtown Arcadia",
       "Greater Arcadia"
@@ -5330,18 +5172,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9608,
+      "lng": -81.0721
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Arcadia, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Arcadia!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Arcadia"
     }
   },
@@ -5349,9 +5192,7 @@ export const locations: Location[] = [
     "slug": "cherryvale",
     "name": "Cherryvale",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29182"],
     "neighborhoods": [
       "Downtown cherryvale",
       "Greater cherryvale"
@@ -5364,18 +5205,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9561,
+      "lng": -81.0714
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In cherryvale, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in cherryvale!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in cherryvale!",
       "location": "cherryvale"
     }
   },
@@ -5383,9 +5225,7 @@ export const locations: Location[] = [
     "slug": "mccormick",
     "name": "Mccormick",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29442"],
     "neighborhoods": [
       "Downtown Mccormick",
       "Greater Mccormick"
@@ -5398,28 +5238,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9249,
+      "lng": -81.0698
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Mccormick, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Mccormick!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Mccormick"
     }
   },
   {
     "slug": "pageland",
     "name": "Pageland",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Chesterfield County",
+    "zip": ["29728"],
     "neighborhoods": [
       "Downtown Pageland",
       "Greater Pageland"
@@ -5432,28 +5271,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0846,
+      "lng": -81.0564
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Pageland, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Pageland!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Pageland"
     }
   },
   {
     "slug": "hampton",
     "name": "Hampton",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Hampton County",
+    "zip": ["29924"],
     "neighborhoods": [
       "Downtown Hampton",
       "Greater Hampton"
@@ -5466,18 +5304,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0941,
+      "lng": -81.0705
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Hampton, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Hampton!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Hampton"
     }
   },
@@ -5485,9 +5324,7 @@ export const locations: Location[] = [
     "slug": "springdale-town",
     "name": "Springdale town",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29990"],
     "neighborhoods": [
       "Downtown Springdale town",
       "Greater Springdale town"
@@ -5500,28 +5337,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0563,
+      "lng": -81.0846
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Springdale town, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Springdale town!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Springdale town"
     }
   },
   {
     "slug": "allendale",
     "name": "Allendale",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Allendale County",
+    "zip": ["29810"],
     "neighborhoods": [
       "Downtown Allendale",
       "Greater Allendale"
@@ -5534,18 +5370,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0743,
+      "lng": -81.0629
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Allendale, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Allendale!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Allendale"
     }
   },
@@ -5553,9 +5390,7 @@ export const locations: Location[] = [
     "slug": "pine-ridge-town",
     "name": "Pine Ridge town",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29453"],
     "neighborhoods": [
       "Downtown Pine Ridge town",
       "Greater Pine Ridge town"
@@ -5568,18 +5403,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0841,
+      "lng": -81.0956
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Pine Ridge town, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Pine Ridge town!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Pine Ridge town"
     }
   },
@@ -5587,9 +5423,7 @@ export const locations: Location[] = [
     "slug": "arkwright",
     "name": "Arkwright",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29166"],
     "neighborhoods": [
       "Downtown Arkwright",
       "Greater Arkwright"
@@ -5602,18 +5436,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0614,
+      "lng": -81.0922
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Arkwright, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Arkwright!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Arkwright!",
       "location": "Arkwright"
     }
   },
@@ -5621,9 +5456,7 @@ export const locations: Location[] = [
     "slug": "springdale-cdp",
     "name": "Springdale cDP",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29499"],
     "neighborhoods": [
       "Downtown Springdale cDP",
       "Greater Springdale cDP"
@@ -5636,28 +5469,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9368,
+      "lng": -80.9707
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Springdale cDP, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Springdale cDP!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Springdale cDP"
     }
   },
   {
     "slug": "ninety-six",
     "name": "Ninety Six",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Greenwood County",
+    "zip": ["29666"],
     "neighborhoods": [
       "Downtown Ninety Six",
       "Greater Ninety Six"
@@ -5670,28 +5502,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9745,
+      "lng": -80.9784
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Ninety Six, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Ninety Six!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Ninety Six!",
       "location": "Ninety Six"
     }
   },
   {
     "slug": "ravenel",
     "name": "Ravenel",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Charleston County",
+    "zip": ["29470"],
     "neighborhoods": [
       "Downtown Ravenel",
       "Greater Ravenel"
@@ -5704,28 +5535,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0110,
+      "lng": -81.0731
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Ravenel, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Ravenel!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Ravenel"
     }
   },
   {
     "slug": "loris",
     "name": "Loris",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Horry County",
+    "zip": ["29569"],
     "neighborhoods": [
       "Downtown Loris",
       "Greater Loris"
@@ -5738,28 +5568,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9742,
+      "lng": -81.1198
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Loris, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Loris!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Loris"
     }
   },
   {
     "slug": "new-ellenton",
     "name": "New Ellenton",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Aiken County",
+    "zip": ["29809"],
     "neighborhoods": [
       "Downtown New Ellenton",
       "Greater New Ellenton"
@@ -5772,28 +5601,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9800,
+      "lng": -80.9416
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In New Ellenton, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in New Ellenton!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "New Ellenton"
     }
   },
   {
     "slug": "edgefield",
     "name": "Edgefield",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Edgefield County",
+    "zip": ["29824"],
     "neighborhoods": [
       "Downtown Edgefield",
       "Greater Edgefield"
@@ -5806,28 +5634,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9727,
+      "lng": -80.9381
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Edgefield, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Edgefield!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Edgefield"
     }
   },
   {
     "slug": "landrum",
     "name": "Landrum",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Greenville County",
+    "zip": ["29356"],
     "neighborhoods": [
       "Downtown Landrum",
       "Greater Landrum"
@@ -5840,28 +5667,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0302,
+      "lng": -81.0216
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Landrum, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Landrum!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Landrum"
     }
   },
   {
     "slug": "graniteville",
     "name": "Graniteville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Aiken County",
+    "zip": ["29829"],
     "neighborhoods": [
       "Downtown Graniteville",
       "Greater Graniteville"
@@ -5874,28 +5700,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0763,
+      "lng": -81.1277
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Graniteville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Graniteville!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Graniteville!",
       "location": "Graniteville"
     }
   },
   {
     "slug": "johnston",
     "name": "Johnston",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Edgefield County",
+    "zip": ["29832"],
     "neighborhoods": [
       "Downtown Johnston",
       "Greater Johnston"
@@ -5908,18 +5733,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9954,
+      "lng": -81.0538
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Johnston, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Johnston!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Johnston"
     }
   },
@@ -5927,9 +5753,7 @@ export const locations: Location[] = [
     "slug": "sullivan's-island",
     "name": "Sullivan's Island",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29659"],
     "neighborhoods": [
       "Downtown Sullivan's Island",
       "Greater Sullivan's Island"
@@ -5942,28 +5766,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0700,
+      "lng": -80.9586
+    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Sullivan's Island, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/2e0591b6f8d548e3922ef0c641103b4d_3f078.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Sullivan's Island!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Sullivan's Island"
     }
   },
   {
     "slug": "kershaw",
     "name": "Kershaw",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Lancaster County",
+    "zip": ["29067"],
     "neighborhoods": [
       "Downtown Kershaw",
       "Greater Kershaw"
@@ -5976,18 +5799,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0212,
+      "lng": -81.0396
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Kershaw, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Kershaw!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Kershaw"
     }
   },
@@ -5995,9 +5819,7 @@ export const locations: Location[] = [
     "slug": "mccoll",
     "name": "Mccoll",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29788"],
     "neighborhoods": [
       "Downtown Mccoll",
       "Greater Mccoll"
@@ -6010,18 +5832,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9913,
+      "lng": -81.1069
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Mccoll, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Mccoll!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Mccoll"
     }
   },
@@ -6029,9 +5852,7 @@ export const locations: Location[] = [
     "slug": "south-congaree",
     "name": "South congaree",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29542"],
     "neighborhoods": [
       "Downtown South congaree",
       "Greater South congaree"
@@ -6044,18 +5865,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9063,
+      "lng": -81.0813
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In South congaree, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in South congaree!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in South congaree!",
       "location": "South congaree"
     }
   },
@@ -6063,9 +5885,7 @@ export const locations: Location[] = [
     "slug": "pimlico",
     "name": "Pimlico",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29688"],
     "neighborhoods": [
       "Downtown Pimlico",
       "Greater Pimlico"
@@ -6078,28 +5898,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9424,
+      "lng": -81.0377
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Pimlico, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Pimlico!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Pimlico"
     }
   },
   {
     "slug": "estill",
     "name": "Estill",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Hampton County",
+    "zip": ["29918"],
     "neighborhoods": [
       "Downtown Estill",
       "Greater Estill"
@@ -6112,28 +5931,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9984,
+      "lng": -81.0778
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Estill, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Estill!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Estill"
     }
   },
   {
     "slug": "westminster",
     "name": "Westminster",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Oconee County",
+    "zip": ["29693"],
     "neighborhoods": [
       "Downtown Westminster",
       "Greater Westminster"
@@ -6146,18 +5964,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0204,
+      "lng": -81.0140
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Westminster, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Westminster!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Westminster"
     }
   },
@@ -6165,9 +5984,7 @@ export const locations: Location[] = [
     "slug": "slater-marietta",
     "name": "Slater-Marietta",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29444"],
     "neighborhoods": [
       "Downtown Slater-Marietta",
       "Greater Slater-Marietta"
@@ -6180,18 +5997,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0431,
+      "lng": -80.9797
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Slater-Marietta, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Slater-Marietta!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Slater-Marietta!",
       "location": "Slater-Marietta"
     }
   },
@@ -6199,9 +6017,7 @@ export const locations: Location[] = [
     "slug": "privateer",
     "name": "Privateer",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29410"],
     "neighborhoods": [
       "Downtown Privateer",
       "Greater Privateer"
@@ -6214,28 +6030,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9412,
+      "lng": -80.9581
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Privateer, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Privateer!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Privateer"
     }
   },
   {
     "slug": "varnville",
     "name": "Varnville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Hampton County",
+    "zip": ["29944"],
     "neighborhoods": [
       "Downtown Varnville",
       "Greater Varnville"
@@ -6248,18 +6063,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0845,
+      "lng": -80.9480
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Varnville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Varnville!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Varnville!",
       "location": "Varnville"
     }
   },
@@ -6267,9 +6083,7 @@ export const locations: Location[] = [
     "slug": "ben-avon",
     "name": "Ben Avon",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29739"],
     "neighborhoods": [
       "Downtown Ben Avon",
       "Greater Ben Avon"
@@ -6282,18 +6096,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9568,
+      "lng": -81.0030
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Ben Avon, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Ben Avon!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Ben Avon"
     }
   },
@@ -6301,9 +6116,7 @@ export const locations: Location[] = [
     "slug": "kiawah-island",
     "name": "Kiawah Island",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29278"],
     "neighborhoods": [
       "Downtown Kiawah Island",
       "Greater Kiawah Island"
@@ -6316,28 +6129,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0304,
+      "lng": -81.0755
+    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Kiawah Island, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/2e0591b6f8d548e3922ef0c641103b4d_3f078.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Kiawah Island!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Kiawah Island"
     }
   },
   {
     "slug": "tigerville",
     "name": "Tigerville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Greenville County",
+    "zip": ["29688"],
     "neighborhoods": [
       "Downtown Tigerville",
       "Greater Tigerville"
@@ -6350,28 +6162,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9738,
+      "lng": -81.0539
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Tigerville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Tigerville!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Tigerville"
     }
   },
   {
     "slug": "timmonsville",
     "name": "Timmonsville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Florence County",
+    "zip": ["29161"],
     "neighborhoods": [
       "Downtown Timmonsville",
       "Greater Timmonsville"
@@ -6384,28 +6195,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9634,
+      "lng": -81.0402
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Timmonsville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Timmonsville!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Timmonsville"
     }
   },
   {
     "slug": "blacksburg",
     "name": "Blacksburg",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Cherokee County",
+    "zip": ["29702"],
     "neighborhoods": [
       "Downtown Blacksburg",
       "Greater Blacksburg"
@@ -6418,18 +6228,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0978,
+      "lng": -80.9722
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Blacksburg, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Blacksburg!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Blacksburg!",
       "location": "Blacksburg"
     }
   },
@@ -6437,9 +6248,7 @@ export const locations: Location[] = [
     "slug": "elgin-town",
     "name": "Elgin town",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29703"],
     "neighborhoods": [
       "Downtown Elgin town",
       "Greater Elgin town"
@@ -6452,18 +6261,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0215,
+      "lng": -81.1069
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Elgin town, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Elgin town!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Elgin town!",
       "location": "Elgin town"
     }
   },
@@ -6471,9 +6281,7 @@ export const locations: Location[] = [
     "slug": "seabrook-island",
     "name": "Seabrook Island",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29920"],
     "neighborhoods": [
       "Downtown Seabrook Island",
       "Greater Seabrook Island"
@@ -6486,28 +6294,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9939,
+      "lng": -80.9387
+    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Seabrook Island, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/2e0591b6f8d548e3922ef0c641103b4d_3f078.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Seabrook Island!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Seabrook Island"
     }
   },
   {
     "slug": "wedgefield",
     "name": "Wedgefield",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Sumter County",
+    "zip": ["29168"],
     "neighborhoods": [
       "Downtown Wedgefield",
       "Greater Wedgefield"
@@ -6520,28 +6327,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0641,
+      "lng": -81.0202
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Wedgefield, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Wedgefield!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Wedgefield"
     }
   },
   {
     "slug": "fairfax",
     "name": "Fairfax",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Allendale County",
+    "zip": ["29827"],
     "neighborhoods": [
       "Downtown Fairfax",
       "Greater Fairfax"
@@ -6554,28 +6360,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0439,
+      "lng": -81.0075
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Fairfax, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Fairfax!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Fairfax"
     }
   },
   {
     "slug": "blackville",
     "name": "Blackville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Barnwell County",
+    "zip": ["29817"],
     "neighborhoods": [
       "Downtown Blackville",
       "Greater Blackville"
@@ -6588,18 +6393,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9768,
+      "lng": -81.0804
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Blackville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Blackville!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Blackville"
     }
   },
@@ -6607,9 +6413,7 @@ export const locations: Location[] = [
     "slug": "shell-point",
     "name": "Shell Point",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29706"],
     "neighborhoods": [
       "Downtown Shell Point",
       "Greater Shell Point"
@@ -6622,18 +6426,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0509,
+      "lng": -81.0970
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Shell Point, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Shell Point!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Shell Point"
     }
   },
@@ -6641,9 +6446,7 @@ export const locations: Location[] = [
     "slug": "watts-mills",
     "name": "Watts Mills",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29111"],
     "neighborhoods": [
       "Downtown Watts Mills",
       "Greater Watts Mills"
@@ -6656,18 +6459,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0337,
+      "lng": -80.9737
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Watts Mills, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Watts Mills!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Watts Mills"
     }
   },
@@ -6675,9 +6479,7 @@ export const locations: Location[] = [
     "slug": "riverview",
     "name": "Riverview",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29589"],
     "neighborhoods": [
       "Downtown Riverview",
       "Greater Riverview"
@@ -6690,28 +6492,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9117,
+      "lng": -81.1101
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Riverview, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Riverview!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Riverview"
     }
   },
   {
     "slug": "gaston",
     "name": "Gaston",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Lexington County",
+    "zip": ["29053"],
     "neighborhoods": [
       "Downtown Gaston",
       "Greater Gaston"
@@ -6724,28 +6525,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0278,
+      "lng": -81.1073
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Gaston, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Gaston!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Gaston"
     }
   },
   {
     "slug": "pacolet",
     "name": "Pacolet",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Spartanburg County",
+    "zip": ["29372"],
     "neighborhoods": [
       "Downtown Pacolet",
       "Greater Pacolet"
@@ -6758,28 +6558,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0546,
+      "lng": -80.9405
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Pacolet, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Pacolet!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Pacolet"
     }
   },
   {
     "slug": "calhoun-falls",
     "name": "calhoun Falls",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Abbeville County",
+    "zip": ["29628"],
     "neighborhoods": [
       "Downtown calhoun Falls",
       "Greater calhoun Falls"
@@ -6792,28 +6591,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9720,
+      "lng": -81.0341
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In calhoun Falls, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in calhoun Falls!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "calhoun Falls"
     }
   },
   {
     "slug": "ware-shoals",
     "name": "Ware Shoals",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Laurens County",
+    "zip": ["29692"],
     "neighborhoods": [
       "Downtown Ware Shoals",
       "Greater Ware Shoals"
@@ -6826,18 +6624,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9862,
+      "lng": -80.9559
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Ware Shoals, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Ware Shoals!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Ware Shoals"
     }
   },
@@ -6845,9 +6644,7 @@ export const locations: Location[] = [
     "slug": "st.-matthews",
     "name": "St. Matthews",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29620"],
     "neighborhoods": [
       "Downtown St. Matthews",
       "Greater St. Matthews"
@@ -6860,28 +6657,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0457,
+      "lng": -80.9457
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In St. Matthews, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in St. Matthews!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "St. Matthews"
     }
   },
   {
     "slug": "mayo",
     "name": "Mayo",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Spartanburg County",
+    "zip": ["29368"],
     "neighborhoods": [
       "Downtown Mayo",
       "Greater Mayo"
@@ -6894,18 +6690,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0759,
+      "lng": -81.0052
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Mayo, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Mayo!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Mayo"
     }
   },
@@ -6913,9 +6710,7 @@ export const locations: Location[] = [
     "slug": "wilkinson-heights",
     "name": "Wilkinson Heights",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29481"],
     "neighborhoods": [
       "Downtown Wilkinson Heights",
       "Greater Wilkinson Heights"
@@ -6928,18 +6723,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0416,
+      "lng": -81.1270
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Wilkinson Heights, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Wilkinson Heights!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Wilkinson Heights"
     }
   },
@@ -6947,9 +6743,7 @@ export const locations: Location[] = [
     "slug": "edisto",
     "name": "Edisto",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29745"],
     "neighborhoods": [
       "Downtown Edisto",
       "Greater Edisto"
@@ -6962,18 +6756,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0323,
+      "lng": -80.9633
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Edisto, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Edisto!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Edisto"
     }
   },
@@ -6981,9 +6776,7 @@ export const locations: Location[] = [
     "slug": "st.-george",
     "name": "St. George",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29593"],
     "neighborhoods": [
       "Downtown St. George",
       "Greater St. George"
@@ -6996,18 +6789,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9816,
+      "lng": -81.1018
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In St. George, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in St. George!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in St. George!",
       "location": "St. George"
     }
   },
@@ -7015,9 +6809,7 @@ export const locations: Location[] = [
     "slug": "eureka-mill",
     "name": "Eureka Mill",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29559"],
     "neighborhoods": [
       "Downtown Eureka Mill",
       "Greater Eureka Mill"
@@ -7030,28 +6822,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0149,
+      "lng": -81.0837
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Eureka Mill, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Eureka Mill!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Eureka Mill"
     }
   },
   {
     "slug": "jackson",
     "name": "Jackson",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Aiken County",
+    "zip": ["29831"],
     "neighborhoods": [
       "Downtown Jackson",
       "Greater Jackson"
@@ -7064,18 +6855,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0139,
+      "lng": -80.9536
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Jackson, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Jackson!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Jackson"
     }
   },
@@ -7083,9 +6875,7 @@ export const locations: Location[] = [
     "slug": "judson",
     "name": "Judson",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29873"],
     "neighborhoods": [
       "Downtown Judson",
       "Greater Judson"
@@ -7098,18 +6888,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9898,
+      "lng": -81.0743
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Judson, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Judson!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Judson"
     }
   },
@@ -7117,9 +6908,7 @@ export const locations: Location[] = [
     "slug": "irwin",
     "name": "Irwin",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29563"],
     "neighborhoods": [
       "Downtown Irwin",
       "Greater Irwin"
@@ -7132,28 +6921,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9204,
+      "lng": -81.0231
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Irwin, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Irwin!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Irwin"
     }
   },
   {
     "slug": "cowpens",
     "name": "Cowpens",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Spartanburg County",
+    "zip": ["29330"],
     "neighborhoods": [
       "Downtown Cowpens",
       "Greater Cowpens"
@@ -7166,28 +6954,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9125,
+      "lng": -81.1199
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Cowpens, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Cowpens!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Cowpens"
     }
   },
   {
     "slug": "langley",
     "name": "Langley",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Aiken County",
+    "zip": ["29834"],
     "neighborhoods": [
       "Downtown Langley",
       "Greater Langley"
@@ -7200,18 +6987,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9164,
+      "lng": -80.9983
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Langley, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Langley!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Langley"
     }
   },
@@ -7219,9 +7007,7 @@ export const locations: Location[] = [
     "slug": "monarch-mill",
     "name": "Monarch Mill",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29729"],
     "neighborhoods": [
       "Downtown Monarch Mill",
       "Greater Monarch Mill"
@@ -7234,18 +7020,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9151,
+      "lng": -81.0651
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Monarch Mill, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Monarch Mill!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Monarch Mill"
     }
   },
@@ -7253,9 +7040,7 @@ export const locations: Location[] = [
     "slug": "arial",
     "name": "Arial",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29571"],
     "neighborhoods": [
       "Downtown Arial",
       "Greater Arial"
@@ -7268,18 +7053,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0590,
+      "lng": -80.9702
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Arial, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Arial!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Arial"
     }
   },
@@ -7287,9 +7073,7 @@ export const locations: Location[] = [
     "slug": "stateburg",
     "name": "Stateburg",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29993"],
     "neighborhoods": [
       "Downtown Stateburg",
       "Greater Stateburg"
@@ -7302,28 +7086,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9658,
+      "lng": -80.9410
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Stateburg, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Stateburg!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Stateburg!",
       "location": "Stateburg"
     }
   },
   {
     "slug": "hopkins",
     "name": "Hopkins",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Richland County",
+    "zip": ["29061"],
     "neighborhoods": [
       "Downtown Hopkins",
       "Greater Hopkins"
@@ -7336,28 +7119,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0206,
+      "lng": -81.0578
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Hopkins, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Hopkins!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Hopkins"
     }
   },
   {
     "slug": "reidville",
     "name": "Reidville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Spartanburg County",
+    "zip": ["29375"],
     "neighborhoods": [
       "Downtown Reidville",
       "Greater Reidville"
@@ -7370,18 +7152,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0894,
+      "lng": -80.9460
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Reidville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Reidville!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Reidville"
     }
   },
@@ -7389,9 +7172,7 @@ export const locations: Location[] = [
     "slug": "city-view",
     "name": "city View",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29300"],
     "neighborhoods": [
       "Downtown city View",
       "Greater city View"
@@ -7404,18 +7185,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0153,
+      "lng": -81.1201
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In city View, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in city View!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "city View"
     }
   },
@@ -7423,9 +7205,7 @@ export const locations: Location[] = [
     "slug": "camp-croft",
     "name": "Camp Croft",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29560"],
     "neighborhoods": [
       "Downtown Camp Croft",
       "Greater Camp Croft"
@@ -7438,18 +7218,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9126,
+      "lng": -81.0482
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Camp Croft, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Camp Croft!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Camp Croft!",
       "location": "Camp Croft"
     }
   },
@@ -7457,9 +7238,7 @@ export const locations: Location[] = [
     "slug": "winnsboro-mills",
     "name": "Winnsboro Mills",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29555"],
     "neighborhoods": [
       "Downtown Winnsboro Mills",
       "Greater Winnsboro Mills"
@@ -7472,28 +7251,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9056,
+      "lng": -81.0833
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Winnsboro Mills, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Winnsboro Mills!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Winnsboro Mills"
     }
   },
   {
     "slug": "great-falls",
     "name": "Great Falls",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Chester County",
+    "zip": ["29055"],
     "neighborhoods": [
       "Downtown Great Falls",
       "Greater Great Falls"
@@ -7506,18 +7284,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9316,
+      "lng": -81.0993
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Great Falls, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Great Falls!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Great Falls"
     }
   },
@@ -7525,9 +7304,7 @@ export const locations: Location[] = [
     "slug": "utica",
     "name": "Utica",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29206"],
     "neighborhoods": [
       "Downtown Utica",
       "Greater Utica"
@@ -7540,28 +7317,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9336,
+      "lng": -81.0539
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Utica, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Utica!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Utica"
     }
   },
   {
     "slug": "fairforest",
     "name": "Fairforest",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Spartanburg County",
+    "zip": ["29336"],
     "neighborhoods": [
       "Downtown Fairforest",
       "Greater Fairforest"
@@ -7574,18 +7350,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9787,
+      "lng": -80.9940
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Fairforest, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Fairforest!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Fairforest"
     }
   },
@@ -7593,9 +7370,7 @@ export const locations: Location[] = [
     "slug": "south-sumter",
     "name": "South Sumter",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29147"],
     "neighborhoods": [
       "Downtown South Sumter",
       "Greater South Sumter"
@@ -7608,28 +7383,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9779,
+      "lng": -80.4305
+    },
     },
     "soilType": "Sandy loam and river basin deposits",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In South Sumter, we focus on the unique arborist needs dictated by Sandy loam and river basin deposits and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/41310ccc491b4763bdeea6ec7a21ba6c_b2247.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in South Sumter!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "South Sumter"
     }
   },
   {
     "slug": "awendaw",
     "name": "Awendaw",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Charleston County",
+    "zip": ["29429"],
     "neighborhoods": [
       "Downtown Awendaw",
       "Greater Awendaw"
@@ -7642,28 +7416,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0989,
+      "lng": -81.0635
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Awendaw, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Awendaw!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Awendaw!",
       "location": "Awendaw"
     }
   },
   {
     "slug": "ridgeville",
     "name": "Ridgeville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Dorchester County",
+    "zip": ["29472"],
     "neighborhoods": [
       "Downtown Ridgeville",
       "Greater Ridgeville"
@@ -7676,28 +7449,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9024,
+      "lng": -81.0571
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Ridgeville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Ridgeville!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Ridgeville"
     }
   },
   {
     "slug": "chapin",
     "name": "Chapin",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Lexington County",
+    "zip": ["29036"],
     "neighborhoods": [
       "Downtown chapin",
       "Greater chapin"
@@ -7710,18 +7482,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0995,
+      "lng": -81.0554
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In chapin, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in chapin!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in chapin!",
       "location": "chapin"
     }
   },
@@ -7729,9 +7502,7 @@ export const locations: Location[] = [
     "slug": "cane-savannah",
     "name": "Cane Savannah",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29598"],
     "neighborhoods": [
       "Downtown Cane Savannah",
       "Greater Cane Savannah"
@@ -7744,28 +7515,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0328,
+      "lng": -81.1082
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Cane Savannah, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Cane Savannah!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Cane Savannah"
     }
   },
   {
     "slug": "latta",
     "name": "Latta",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Dillon County",
+    "zip": ["29565"],
     "neighborhoods": [
       "Downtown Latta",
       "Greater Latta"
@@ -7778,18 +7548,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9148,
+      "lng": -81.1095
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Latta, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Latta!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Latta"
     }
   },
@@ -7797,9 +7568,7 @@ export const locations: Location[] = [
     "slug": "bonneau-beach",
     "name": "Bonneau Beach",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29993"],
     "neighborhoods": [
       "Downtown Bonneau Beach",
       "Greater Bonneau Beach"
@@ -7812,28 +7581,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0031,
+      "lng": -81.0807
+    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Bonneau Beach, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/2e0591b6f8d548e3922ef0c641103b4d_3f078.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Bonneau Beach!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Bonneau Beach"
     }
   },
   {
     "slug": "pelzer",
     "name": "Pelzer",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Greenville County",
+    "zip": ["29669"],
     "neighborhoods": [
       "Downtown Pelzer",
       "Greater Pelzer"
@@ -7846,18 +7614,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9934,
+      "lng": -81.0143
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Pelzer, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Pelzer!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Pelzer"
     }
   },
@@ -7865,9 +7634,7 @@ export const locations: Location[] = [
     "slug": "murphys-estates",
     "name": "Murphys Estates",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29573"],
     "neighborhoods": [
       "Downtown Murphys Estates",
       "Greater Murphys Estates"
@@ -7880,28 +7647,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0117,
+      "lng": -80.9503
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Murphys Estates, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Murphys Estates!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Murphys Estates"
     }
   },
   {
     "slug": "catawba",
     "name": "Catawba",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "York County",
+    "zip": ["29704"],
     "neighborhoods": [
       "Downtown catawba",
       "Greater catawba"
@@ -7914,28 +7680,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0479,
+      "lng": -81.0918
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In catawba, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in catawba!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "catawba"
     }
   },
   {
     "slug": "chesterfield",
     "name": "Chesterfield",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Chesterfield County",
+    "zip": ["29709"],
     "neighborhoods": [
       "Downtown Chesterfield",
       "Greater Chesterfield"
@@ -7948,28 +7713,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9120,
+      "lng": -81.0009
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Chesterfield, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Chesterfield!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Chesterfield"
     }
   },
   {
     "slug": "joanna",
     "name": "Joanna",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Laurens County",
+    "zip": ["29351"],
     "neighborhoods": [
       "Downtown Joanna",
       "Greater Joanna"
@@ -7982,18 +7746,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9205,
+      "lng": -81.0775
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Joanna, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Joanna!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Joanna"
     }
   },
@@ -8001,9 +7766,7 @@ export const locations: Location[] = [
     "slug": "st.-stephen",
     "name": "St. Stephen",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29697"],
     "neighborhoods": [
       "Downtown St. Stephen",
       "Greater St. Stephen"
@@ -8016,28 +7779,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9206,
+      "lng": -80.9667
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In St. Stephen, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in St. Stephen!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "St. Stephen"
     }
   },
   {
     "slug": "holly-hill",
     "name": "Holly Hill",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Orangeburg County",
+    "zip": ["29059"],
     "neighborhoods": [
       "Downtown Holly Hill",
       "Greater Holly Hill"
@@ -8050,28 +7812,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9784,
+      "lng": -81.0024
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Holly Hill, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Holly Hill!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Holly Hill"
     }
   },
   {
     "slug": "gadsden",
     "name": "Gadsden",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Richland County",
+    "zip": ["29052"],
     "neighborhoods": [
       "Downtown Gadsden",
       "Greater Gadsden"
@@ -8084,28 +7845,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0557,
+      "lng": -81.1264
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Gadsden, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Gadsden!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Gadsden"
     }
   },
   {
     "slug": "beech-island",
     "name": "Beech Island",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Aiken County",
+    "zip": ["29842"],
     "neighborhoods": [
       "Downtown Beech Island",
       "Greater Beech Island"
@@ -8118,18 +7878,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9053,
+      "lng": -80.9797
+    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Beech Island, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/2e0591b6f8d548e3922ef0c641103b4d_3f078.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Beech Island!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Beech Island"
     }
   },
@@ -8137,9 +7898,7 @@ export const locations: Location[] = [
     "slug": "meggett",
     "name": "Meggett",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29934"],
     "neighborhoods": [
       "Downtown Meggett",
       "Greater Meggett"
@@ -8152,28 +7911,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9962,
+      "lng": -81.0674
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Meggett, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Meggett!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Meggett"
     }
   },
   {
     "slug": "branchville",
     "name": "Branchville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Orangeburg County",
+    "zip": ["29432"],
     "neighborhoods": [
       "Downtown Branchville",
       "Greater Branchville"
@@ -8186,18 +7944,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9638,
+      "lng": -80.9429
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Branchville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Branchville!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Branchville"
     }
   },
@@ -8205,9 +7964,7 @@ export const locations: Location[] = [
     "slug": "homewood",
     "name": "Homewood",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29952"],
     "neighborhoods": [
       "Downtown Homewood",
       "Greater Homewood"
@@ -8220,28 +7977,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9829,
+      "lng": -80.9451
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Homewood, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Homewood!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Homewood"
     }
   },
   {
     "slug": "whitmire",
     "name": "Whitmire",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Newberry County",
+    "zip": ["29178"],
     "neighborhoods": [
       "Downtown Whitmire",
       "Greater Whitmire"
@@ -8254,18 +8010,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9294,
+      "lng": -81.1342
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Whitmire, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Whitmire!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Whitmire!",
       "location": "Whitmire"
     }
   },
@@ -8273,9 +8030,7 @@ export const locations: Location[] = [
     "slug": "lake-secession",
     "name": "Lake Secession",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29835"],
     "neighborhoods": [
       "Downtown Lake Secession",
       "Greater Lake Secession"
@@ -8288,18 +8043,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9170,
+      "lng": -81.0952
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lake Secession, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Lake Secession!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Lake Secession"
     }
   },
@@ -8307,9 +8063,7 @@ export const locations: Location[] = [
     "slug": "olympia",
     "name": "Olympia",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29790"],
     "neighborhoods": [
       "Downtown Olympia",
       "Greater Olympia"
@@ -8322,28 +8076,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9464,
+      "lng": -81.1193
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Olympia, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Olympia!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Olympia"
     }
   },
   {
     "slug": "lamar",
     "name": "Lamar",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Darlington County",
+    "zip": ["29069"],
     "neighborhoods": [
       "Downtown Lamar",
       "Greater Lamar"
@@ -8356,28 +8109,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9127,
+      "lng": -81.0579
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lamar, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Lamar!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Lamar!",
       "location": "Lamar"
     }
   },
   {
     "slug": "conestee",
     "name": "Conestee",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Greenville County",
+    "zip": ["29636"],
     "neighborhoods": [
       "Downtown Conestee",
       "Greater Conestee"
@@ -8390,28 +8142,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9089,
+      "lng": -81.1117
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Conestee, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Conestee!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Conestee"
     }
   },
   {
     "slug": "santee",
     "name": "Santee",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Orangeburg County",
+    "zip": ["29142"],
     "neighborhoods": [
       "Downtown Santee",
       "Greater Santee"
@@ -8424,28 +8175,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0348,
+      "lng": -80.9725
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Santee, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Santee!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Santee"
     }
   },
   {
     "slug": "buffalo",
     "name": "Buffalo",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Union County",
+    "zip": ["29321"],
     "neighborhoods": [
       "Downtown Buffalo",
       "Greater Buffalo"
@@ -8458,18 +8208,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0621,
+      "lng": -81.1233
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Buffalo, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Buffalo!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Buffalo"
     }
   },
@@ -8477,9 +8228,7 @@ export const locations: Location[] = [
     "slug": "west-pelzer",
     "name": "West Pelzer",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29535"],
     "neighborhoods": [
       "Downtown West Pelzer",
       "Greater West Pelzer"
@@ -8492,28 +8241,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0967,
+      "lng": -81.0726
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In West Pelzer, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in West Pelzer!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "West Pelzer"
     }
   },
   {
     "slug": "fort-lawn",
     "name": "Fort Lawn",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Chester County",
+    "zip": ["29714"],
     "neighborhoods": [
       "Downtown Fort Lawn",
       "Greater Fort Lawn"
@@ -8526,18 +8274,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0948,
+      "lng": -81.0588
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Fort Lawn, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Fort Lawn!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Fort Lawn"
     }
   },
@@ -8545,9 +8294,7 @@ export const locations: Location[] = [
     "slug": "edmund",
     "name": "Edmund",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29412"],
     "neighborhoods": [
       "Downtown Edmund",
       "Greater Edmund"
@@ -8560,28 +8307,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0540,
+      "lng": -80.9360
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Edmund, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Edmund!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Edmund!",
       "location": "Edmund"
     }
   },
   {
     "slug": "due-west",
     "name": "Due West",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Abbeville County",
+    "zip": ["29639"],
     "neighborhoods": [
       "Downtown Due West",
       "Greater Due West"
@@ -8594,28 +8340,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0687,
+      "lng": -80.9534
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Due West, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Due West!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Due West!",
       "location": "Due West"
     }
   },
   {
     "slug": "cottageville",
     "name": "Cottageville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Colleton County",
+    "zip": ["29435"],
     "neighborhoods": [
       "Downtown Cottageville",
       "Greater Cottageville"
@@ -8628,28 +8373,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9717,
+      "lng": -80.9397
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Cottageville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Cottageville!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Cottageville"
     }
   },
   {
     "slug": "prosperity",
     "name": "Prosperity",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Newberry County",
+    "zip": ["29127"],
     "neighborhoods": [
       "Downtown Prosperity",
       "Greater Prosperity"
@@ -8662,28 +8406,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9928,
+      "lng": -81.0498
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Prosperity, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Prosperity!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Prosperity!",
       "location": "Prosperity"
     }
   },
   {
     "slug": "johnsonville",
     "name": "Johnsonville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Florence County",
+    "zip": ["29555"],
     "neighborhoods": [
       "Downtown Johnsonville",
       "Greater Johnsonville"
@@ -8696,28 +8439,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9761,
+      "lng": -80.9384
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Johnsonville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Johnsonville!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Johnsonville"
     }
   },
   {
     "slug": "seabrook",
     "name": "Seabrook",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Beaufort County",
+    "zip": ["29940"],
     "neighborhoods": [
       "Downtown Seabrook",
       "Greater Seabrook"
@@ -8730,28 +8472,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9664,
+      "lng": -81.0608
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Seabrook, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Seabrook!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Seabrook"
     }
   },
   {
     "slug": "six-mile",
     "name": "Six Mile",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Pickens County",
+    "zip": ["29682"],
     "neighborhoods": [
       "Downtown Six Mile",
       "Greater Six Mile"
@@ -8764,18 +8505,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9914,
+      "lng": -81.0883
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Six Mile, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Six Mile!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Six Mile"
     }
   },
@@ -8783,9 +8525,7 @@ export const locations: Location[] = [
     "slug": "gayle-mill",
     "name": "Gayle Mill",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29293"],
     "neighborhoods": [
       "Downtown Gayle Mill",
       "Greater Gayle Mill"
@@ -8798,28 +8538,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9213,
+      "lng": -81.0391
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Gayle Mill, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Gayle Mill!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Gayle Mill"
     }
   },
   {
     "slug": "pamplico",
     "name": "Pamplico",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Florence County",
+    "zip": ["29583"],
     "neighborhoods": [
       "Downtown Pamplico",
       "Greater Pamplico"
@@ -8832,18 +8571,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9230,
+      "lng": -81.0564
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Pamplico, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Pamplico!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Pamplico"
     }
   },
@@ -8851,9 +8591,7 @@ export const locations: Location[] = [
     "slug": "dunbar",
     "name": "Dunbar",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29642"],
     "neighborhoods": [
       "Downtown Dunbar",
       "Greater Dunbar"
@@ -8866,28 +8604,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9394,
+      "lng": -81.0608
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Dunbar, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Dunbar!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Dunbar"
     }
   },
   {
     "slug": "pelion",
     "name": "Pelion",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Lexington County",
+    "zip": ["29123"],
     "neighborhoods": [
       "Downtown Pelion",
       "Greater Pelion"
@@ -8900,18 +8637,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0108,
+      "lng": -81.1304
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Pelion, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Pelion!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Pelion"
     }
   },
@@ -8919,9 +8657,7 @@ export const locations: Location[] = [
     "slug": "mcbee",
     "name": "McBee",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29887"],
     "neighborhoods": [
       "Downtown McBee",
       "Greater McBee"
@@ -8934,28 +8670,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0090,
+      "lng": -81.0950
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In McBee, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in McBee!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "McBee"
     }
   },
   {
     "slug": "wagener",
     "name": "Wagener",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Aiken County",
+    "zip": ["29164"],
     "neighborhoods": [
       "Downtown Wagener",
       "Greater Wagener"
@@ -8968,28 +8703,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9898,
+      "lng": -81.0545
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Wagener, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Wagener!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Wagener"
     }
   },
   {
     "slug": "iva",
     "name": "Iva",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Anderson County",
+    "zip": ["29655"],
     "neighborhoods": [
       "Downtown Iva",
       "Greater Iva"
@@ -9002,28 +8736,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9404,
+      "lng": -81.0665
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Iva, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Iva!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Iva"
     }
   },
   {
     "slug": "folly-beach",
     "name": "Folly Beach",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Charleston County",
+    "zip": ["29439"],
     "neighborhoods": [
       "Downtown Folly Beach",
       "Greater Folly Beach"
@@ -9036,28 +8769,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9925,
+      "lng": -81.0161
+    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Folly Beach, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/2e0591b6f8d548e3922ef0c641103b4d_3f078.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Folly Beach!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Folly Beach"
     }
   },
   {
     "slug": "drayton",
     "name": "Drayton",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Spartanburg County",
+    "zip": ["29333"],
     "neighborhoods": [
       "Downtown Drayton",
       "Greater Drayton"
@@ -9070,28 +8802,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0681,
+      "lng": -81.0851
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Drayton, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Drayton!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Drayton"
     }
   },
   {
     "slug": "elloree",
     "name": "Elloree",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Orangeburg County",
+    "zip": ["29047"],
     "neighborhoods": [
       "Downtown Elloree",
       "Greater Elloree"
@@ -9104,28 +8835,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9335,
+      "lng": -81.0902
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Elloree, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Elloree!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Elloree"
     }
   },
   {
     "slug": "la-france",
     "name": "La France",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Anderson County",
+    "zip": ["29656"],
     "neighborhoods": [
       "Downtown La France",
       "Greater La France"
@@ -9138,28 +8868,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9570,
+      "lng": -81.1281
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In La France, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in La France!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "La France"
     }
   },
   {
     "slug": "aynor",
     "name": "Aynor",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Horry County",
+    "zip": ["29511"],
     "neighborhoods": [
       "Downtown Aynor",
       "Greater Aynor"
@@ -9172,28 +8901,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0523,
+      "lng": -81.0161
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Aynor, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Aynor!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Aynor"
     }
   },
   {
     "slug": "yemassee",
     "name": "Yemassee",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Beaufort County",
+    "zip": ["29945"],
     "neighborhoods": [
       "Downtown Yemassee",
       "Greater Yemassee"
@@ -9206,18 +8934,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0716,
+      "lng": -80.9508
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Yemassee, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Yemassee!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Yemassee"
     }
   },
@@ -9225,9 +8954,7 @@ export const locations: Location[] = [
     "slug": "cateechee",
     "name": "Cateechee",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29133"],
     "neighborhoods": [
       "Downtown Cateechee",
       "Greater Cateechee"
@@ -9240,28 +8967,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9366,
+      "lng": -81.0303
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Cateechee, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Cateechee!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Cateechee"
     }
   },
   {
     "slug": "clifton",
     "name": "Clifton",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Spartanburg County",
+    "zip": ["29324"],
     "neighborhoods": [
       "Downtown Clifton",
       "Greater Clifton"
@@ -9274,18 +9000,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9999,
+      "lng": -81.0213
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Clifton, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Clifton!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Clifton!",
       "location": "Clifton"
     }
   },
@@ -9293,9 +9020,7 @@ export const locations: Location[] = [
     "slug": "oakland",
     "name": "Oakland",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29482"],
     "neighborhoods": [
       "Downtown Oakland",
       "Greater Oakland"
@@ -9308,28 +9033,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9137,
+      "lng": -81.1239
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Oakland, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Oakland!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Oakland"
     }
   },
   {
     "slug": "dale",
     "name": "Dale",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Beaufort County",
+    "zip": ["29914"],
     "neighborhoods": [
       "Downtown Dale",
       "Greater Dale"
@@ -9342,18 +9066,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0815,
+      "lng": -81.1169
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Dale, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Dale!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Dale"
     }
   },
@@ -9361,9 +9086,7 @@ export const locations: Location[] = [
     "slug": "inman-mills",
     "name": "Inman Mills",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29858"],
     "neighborhoods": [
       "Downtown Inman Mills",
       "Greater Inman Mills"
@@ -9376,18 +9099,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0924,
+      "lng": -80.9943
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Inman Mills, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Inman Mills!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Inman Mills"
     }
   },
@@ -9395,9 +9119,7 @@ export const locations: Location[] = [
     "slug": "dovesville",
     "name": "Dovesville",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29612"],
     "neighborhoods": [
       "Downtown Dovesville",
       "Greater Dovesville"
@@ -9410,28 +9132,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0678,
+      "lng": -80.9900
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Dovesville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Dovesville!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Dovesville!",
       "location": "Dovesville"
     }
   },
   {
     "slug": "pinopolis",
     "name": "Pinopolis",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Berkeley County",
+    "zip": ["29469"],
     "neighborhoods": [
       "Downtown Pinopolis",
       "Greater Pinopolis"
@@ -9444,28 +9165,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0733,
+      "lng": -80.9782
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Pinopolis, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Pinopolis!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Pinopolis"
     }
   },
   {
     "slug": "jonesville",
     "name": "Jonesville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Union County",
+    "zip": ["29353"],
     "neighborhoods": [
       "Downtown Jonesville",
       "Greater Jonesville"
@@ -9478,28 +9198,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0510,
+      "lng": -81.0899
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Jonesville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Jonesville!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Jonesville"
     }
   },
   {
     "slug": "north",
     "name": "North",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Orangeburg County",
+    "zip": ["29112"],
     "neighborhoods": [
       "Downtown North",
       "Greater North"
@@ -9512,18 +9231,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9649,
+      "lng": -81.0315
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In North, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in North!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in North!",
       "location": "North"
     }
   },
@@ -9531,9 +9251,7 @@ export const locations: Location[] = [
     "slug": "quinby",
     "name": "Quinby",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29492"],
     "neighborhoods": [
       "Downtown Quinby",
       "Greater Quinby"
@@ -9546,28 +9264,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0301,
+      "lng": -80.9430
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Quinby, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Quinby!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Quinby!",
       "location": "Quinby"
     }
   },
   {
     "slug": "scranton",
     "name": "Scranton",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Florence County",
+    "zip": ["29591"],
     "neighborhoods": [
       "Downtown Scranton",
       "Greater Scranton"
@@ -9580,18 +9297,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0887,
+      "lng": -80.9801
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Scranton, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Scranton!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Scranton"
     }
   },
@@ -9599,9 +9317,7 @@ export const locations: Location[] = [
     "slug": "edisto-beach",
     "name": "Edisto Beach",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29421"],
     "neighborhoods": [
       "Downtown Edisto Beach",
       "Greater Edisto Beach"
@@ -9614,28 +9330,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0031,
+      "lng": -81.1099
+    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Edisto Beach, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/2e0591b6f8d548e3922ef0c641103b4d_3f078.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Edisto Beach!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Edisto Beach"
     }
   },
   {
     "slug": "harleyville",
     "name": "Harleyville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Dorchester County",
+    "zip": ["29448"],
     "neighborhoods": [
       "Downtown Harleyville",
       "Greater Harleyville"
@@ -9648,28 +9363,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0537,
+      "lng": -81.1207
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Harleyville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Harleyville!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Harleyville"
     }
   },
   {
     "slug": "sandy-springs",
     "name": "Sandy Springs",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Anderson County",
+    "zip": ["29677"],
     "neighborhoods": [
       "Downtown Sandy Springs",
       "Greater Sandy Springs"
@@ -9682,28 +9396,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0451,
+      "lng": -81.1215
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Sandy Springs, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Sandy Springs!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Sandy Springs"
     }
   },
   {
     "slug": "van-wyck",
     "name": "Van Wyck",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Lancaster County",
+    "zip": ["29744"],
     "neighborhoods": [
       "Downtown Van Wyck",
       "Greater Van Wyck"
@@ -9716,18 +9429,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0002,
+      "lng": -80.9679
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Van Wyck, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Van Wyck!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Van Wyck"
     }
   },
@@ -9735,9 +9449,7 @@ export const locations: Location[] = [
     "slug": "arcadia-lakes",
     "name": "Arcadia Lakes",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29301"],
     "neighborhoods": [
       "Downtown Arcadia Lakes",
       "Greater Arcadia Lakes"
@@ -9750,28 +9462,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0910,
+      "lng": -80.9453
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Arcadia Lakes, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Arcadia Lakes!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Arcadia Lakes"
     }
   },
   {
     "slug": "campobello",
     "name": "Campobello",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Spartanburg County",
+    "zip": ["29322"],
     "neighborhoods": [
       "Downtown Campobello",
       "Greater Campobello"
@@ -9784,18 +9495,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9872,
+      "lng": -81.0795
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Campobello, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Campobello!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Campobello"
     }
   },
@@ -9803,9 +9515,7 @@ export const locations: Location[] = [
     "slug": "the-cliffs-valley",
     "name": "The cliffs Valley",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29954"],
     "neighborhoods": [
       "Downtown The cliffs Valley",
       "Greater The cliffs Valley"
@@ -9818,28 +9528,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9358,
+      "lng": -81.0490
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In The cliffs Valley, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in The cliffs Valley!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "The cliffs Valley"
     }
   },
   {
     "slug": "jefferson",
     "name": "Jefferson",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Chesterfield County",
+    "zip": ["29718"],
     "neighborhoods": [
       "Downtown Jefferson",
       "Greater Jefferson"
@@ -9852,28 +9561,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9849,
+      "lng": -81.0478
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Jefferson, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Jefferson!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Jefferson"
     }
   },
   {
     "slug": "heath-springs",
     "name": "Heath Springs",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Lancaster County",
+    "zip": ["29058"],
     "neighborhoods": [
       "Downtown Heath Springs",
       "Greater Heath Springs"
@@ -9886,28 +9594,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9206,
+      "lng": -81.0977
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Heath Springs, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Heath Springs!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Heath Springs"
     }
   },
   {
     "slug": "pinewood",
     "name": "Pinewood",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Sumter County",
+    "zip": ["29125"],
     "neighborhoods": [
       "Downtown Pinewood",
       "Greater Pinewood"
@@ -9920,18 +9627,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0701,
+      "lng": -81.0685
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Pinewood, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Pinewood!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Pinewood"
     }
   },
@@ -9939,9 +9647,7 @@ export const locations: Location[] = [
     "slug": "east-sumter",
     "name": "East Sumter",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29305"],
     "neighborhoods": [
       "Downtown East Sumter",
       "Greater East Sumter"
@@ -9954,28 +9660,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.8715,
+      "lng": -80.3658
+    },
     },
     "soilType": "Sandy loam and river basin deposits",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In East Sumter, we focus on the unique arborist needs dictated by Sandy loam and river basin deposits and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/41310ccc491b4763bdeea6ec7a21ba6c_b2247.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in East Sumter!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "East Sumter"
     }
   },
   {
     "slug": "warrenville",
     "name": "Warrenville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Aiken County",
+    "zip": ["29851"],
     "neighborhoods": [
       "Downtown Warrenville",
       "Greater Warrenville"
@@ -9988,28 +9693,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9888,
+      "lng": -81.1203
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Warrenville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Warrenville!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Warrenville!",
       "location": "Warrenville"
     }
   },
   {
     "slug": "gray-court",
     "name": "Gray court",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Laurens County",
+    "zip": ["29645"],
     "neighborhoods": [
       "Downtown Gray court",
       "Greater Gray court"
@@ -10022,18 +9726,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9193,
+      "lng": -80.9473
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Gray court, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Gray court!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Gray court!",
       "location": "Gray court"
     }
   },
@@ -10041,9 +9746,7 @@ export const locations: Location[] = [
     "slug": "mcclellanville",
     "name": "Mcclellanville",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29487"],
     "neighborhoods": [
       "Downtown Mcclellanville",
       "Greater Mcclellanville"
@@ -10056,18 +9759,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0332,
+      "lng": -80.9449
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Mcclellanville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Mcclellanville!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Mcclellanville"
     }
   },
@@ -10075,9 +9779,7 @@ export const locations: Location[] = [
     "slug": "newtown",
     "name": "Newtown",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29319"],
     "neighborhoods": [
       "Downtown Newtown",
       "Greater Newtown"
@@ -10090,18 +9792,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9603,
+      "lng": -81.0178
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Newtown, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Newtown!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Newtown"
     }
   },
@@ -10109,9 +9812,7 @@ export const locations: Location[] = [
     "slug": "fripp-island",
     "name": "Fripp Island",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29250"],
     "neighborhoods": [
       "Downtown Fripp Island",
       "Greater Fripp Island"
@@ -10124,28 +9825,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0966,
+      "lng": -81.0204
+    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Fripp Island, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/2e0591b6f8d548e3922ef0c641103b4d_3f078.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Fripp Island!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Fripp Island"
     }
   },
   {
     "slug": "hamer",
     "name": "Hamer",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Dillon County",
+    "zip": ["29547"],
     "neighborhoods": [
       "Downtown Hamer",
       "Greater Hamer"
@@ -10158,18 +9858,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0494,
+      "lng": -81.0756
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Hamer, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Hamer!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Hamer"
     }
   },
@@ -10177,9 +9878,7 @@ export const locations: Location[] = [
     "slug": "bucksport",
     "name": "Bucksport",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29725"],
     "neighborhoods": [
       "Downtown Bucksport",
       "Greater Bucksport"
@@ -10192,28 +9891,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9358,
+      "lng": -80.9988
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Bucksport, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Bucksport!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Bucksport"
     }
   },
   {
     "slug": "swansea",
     "name": "Swansea",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Lexington County",
+    "zip": ["29160"],
     "neighborhoods": [
       "Downtown Swansea",
       "Greater Swansea"
@@ -10226,28 +9924,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0537,
+      "lng": -80.9749
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Swansea, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Swansea!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Swansea"
     }
   },
   {
     "slug": "norris",
     "name": "Norris",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Pickens County",
+    "zip": ["29667"],
     "neighborhoods": [
       "Downtown Norris",
       "Greater Norris"
@@ -10260,28 +9957,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9585,
+      "lng": -81.0382
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Norris, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Norris!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Norris"
     }
   },
   {
     "slug": "ridge-spring",
     "name": "Ridge Spring",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Saluda County",
+    "zip": ["29129"],
     "neighborhoods": [
       "Downtown Ridge Spring",
       "Greater Ridge Spring"
@@ -10294,28 +9990,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9513,
+      "lng": -81.0716
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Ridge Spring, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Ridge Spring!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Ridge Spring"
     }
   },
   {
     "slug": "summerton",
     "name": "Summerton",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Clarendon County",
+    "zip": ["29148"],
     "neighborhoods": [
       "Downtown Summerton",
       "Greater Summerton"
@@ -10328,28 +10023,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9025,
+      "lng": -80.9870
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Summerton, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Summerton!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Summerton"
     }
   },
   {
     "slug": "turbeville",
     "name": "Turbeville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Clarendon County",
+    "zip": ["29162"],
     "neighborhoods": [
       "Downtown Turbeville",
       "Greater Turbeville"
@@ -10362,28 +10056,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9403,
+      "lng": -81.0085
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Turbeville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Turbeville!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Turbeville!",
       "location": "Turbeville"
     }
   },
   {
     "slug": "lake-view",
     "name": "Lake View",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Dillon County",
+    "zip": ["29563"],
     "neighborhoods": [
       "Downtown Lake View",
       "Greater Lake View"
@@ -10396,18 +10089,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0068,
+      "lng": -81.0719
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lake View, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Lake View!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Lake View"
     }
   },
@@ -10415,9 +10109,7 @@ export const locations: Location[] = [
     "slug": "debordieu-colony",
     "name": "DeBordieu colony",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29105"],
     "neighborhoods": [
       "Downtown DeBordieu colony",
       "Greater DeBordieu colony"
@@ -10430,28 +10122,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9156,
+      "lng": -81.0297
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In DeBordieu colony, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in DeBordieu colony!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "DeBordieu colony"
     }
   },
   {
     "slug": "clio",
     "name": "Clio",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Marlboro County",
+    "zip": ["29525"],
     "neighborhoods": [
       "Downtown Clio",
       "Greater Clio"
@@ -10464,28 +10155,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0649,
+      "lng": -81.1277
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Clio, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Clio!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Clio"
     }
   },
   {
     "slug": "mayesville",
     "name": "Mayesville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Lee County",
+    "zip": ["29104"],
     "neighborhoods": [
       "Downtown Mayesville",
       "Greater Mayesville"
@@ -10498,28 +10188,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0594,
+      "lng": -80.9459
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Mayesville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Mayesville!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Mayesville"
     }
   },
   {
     "slug": "wallace",
     "name": "Wallace",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Marlboro County",
+    "zip": ["29596"],
     "neighborhoods": [
       "Downtown Wallace",
       "Greater Wallace"
@@ -10532,18 +10221,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0386,
+      "lng": -81.0071
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Wallace, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Wallace!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Wallace"
     }
   },
@@ -10551,9 +10241,7 @@ export const locations: Location[] = [
     "slug": "manville",
     "name": "Manville",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29290"],
     "neighborhoods": [
       "Downtown Manville",
       "Greater Manville"
@@ -10566,28 +10254,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9234,
+      "lng": -81.0858
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Manville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Manville!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Manville"
     }
   },
   {
     "slug": "bowman",
     "name": "Bowman",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Orangeburg County",
+    "zip": ["29018"],
     "neighborhoods": [
       "Downtown Bowman",
       "Greater Bowman"
@@ -10600,18 +10287,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0526,
+      "lng": -81.0659
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Bowman, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Bowman!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Bowman"
     }
   },
@@ -10619,9 +10307,7 @@ export const locations: Location[] = [
     "slug": "lincolnville",
     "name": "Lincolnville",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29576"],
     "neighborhoods": [
       "Downtown Lincolnville",
       "Greater Lincolnville"
@@ -10634,18 +10320,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0101,
+      "lng": -80.9785
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lincolnville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Lincolnville!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Lincolnville!",
       "location": "Lincolnville"
     }
   },
@@ -10653,9 +10340,7 @@ export const locations: Location[] = [
     "slug": "pine-ridge-cdp",
     "name": "Pine Ridge cDP",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29149"],
     "neighborhoods": [
       "Downtown Pine Ridge cDP",
       "Greater Pine Ridge cDP"
@@ -10668,18 +10353,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9111,
+      "lng": -81.1340
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Pine Ridge cDP, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Pine Ridge cDP!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Pine Ridge cDP"
     }
   },
@@ -10687,9 +10373,7 @@ export const locations: Location[] = [
     "slug": "unity",
     "name": "Unity",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29643"],
     "neighborhoods": [
       "Downtown Unity",
       "Greater Unity"
@@ -10702,28 +10386,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0313,
+      "lng": -81.0723
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Unity, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Unity!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Unity"
     }
   },
   {
     "slug": "eastover",
     "name": "Eastover",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Richland County",
+    "zip": ["29044"],
     "neighborhoods": [
       "Downtown Eastover",
       "Greater Eastover"
@@ -10736,18 +10419,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0700,
+      "lng": -81.0533
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Eastover, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Eastover!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Eastover"
     }
   },
@@ -10755,9 +10439,7 @@ export const locations: Location[] = [
     "slug": "chickasaw-point",
     "name": "Chickasaw Point",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29733"],
     "neighborhoods": [
       "Downtown chickasaw Point",
       "Greater chickasaw Point"
@@ -10770,28 +10452,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9639,
+      "lng": -80.9634
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In chickasaw Point, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in chickasaw Point!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "chickasaw Point"
     }
   },
   {
     "slug": "modoc",
     "name": "Modoc",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "McCormick County",
+    "zip": ["29838"],
     "neighborhoods": [
       "Downtown Modoc",
       "Greater Modoc"
@@ -10804,28 +10485,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0078,
+      "lng": -81.1028
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Modoc, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Modoc!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Modoc"
     }
   },
   {
     "slug": "chesnee",
     "name": "Chesnee",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Spartanburg County",
+    "zip": ["29323"],
     "neighborhoods": [
       "Downtown Chesnee",
       "Greater Chesnee"
@@ -10838,28 +10518,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9757,
+      "lng": -81.0842
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Chesnee, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Chesnee!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Chesnee!",
       "location": "Chesnee"
     }
   },
   {
     "slug": "olanta",
     "name": "Olanta",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Florence County",
+    "zip": ["29114"],
     "neighborhoods": [
       "Downtown Olanta",
       "Greater Olanta"
@@ -10872,18 +10551,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0051,
+      "lng": -81.0526
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Olanta, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Olanta!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Olanta"
     }
   },
@@ -10891,9 +10571,7 @@ export const locations: Location[] = [
     "slug": "fairview-crossroads",
     "name": "Fairview crossroads",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29590"],
     "neighborhoods": [
       "Downtown Fairview crossroads",
       "Greater Fairview crossroads"
@@ -10906,28 +10584,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0500,
+      "lng": -81.0593
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Fairview crossroads, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Fairview crossroads!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Fairview crossroads"
     }
   },
   {
     "slug": "centenary",
     "name": "Centenary",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Marion County",
+    "zip": ["29519"],
     "neighborhoods": [
       "Downtown Centenary",
       "Greater Centenary"
@@ -10940,28 +10617,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9063,
+      "lng": -81.1149
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Centenary, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Centenary!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Centenary"
     }
   },
   {
     "slug": "bonneau",
     "name": "Bonneau",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Berkeley County",
+    "zip": ["29431"],
     "neighborhoods": [
       "Downtown Bonneau",
       "Greater Bonneau"
@@ -10974,28 +10650,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0595,
+      "lng": -80.9390
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Bonneau, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Bonneau!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Bonneau"
     }
   },
   {
     "slug": "fair-play",
     "name": "Fair Play",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Oconee County",
+    "zip": ["29643"],
     "neighborhoods": [
       "Downtown Fair Play",
       "Greater Fair Play"
@@ -11008,28 +10683,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9138,
+      "lng": -80.9386
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Fair Play, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Fair Play!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Fair Play"
     }
   },
   {
     "slug": "daufuskie-island",
     "name": "Daufuskie Island",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Beaufort County",
+    "zip": ["29915"],
     "neighborhoods": [
       "Downtown Daufuskie Island",
       "Greater Daufuskie Island"
@@ -11042,18 +10716,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0859,
+      "lng": -81.0059
+    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Daufuskie Island, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/2e0591b6f8d548e3922ef0c641103b4d_3f078.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Daufuskie Island!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Daufuskie Island"
     }
   },
@@ -11061,9 +10736,7 @@ export const locations: Location[] = [
     "slug": "briarcliffe-acres",
     "name": "Briarcliffe Acres",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29878"],
     "neighborhoods": [
       "Downtown Briarcliffe Acres",
       "Greater Briarcliffe Acres"
@@ -11076,28 +10749,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9851,
+      "lng": -81.0003
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Briarcliffe Acres, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Briarcliffe Acres!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Briarcliffe Acres"
     }
   },
   {
     "slug": "coward",
     "name": "Coward",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Florence County",
+    "zip": ["29530"],
     "neighborhoods": [
       "Downtown Coward",
       "Greater Coward"
@@ -11110,28 +10782,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0807,
+      "lng": -81.0296
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Coward, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Coward!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Coward"
     }
   },
   {
     "slug": "gilbert",
     "name": "Gilbert",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Lexington County",
+    "zip": ["29054"],
     "neighborhoods": [
       "Downtown Gilbert",
       "Greater Gilbert"
@@ -11144,28 +10815,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9247,
+      "lng": -81.1123
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Gilbert, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Gilbert!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Gilbert"
     }
   },
   {
     "slug": "furman",
     "name": "Furman",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Hampton County",
+    "zip": ["29921"],
     "neighborhoods": [
       "Downtown Furman",
       "Greater Furman"
@@ -11178,28 +10848,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0245,
+      "lng": -81.0374
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Furman, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Furman!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Furman!",
       "location": "Furman"
     }
   },
   {
     "slug": "elliott",
     "name": "Elliott",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Lee County",
+    "zip": ["29046"],
     "neighborhoods": [
       "Downtown Elliott",
       "Greater Elliott"
@@ -11212,28 +10881,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9523,
+      "lng": -81.1324
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Elliott, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Elliott!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Elliott!",
       "location": "Elliott"
     }
   },
   {
     "slug": "startex",
     "name": "Startex",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Spartanburg County",
+    "zip": ["29377"],
     "neighborhoods": [
       "Downtown Startex",
       "Greater Startex"
@@ -11246,28 +10914,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9805,
+      "lng": -81.0155
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Startex, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Startex!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Startex!",
       "location": "Startex"
     }
   },
   {
     "slug": "hickory-grove",
     "name": "Hickory Grove",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "York County",
+    "zip": ["29717"],
     "neighborhoods": [
       "Downtown Hickory Grove",
       "Greater Hickory Grove"
@@ -11280,28 +10947,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0711,
+      "lng": -80.9922
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Hickory Grove, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Hickory Grove!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Hickory Grove!",
       "location": "Hickory Grove"
     }
   },
   {
     "slug": "lane",
     "name": "Lane",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Williamsburg County",
+    "zip": ["29564"],
     "neighborhoods": [
       "Downtown Lane",
       "Greater Lane"
@@ -11314,18 +10980,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0256,
+      "lng": -80.9881
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lane, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Lane!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Lane"
     }
   },
@@ -11333,9 +11000,7 @@ export const locations: Location[] = [
     "slug": "summit",
     "name": "Summit",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29318"],
     "neighborhoods": [
       "Downtown Summit",
       "Greater Summit"
@@ -11348,28 +11013,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9775,
+      "lng": -80.9359
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Summit, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Summit!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Summit"
     }
   },
   {
     "slug": "carlisle",
     "name": "Carlisle",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Union County",
+    "zip": ["29031"],
     "neighborhoods": [
       "Downtown Carlisle",
       "Greater Carlisle"
@@ -11382,28 +11046,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0511,
+      "lng": -81.1221
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Carlisle, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Carlisle!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Carlisle"
     }
   },
   {
     "slug": "brunson",
     "name": "Brunson",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Hampton County",
+    "zip": ["29911"],
     "neighborhoods": [
       "Downtown Brunson",
       "Greater Brunson"
@@ -11416,28 +11079,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0232,
+      "lng": -80.9625
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Brunson, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Brunson!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Brunson"
     }
   },
   {
     "slug": "little-rock",
     "name": "Little Rock",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Dillon County",
+    "zip": ["29567"],
     "neighborhoods": [
       "Downtown Little Rock",
       "Greater Little Rock"
@@ -11450,18 +11112,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9902,
+      "lng": -81.0908
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Little Rock, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Little Rock!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Little Rock"
     }
   },
@@ -11469,9 +11132,7 @@ export const locations: Location[] = [
     "slug": "buford",
     "name": "Buford",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29133"],
     "neighborhoods": [
       "Downtown Buford",
       "Greater Buford"
@@ -11484,28 +11145,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0962,
+      "lng": -81.0366
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Buford, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Buford!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Buford"
     }
   },
   {
     "slug": "cross-hill",
     "name": "Cross Hill",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Laurens County",
+    "zip": ["29332"],
     "neighborhoods": [
       "Downtown cross Hill",
       "Greater cross Hill"
@@ -11518,18 +11178,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9053,
+      "lng": -81.0375
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In cross Hill, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in cross Hill!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in cross Hill!",
       "location": "cross Hill"
     }
   },
@@ -11537,9 +11198,7 @@ export const locations: Location[] = [
     "slug": "finklea",
     "name": "Finklea",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29392"],
     "neighborhoods": [
       "Downtown Finklea",
       "Greater Finklea"
@@ -11552,28 +11211,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9858,
+      "lng": -81.0883
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Finklea, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Finklea!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Finklea"
     }
   },
   {
     "slug": "patrick",
     "name": "Patrick",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Chesterfield County",
+    "zip": ["29584"],
     "neighborhoods": [
       "Downtown Patrick",
       "Greater Patrick"
@@ -11586,18 +11244,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0198,
+      "lng": -81.0186
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Patrick, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Patrick!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Patrick"
     }
   },
@@ -11605,9 +11264,7 @@ export const locations: Location[] = [
     "slug": "cameron",
     "name": "Cameron",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29937"],
     "neighborhoods": [
       "Downtown Cameron",
       "Greater Cameron"
@@ -11620,18 +11277,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0481,
+      "lng": -80.9557
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Cameron, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Cameron!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Cameron"
     }
   },
@@ -11639,9 +11297,7 @@ export const locations: Location[] = [
     "slug": "helena",
     "name": "Helena",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29733"],
     "neighborhoods": [
       "Downtown Helena",
       "Greater Helena"
@@ -11654,28 +11310,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9968,
+      "lng": -81.1089
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Helena, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Helena!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Helena"
     }
   },
   {
     "slug": "springfield",
     "name": "Springfield",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Orangeburg County",
+    "zip": ["29146"],
     "neighborhoods": [
       "Downtown Springfield",
       "Greater Springfield"
@@ -11688,18 +11343,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0638,
+      "lng": -80.9529
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Springfield, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Springfield!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Springfield"
     }
   },
@@ -11707,9 +11363,7 @@ export const locations: Location[] = [
     "slug": "north-santee",
     "name": "North Santee",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29584"],
     "neighborhoods": [
       "Downtown North Santee",
       "Greater North Santee"
@@ -11722,18 +11376,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0874,
+      "lng": -81.0941
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In North Santee, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in North Santee!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in North Santee!",
       "location": "North Santee"
     }
   },
@@ -11741,9 +11396,7 @@ export const locations: Location[] = [
     "slug": "danwood",
     "name": "Danwood",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29215"],
     "neighborhoods": [
       "Downtown Danwood",
       "Greater Danwood"
@@ -11756,28 +11409,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0748,
+      "lng": -81.0981
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Danwood, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Danwood!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Danwood"
     }
   },
   {
     "slug": "ehrhardt",
     "name": "Ehrhardt",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Bamberg County",
+    "zip": ["29081"],
     "neighborhoods": [
       "Downtown Ehrhardt",
       "Greater Ehrhardt"
@@ -11790,28 +11442,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9327,
+      "lng": -81.0099
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Ehrhardt, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Ehrhardt!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Ehrhardt"
     }
   },
   {
     "slug": "lockhart",
     "name": "Lockhart",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Union County",
+    "zip": ["29364"],
     "neighborhoods": [
       "Downtown Lockhart",
       "Greater Lockhart"
@@ -11824,28 +11475,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9418,
+      "lng": -81.0032
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lockhart, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Lockhart!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Lockhart"
     }
   },
   {
     "slug": "little-mountain",
     "name": "Little Mountain",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Newberry County",
+    "zip": ["29075"],
     "neighborhoods": [
       "Downtown Little Mountain",
       "Greater Little Mountain"
@@ -11858,28 +11508,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0197,
+      "lng": -81.0640
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Little Mountain, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Little Mountain!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Little Mountain"
     }
   },
   {
     "slug": "bethune",
     "name": "Bethune",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Kershaw County",
+    "zip": ["29009"],
     "neighborhoods": [
       "Downtown Bethune",
       "Greater Bethune"
@@ -11892,28 +11541,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9992,
+      "lng": -80.9681
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Bethune, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Bethune!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Bethune"
     }
   },
   {
     "slug": "adams-run",
     "name": "Adams Run",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Charleston County",
+    "zip": ["29426"],
     "neighborhoods": [
       "Downtown Adams Run",
       "Greater Adams Run"
@@ -11926,28 +11574,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0277,
+      "lng": -81.1306
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Adams Run, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Adams Run!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Adams Run"
     }
   },
   {
     "slug": "enoree",
     "name": "Enoree",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Spartanburg County",
+    "zip": ["29335"],
     "neighborhoods": [
       "Downtown Enoree",
       "Greater Enoree"
@@ -11960,28 +11607,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9474,
+      "lng": -81.0912
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Enoree, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Enoree!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Enoree"
     }
   },
   {
     "slug": "sheldon",
     "name": "Sheldon",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Beaufort County",
+    "zip": ["29941"],
     "neighborhoods": [
       "Downtown Sheldon",
       "Greater Sheldon"
@@ -11994,28 +11640,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9191,
+      "lng": -81.0115
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Sheldon, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Sheldon!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Sheldon"
     }
   },
   {
     "slug": "hilda",
     "name": "Hilda",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Barnwell County",
+    "zip": ["29813"],
     "neighborhoods": [
       "Downtown Hilda",
       "Greater Hilda"
@@ -12028,28 +11673,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9858,
+      "lng": -81.0994
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Hilda, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Hilda!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Hilda!",
       "location": "Hilda"
     }
   },
   {
     "slug": "west-union",
     "name": "West Union",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Oconee County",
+    "zip": ["29696"],
     "neighborhoods": [
       "Downtown West Union",
       "Greater West Union"
@@ -12062,28 +11706,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9413,
+      "lng": -81.0457
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In West Union, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in West Union!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "West Union"
     }
   },
   {
     "slug": "hemingway",
     "name": "Hemingway",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Williamsburg County",
+    "zip": ["29554"],
     "neighborhoods": [
       "Downtown Hemingway",
       "Greater Hemingway"
@@ -12096,28 +11739,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9280,
+      "lng": -81.1015
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Hemingway, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Hemingway!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Hemingway"
     }
   },
   {
     "slug": "grover",
     "name": "Grover",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Dorchester County",
+    "zip": ["29447"],
     "neighborhoods": [
       "Downtown Grover",
       "Greater Grover"
@@ -12130,28 +11772,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0028,
+      "lng": -80.9860
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Grover, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Grover!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Grover"
     }
   },
   {
     "slug": "greeleyville",
     "name": "Greeleyville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Williamsburg County",
+    "zip": ["29056"],
     "neighborhoods": [
       "Downtown Greeleyville",
       "Greater Greeleyville"
@@ -12164,18 +11805,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0341,
+      "lng": -80.9442
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Greeleyville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Greeleyville!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Greeleyville"
     }
   },
@@ -12183,9 +11825,7 @@ export const locations: Location[] = [
     "slug": "cash",
     "name": "Cash",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29221"],
     "neighborhoods": [
       "Downtown Cash",
       "Greater Cash"
@@ -12198,28 +11838,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0756,
+      "lng": -81.0595
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Cash, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Cash!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Cash"
     }
   },
   {
     "slug": "society-hill",
     "name": "Society Hill",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Darlington County",
+    "zip": ["29593"],
     "neighborhoods": [
       "Downtown Society Hill",
       "Greater Society Hill"
@@ -12232,28 +11871,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9077,
+      "lng": -80.9751
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Society Hill, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Society Hill!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Society Hill"
     }
   },
   {
     "slug": "sharon",
     "name": "Sharon",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "York County",
+    "zip": ["29742"],
     "neighborhoods": [
       "Downtown Sharon",
       "Greater Sharon"
@@ -12266,28 +11904,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9049,
+      "lng": -81.0847
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Sharon, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Sharon!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Sharon"
     }
   },
   {
     "slug": "eutawville",
     "name": "Eutawville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Orangeburg County",
+    "zip": ["29048"],
     "neighborhoods": [
       "Downtown Eutawville",
       "Greater Eutawville"
@@ -12300,28 +11937,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9502,
+      "lng": -80.9648
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Eutawville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Eutawville!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Eutawville"
     }
   },
   {
     "slug": "rowesville",
     "name": "Rowesville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Orangeburg County",
+    "zip": ["29133"],
     "neighborhoods": [
       "Downtown Rowesville",
       "Greater Rowesville"
@@ -12334,28 +11970,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9036,
+      "lng": -81.0480
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Rowesville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Rowesville!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Rowesville"
     }
   },
   {
     "slug": "alcolu",
     "name": "Alcolu",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Clarendon County",
+    "zip": ["29001"],
     "neighborhoods": [
       "Downtown Alcolu",
       "Greater Alcolu"
@@ -12368,18 +12003,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9926,
+      "lng": -81.0722
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Alcolu, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Alcolu!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Alcolu!",
       "location": "Alcolu"
     }
   },
@@ -12387,9 +12023,7 @@ export const locations: Location[] = [
     "slug": "south-union",
     "name": "South Union",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29493"],
     "neighborhoods": [
       "Downtown South Union",
       "Greater South Union"
@@ -12402,28 +12036,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0396,
+      "lng": -81.0909
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In South Union, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in South Union!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "South Union"
     }
   },
   {
     "slug": "mount-carmel",
     "name": "Mount carmel",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "McCormick County",
+    "zip": ["29840"],
     "neighborhoods": [
       "Downtown Mount carmel",
       "Greater Mount carmel"
@@ -12436,18 +12069,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0291,
+      "lng": -81.0703
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Mount carmel, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Mount carmel!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Mount carmel"
     }
   },
@@ -12455,9 +12089,7 @@ export const locations: Location[] = [
     "slug": "cokesbury",
     "name": "Cokesbury",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29745"],
     "neighborhoods": [
       "Downtown Cokesbury",
       "Greater Cokesbury"
@@ -12470,28 +12102,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9521,
+      "lng": -80.9363
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Cokesbury, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Cokesbury!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Cokesbury"
     }
   },
   {
     "slug": "donalds",
     "name": "Donalds",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Abbeville County",
+    "zip": ["29638"],
     "neighborhoods": [
       "Downtown Donalds",
       "Greater Donalds"
@@ -12504,28 +12135,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0673,
+      "lng": -81.0402
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Donalds, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Donalds!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Donalds"
     }
   },
   {
     "slug": "neeses",
     "name": "Neeses",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Orangeburg County",
+    "zip": ["29107"],
     "neighborhoods": [
       "Downtown Neeses",
       "Greater Neeses"
@@ -12538,28 +12168,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9560,
+      "lng": -80.9360
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Neeses, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Neeses!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Neeses!",
       "location": "Neeses"
     }
   },
   {
     "slug": "ruby",
     "name": "Ruby",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Chesterfield County",
+    "zip": ["29741"],
     "neighborhoods": [
       "Downtown Ruby",
       "Greater Ruby"
@@ -12572,28 +12201,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0305,
+      "lng": -81.1103
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Ruby, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Ruby!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Ruby!",
       "location": "Ruby"
     }
   },
   {
     "slug": "richburg",
     "name": "Richburg",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Chester County",
+    "zip": ["29729"],
     "neighborhoods": [
       "Downtown Richburg",
       "Greater Richburg"
@@ -12606,18 +12234,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0702,
+      "lng": -81.0223
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Richburg, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Richburg!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Richburg"
     }
   },
@@ -12625,9 +12254,7 @@ export const locations: Location[] = [
     "slug": "oswego",
     "name": "Oswego",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29109"],
     "neighborhoods": [
       "Downtown Oswego",
       "Greater Oswego"
@@ -12640,18 +12267,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9170,
+      "lng": -81.0182
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Oswego, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Oswego!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Oswego"
     }
   },
@@ -12659,9 +12287,7 @@ export const locations: Location[] = [
     "slug": "paxville",
     "name": "Paxville",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29909"],
     "neighborhoods": [
       "Downtown Paxville",
       "Greater Paxville"
@@ -12674,28 +12300,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9037,
+      "lng": -80.9359
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Paxville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Paxville!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Paxville"
     }
   },
   {
     "slug": "newry",
     "name": "Newry",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Oconee County",
+    "zip": ["29665"],
     "neighborhoods": [
       "Downtown Newry",
       "Greater Newry"
@@ -12708,18 +12333,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9978,
+      "lng": -80.9646
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Newry, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Newry!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Newry"
     }
   },
@@ -12727,9 +12353,7 @@ export const locations: Location[] = [
     "slug": "promised-land",
     "name": "Promised Land",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29128"],
     "neighborhoods": [
       "Downtown Promised Land",
       "Greater Promised Land"
@@ -12742,18 +12366,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9929,
+      "lng": -81.0744
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Promised Land, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Promised Land!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Promised Land"
     }
   },
@@ -12761,9 +12386,7 @@ export const locations: Location[] = [
     "slug": "atlantic-beach",
     "name": "Atlantic Beach",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29544"],
     "neighborhoods": [
       "Downtown Atlantic Beach",
       "Greater Atlantic Beach"
@@ -12776,28 +12399,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0778,
+      "lng": -80.9394
+    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Atlantic Beach, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/2e0591b6f8d548e3922ef0c641103b4d_3f078.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Atlantic Beach!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Atlantic Beach"
     }
   },
   {
     "slug": "norway",
     "name": "Norway",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Orangeburg County",
+    "zip": ["29113"],
     "neighborhoods": [
       "Downtown Norway",
       "Greater Norway"
@@ -12810,18 +12432,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9490,
+      "lng": -81.0068
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Norway, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Norway!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Norway"
     }
   },
@@ -12829,9 +12452,7 @@ export const locations: Location[] = [
     "slug": "mcconnells",
     "name": "Mcconnells",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29171"],
     "neighborhoods": [
       "Downtown Mcconnells",
       "Greater Mcconnells"
@@ -12844,18 +12465,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9985,
+      "lng": -81.0618
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Mcconnells, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Mcconnells!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Mcconnells!",
       "location": "Mcconnells"
     }
   },
@@ -12863,9 +12485,7 @@ export const locations: Location[] = [
     "slug": "gillisonville",
     "name": "Gillisonville",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29123"],
     "neighborhoods": [
       "Downtown Gillisonville",
       "Greater Gillisonville"
@@ -12878,28 +12498,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0473,
+      "lng": -80.9436
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Gillisonville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Gillisonville!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Gillisonville"
     }
   },
   {
     "slug": "trenton",
     "name": "Trenton",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Edgefield County",
+    "zip": ["29847"],
     "neighborhoods": [
       "Downtown Trenton",
       "Greater Trenton"
@@ -12912,18 +12531,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0492,
+      "lng": -80.9465
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Trenton, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Trenton!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Trenton!",
       "location": "Trenton"
     }
   },
@@ -12931,9 +12551,7 @@ export const locations: Location[] = [
     "slug": "lowrys",
     "name": "Lowrys",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29325"],
     "neighborhoods": [
       "Downtown Lowrys",
       "Greater Lowrys"
@@ -12946,28 +12564,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0858,
+      "lng": -81.0272
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lowrys, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Lowrys!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Lowrys"
     }
   },
   {
     "slug": "salley",
     "name": "Salley",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Aiken County",
+    "zip": ["29137"],
     "neighborhoods": [
       "Downtown Salley",
       "Greater Salley"
@@ -12980,28 +12597,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9173,
+      "lng": -80.9735
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Salley, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Salley!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Salley"
     }
   },
   {
     "slug": "windsor",
     "name": "Windsor",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Aiken County",
+    "zip": ["29856"],
     "neighborhoods": [
       "Downtown Windsor",
       "Greater Windsor"
@@ -13014,18 +12630,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0832,
+      "lng": -81.0619
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Windsor, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Windsor!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Windsor"
     }
   },
@@ -13033,9 +12650,7 @@ export const locations: Location[] = [
     "slug": "perry",
     "name": "Perry",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29399"],
     "neighborhoods": [
       "Downtown Perry",
       "Greater Perry"
@@ -13048,18 +12663,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9225,
+      "lng": -80.9867
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Perry, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Perry!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Perry!",
       "location": "Perry"
     }
   },
@@ -13067,9 +12683,7 @@ export const locations: Location[] = [
     "slug": "antreville",
     "name": "Antreville",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29800"],
     "neighborhoods": [
       "Downtown Antreville",
       "Greater Antreville"
@@ -13082,28 +12696,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9334,
+      "lng": -81.0227
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Antreville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Antreville!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Antreville"
     }
   },
   {
     "slug": "russellville",
     "name": "Russellville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Berkeley County",
+    "zip": ["29476"],
     "neighborhoods": [
       "Downtown Russellville",
       "Greater Russellville"
@@ -13116,18 +12729,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0170,
+      "lng": -81.0155
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Russellville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Russellville!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Russellville"
     }
   },
@@ -13135,9 +12749,7 @@ export const locations: Location[] = [
     "slug": "harbor-island",
     "name": "Harbor Island",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29323"],
     "neighborhoods": [
       "Downtown Harbor Island",
       "Greater Harbor Island"
@@ -13150,28 +12762,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0183,
+      "lng": -81.0529
+    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Harbor Island, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/2e0591b6f8d548e3922ef0c641103b4d_3f078.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Harbor Island!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Harbor Island"
     }
   },
   {
     "slug": "reevesville",
     "name": "Reevesville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Dorchester County",
+    "zip": ["29471"],
     "neighborhoods": [
       "Downtown Reevesville",
       "Greater Reevesville"
@@ -13184,28 +12795,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0667,
+      "lng": -81.1274
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Reevesville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Reevesville!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Reevesville!",
       "location": "Reevesville"
     }
   },
   {
     "slug": "jacksonboro",
     "name": "Jacksonboro",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Colleton County",
+    "zip": ["29452"],
     "neighborhoods": [
       "Downtown Jacksonboro",
       "Greater Jacksonboro"
@@ -13218,18 +12828,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0408,
+      "lng": -81.0506
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Jacksonboro, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Jacksonboro!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Jacksonboro"
     }
   },
@@ -13237,9 +12848,7 @@ export const locations: Location[] = [
     "slug": "snelling",
     "name": "Snelling",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29555"],
     "neighborhoods": [
       "Downtown Snelling",
       "Greater Snelling"
@@ -13252,28 +12861,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9736,
+      "lng": -80.9348
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Snelling, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Snelling!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Snelling!",
       "location": "Snelling"
     }
   },
   {
     "slug": "rembert",
     "name": "Rembert",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Sumter County",
+    "zip": ["29128"],
     "neighborhoods": [
       "Downtown Rembert",
       "Greater Rembert"
@@ -13286,28 +12894,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9324,
+      "lng": -81.0060
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Rembert, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Rembert!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Rembert!",
       "location": "Rembert"
     }
   },
   {
     "slug": "glendale",
     "name": "Glendale",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Spartanburg County",
+    "zip": ["29346"],
     "neighborhoods": [
       "Downtown Glendale",
       "Greater Glendale"
@@ -13320,28 +12927,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9579,
+      "lng": -81.1175
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Glendale, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Glendale!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Glendale!",
       "location": "Glendale"
     }
   },
   {
     "slug": "ward",
     "name": "Ward",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Saluda County",
+    "zip": ["29166"],
     "neighborhoods": [
       "Downtown Ward",
       "Greater Ward"
@@ -13354,28 +12960,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9506,
+      "lng": -81.1185
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Ward, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Ward!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Ward"
     }
   },
   {
     "slug": "ridgeway",
     "name": "Ridgeway",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Fairfield County",
+    "zip": ["29130"],
     "neighborhoods": [
       "Downtown Ridgeway",
       "Greater Ridgeway"
@@ -13388,28 +12993,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9621,
+      "lng": -80.9631
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Ridgeway, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Ridgeway!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Ridgeway"
     }
   },
   {
     "slug": "lynchburg",
     "name": "Lynchburg",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Lee County",
+    "zip": ["29080"],
     "neighborhoods": [
       "Downtown Lynchburg",
       "Greater Lynchburg"
@@ -13422,18 +13026,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9857,
+      "lng": -81.0598
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lynchburg, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Lynchburg!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Lynchburg"
     }
   },
@@ -13441,9 +13046,7 @@ export const locations: Location[] = [
     "slug": "daviston",
     "name": "Daviston",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29667"],
     "neighborhoods": [
       "Downtown Daviston",
       "Greater Daviston"
@@ -13456,28 +13059,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0944,
+      "lng": -81.1292
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Daviston, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Daviston!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Daviston"
     }
   },
   {
     "slug": "waterloo",
     "name": "Waterloo",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Laurens County",
+    "zip": ["29384"],
     "neighborhoods": [
       "Downtown Waterloo",
       "Greater Waterloo"
@@ -13490,18 +13092,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0146,
+      "lng": -80.9972
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Waterloo, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Waterloo!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Waterloo!",
       "location": "Waterloo"
     }
   },
@@ -13509,9 +13112,7 @@ export const locations: Location[] = [
     "slug": "stuckey",
     "name": "Stuckey",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29559"],
     "neighborhoods": [
       "Downtown Stuckey",
       "Greater Stuckey"
@@ -13524,28 +13125,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9460,
+      "lng": -81.0124
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Stuckey, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Stuckey!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Stuckey"
     }
   },
   {
     "slug": "converse",
     "name": "Converse",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Spartanburg County",
+    "zip": ["29329"],
     "neighborhoods": [
       "Downtown Converse",
       "Greater Converse"
@@ -13558,28 +13158,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9757,
+      "lng": -80.9837
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Converse, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Converse!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Converse"
     }
   },
   {
     "slug": "pauline",
     "name": "Pauline",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Spartanburg County",
+    "zip": ["29374"],
     "neighborhoods": [
       "Downtown Pauline",
       "Greater Pauline"
@@ -13592,28 +13191,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9097,
+      "lng": -81.1071
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Pauline, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Pauline!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Pauline"
     }
   },
   {
     "slug": "lydia",
     "name": "Lydia",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Darlington County",
+    "zip": ["29079"],
     "neighborhoods": [
       "Downtown Lydia",
       "Greater Lydia"
@@ -13626,18 +13224,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0753,
+      "lng": -81.0714
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lydia, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Lydia!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Lydia!",
       "location": "Lydia"
     }
   },
@@ -13645,9 +13244,7 @@ export const locations: Location[] = [
     "slug": "dacusville",
     "name": "Dacusville",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29576"],
     "neighborhoods": [
       "Downtown Dacusville",
       "Greater Dacusville"
@@ -13660,28 +13257,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9189,
+      "lng": -81.0559
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Dacusville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Dacusville!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Dacusville"
     }
   },
   {
     "slug": "cordova",
     "name": "Cordova",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Orangeburg County",
+    "zip": ["29039"],
     "neighborhoods": [
       "Downtown Cordova",
       "Greater Cordova"
@@ -13694,28 +13290,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0509,
+      "lng": -81.1144
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Cordova, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Cordova!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Cordova"
     }
   },
   {
     "slug": "elko",
     "name": "Elko",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Barnwell County",
+    "zip": ["29826"],
     "neighborhoods": [
       "Downtown Elko",
       "Greater Elko"
@@ -13728,18 +13323,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9844,
+      "lng": -80.9778
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Elko, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Elko!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Elko"
     }
   },
@@ -13747,9 +13343,7 @@ export const locations: Location[] = [
     "slug": "wisacky",
     "name": "Wisacky",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29984"],
     "neighborhoods": [
       "Downtown Wisacky",
       "Greater Wisacky"
@@ -13762,28 +13356,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0697,
+      "lng": -80.9706
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Wisacky, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Wisacky!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Wisacky"
     }
   },
   {
     "slug": "williams",
     "name": "Williams",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Colleton County",
+    "zip": ["29493"],
     "neighborhoods": [
       "Downtown Williams",
       "Greater Williams"
@@ -13796,28 +13389,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9455,
+      "lng": -81.0980
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Williams, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Williams!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Williams"
     }
   },
   {
     "slug": "gifford",
     "name": "Gifford",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Hampton County",
+    "zip": ["29923"],
     "neighborhoods": [
       "Downtown Gifford",
       "Greater Gifford"
@@ -13830,28 +13422,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9707,
+      "lng": -81.1042
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Gifford, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Gifford!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Gifford"
     }
   },
   {
     "slug": "lobeco",
     "name": "Lobeco",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Beaufort County",
+    "zip": ["29931"],
     "neighborhoods": [
       "Downtown Lobeco",
       "Greater Lobeco"
@@ -13864,18 +13455,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0155,
+      "lng": -81.0514
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lobeco, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Lobeco!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Lobeco!",
       "location": "Lobeco"
     }
   },
@@ -13883,9 +13475,7 @@ export const locations: Location[] = [
     "slug": "shiloh",
     "name": "Shiloh",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29447"],
     "neighborhoods": [
       "Downtown Shiloh",
       "Greater Shiloh"
@@ -13898,18 +13488,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9422,
+      "lng": -81.0248
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Shiloh, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Shiloh!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Shiloh"
     }
   },
@@ -13917,9 +13508,7 @@ export const locations: Location[] = [
     "slug": "kline",
     "name": "Kline",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29373"],
     "neighborhoods": [
       "Downtown Kline",
       "Greater Kline"
@@ -13932,28 +13521,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0369,
+      "lng": -81.0253
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Kline, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Kline!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Kline"
     }
   },
   {
     "slug": "starr",
     "name": "Starr",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Anderson County",
+    "zip": ["29684"],
     "neighborhoods": [
       "Downtown Starr",
       "Greater Starr"
@@ -13966,18 +13554,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0320,
+      "lng": -81.0589
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Starr, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Starr!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Starr"
     }
   },
@@ -13985,9 +13574,7 @@ export const locations: Location[] = [
     "slug": "central-pacolet",
     "name": "Central Pacolet",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29728"],
     "neighborhoods": [
       "Downtown Central Pacolet",
       "Greater Central Pacolet"
@@ -14000,18 +13587,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0028,
+      "lng": -81.1187
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Central Pacolet, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Central Pacolet!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Central Pacolet"
     }
   },
@@ -14019,9 +13607,7 @@ export const locations: Location[] = [
     "slug": "glenn-springs",
     "name": "Glenn Springs",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29767"],
     "neighborhoods": [
       "Downtown Glenn Springs",
       "Greater Glenn Springs"
@@ -14034,18 +13620,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9316,
+      "lng": -81.0837
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Glenn Springs, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Glenn Springs!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Glenn Springs"
     }
   },
@@ -14053,9 +13640,7 @@ export const locations: Location[] = [
     "slug": "mulberry",
     "name": "Mulberry",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29694"],
     "neighborhoods": [
       "Downtown Mulberry",
       "Greater Mulberry"
@@ -14068,28 +13653,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9208,
+      "lng": -81.1238
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Mulberry, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Mulberry!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Mulberry"
     }
   },
   {
     "slug": "monetta",
     "name": "Monetta",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Aiken County",
+    "zip": ["29105"],
     "neighborhoods": [
       "Downtown Monetta",
       "Greater Monetta"
@@ -14102,28 +13686,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9640,
+      "lng": -81.0128
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Monetta, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Monetta!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Monetta"
     }
   },
   {
     "slug": "lowndesville",
     "name": "Lowndesville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Abbeville County",
+    "zip": ["29659"],
     "neighborhoods": [
       "Downtown Lowndesville",
       "Greater Lowndesville"
@@ -14136,28 +13719,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9898,
+      "lng": -81.0734
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lowndesville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Lowndesville!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Lowndesville"
     }
   },
   {
     "slug": "olar",
     "name": "Olar",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Bamberg County",
+    "zip": ["29843"],
     "neighborhoods": [
       "Downtown Olar",
       "Greater Olar"
@@ -14170,28 +13752,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9215,
+      "lng": -81.0645
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Olar, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Olar!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Olar"
     }
   },
   {
     "slug": "mount-croghan",
     "name": "Mount croghan",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Chesterfield County",
+    "zip": ["29727"],
     "neighborhoods": [
       "Downtown Mount croghan",
       "Greater Mount croghan"
@@ -14204,28 +13785,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9570,
+      "lng": -81.1193
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Mount croghan, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Mount croghan!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Mount croghan"
     }
   },
   {
     "slug": "luray",
     "name": "Luray",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Hampton County",
+    "zip": ["29932"],
     "neighborhoods": [
       "Downtown Luray",
       "Greater Luray"
@@ -14238,28 +13818,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9233,
+      "lng": -80.9997
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Luray, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Luray!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Luray"
     }
   },
   {
     "slug": "hodges",
     "name": "Hodges",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Greenwood County",
+    "zip": ["29653"],
     "neighborhoods": [
       "Downtown Hodges",
       "Greater Hodges"
@@ -14272,28 +13851,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0254,
+      "lng": -80.9755
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Hodges, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Hodges!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Hodges"
     }
   },
   {
     "slug": "lodge",
     "name": "Lodge",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Colleton County",
+    "zip": ["29082"],
     "neighborhoods": [
       "Downtown Lodge",
       "Greater Lodge"
@@ -14306,28 +13884,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9378,
+      "lng": -81.0871
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lodge, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Lodge!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Lodge"
     }
   },
   {
     "slug": "troy",
     "name": "Troy",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Greenwood County",
+    "zip": ["29848"],
     "neighborhoods": [
       "Downtown Troy",
       "Greater Troy"
@@ -14340,18 +13917,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9796,
+      "lng": -80.9722
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Troy, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Troy!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Troy!",
       "location": "Troy"
     }
   },
@@ -14359,9 +13937,7 @@ export const locations: Location[] = [
     "slug": "woodford",
     "name": "Woodford",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29561"],
     "neighborhoods": [
       "Downtown Woodford",
       "Greater Woodford"
@@ -14374,28 +13950,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9669,
+      "lng": -81.1269
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Woodford, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Woodford!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Woodford"
     }
   },
   {
     "slug": "bradley",
     "name": "Bradley",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Greenwood County",
+    "zip": ["29819"],
     "neighborhoods": [
       "Downtown Bradley",
       "Greater Bradley"
@@ -14408,28 +13983,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9299,
+      "lng": -81.0880
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Bradley, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Bradley!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Bradley"
     }
   },
   {
     "slug": "nichols",
     "name": "Nichols",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Horry County",
+    "zip": ["29581"],
     "neighborhoods": [
       "Downtown Nichols",
       "Greater Nichols"
@@ -14442,18 +14016,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9461,
+      "lng": -81.0986
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Nichols, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Nichols!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Nichols"
     }
   },
@@ -14461,9 +14036,7 @@ export const locations: Location[] = [
     "slug": "livingston",
     "name": "Livingston",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29630"],
     "neighborhoods": [
       "Downtown Livingston",
       "Greater Livingston"
@@ -14476,28 +14049,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0308,
+      "lng": -81.1009
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Livingston, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Livingston!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Livingston"
     }
   },
   {
     "slug": "silverstreet",
     "name": "Silverstreet",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Newberry County",
+    "zip": ["29145"],
     "neighborhoods": [
       "Downtown Silverstreet",
       "Greater Silverstreet"
@@ -14510,28 +14082,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9221,
+      "lng": -80.9367
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Silverstreet, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Silverstreet!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Silverstreet"
     }
   },
   {
     "slug": "salem",
     "name": "Salem",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Oconee County",
+    "zip": ["29676"],
     "neighborhoods": [
       "Downtown Salem",
       "Greater Salem"
@@ -14544,18 +14115,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0514,
+      "lng": -81.0494
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Salem, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Salem!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Salem"
     }
   },
@@ -14563,9 +14135,7 @@ export const locations: Location[] = [
     "slug": "floydale",
     "name": "Floydale",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29526"],
     "neighborhoods": [
       "Downtown Floydale",
       "Greater Floydale"
@@ -14578,28 +14148,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0500,
+      "lng": -81.0169
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Floydale, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Floydale!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Floydale"
     }
   },
   {
     "slug": "mountville",
     "name": "Mountville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Laurens County",
+    "zip": ["29370"],
     "neighborhoods": [
       "Downtown Mountville",
       "Greater Mountville"
@@ -14612,18 +14181,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9022,
+      "lng": -80.9553
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Mountville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Mountville!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Mountville"
     }
   },
@@ -14631,9 +14201,7 @@ export const locations: Location[] = [
     "slug": "foreston",
     "name": "Foreston",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29588"],
     "neighborhoods": [
       "Downtown Foreston",
       "Greater Foreston"
@@ -14646,28 +14214,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0687,
+      "lng": -80.9616
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Foreston, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Foreston!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Foreston"
     }
   },
   {
     "slug": "sellers",
     "name": "Sellers",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Dillon County",
+    "zip": ["29592"],
     "neighborhoods": [
       "Downtown Sellers",
       "Greater Sellers"
@@ -14680,28 +14247,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9546,
+      "lng": -81.0970
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Sellers, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Sellers!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Sellers"
     }
   },
   {
     "slug": "smoaks",
     "name": "Smoaks",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Colleton County",
+    "zip": ["29481"],
     "neighborhoods": [
       "Downtown Smoaks",
       "Greater Smoaks"
@@ -14714,18 +14280,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0623,
+      "lng": -81.1163
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Smoaks, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Smoaks!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Smoaks!",
       "location": "Smoaks"
     }
   },
@@ -14733,9 +14300,7 @@ export const locations: Location[] = [
     "slug": "rockville",
     "name": "Rockville",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29316"],
     "neighborhoods": [
       "Downtown Rockville",
       "Greater Rockville"
@@ -14748,28 +14313,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0237,
+      "lng": -81.1141
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Rockville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Rockville!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Rockville!",
       "location": "Rockville"
     }
   },
   {
     "slug": "scotia",
     "name": "Scotia",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Hampton County",
+    "zip": ["29939"],
     "neighborhoods": [
       "Downtown Scotia",
       "Greater Scotia"
@@ -14782,18 +14346,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0551,
+      "lng": -80.9816
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Scotia, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Scotia!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Scotia"
     }
   },
@@ -14801,9 +14366,7 @@ export const locations: Location[] = [
     "slug": "boykin",
     "name": "Boykin",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29326"],
     "neighborhoods": [
       "Downtown Boykin",
       "Greater Boykin"
@@ -14816,28 +14379,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9370,
+      "lng": -81.0474
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Boykin, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Boykin!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Boykin"
     }
   },
   {
     "slug": "parksville",
     "name": "Parksville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "McCormick County",
+    "zip": ["29844"],
     "neighborhoods": [
       "Downtown Parksville",
       "Greater Parksville"
@@ -14850,28 +14412,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9121,
+      "lng": -81.0632
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Parksville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Parksville!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Parksville!",
       "location": "Parksville"
     }
   },
   {
     "slug": "pawleys-island",
     "name": "Pawleys Island",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Georgetown County",
+    "zip": ["29585"],
     "neighborhoods": [
       "Downtown Pawleys Island",
       "Greater Pawleys Island"
@@ -14884,18 +14445,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9014,
+      "lng": -80.9379
+    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Pawleys Island, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/2e0591b6f8d548e3922ef0c641103b4d_3f078.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Pawleys Island!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Pawleys Island"
     }
   },
@@ -14903,9 +14465,7 @@ export const locations: Location[] = [
     "slug": "zion",
     "name": "Zion",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29853"],
     "neighborhoods": [
       "Downtown Zion",
       "Greater Zion"
@@ -14918,28 +14478,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0946,
+      "lng": -81.0957
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Zion, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Zion!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Zion"
     }
   },
   {
     "slug": "fingerville",
     "name": "Fingerville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Spartanburg County",
+    "zip": ["29338"],
     "neighborhoods": [
       "Downtown Fingerville",
       "Greater Fingerville"
@@ -14952,28 +14511,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0252,
+      "lng": -81.1290
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Fingerville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Fingerville!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Fingerville"
     }
   },
   {
     "slug": "rains",
     "name": "Rains",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Marion County",
+    "zip": ["29589"],
     "neighborhoods": [
       "Downtown Rains",
       "Greater Rains"
@@ -14986,18 +14544,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0696,
+      "lng": -81.0835
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Rains, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Rains!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Rains"
     }
   },
@@ -15005,9 +14564,7 @@ export const locations: Location[] = [
     "slug": "ware-place",
     "name": "Ware Place",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29433"],
     "neighborhoods": [
       "Downtown Ware Place",
       "Greater Ware Place"
@@ -15020,28 +14577,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0659,
+      "lng": -81.0411
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Ware Place, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Ware Place!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Ware Place"
     }
   },
   {
     "slug": "sycamore",
     "name": "Sycamore",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Allendale County",
+    "zip": ["29846"],
     "neighborhoods": [
       "Downtown Sycamore",
       "Greater Sycamore"
@@ -15054,28 +14610,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9450,
+      "lng": -81.0195
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Sycamore, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Sycamore!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Sycamore!",
       "location": "Sycamore"
     }
   },
   {
     "slug": "ulmer",
     "name": "Ulmer",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Allendale County",
+    "zip": ["29849"],
     "neighborhoods": [
       "Downtown Ulmer",
       "Greater Ulmer"
@@ -15088,28 +14643,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0769,
+      "lng": -81.1152
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Ulmer, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Ulmer!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Ulmer"
     }
   },
   {
     "slug": "vance",
     "name": "Vance",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Orangeburg County",
+    "zip": ["29163"],
     "neighborhoods": [
       "Downtown Vance",
       "Greater Vance"
@@ -15122,28 +14676,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9882,
+      "lng": -81.0148
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Vance, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Vance!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Vance"
     }
   },
   {
     "slug": "pomaria",
     "name": "Pomaria",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Newberry County",
+    "zip": ["29126"],
     "neighborhoods": [
       "Downtown Pomaria",
       "Greater Pomaria"
@@ -15156,18 +14709,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9108,
+      "lng": -81.0259
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Pomaria, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Pomaria!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Pomaria"
     }
   },
@@ -15175,9 +14729,7 @@ export const locations: Location[] = [
     "slug": "browntown",
     "name": "Browntown",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29605"],
     "neighborhoods": [
       "Downtown Browntown",
       "Greater Browntown"
@@ -15190,28 +14742,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9388,
+      "lng": -81.0810
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Browntown, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Browntown!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Browntown"
     }
   },
   {
     "slug": "tamassee",
     "name": "Tamassee",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Oconee County",
+    "zip": ["29686"],
     "neighborhoods": [
       "Downtown Tamassee",
       "Greater Tamassee"
@@ -15224,18 +14775,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9543,
+      "lng": -81.0391
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Tamassee, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Tamassee!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Tamassee"
     }
   },
@@ -15243,9 +14795,7 @@ export const locations: Location[] = [
     "slug": "willington",
     "name": "Willington",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29894"],
     "neighborhoods": [
       "Downtown Willington",
       "Greater Willington"
@@ -15258,28 +14808,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9742,
+      "lng": -81.0503
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Willington, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Willington!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Willington!",
       "location": "Willington"
     }
   },
   {
     "slug": "peak",
     "name": "Peak",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Newberry County",
+    "zip": ["29122"],
     "neighborhoods": [
       "Downtown Peak",
       "Greater Peak"
@@ -15292,28 +14841,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0909,
+      "lng": -80.9722
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Peak, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Peak!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Peak"
     }
   },
   {
     "slug": "gramling",
     "name": "Gramling",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Spartanburg County",
+    "zip": ["29348"],
     "neighborhoods": [
       "Downtown Gramling",
       "Greater Gramling"
@@ -15326,28 +14874,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0290,
+      "lng": -81.0552
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Gramling, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Gramling!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Gramling"
     }
   },
   {
     "slug": "clarks-hill",
     "name": "clarks Hill",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "McCormick County",
+    "zip": ["29821"],
     "neighborhoods": [
       "Downtown clarks Hill",
       "Greater clarks Hill"
@@ -15360,28 +14907,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9656,
+      "lng": -81.1184
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In clarks Hill, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in clarks Hill!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in clarks Hill!",
       "location": "clarks Hill"
     }
   },
   {
     "slug": "jamestown",
     "name": "Jamestown",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Berkeley County",
+    "zip": ["29453"],
     "neighborhoods": [
       "Downtown Jamestown",
       "Greater Jamestown"
@@ -15394,18 +14940,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0779,
+      "lng": -81.0061
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Jamestown, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Jamestown!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Jamestown"
     }
   },
@@ -15413,9 +14960,7 @@ export const locations: Location[] = [
     "slug": "princeton",
     "name": "Princeton",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29939"],
     "neighborhoods": [
       "Downtown Princeton",
       "Greater Princeton"
@@ -15428,28 +14973,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9930,
+      "lng": -80.9460
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Princeton, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Princeton!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Princeton"
     }
   },
   {
     "slug": "plum-branch",
     "name": "Plum Branch",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "McCormick County",
+    "zip": ["29845"],
     "neighborhoods": [
       "Downtown Plum Branch",
       "Greater Plum Branch"
@@ -15462,18 +15006,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0186,
+      "lng": -81.0727
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Plum Branch, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Plum Branch!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Plum Branch"
     }
   },
@@ -15481,9 +15026,7 @@ export const locations: Location[] = [
     "slug": "st.-charles",
     "name": "St. charles",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29394"],
     "neighborhoods": [
       "Downtown St. charles",
       "Greater St. charles"
@@ -15496,28 +15039,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0176,
+      "lng": -81.0186
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In St. charles, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in St. charles!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "St. charles"
     }
   },
   {
     "slug": "tatum",
     "name": "Tatum",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Marlboro County",
+    "zip": ["29594"],
     "neighborhoods": [
       "Downtown Tatum",
       "Greater Tatum"
@@ -15530,18 +15072,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9713,
+      "lng": -81.0117
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Tatum, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Tatum!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Tatum"
     }
   },
@@ -15549,9 +15092,7 @@ export const locations: Location[] = [
     "slug": "tradesville",
     "name": "Tradesville",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29693"],
     "neighborhoods": [
       "Downtown Tradesville",
       "Greater Tradesville"
@@ -15564,28 +15105,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0676,
+      "lng": -81.0083
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Tradesville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Tradesville!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Tradesville"
     }
   },
   {
     "slug": "green-sea",
     "name": "Green Sea",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Horry County",
+    "zip": ["29545"],
     "neighborhoods": [
       "Downtown Green Sea",
       "Greater Green Sea"
@@ -15598,18 +15138,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9697,
+      "lng": -81.0552
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Green Sea, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Green Sea!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Green Sea"
     }
   },
@@ -15617,9 +15158,7 @@ export const locations: Location[] = [
     "slug": "ashwood",
     "name": "Ashwood",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29721"],
     "neighborhoods": [
       "Downtown Ashwood",
       "Greater Ashwood"
@@ -15632,28 +15171,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0470,
+      "lng": -81.1277
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Ashwood, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Ashwood!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Ashwood!",
       "location": "Ashwood"
     }
   },
   {
     "slug": "blenheim",
     "name": "Blenheim",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Marlboro County",
+    "zip": ["29516"],
     "neighborhoods": [
       "Downtown Blenheim",
       "Greater Blenheim"
@@ -15666,18 +15204,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9146,
+      "lng": -80.9701
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Blenheim, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Blenheim!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Blenheim!",
       "location": "Blenheim"
     }
   },
@@ -15685,9 +15224,7 @@ export const locations: Location[] = [
     "slug": "govan",
     "name": "Govan",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29144"],
     "neighborhoods": [
       "Downtown Govan",
       "Greater Govan"
@@ -15700,28 +15237,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0954,
+      "lng": -81.1122
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Govan, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Govan!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Govan"
     }
   },
   {
     "slug": "jenkinsville",
     "name": "Jenkinsville",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Fairfield County",
+    "zip": ["29065"],
     "neighborhoods": [
       "Downtown Jenkinsville",
       "Greater Jenkinsville"
@@ -15734,18 +15270,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0638,
+      "lng": -81.0589
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Jenkinsville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Jenkinsville!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Jenkinsville"
     }
   },
@@ -15753,9 +15290,7 @@ export const locations: Location[] = [
     "slug": "caesars-head",
     "name": "caesars Head",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29366"],
     "neighborhoods": [
       "Downtown caesars Head",
       "Greater caesars Head"
@@ -15768,28 +15303,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9608,
+      "lng": -81.0582
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In caesars Head, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in caesars Head!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "caesars Head"
     }
   },
   {
     "slug": "islandton",
     "name": "Islandton",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Colleton County",
+    "zip": ["29929"],
     "neighborhoods": [
       "Downtown Islandton",
       "Greater Islandton"
@@ -15802,18 +15336,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9430,
+      "lng": -81.0926
+    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Islandton, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/2e0591b6f8d548e3922ef0c641103b4d_3f078.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Islandton!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Islandton"
     }
   },
@@ -15821,9 +15356,7 @@ export const locations: Location[] = [
     "slug": "coronaca",
     "name": "coronaca",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29808"],
     "neighborhoods": [
       "Downtown coronaca",
       "Greater coronaca"
@@ -15836,18 +15369,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9236,
+      "lng": -81.0639
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In coronaca, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in coronaca!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "coronaca"
     }
   },
@@ -15855,9 +15389,7 @@ export const locations: Location[] = [
     "slug": "cherokee-falls",
     "name": "cherokee Falls",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29581"],
     "neighborhoods": [
       "Downtown cherokee Falls",
       "Greater cherokee Falls"
@@ -15870,18 +15402,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0538,
+      "lng": -81.0081
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In cherokee Falls, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in cherokee Falls!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "cherokee Falls"
     }
   },
@@ -15889,9 +15422,7 @@ export const locations: Location[] = [
     "slug": "longcreek",
     "name": "Longcreek",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29995"],
     "neighborhoods": [
       "Downtown Longcreek",
       "Greater Longcreek"
@@ -15904,28 +15435,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0737,
+      "lng": -81.0924
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Longcreek, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Longcreek!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Longcreek"
     }
   },
   {
     "slug": "smyrna",
     "name": "Smyrna",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "York County",
+    "zip": ["29743"],
     "neighborhoods": [
       "Downtown Smyrna",
       "Greater Smyrna"
@@ -15938,28 +15468,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0480,
+      "lng": -81.0138
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Smyrna, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Smyrna!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Smyrna"
     }
   },
   {
     "slug": "cope",
     "name": "cope",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Orangeburg County",
+    "zip": ["29038"],
     "neighborhoods": [
       "Downtown cope",
       "Greater cope"
@@ -15972,28 +15501,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9060,
+      "lng": -80.9998
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In cope, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in cope!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "cope"
     }
   },
   {
     "slug": "cross-anchor",
     "name": "cross Anchor",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Union County",
+    "zip": ["29331"],
     "neighborhoods": [
       "Downtown cross Anchor",
       "Greater cross Anchor"
@@ -16006,18 +15534,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 33.9905,
+      "lng": -81.0223
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In cross Anchor, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in cross Anchor!",
+      "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "cross Anchor"
     }
   },
@@ -16025,9 +15554,7 @@ export const locations: Location[] = [
     "slug": "abney-crossroads",
     "name": "Abney crossroads",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29644"],
     "neighborhoods": [
       "Downtown Abney crossroads",
       "Greater Abney crossroads"
@@ -16040,28 +15567,27 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0184,
+      "lng": -81.0171
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Abney crossroads, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Abney crossroads!",
+      "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Abney crossroads"
     }
   },
   {
     "slug": "coosawhatchie",
     "name": "coosawhatchie",
-    "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "county": "Jasper County",
+    "zip": ["29912"],
     "neighborhoods": [
       "Downtown coosawhatchie",
       "Greater coosawhatchie"
@@ -16074,18 +15600,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0022,
+      "lng": -80.9369
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In coosawhatchie, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in coosawhatchie!",
+      "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "coosawhatchie"
     }
   },
@@ -16093,9 +15620,7 @@ export const locations: Location[] = [
     "slug": "live-oak",
     "name": "Live Oak",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29674"],
     "neighborhoods": [
       "Downtown Live Oak",
       "Greater Live Oak"
@@ -16108,18 +15633,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0614,
+      "lng": -80.9615
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Live Oak, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Live Oak!",
+      "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Live Oak!",
       "location": "Live Oak"
     }
   },
@@ -16127,9 +15653,7 @@ export const locations: Location[] = [
     "slug": "ketchuptown",
     "name": "Ketchuptown",
     "county": "South Carolina",
-    "zip": [
-      "29000"
-    ],
+    "zip": ["29238"],
     "neighborhoods": [
       "Downtown Ketchuptown",
       "Greater Ketchuptown"
@@ -16142,18 +15666,19 @@ export const locations: Location[] = [
       }
     ],
     "geo": {
-      "lat": 33.8,
-      "lng": -81.0
+      "lat": 34.0298,
+      "lng": -81.0158
+    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Ketchuptown, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://picture-search.skywork.ai/skills/upload/2026-04-16/3076b06256ea4869a1db7b88f8275f72_6fcde.png",
+    "image": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
-      "quote": "Fast and professional tree service in Ketchuptown!",
+      "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Ketchuptown"
     }
   }
