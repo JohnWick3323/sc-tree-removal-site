@@ -1,0 +1,67 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { site } from '../data/site';
+import { TreePine, Home, MapPin, Phone, ArrowLeft, Search } from 'lucide-react';
+
+const title = "Page Not Found | South Carolina Tree Removal";
+const description = "The page you are looking for does not exist. Return to the home page or contact our expert arborists for help across South Carolina.";
+---
+
+<BaseLayout title={title} description={description}>
+  <Header slot="header" />
+
+  <main class="min-h-[70vh] flex items-center justify-center pt-32 pb-20 bg-neutral-900 text-white relative overflow-hidden">
+    <!-- Abstract Background Elements -->
+    <div class="absolute inset-0 z-0 opacity-10">
+      <div class="absolute top-10 left-10 rotate-12">
+        <TreePine size={300} />
+      </div>
+      <div class="absolute bottom-[-100px] right-[-50px] -rotate-12">
+        <TreePine size={400} />
+      </div>
+    </div>
+
+    <div class="container mx-auto px-4 relative z-10 text-center">
+      <div class="max-w-2xl mx-auto">
+        <span class="text-primary-500 font-black text-9xl leading-none mb-8 block select-none opacity-20">404</span>
+        <h1 class="text-4xl md:text-6xl font-bold font-heading mb-6 leading-tight">
+          Oops! This Branch Has Been <span class="text-primary-400">Pruned</span>.
+        </h1>
+        <p class="text-xl text-neutral-400 mb-12 leading-relaxed">
+          The page you're looking for seems to have disappeared or moved. Don't worry—our expert team is still available to help with your tree care needs.
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12">
+          <a href="/" class="flex items-center justify-center gap-3 bg-primary-600 hover:bg-primary-700 text-white px-8 py-4 rounded-xl font-bold transition-all shadow-xl hover:-translate-y-1">
+            <Home size={20} />
+            Back to Home
+          </a>
+          <a href="/services/" class="flex items-center justify-center gap-3 bg-white text-neutral-900 px-8 py-4 rounded-xl font-bold transition-all hover:bg-neutral-100 shadow-xl hover:-translate-y-1">
+            <Search size={20} />
+            Explore Services
+          </a>
+        </div>
+
+        <div class="border-t border-neutral-800 pt-12 mt-12">
+          <p class="text-sm font-bold text-neutral-500 uppercase tracking-widest mb-6">Need immediate assistance?</p>
+          <div class="flex flex-col sm:flex-row items-center justify-center gap-8">
+            <a href={`tel:${site.phone}`} class="flex items-center gap-3 text-2xl font-bold text-white hover:text-primary-400 transition-colors">
+              <div class="bg-primary-600/20 p-3 rounded-full text-primary-500">
+                <Phone size={24} />
+              </div>
+              {site.phone}
+            </a>
+            <a href="/locations/" class="flex items-center gap-3 text-lg font-medium text-neutral-300 hover:text-white transition-colors">
+              <MapPin size={20} className="text-primary-500" />
+              View Service Areas
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <Footer slot="footer" />
+</BaseLayout>
