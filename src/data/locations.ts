@@ -27,7 +27,6 @@ export const locations: Location[] = [
       "lat": 32.7167,
       "lng": -79.9508
     },
-    },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Charleston, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
@@ -59,7 +58,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9328,
       "lng": -80.9646
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -93,7 +91,6 @@ export const locations: Location[] = [
       "lat": 32.8175,
       "lng": -79.8753
     },
-    },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In North Charleston, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
@@ -125,7 +122,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0843,
       "lng": -80.9701
-    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
@@ -159,7 +155,6 @@ export const locations: Location[] = [
       "lat": 34.9151,
       "lng": -80.9257
     },
-    },
     "soilType": "Red clay and rocky foothills",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Rock Hill, we focus on the unique arborist needs dictated by Red clay and rocky foothills and the local South Carolina climate.",
@@ -191,7 +186,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.8228,
       "lng": -82.4071
-    },
     },
     "soilType": "Red clay and rocky foothills",
     "waterRestrictions": "Standard municipal guidelines",
@@ -225,7 +219,6 @@ export const locations: Location[] = [
       "lat": 34.0956,
       "lng": -81.0796
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Summerville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -257,7 +250,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9736,
       "lng": -81.0647
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -291,7 +283,6 @@ export const locations: Location[] = [
       "lat": 33.8798,
       "lng": -80.3545
     },
-    },
     "soilType": "Sandy loam and river basin deposits",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Sumter, we focus on the unique arborist needs dictated by Sandy loam and river basin deposits and the local South Carolina climate.",
@@ -323,7 +314,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.2263,
       "lng": -79.8142
-    },
     },
     "soilType": "Sandy loam and river basin deposits",
     "waterRestrictions": "Standard municipal guidelines",
@@ -357,7 +347,6 @@ export const locations: Location[] = [
       "lat": 34.8704,
       "lng": -81.9681
     },
-    },
     "soilType": "Red clay and rocky foothills",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Spartanburg, we focus on the unique arborist needs dictated by Red clay and rocky foothills and the local South Carolina climate.",
@@ -389,7 +378,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0957,
       "lng": -81.0423
-    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
@@ -423,7 +411,6 @@ export const locations: Location[] = [
       "lat": 34.0018,
       "lng": -81.0053
     },
-    },
     "soilType": "Red clay and rocky foothills",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Greer, we focus on the unique arborist needs dictated by Red clay and rocky foothills and the local South Carolina climate.",
@@ -455,7 +442,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.7230,
       "lng": -78.9506
-    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
@@ -489,7 +475,6 @@ export const locations: Location[] = [
       "lat": 33.5214,
       "lng": -81.6708
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Aiken, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -521,7 +506,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9125,
       "lng": -80.9536
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -555,7 +539,6 @@ export const locations: Location[] = [
       "lat": 34.5256,
       "lng": -82.6093
     },
-    },
     "soilType": "Red clay and rocky foothills",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Anderson, we focus on the unique arborist needs dictated by Red clay and rocky foothills and the local South Carolina climate.",
@@ -587,7 +570,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9098,
       "lng": -81.0930
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -621,7 +603,6 @@ export const locations: Location[] = [
       "lat": 33.9457,
       "lng": -81.1211
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Mauldin, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -653,7 +634,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0605,
       "lng": -81.0898
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -687,7 +667,6 @@ export const locations: Location[] = [
       "lat": 33.9446,
       "lng": -80.9676
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Carolina Forest, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -719,7 +698,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9582,
       "lng": -81.1051
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -753,7 +731,6 @@ export const locations: Location[] = [
       "lat": 34.0830,
       "lng": -81.1056
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In North Augusta, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -785,7 +762,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0024,
       "lng": -81.0284
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -819,7 +795,6 @@ export const locations: Location[] = [
       "lat": 33.9891,
       "lng": -81.0860
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lexington, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -851,7 +826,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0627,
       "lng": -81.0360
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -885,7 +859,6 @@ export const locations: Location[] = [
       "lat": 33.9825,
       "lng": -81.1242
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Taylors, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -917,7 +890,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0525,
       "lng": -80.9723
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -951,7 +923,6 @@ export const locations: Location[] = [
       "lat": 33.9243,
       "lng": -80.9495
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In St. Andrews, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -983,7 +954,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0943,
       "lng": -80.9349
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -1017,7 +987,6 @@ export const locations: Location[] = [
       "lat": 33.9434,
       "lng": -81.0617
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Hanahan, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -1049,7 +1018,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.7654,
       "lng": -78.7979
-    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
@@ -1083,7 +1051,6 @@ export const locations: Location[] = [
       "lat": 33.9482,
       "lng": -81.1097
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Five Forks, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -1115,7 +1082,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0236,
       "lng": -81.0003
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -1149,7 +1115,6 @@ export const locations: Location[] = [
       "lat": 33.9103,
       "lng": -80.9489
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In West Columbia, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -1181,7 +1146,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9021,
       "lng": -81.0364
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -1215,7 +1179,6 @@ export const locations: Location[] = [
       "lat": 34.0466,
       "lng": -80.9890
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Berea, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -1247,7 +1210,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0659,
       "lng": -81.0509
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -1281,7 +1243,6 @@ export const locations: Location[] = [
       "lat": 34.0767,
       "lng": -81.0213
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Red Hill, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -1313,7 +1274,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0241,
       "lng": -81.0435
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -1347,7 +1307,6 @@ export const locations: Location[] = [
       "lat": 33.9868,
       "lng": -80.9629
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Port Royal, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -1379,7 +1338,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0969,
       "lng": -81.0260
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -1413,7 +1371,6 @@ export const locations: Location[] = [
       "lat": 34.0883,
       "lng": -81.0250
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Gantt, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -1445,7 +1402,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0705,
       "lng": -81.1262
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -1479,7 +1435,6 @@ export const locations: Location[] = [
       "lat": 32.4206,
       "lng": -80.6015
     },
-    },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Beaufort, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
@@ -1511,7 +1466,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0918,
       "lng": -81.0738
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -1545,7 +1499,6 @@ export const locations: Location[] = [
       "lat": 34.0969,
       "lng": -80.9557
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Orangeburg, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -1577,7 +1530,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0929,
       "lng": -81.1222
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -1611,7 +1563,6 @@ export const locations: Location[] = [
       "lat": 33.9030,
       "lng": -80.9795
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Gaffney, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -1643,7 +1594,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0205,
       "lng": -80.9597
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -1677,7 +1627,6 @@ export const locations: Location[] = [
       "lat": 33.9367,
       "lng": -80.9768
     },
-    },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In James Island, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
@@ -1709,7 +1658,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0393,
       "lng": -81.1143
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -1743,7 +1691,6 @@ export const locations: Location[] = [
       "lat": 33.9137,
       "lng": -80.9829
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Oak Grove, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -1775,7 +1722,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0501,
       "lng": -80.9788
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -1809,7 +1755,6 @@ export const locations: Location[] = [
       "lat": 33.9341,
       "lng": -81.0930
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Garden city, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -1841,7 +1786,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9010,
       "lng": -80.9357
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -1875,7 +1819,6 @@ export const locations: Location[] = [
       "lat": 33.9909,
       "lng": -81.0615
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Powdersville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -1907,7 +1850,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0716,
       "lng": -80.9667
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -1941,7 +1883,6 @@ export const locations: Location[] = [
       "lat": 33.9911,
       "lng": -80.9371
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Red Bank, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -1973,7 +1914,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0058,
       "lng": -81.1252
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -2007,7 +1947,6 @@ export const locations: Location[] = [
       "lat": 34.0445,
       "lng": -81.0739
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Murrells Inlet, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -2039,7 +1978,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9825,
       "lng": -81.0984
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -2073,7 +2011,6 @@ export const locations: Location[] = [
       "lat": 34.0881,
       "lng": -81.0705
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Woodfield, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -2105,7 +2042,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0310,
       "lng": -80.9485
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -2139,7 +2075,6 @@ export const locations: Location[] = [
       "lat": 34.0717,
       "lng": -81.0915
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Laurens, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -2171,7 +2106,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9581,
       "lng": -81.0731
-    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
@@ -2205,7 +2139,6 @@ export const locations: Location[] = [
       "lat": 33.9213,
       "lng": -80.9670
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Seneca, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -2237,7 +2170,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9269,
       "lng": -81.1294
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -2271,7 +2203,6 @@ export const locations: Location[] = [
       "lat": 34.0479,
       "lng": -81.0583
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lancaster, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -2303,7 +2234,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0608,
       "lng": -81.0504
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -2337,7 +2267,6 @@ export const locations: Location[] = [
       "lat": 33.9188,
       "lng": -81.0927
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Georgetown, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -2369,7 +2298,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9753,
       "lng": -81.0979
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -2403,7 +2331,6 @@ export const locations: Location[] = [
       "lat": 33.9378,
       "lng": -81.0795
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Hardeeville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -2435,7 +2362,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9547,
       "lng": -81.1269
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -2469,7 +2395,6 @@ export const locations: Location[] = [
       "lat": 34.0938,
       "lng": -80.9565
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Travelers Rest, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -2501,7 +2426,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0602,
       "lng": -81.0751
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -2535,7 +2459,6 @@ export const locations: Location[] = [
       "lat": 33.9249,
       "lng": -81.0463
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Clinton, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -2567,7 +2490,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0623,
       "lng": -80.9918
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -2601,7 +2523,6 @@ export const locations: Location[] = [
       "lat": 34.0492,
       "lng": -81.1087
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Homeland Park, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -2633,7 +2554,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9233,
       "lng": -81.0461
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -2667,7 +2587,6 @@ export const locations: Location[] = [
       "lat": 33.9942,
       "lng": -80.9444
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Forestbrook, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -2699,7 +2618,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9608,
       "lng": -81.0760
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -2733,7 +2651,6 @@ export const locations: Location[] = [
       "lat": 33.9260,
       "lng": -81.0553
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In White Knoll, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -2765,7 +2682,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0616,
       "lng": -81.0292
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -2799,7 +2715,6 @@ export const locations: Location[] = [
       "lat": 34.0340,
       "lng": -80.9609
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Valley Falls, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -2831,7 +2746,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0997,
       "lng": -80.9556
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -2865,7 +2779,6 @@ export const locations: Location[] = [
       "lat": 34.0400,
       "lng": -81.0359
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lake Murray of Richland, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -2897,7 +2810,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9716,
       "lng": -81.0869
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -2931,7 +2843,6 @@ export const locations: Location[] = [
       "lat": 34.0462,
       "lng": -80.9985
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Dillon, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -2963,7 +2874,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9870,
       "lng": -81.0036
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -2997,7 +2907,6 @@ export const locations: Location[] = [
       "lat": 33.9097,
       "lng": -81.0432
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Clemson University, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -3029,7 +2938,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0008,
       "lng": -81.1183
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -3063,7 +2971,6 @@ export const locations: Location[] = [
       "lat": 33.9384,
       "lng": -81.1027
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lyman, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -3095,7 +3002,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9397,
       "lng": -81.0898
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -3129,7 +3035,6 @@ export const locations: Location[] = [
       "lat": 34.0810,
       "lng": -80.9906
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Belvedere, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -3161,7 +3066,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0215,
       "lng": -80.9830
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -3195,7 +3099,6 @@ export const locations: Location[] = [
       "lat": 33.9161,
       "lng": -80.9600
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Laurel Bay, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -3227,7 +3130,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0261,
       "lng": -81.0688
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -3261,7 +3163,6 @@ export const locations: Location[] = [
       "lat": 33.9770,
       "lng": -80.9427
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Hollywood, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -3293,7 +3194,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9563,
       "lng": -81.0093
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -3327,7 +3227,6 @@ export const locations: Location[] = [
       "lat": 34.0869,
       "lng": -80.9916
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Chester, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -3359,7 +3258,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0519,
       "lng": -81.1247
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -3393,7 +3291,6 @@ export const locations: Location[] = [
       "lat": 33.9013,
       "lng": -81.0294
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Batesburg-Leesville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -3425,7 +3322,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9508,
       "lng": -81.0157
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -3459,7 +3355,6 @@ export const locations: Location[] = [
       "lat": 33.9909,
       "lng": -81.0545
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Blythewood, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -3491,7 +3386,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0973,
       "lng": -81.1205
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -3525,7 +3419,6 @@ export const locations: Location[] = [
       "lat": 34.0201,
       "lng": -81.0404
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Baxter Village, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -3557,7 +3450,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0263,
       "lng": -80.9497
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -3591,7 +3483,6 @@ export const locations: Location[] = [
       "lat": 33.9394,
       "lng": -80.9718
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Belton, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -3623,7 +3514,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9091,
       "lng": -81.0885
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -3657,7 +3547,6 @@ export const locations: Location[] = [
       "lat": 33.9651,
       "lng": -80.9924
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Woodruff, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -3689,7 +3578,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0636,
       "lng": -80.9627
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -3723,7 +3611,6 @@ export const locations: Location[] = [
       "lat": 33.9881,
       "lng": -80.9759
     },
-    },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Surfside Beach, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
@@ -3755,7 +3642,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9626,
       "lng": -81.0761
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -3789,7 +3675,6 @@ export const locations: Location[] = [
       "lat": 34.0869,
       "lng": -81.0669
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Walhalla, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -3821,7 +3706,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0722,
       "lng": -80.9439
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -3855,7 +3739,6 @@ export const locations: Location[] = [
       "lat": 33.9030,
       "lng": -81.0611
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Brookdale, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -3887,7 +3770,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0567,
       "lng": -80.9889
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -3921,7 +3803,6 @@ export const locations: Location[] = [
       "lat": 34.0614,
       "lng": -81.0020
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Mullins, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -3953,7 +3834,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0664,
       "lng": -81.1044
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -3987,7 +3867,6 @@ export const locations: Location[] = [
       "lat": 34.0691,
       "lng": -80.9630
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Manning, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -4019,7 +3898,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9723,
       "lng": -80.9725
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -4053,7 +3931,6 @@ export const locations: Location[] = [
       "lat": 34.0982,
       "lng": -81.1301
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Roebuck, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -4085,7 +3962,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9124,
       "lng": -81.0860
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -4119,7 +3995,6 @@ export const locations: Location[] = [
       "lat": 34.0096,
       "lng": -81.0031
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Ridgeland, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -4151,7 +4026,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0890,
       "lng": -81.0345
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -4185,7 +4059,6 @@ export const locations: Location[] = [
       "lat": 33.9980,
       "lng": -80.9511
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Honea Path, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -4217,7 +4090,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0080,
       "lng": -81.1100
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -4251,7 +4123,6 @@ export const locations: Location[] = [
       "lat": 33.9466,
       "lng": -80.9491
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In East Camden, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -4283,7 +4154,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9108,
       "lng": -81.0647
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -4317,7 +4187,6 @@ export const locations: Location[] = [
       "lat": 34.0456,
       "lng": -81.1194
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Capitol View, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -4349,7 +4218,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9923,
       "lng": -81.0733
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -4383,7 +4251,6 @@ export const locations: Location[] = [
       "lat": 34.0949,
       "lng": -80.9504
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Dalzell, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -4415,7 +4282,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9899,
       "lng": -81.1134
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -4449,7 +4315,6 @@ export const locations: Location[] = [
       "lat": 33.9501,
       "lng": -81.0340
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Pickens, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -4481,7 +4346,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0384,
       "lng": -80.9829
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -4515,7 +4379,6 @@ export const locations: Location[] = [
       "lat": 34.0073,
       "lng": -81.1048
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Liberty, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -4547,7 +4410,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9758,
       "lng": -80.9679
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -4581,7 +4443,6 @@ export const locations: Location[] = [
       "lat": 34.0397,
       "lng": -81.0943
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In North Hartsville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -4613,7 +4474,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0221,
       "lng": -81.0551
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -4647,7 +4507,6 @@ export const locations: Location[] = [
       "lat": 33.9160,
       "lng": -81.0128
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Winnsboro, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -4679,7 +4538,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0204,
       "lng": -81.0705
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -4713,7 +4571,6 @@ export const locations: Location[] = [
       "lat": 33.9941,
       "lng": -81.0864
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Denmark, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -4745,7 +4602,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0464,
       "lng": -81.0695
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -4779,7 +4635,6 @@ export const locations: Location[] = [
       "lat": 34.0057,
       "lng": -81.0019
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Saluda, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -4811,7 +4666,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0787,
       "lng": -81.0406
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -4845,7 +4699,6 @@ export const locations: Location[] = [
       "lat": 33.9900,
       "lng": -80.9919
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Gloverville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -4877,7 +4730,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9996,
       "lng": -81.1324
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -4911,7 +4763,6 @@ export const locations: Location[] = [
       "lat": 34.0778,
       "lng": -81.0760
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Keowee Key, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -4943,7 +4794,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0639,
       "lng": -81.1283
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -4977,7 +4827,6 @@ export const locations: Location[] = [
       "lat": 33.9255,
       "lng": -81.1245
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Arthurtown, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -5009,7 +4858,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9148,
       "lng": -81.0761
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -5043,7 +4891,6 @@ export const locations: Location[] = [
       "lat": 34.0372,
       "lng": -81.0334
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Bishopville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -5075,7 +4922,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9802,
       "lng": -81.1075
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -5109,7 +4955,6 @@ export const locations: Location[] = [
       "lat": 33.9570,
       "lng": -80.9654
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Elgin cDP, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -5141,7 +4986,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9398,
       "lng": -81.0626
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -5175,7 +5019,6 @@ export const locations: Location[] = [
       "lat": 33.9608,
       "lng": -81.0721
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Arcadia, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -5207,7 +5050,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9561,
       "lng": -81.0714
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -5241,7 +5083,6 @@ export const locations: Location[] = [
       "lat": 33.9249,
       "lng": -81.0698
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Mccormick, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -5273,7 +5114,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0846,
       "lng": -81.0564
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -5307,7 +5147,6 @@ export const locations: Location[] = [
       "lat": 34.0941,
       "lng": -81.0705
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Hampton, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -5339,7 +5178,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0563,
       "lng": -81.0846
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -5373,7 +5211,6 @@ export const locations: Location[] = [
       "lat": 34.0743,
       "lng": -81.0629
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Allendale, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -5405,7 +5242,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0841,
       "lng": -81.0956
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -5439,7 +5275,6 @@ export const locations: Location[] = [
       "lat": 34.0614,
       "lng": -81.0922
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Arkwright, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -5471,7 +5306,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9368,
       "lng": -80.9707
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -5505,7 +5339,6 @@ export const locations: Location[] = [
       "lat": 33.9745,
       "lng": -80.9784
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Ninety Six, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -5537,7 +5370,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0110,
       "lng": -81.0731
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -5571,7 +5403,6 @@ export const locations: Location[] = [
       "lat": 33.9742,
       "lng": -81.1198
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Loris, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -5603,7 +5434,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9800,
       "lng": -80.9416
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -5637,7 +5467,6 @@ export const locations: Location[] = [
       "lat": 33.9727,
       "lng": -80.9381
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Edgefield, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -5669,7 +5498,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0302,
       "lng": -81.0216
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -5703,7 +5531,6 @@ export const locations: Location[] = [
       "lat": 34.0763,
       "lng": -81.1277
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Graniteville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -5735,7 +5562,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9954,
       "lng": -81.0538
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -5769,7 +5595,6 @@ export const locations: Location[] = [
       "lat": 34.0700,
       "lng": -80.9586
     },
-    },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Sullivan's Island, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
@@ -5801,7 +5626,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0212,
       "lng": -81.0396
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -5835,7 +5659,6 @@ export const locations: Location[] = [
       "lat": 33.9913,
       "lng": -81.1069
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Mccoll, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -5867,7 +5690,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9063,
       "lng": -81.0813
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -5901,7 +5723,6 @@ export const locations: Location[] = [
       "lat": 33.9424,
       "lng": -81.0377
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Pimlico, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -5933,7 +5754,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9984,
       "lng": -81.0778
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -5967,7 +5787,6 @@ export const locations: Location[] = [
       "lat": 34.0204,
       "lng": -81.0140
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Westminster, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -5999,7 +5818,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0431,
       "lng": -80.9797
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -6033,7 +5851,6 @@ export const locations: Location[] = [
       "lat": 33.9412,
       "lng": -80.9581
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Privateer, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -6065,7 +5882,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0845,
       "lng": -80.9480
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -6099,7 +5915,6 @@ export const locations: Location[] = [
       "lat": 33.9568,
       "lng": -81.0030
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Ben Avon, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -6131,7 +5946,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0304,
       "lng": -81.0755
-    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
@@ -6165,7 +5979,6 @@ export const locations: Location[] = [
       "lat": 33.9738,
       "lng": -81.0539
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Tigerville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -6197,7 +6010,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9634,
       "lng": -81.0402
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -6231,7 +6043,6 @@ export const locations: Location[] = [
       "lat": 34.0978,
       "lng": -80.9722
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Blacksburg, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -6263,7 +6074,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0215,
       "lng": -81.1069
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -6297,7 +6107,6 @@ export const locations: Location[] = [
       "lat": 33.9939,
       "lng": -80.9387
     },
-    },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Seabrook Island, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
@@ -6329,7 +6138,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0641,
       "lng": -81.0202
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -6363,7 +6171,6 @@ export const locations: Location[] = [
       "lat": 34.0439,
       "lng": -81.0075
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Fairfax, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -6395,7 +6202,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9768,
       "lng": -81.0804
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -6429,7 +6235,6 @@ export const locations: Location[] = [
       "lat": 34.0509,
       "lng": -81.0970
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Shell Point, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -6461,7 +6266,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0337,
       "lng": -80.9737
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -6495,7 +6299,6 @@ export const locations: Location[] = [
       "lat": 33.9117,
       "lng": -81.1101
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Riverview, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -6527,7 +6330,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0278,
       "lng": -81.1073
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -6561,7 +6363,6 @@ export const locations: Location[] = [
       "lat": 34.0546,
       "lng": -80.9405
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Pacolet, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -6593,7 +6394,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9720,
       "lng": -81.0341
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -6627,7 +6427,6 @@ export const locations: Location[] = [
       "lat": 33.9862,
       "lng": -80.9559
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Ware Shoals, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -6659,7 +6458,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0457,
       "lng": -80.9457
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -6693,7 +6491,6 @@ export const locations: Location[] = [
       "lat": 34.0759,
       "lng": -81.0052
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Mayo, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -6725,7 +6522,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0416,
       "lng": -81.1270
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -6759,7 +6555,6 @@ export const locations: Location[] = [
       "lat": 34.0323,
       "lng": -80.9633
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Edisto, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -6791,7 +6586,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9816,
       "lng": -81.1018
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -6825,7 +6619,6 @@ export const locations: Location[] = [
       "lat": 34.0149,
       "lng": -81.0837
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Eureka Mill, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -6857,7 +6650,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0139,
       "lng": -80.9536
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -6891,7 +6683,6 @@ export const locations: Location[] = [
       "lat": 33.9898,
       "lng": -81.0743
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Judson, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -6923,7 +6714,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9204,
       "lng": -81.0231
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -6957,7 +6747,6 @@ export const locations: Location[] = [
       "lat": 33.9125,
       "lng": -81.1199
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Cowpens, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -6989,7 +6778,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9164,
       "lng": -80.9983
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -7023,7 +6811,6 @@ export const locations: Location[] = [
       "lat": 33.9151,
       "lng": -81.0651
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Monarch Mill, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -7055,7 +6842,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0590,
       "lng": -80.9702
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -7089,7 +6875,6 @@ export const locations: Location[] = [
       "lat": 33.9658,
       "lng": -80.9410
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Stateburg, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -7121,7 +6906,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0206,
       "lng": -81.0578
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -7155,7 +6939,6 @@ export const locations: Location[] = [
       "lat": 34.0894,
       "lng": -80.9460
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Reidville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -7187,7 +6970,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0153,
       "lng": -81.1201
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -7221,7 +7003,6 @@ export const locations: Location[] = [
       "lat": 33.9126,
       "lng": -81.0482
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Camp Croft, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -7253,7 +7034,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9056,
       "lng": -81.0833
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -7287,7 +7067,6 @@ export const locations: Location[] = [
       "lat": 33.9316,
       "lng": -81.0993
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Great Falls, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -7319,7 +7098,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9336,
       "lng": -81.0539
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -7353,7 +7131,6 @@ export const locations: Location[] = [
       "lat": 33.9787,
       "lng": -80.9940
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Fairforest, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -7385,7 +7162,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9779,
       "lng": -80.4305
-    },
     },
     "soilType": "Sandy loam and river basin deposits",
     "waterRestrictions": "Standard municipal guidelines",
@@ -7419,7 +7195,6 @@ export const locations: Location[] = [
       "lat": 34.0989,
       "lng": -81.0635
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Awendaw, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -7451,7 +7226,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9024,
       "lng": -81.0571
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -7485,7 +7259,6 @@ export const locations: Location[] = [
       "lat": 34.0995,
       "lng": -81.0554
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In chapin, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -7517,7 +7290,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0328,
       "lng": -81.1082
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -7551,7 +7323,6 @@ export const locations: Location[] = [
       "lat": 33.9148,
       "lng": -81.1095
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Latta, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -7583,7 +7354,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0031,
       "lng": -81.0807
-    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
@@ -7617,7 +7387,6 @@ export const locations: Location[] = [
       "lat": 33.9934,
       "lng": -81.0143
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Pelzer, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -7649,7 +7418,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0117,
       "lng": -80.9503
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -7683,7 +7451,6 @@ export const locations: Location[] = [
       "lat": 34.0479,
       "lng": -81.0918
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In catawba, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -7715,7 +7482,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9120,
       "lng": -81.0009
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -7749,7 +7515,6 @@ export const locations: Location[] = [
       "lat": 33.9205,
       "lng": -81.0775
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Joanna, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -7781,7 +7546,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9206,
       "lng": -80.9667
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -7815,7 +7579,6 @@ export const locations: Location[] = [
       "lat": 33.9784,
       "lng": -81.0024
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Holly Hill, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -7847,7 +7610,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0557,
       "lng": -81.1264
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -7881,7 +7643,6 @@ export const locations: Location[] = [
       "lat": 33.9053,
       "lng": -80.9797
     },
-    },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Beech Island, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
@@ -7913,7 +7674,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9962,
       "lng": -81.0674
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -7947,7 +7707,6 @@ export const locations: Location[] = [
       "lat": 33.9638,
       "lng": -80.9429
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Branchville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -7979,7 +7738,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9829,
       "lng": -80.9451
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -8013,7 +7771,6 @@ export const locations: Location[] = [
       "lat": 33.9294,
       "lng": -81.1342
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Whitmire, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -8045,7 +7802,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9170,
       "lng": -81.0952
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -8079,7 +7835,6 @@ export const locations: Location[] = [
       "lat": 33.9464,
       "lng": -81.1193
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Olympia, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -8111,7 +7866,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9127,
       "lng": -81.0579
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -8145,7 +7899,6 @@ export const locations: Location[] = [
       "lat": 33.9089,
       "lng": -81.1117
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Conestee, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -8177,7 +7930,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0348,
       "lng": -80.9725
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -8211,7 +7963,6 @@ export const locations: Location[] = [
       "lat": 34.0621,
       "lng": -81.1233
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Buffalo, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -8243,7 +7994,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0967,
       "lng": -81.0726
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -8277,7 +8027,6 @@ export const locations: Location[] = [
       "lat": 34.0948,
       "lng": -81.0588
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Fort Lawn, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -8309,7 +8058,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0540,
       "lng": -80.9360
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -8343,7 +8091,6 @@ export const locations: Location[] = [
       "lat": 34.0687,
       "lng": -80.9534
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Due West, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -8375,7 +8122,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9717,
       "lng": -80.9397
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -8409,7 +8155,6 @@ export const locations: Location[] = [
       "lat": 33.9928,
       "lng": -81.0498
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Prosperity, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -8441,7 +8186,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9761,
       "lng": -80.9384
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -8475,7 +8219,6 @@ export const locations: Location[] = [
       "lat": 33.9664,
       "lng": -81.0608
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Seabrook, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -8507,7 +8250,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9914,
       "lng": -81.0883
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -8541,7 +8283,6 @@ export const locations: Location[] = [
       "lat": 33.9213,
       "lng": -81.0391
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Gayle Mill, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -8573,7 +8314,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9230,
       "lng": -81.0564
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -8607,7 +8347,6 @@ export const locations: Location[] = [
       "lat": 33.9394,
       "lng": -81.0608
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Dunbar, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -8639,7 +8378,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0108,
       "lng": -81.1304
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -8673,7 +8411,6 @@ export const locations: Location[] = [
       "lat": 34.0090,
       "lng": -81.0950
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In McBee, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -8705,7 +8442,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9898,
       "lng": -81.0545
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -8739,7 +8475,6 @@ export const locations: Location[] = [
       "lat": 33.9404,
       "lng": -81.0665
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Iva, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -8771,7 +8506,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9925,
       "lng": -81.0161
-    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
@@ -8805,7 +8539,6 @@ export const locations: Location[] = [
       "lat": 34.0681,
       "lng": -81.0851
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Drayton, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -8837,7 +8570,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9335,
       "lng": -81.0902
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -8871,7 +8603,6 @@ export const locations: Location[] = [
       "lat": 33.9570,
       "lng": -81.1281
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In La France, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -8903,7 +8634,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0523,
       "lng": -81.0161
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -8937,7 +8667,6 @@ export const locations: Location[] = [
       "lat": 34.0716,
       "lng": -80.9508
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Yemassee, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -8969,7 +8698,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9366,
       "lng": -81.0303
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -9003,7 +8731,6 @@ export const locations: Location[] = [
       "lat": 33.9999,
       "lng": -81.0213
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Clifton, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -9035,7 +8762,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9137,
       "lng": -81.1239
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -9069,7 +8795,6 @@ export const locations: Location[] = [
       "lat": 34.0815,
       "lng": -81.1169
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Dale, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -9101,7 +8826,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0924,
       "lng": -80.9943
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -9135,7 +8859,6 @@ export const locations: Location[] = [
       "lat": 34.0678,
       "lng": -80.9900
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Dovesville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -9167,7 +8890,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0733,
       "lng": -80.9782
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -9201,7 +8923,6 @@ export const locations: Location[] = [
       "lat": 34.0510,
       "lng": -81.0899
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Jonesville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -9233,7 +8954,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9649,
       "lng": -81.0315
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -9267,7 +8987,6 @@ export const locations: Location[] = [
       "lat": 34.0301,
       "lng": -80.9430
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Quinby, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -9299,7 +9018,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0887,
       "lng": -80.9801
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -9333,7 +9051,6 @@ export const locations: Location[] = [
       "lat": 34.0031,
       "lng": -81.1099
     },
-    },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Edisto Beach, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
@@ -9365,7 +9082,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0537,
       "lng": -81.1207
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -9399,7 +9115,6 @@ export const locations: Location[] = [
       "lat": 34.0451,
       "lng": -81.1215
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Sandy Springs, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -9431,7 +9146,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0002,
       "lng": -80.9679
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -9465,7 +9179,6 @@ export const locations: Location[] = [
       "lat": 34.0910,
       "lng": -80.9453
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Arcadia Lakes, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -9497,7 +9210,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9872,
       "lng": -81.0795
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -9531,7 +9243,6 @@ export const locations: Location[] = [
       "lat": 33.9358,
       "lng": -81.0490
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In The cliffs Valley, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -9563,7 +9274,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9849,
       "lng": -81.0478
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -9597,7 +9307,6 @@ export const locations: Location[] = [
       "lat": 33.9206,
       "lng": -81.0977
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Heath Springs, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -9629,7 +9338,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0701,
       "lng": -81.0685
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -9663,7 +9371,6 @@ export const locations: Location[] = [
       "lat": 33.8715,
       "lng": -80.3658
     },
-    },
     "soilType": "Sandy loam and river basin deposits",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In East Sumter, we focus on the unique arborist needs dictated by Sandy loam and river basin deposits and the local South Carolina climate.",
@@ -9695,7 +9402,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9888,
       "lng": -81.1203
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -9729,7 +9435,6 @@ export const locations: Location[] = [
       "lat": 33.9193,
       "lng": -80.9473
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Gray court, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -9761,7 +9466,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0332,
       "lng": -80.9449
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -9795,7 +9499,6 @@ export const locations: Location[] = [
       "lat": 33.9603,
       "lng": -81.0178
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Newtown, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -9827,7 +9530,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0966,
       "lng": -81.0204
-    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
@@ -9861,7 +9563,6 @@ export const locations: Location[] = [
       "lat": 34.0494,
       "lng": -81.0756
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Hamer, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -9893,7 +9594,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9358,
       "lng": -80.9988
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -9927,7 +9627,6 @@ export const locations: Location[] = [
       "lat": 34.0537,
       "lng": -80.9749
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Swansea, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -9959,7 +9658,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9585,
       "lng": -81.0382
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -9993,7 +9691,6 @@ export const locations: Location[] = [
       "lat": 33.9513,
       "lng": -81.0716
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Ridge Spring, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -10025,7 +9722,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9025,
       "lng": -80.9870
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -10059,7 +9755,6 @@ export const locations: Location[] = [
       "lat": 33.9403,
       "lng": -81.0085
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Turbeville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -10091,7 +9786,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0068,
       "lng": -81.0719
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -10125,7 +9819,6 @@ export const locations: Location[] = [
       "lat": 33.9156,
       "lng": -81.0297
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In DeBordieu colony, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -10157,7 +9850,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0649,
       "lng": -81.1277
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -10191,7 +9883,6 @@ export const locations: Location[] = [
       "lat": 34.0594,
       "lng": -80.9459
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Mayesville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -10223,7 +9914,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0386,
       "lng": -81.0071
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -10257,7 +9947,6 @@ export const locations: Location[] = [
       "lat": 33.9234,
       "lng": -81.0858
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Manville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -10289,7 +9978,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0526,
       "lng": -81.0659
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -10323,7 +10011,6 @@ export const locations: Location[] = [
       "lat": 34.0101,
       "lng": -80.9785
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lincolnville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -10355,7 +10042,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9111,
       "lng": -81.1340
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -10389,7 +10075,6 @@ export const locations: Location[] = [
       "lat": 34.0313,
       "lng": -81.0723
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Unity, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -10421,7 +10106,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0700,
       "lng": -81.0533
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -10455,7 +10139,6 @@ export const locations: Location[] = [
       "lat": 33.9639,
       "lng": -80.9634
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In chickasaw Point, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -10487,7 +10170,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0078,
       "lng": -81.1028
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -10521,7 +10203,6 @@ export const locations: Location[] = [
       "lat": 33.9757,
       "lng": -81.0842
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Chesnee, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -10553,7 +10234,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0051,
       "lng": -81.0526
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -10587,7 +10267,6 @@ export const locations: Location[] = [
       "lat": 34.0500,
       "lng": -81.0593
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Fairview crossroads, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -10619,7 +10298,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9063,
       "lng": -81.1149
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -10653,7 +10331,6 @@ export const locations: Location[] = [
       "lat": 34.0595,
       "lng": -80.9390
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Bonneau, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -10685,7 +10362,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9138,
       "lng": -80.9386
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -10719,7 +10395,6 @@ export const locations: Location[] = [
       "lat": 34.0859,
       "lng": -81.0059
     },
-    },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Daufuskie Island, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
@@ -10751,7 +10426,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9851,
       "lng": -81.0003
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -10785,7 +10459,6 @@ export const locations: Location[] = [
       "lat": 34.0807,
       "lng": -81.0296
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Coward, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -10817,7 +10490,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9247,
       "lng": -81.1123
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -10851,7 +10523,6 @@ export const locations: Location[] = [
       "lat": 34.0245,
       "lng": -81.0374
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Furman, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -10883,7 +10554,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9523,
       "lng": -81.1324
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -10917,7 +10587,6 @@ export const locations: Location[] = [
       "lat": 33.9805,
       "lng": -81.0155
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Startex, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -10949,7 +10618,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0711,
       "lng": -80.9922
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -10983,7 +10651,6 @@ export const locations: Location[] = [
       "lat": 34.0256,
       "lng": -80.9881
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lane, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -11015,7 +10682,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9775,
       "lng": -80.9359
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -11049,7 +10715,6 @@ export const locations: Location[] = [
       "lat": 34.0511,
       "lng": -81.1221
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Carlisle, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -11081,7 +10746,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0232,
       "lng": -80.9625
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -11115,7 +10779,6 @@ export const locations: Location[] = [
       "lat": 33.9902,
       "lng": -81.0908
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Little Rock, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -11147,7 +10810,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0962,
       "lng": -81.0366
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -11181,7 +10843,6 @@ export const locations: Location[] = [
       "lat": 33.9053,
       "lng": -81.0375
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In cross Hill, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -11213,7 +10874,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9858,
       "lng": -81.0883
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -11247,7 +10907,6 @@ export const locations: Location[] = [
       "lat": 34.0198,
       "lng": -81.0186
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Patrick, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -11279,7 +10938,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0481,
       "lng": -80.9557
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -11313,7 +10971,6 @@ export const locations: Location[] = [
       "lat": 33.9968,
       "lng": -81.1089
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Helena, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -11345,7 +11002,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0638,
       "lng": -80.9529
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -11379,7 +11035,6 @@ export const locations: Location[] = [
       "lat": 34.0874,
       "lng": -81.0941
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In North Santee, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -11411,7 +11066,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0748,
       "lng": -81.0981
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -11445,7 +11099,6 @@ export const locations: Location[] = [
       "lat": 33.9327,
       "lng": -81.0099
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Ehrhardt, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -11477,7 +11130,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9418,
       "lng": -81.0032
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -11511,7 +11163,6 @@ export const locations: Location[] = [
       "lat": 34.0197,
       "lng": -81.0640
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Little Mountain, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -11543,7 +11194,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9992,
       "lng": -80.9681
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -11577,7 +11227,6 @@ export const locations: Location[] = [
       "lat": 34.0277,
       "lng": -81.1306
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Adams Run, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -11609,7 +11258,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9474,
       "lng": -81.0912
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -11643,7 +11291,6 @@ export const locations: Location[] = [
       "lat": 33.9191,
       "lng": -81.0115
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Sheldon, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -11675,7 +11322,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9858,
       "lng": -81.0994
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -11709,7 +11355,6 @@ export const locations: Location[] = [
       "lat": 33.9413,
       "lng": -81.0457
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In West Union, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -11741,7 +11386,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9280,
       "lng": -81.1015
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -11775,7 +11419,6 @@ export const locations: Location[] = [
       "lat": 34.0028,
       "lng": -80.9860
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Grover, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -11807,7 +11450,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0341,
       "lng": -80.9442
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -11841,7 +11483,6 @@ export const locations: Location[] = [
       "lat": 34.0756,
       "lng": -81.0595
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Cash, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -11873,7 +11514,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9077,
       "lng": -80.9751
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -11907,7 +11547,6 @@ export const locations: Location[] = [
       "lat": 33.9049,
       "lng": -81.0847
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Sharon, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -11939,7 +11578,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9502,
       "lng": -80.9648
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -11973,7 +11611,6 @@ export const locations: Location[] = [
       "lat": 33.9036,
       "lng": -81.0480
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Rowesville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -12005,7 +11642,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9926,
       "lng": -81.0722
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -12039,7 +11675,6 @@ export const locations: Location[] = [
       "lat": 34.0396,
       "lng": -81.0909
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In South Union, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -12071,7 +11706,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0291,
       "lng": -81.0703
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -12105,7 +11739,6 @@ export const locations: Location[] = [
       "lat": 33.9521,
       "lng": -80.9363
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Cokesbury, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -12137,7 +11770,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0673,
       "lng": -81.0402
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -12171,7 +11803,6 @@ export const locations: Location[] = [
       "lat": 33.9560,
       "lng": -80.9360
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Neeses, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -12203,7 +11834,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0305,
       "lng": -81.1103
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -12237,7 +11867,6 @@ export const locations: Location[] = [
       "lat": 34.0702,
       "lng": -81.0223
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Richburg, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -12269,7 +11898,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9170,
       "lng": -81.0182
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -12303,7 +11931,6 @@ export const locations: Location[] = [
       "lat": 33.9037,
       "lng": -80.9359
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Paxville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -12335,7 +11962,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9978,
       "lng": -80.9646
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -12369,7 +11995,6 @@ export const locations: Location[] = [
       "lat": 33.9929,
       "lng": -81.0744
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Promised Land, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -12401,7 +12026,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0778,
       "lng": -80.9394
-    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
@@ -12435,7 +12059,6 @@ export const locations: Location[] = [
       "lat": 33.9490,
       "lng": -81.0068
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Norway, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -12467,7 +12090,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9985,
       "lng": -81.0618
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -12501,7 +12123,6 @@ export const locations: Location[] = [
       "lat": 34.0473,
       "lng": -80.9436
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Gillisonville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -12533,7 +12154,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0492,
       "lng": -80.9465
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -12567,7 +12187,6 @@ export const locations: Location[] = [
       "lat": 34.0858,
       "lng": -81.0272
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lowrys, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -12599,7 +12218,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9173,
       "lng": -80.9735
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -12633,7 +12251,6 @@ export const locations: Location[] = [
       "lat": 34.0832,
       "lng": -81.0619
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Windsor, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -12665,7 +12282,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9225,
       "lng": -80.9867
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -12699,7 +12315,6 @@ export const locations: Location[] = [
       "lat": 33.9334,
       "lng": -81.0227
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Antreville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -12731,7 +12346,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0170,
       "lng": -81.0155
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -12765,7 +12379,6 @@ export const locations: Location[] = [
       "lat": 34.0183,
       "lng": -81.0529
     },
-    },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Harbor Island, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
@@ -12797,7 +12410,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0667,
       "lng": -81.1274
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -12831,7 +12443,6 @@ export const locations: Location[] = [
       "lat": 34.0408,
       "lng": -81.0506
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Jacksonboro, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -12863,7 +12474,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9736,
       "lng": -80.9348
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -12897,7 +12507,6 @@ export const locations: Location[] = [
       "lat": 33.9324,
       "lng": -81.0060
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Rembert, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -12929,7 +12538,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9579,
       "lng": -81.1175
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -12963,7 +12571,6 @@ export const locations: Location[] = [
       "lat": 33.9506,
       "lng": -81.1185
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Ward, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -12995,7 +12602,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9621,
       "lng": -80.9631
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -13029,7 +12635,6 @@ export const locations: Location[] = [
       "lat": 33.9857,
       "lng": -81.0598
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lynchburg, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -13061,7 +12666,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0944,
       "lng": -81.1292
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -13095,7 +12699,6 @@ export const locations: Location[] = [
       "lat": 34.0146,
       "lng": -80.9972
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Waterloo, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -13127,7 +12730,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9460,
       "lng": -81.0124
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -13161,7 +12763,6 @@ export const locations: Location[] = [
       "lat": 33.9757,
       "lng": -80.9837
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Converse, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -13193,7 +12794,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9097,
       "lng": -81.1071
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -13227,7 +12827,6 @@ export const locations: Location[] = [
       "lat": 34.0753,
       "lng": -81.0714
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lydia, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -13259,7 +12858,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9189,
       "lng": -81.0559
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -13293,7 +12891,6 @@ export const locations: Location[] = [
       "lat": 34.0509,
       "lng": -81.1144
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Cordova, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -13325,7 +12922,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9844,
       "lng": -80.9778
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -13359,7 +12955,6 @@ export const locations: Location[] = [
       "lat": 34.0697,
       "lng": -80.9706
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Wisacky, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -13391,7 +12986,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9455,
       "lng": -81.0980
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -13425,7 +13019,6 @@ export const locations: Location[] = [
       "lat": 33.9707,
       "lng": -81.1042
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Gifford, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -13457,7 +13050,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0155,
       "lng": -81.0514
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -13491,7 +13083,6 @@ export const locations: Location[] = [
       "lat": 33.9422,
       "lng": -81.0248
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Shiloh, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -13523,7 +13114,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0369,
       "lng": -81.0253
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -13557,7 +13147,6 @@ export const locations: Location[] = [
       "lat": 34.0320,
       "lng": -81.0589
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Starr, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -13589,7 +13178,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0028,
       "lng": -81.1187
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -13623,7 +13211,6 @@ export const locations: Location[] = [
       "lat": 33.9316,
       "lng": -81.0837
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Glenn Springs, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -13655,7 +13242,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9208,
       "lng": -81.1238
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -13689,7 +13275,6 @@ export const locations: Location[] = [
       "lat": 33.9640,
       "lng": -81.0128
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Monetta, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -13721,7 +13306,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9898,
       "lng": -81.0734
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -13755,7 +13339,6 @@ export const locations: Location[] = [
       "lat": 33.9215,
       "lng": -81.0645
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Olar, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -13787,7 +13370,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9570,
       "lng": -81.1193
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -13821,7 +13403,6 @@ export const locations: Location[] = [
       "lat": 33.9233,
       "lng": -80.9997
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Luray, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -13853,7 +13434,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0254,
       "lng": -80.9755
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -13887,7 +13467,6 @@ export const locations: Location[] = [
       "lat": 33.9378,
       "lng": -81.0871
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Lodge, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -13919,7 +13498,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9796,
       "lng": -80.9722
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -13953,7 +13531,6 @@ export const locations: Location[] = [
       "lat": 33.9669,
       "lng": -81.1269
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Woodford, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -13985,7 +13562,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9299,
       "lng": -81.0880
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -14019,7 +13595,6 @@ export const locations: Location[] = [
       "lat": 33.9461,
       "lng": -81.0986
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Nichols, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -14051,7 +13626,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0308,
       "lng": -81.1009
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -14085,7 +13659,6 @@ export const locations: Location[] = [
       "lat": 33.9221,
       "lng": -80.9367
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Silverstreet, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -14117,7 +13690,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0514,
       "lng": -81.0494
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -14151,7 +13723,6 @@ export const locations: Location[] = [
       "lat": 34.0500,
       "lng": -81.0169
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Floydale, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -14183,7 +13754,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9022,
       "lng": -80.9553
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -14217,7 +13787,6 @@ export const locations: Location[] = [
       "lat": 34.0687,
       "lng": -80.9616
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Foreston, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -14249,7 +13818,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9546,
       "lng": -81.0970
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -14283,7 +13851,6 @@ export const locations: Location[] = [
       "lat": 34.0623,
       "lng": -81.1163
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Smoaks, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -14315,7 +13882,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0237,
       "lng": -81.1141
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -14349,7 +13915,6 @@ export const locations: Location[] = [
       "lat": 34.0551,
       "lng": -80.9816
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Scotia, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -14381,7 +13946,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9370,
       "lng": -81.0474
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -14415,7 +13979,6 @@ export const locations: Location[] = [
       "lat": 33.9121,
       "lng": -81.0632
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Parksville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -14447,7 +14010,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9014,
       "lng": -80.9379
-    },
     },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
@@ -14481,7 +14043,6 @@ export const locations: Location[] = [
       "lat": 34.0946,
       "lng": -81.0957
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Zion, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -14513,7 +14074,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0252,
       "lng": -81.1290
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -14547,7 +14107,6 @@ export const locations: Location[] = [
       "lat": 34.0696,
       "lng": -81.0835
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Rains, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -14579,7 +14138,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0659,
       "lng": -81.0411
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -14613,7 +14171,6 @@ export const locations: Location[] = [
       "lat": 33.9450,
       "lng": -81.0195
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Sycamore, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -14645,7 +14202,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0769,
       "lng": -81.1152
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -14679,7 +14235,6 @@ export const locations: Location[] = [
       "lat": 33.9882,
       "lng": -81.0148
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Vance, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -14711,7 +14266,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9108,
       "lng": -81.0259
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -14745,7 +14299,6 @@ export const locations: Location[] = [
       "lat": 33.9388,
       "lng": -81.0810
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Browntown, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -14777,7 +14330,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9543,
       "lng": -81.0391
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -14811,7 +14363,6 @@ export const locations: Location[] = [
       "lat": 33.9742,
       "lng": -81.0503
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Willington, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -14843,7 +14394,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0909,
       "lng": -80.9722
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -14877,7 +14427,6 @@ export const locations: Location[] = [
       "lat": 34.0290,
       "lng": -81.0552
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Gramling, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -14909,7 +14458,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9656,
       "lng": -81.1184
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -14943,7 +14491,6 @@ export const locations: Location[] = [
       "lat": 34.0779,
       "lng": -81.0061
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Jamestown, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -14975,7 +14522,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9930,
       "lng": -80.9460
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -15009,7 +14555,6 @@ export const locations: Location[] = [
       "lat": 34.0186,
       "lng": -81.0727
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Plum Branch, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -15041,7 +14586,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0176,
       "lng": -81.0186
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -15075,7 +14619,6 @@ export const locations: Location[] = [
       "lat": 33.9713,
       "lng": -81.0117
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Tatum, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -15107,7 +14650,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0676,
       "lng": -81.0083
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -15141,7 +14683,6 @@ export const locations: Location[] = [
       "lat": 33.9697,
       "lng": -81.0552
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Green Sea, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -15173,7 +14714,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0470,
       "lng": -81.1277
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -15207,7 +14747,6 @@ export const locations: Location[] = [
       "lat": 33.9146,
       "lng": -80.9701
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Blenheim, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -15239,7 +14778,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0954,
       "lng": -81.1122
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -15273,7 +14811,6 @@ export const locations: Location[] = [
       "lat": 34.0638,
       "lng": -81.0589
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Jenkinsville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -15305,7 +14842,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9608,
       "lng": -81.0582
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -15339,7 +14875,6 @@ export const locations: Location[] = [
       "lat": 33.9430,
       "lng": -81.0926
     },
-    },
     "soilType": "Sandy coastal loam",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Islandton, we focus on the unique arborist needs dictated by Sandy coastal loam and the local South Carolina climate.",
@@ -15371,7 +14906,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9236,
       "lng": -81.0639
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -15405,7 +14939,6 @@ export const locations: Location[] = [
       "lat": 34.0538,
       "lng": -81.0081
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In cherokee Falls, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -15437,7 +14970,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0737,
       "lng": -81.0924
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -15471,7 +15003,6 @@ export const locations: Location[] = [
       "lat": 34.0480,
       "lng": -81.0138
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Smyrna, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -15503,7 +15034,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 33.9060,
       "lng": -80.9998
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -15537,7 +15067,6 @@ export const locations: Location[] = [
       "lat": 33.9905,
       "lng": -81.0223
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In cross Anchor, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -15569,7 +15098,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0184,
       "lng": -81.0171
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
@@ -15603,7 +15131,6 @@ export const locations: Location[] = [
       "lat": 34.0022,
       "lng": -80.9369
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In coosawhatchie, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -15636,7 +15163,6 @@ export const locations: Location[] = [
       "lat": 34.0614,
       "lng": -80.9615
     },
-    },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
     "localInsight": "In Live Oak, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
@@ -15668,7 +15194,6 @@ export const locations: Location[] = [
     "geo": {
       "lat": 34.0298,
       "lng": -81.0158
-    },
     },
     "soilType": "Heavy Piedmont clay",
     "waterRestrictions": "Standard municipal guidelines",
