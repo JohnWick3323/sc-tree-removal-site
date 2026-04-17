@@ -8,6 +8,7 @@ import { Phone, CheckCircle, ShieldCheck, Zap, HardHat, MapPin, Star, Award, Clo
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Header from '../../../components/Header.astro';
 import Footer from '../../../components/Footer.astro';
+import ContactForm from '../../../components/ContactForm.astro';
 
 export async function getStaticPaths() {
   const paths = [];
@@ -209,32 +210,25 @@ const jsonLd = {
         </div>
 
         <div class="space-y-12">
-          <div class="bg-neutral-900 p-8 rounded-3xl text-white shadow-2xl sticky top-32 border border-neutral-800">
-            <h3 class="text-2xl font-bold mb-6 flex items-center gap-3">
-              <MapPin size={24} className="text-primary-400" />
-              Service in {location.name}
-            </h3>
-            <div class="space-y-6">
-              <div>
-                <p class="text-xs uppercase tracking-widest text-primary-500 font-bold mb-1">Regional Office</p>
-                <p class="font-medium">{location.county}, South Carolina</p>
-              </div>
-              <div>
-                <p class="text-xs uppercase tracking-widest text-primary-500 font-bold mb-1">Local Service Areas</p>
-                <div class="flex flex-wrap gap-2 mt-3">
-                  {location.neighborhoods.slice(0, 8).map(n => (
-                    <span class="px-2 py-1 bg-white/5 border border-white/10 rounded text-[10px] font-medium text-neutral-300 uppercase tracking-tighter">
-                      {n}
-                    </span>
-                  ))}
-                </div>
-              </div>
-              <div class="pt-6 border-t border-white/10">
-                <p class="text-primary-400 font-bold mb-4">Get a professional, arborist-led quote for your {location.name} property today.</p>
-                <a href={`tel:${site.phone}`} class="block w-full bg-primary-600 text-center py-4 rounded-xl font-bold hover:bg-primary-700 transition-colors">
-                  Get Free Estimate
-                </a>
-              </div>
+          <div class="sticky top-32">
+            <ContactForm 
+              title={`Get a Local Quote`} 
+              subtitle={`Rapid arborist response in ${location.name}.`}
+              isDark={true}
+            />
+          </div>
+
+          <div class="bg-white p-8 rounded-3xl border border-neutral-200 shadow-sm">
+            <h3 class="text-xl font-bold mb-6 text-neutral-900">Area Service Info</h3>
+            <div class="space-y-4">
+               <div class="flex justify-between items-center text-sm border-b border-neutral-100 pb-2">
+                  <span class="text-neutral-500">County</span>
+                  <span class="font-bold text-neutral-900">{location.county}</span>
+               </div>
+               <div class="flex justify-between items-center text-sm border-b border-neutral-100 pb-2">
+                  <span class="text-neutral-500">Soil Anchor</span>
+                  <span class="font-bold text-neutral-900 text-right ml-4">{location.soilType}</span>
+               </div>
             </div>
           </div>
 
