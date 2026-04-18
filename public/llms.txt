@@ -1,6 +1,6 @@
 # South Carolina Tree Removal
 
-> Professional arborist-led tree removal, trimming, and emergency storm response services across the entire state of South Carolina.
+> Professional arborist-led tree removal, stump grinding, and emergency storm response services across the entire state of South Carolina.
 
 ## Core Information
 - **Phone:** (843) 241-0787 (Available 24/7 for Emergency Storm Response)
@@ -11,7 +11,6 @@
 ## Services
 - [Residential Tree Removal](/services/residential-tree-removal/): Safe removal of hazardous trees near structures.
 - [Emergency Storm Response](/services/emergency-storm-response/): 24/7 rapid mobilization after severe weather.
-- [Tree Trimming & Pruning](/services/tree-trimming-pruning/): Health-focused maintenance and canopy thinning.
 - [Stump Grinding](/services/stump-grinding/): Complete root and stump removal.
 - [Land Clearing](/services/land-clearing-grading/): Site preparation and large-scale clearing.
 - [Commercial Forestry](/services/commercial-forestry/): Professional timber and lot management.
