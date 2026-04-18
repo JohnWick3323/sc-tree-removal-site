@@ -9,7 +9,7 @@ export const site = {
     state: 'SC',
     zip: '29577'
   },
-  phone: '(843) 241-0787',
+  phone: '(888) 643-4199',
   email: 'contact@southcarolinatreeremovalexperts.com',
   social: {
     facebook: 'https://facebook.com',
