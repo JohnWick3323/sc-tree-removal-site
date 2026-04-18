@@ -9,7 +9,9 @@ import { locations } from '../data/locations';
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16 border-b border-neutral-700 pb-16">
       <!-- Column 1: Brand -->
       <div class="space-y-6">
-        <h2 class="text-2xl font-bold font-heading">{site.name}</h2>
+        <a href="/" class="block group transition-transform hover:scale-105 origin-left">
+          <img src="/images/logo.png" alt={site.name} class="h-10 md:h-12 w-auto" />
+        </a>
         <p class="text-neutral-400 text-sm leading-relaxed max-w-xs">
           Professional arborist-led tree services across South Carolina. Specializing in safe removal, emergency response, and proactive property maintenance.
         </p>
