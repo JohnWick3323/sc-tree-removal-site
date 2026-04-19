@@ -20,8 +20,8 @@ export async function getStaticPaths() {
 const { location } = Astro.props;
 
 // --- SEO MACHINE LOGIC: LOCALIZATION & LINKING ---
-const pageTitle = `Professional Tree Removal in ${location.name}, SC | Certified arborist`;
-const pageDesc = `Looking for tree services in ${location.name}? We offer safe tree removal, emergency response, and stump grinding in ${location.county}. Certified arborists, 24/7 service.`;
+const pageTitle = `Tree Removal in ${location.name}, SC | SC Tree Removal Experts`;
+const pageDesc = `Expert tree removal in ${location.name}, SC. ISA-certified arborists, 24/7 emergency storm response, and stump grinding in ${location.county}. Free estimates — call today!`;
 
 // Get local versions of services (linking to combination pages)
 const localServices = services.map(s => {

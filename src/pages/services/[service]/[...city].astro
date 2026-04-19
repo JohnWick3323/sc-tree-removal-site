@@ -27,8 +27,8 @@ export async function getStaticPaths() {
 const { location, service, combo } = Astro.props;
 
 // SEO Machine Logic
-const pageTitle = `${service.name} ${location.name}, SC | Professional arborist Service`;
-const pageDesc = `Looking for ${service.name.toLowerCase()} in ${location.name}? Our certified arborists offer safe, 24/7 ${service.name.toLowerCase()} in ${location.county}. Free estimates. Call ${site.phone}.`;
+const pageTitle = `${service.name} in ${location.name}, SC | SC Tree Removal Experts`;
+const pageDesc = `Expert ${service.name.toLowerCase()} in ${location.name}, SC. ISA-certified arborists, 24/7 emergency response, and guaranteed safety for your ${location.county} property. Call today for a free estimate!`;
 
 const nearbyAreas = locations.filter(l => l.county === location.county && l.slug !== location.slug).slice(0, 6);
 const relatedServices = services.filter(s => s.slug !== service.slug).slice(0, 3);
@@ -147,6 +147,13 @@ const jsonLd = {
                </div>
                <div class="absolute -right-10 -bottom-10 opacity-10">
                   <TreePine size={200} />
+               </div>
+            </div>
+
+            <div class="my-12 rounded-3xl overflow-hidden shadow-xl border border-neutral-200">
+               <img src={service.image} alt={`Professional ${service.name} project in ${location.name}, SC`} class="w-full h-auto" />
+               <div class="bg-neutral-50 p-4 text-center">
+                  <p class="text-sm text-neutral-500 italic mb-0 font-medium">Professional {service.name} in action &mdash; {location.name}, SC</p>
                </div>
             </div>
 
