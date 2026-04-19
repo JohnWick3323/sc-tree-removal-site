@@ -1,7 +1,7 @@
 export const site = {
-  name: 'South Carolina Tree Removal',
+  name: 'South Carolina Tree Removal Experts',
   tagline: 'Expert Care for the Palmetto State\'s Canopy',
-  legalName: 'South Carolina Tree Removal',
+  legalName: 'South Carolina Tree Removal Experts',
   url: 'https://southcarolinatreeremovalexperts.com',
   address: {
     street: '1215 Camden Place',
