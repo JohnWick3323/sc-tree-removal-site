@@ -27,12 +27,12 @@ export async function getStaticPaths() {
 const { location, service, combo } = Astro.props;
 
 // SEO Machine Logic
-const pageTitle = `${service.name} in ${location.name}, SC | SC Tree Removal Experts`;
-const pageDesc = `Expert ${service.name.toLowerCase()} in ${location.name}, SC. ISA-certified arborists, 24/7 emergency response, and guaranteed safety for your ${location.county} property. Call today for a free estimate!`;
+const pageTitle = `Professional ${service.name} in ${location.name}, SC | South Carolina Tree Removal Experts`;
+const pageDesc = `Expert ${service.name.toLowerCase()} in ${location.name}, SC. ISA-Certified Arborists, 24/7 emergency response, and guaranteed safety for your ${location.county} property. Call today for a free estimate!`;
 
 const nearbyAreas = locations.filter(l => l.county === location.county && l.slug !== location.slug).slice(0, 6);
 const relatedServices = services.filter(s => s.slug !== service.slug).slice(0, 3);
-const localizedIntro = combo?.uniqueIntro || `Providing expert ${service.name.toLowerCase()} in ${location.name} requires a deep understanding of South Carolina arborist standards and the unique environmental stressors of ${location.county}.`;
+const localizedIntro = combo?.uniqueIntro || `Providing expert ${service.name.toLowerCase()} in ${location.name} requires a deep understanding of South Carolina Arborist standards and the unique environmental stressors of ${location.county}.`;
 const allFaqs = [...service.faqs.slice(0, 3), ...(combo?.uniqueFaqs || [])];
 
 const jsonLd = {
@@ -92,7 +92,7 @@ const jsonLd = {
           Reliable {service.name} <br/>in <span class="text-primary-400">{location.name}, SC</span>
         </h1>
         <p class="text-xl text-neutral-300 mb-12 leading-relaxed max-w-2xl">
-          Certified arborist-led {service.name.toLowerCase()} for <strong>{location.name}</strong> homes and businesses. 24/7 emergency response and zero-impact property protection guaranteed.
+          Certified Arborist-led {service.name.toLowerCase()} for <strong>{location.name}</strong> homes and businesses. 24/7 emergency response and zero-impact property protection guaranteed.
         </p>
         <div class="flex flex-col sm:flex-row gap-4">
           <a href={`tel:${site.phone}`} class="bg-primary-600 hover:bg-primary-700 text-white px-10 py-5 rounded-md font-bold text-xl transition-all flex items-center justify-center gap-3 shadow-xl hover:-translate-y-1 text-center">
@@ -121,7 +121,7 @@ const jsonLd = {
             <p>
               Properties in <strong>{location.name}</strong> and throughout <strong>{location.county}</strong> often face challenges related to <strong>{location.soilType}</strong>. 
               This soil composition can lead to specific root instability issues, especially during South Carolina's intense hurricane seasons. 
-              Our team of arborist-led professionals understands exactly how to manage {service.name.toLowerCase()} in these local conditions, 
+              Our team of Arborist-led professionals understands exactly how to manage {service.name.toLowerCase()} in these local conditions, 
               ensuring that your property remains safe and your landscape's value is preserved.
             </p>
 
@@ -129,9 +129,9 @@ const jsonLd = {
                <p class="mb-0 text-neutral-700">
                  <strong>Related Coverage:</strong> If you are looking for certified tree care nearby, we also provide 
                  <a href={`/services/${service.slug}/columbia/`} class="text-primary-600 font-bold decoration-primary-200 underline-offset-4">professional ${service.name.toLowerCase()} in Columbia, SC</a>, 
-                 <a href={`/services/${service.slug}/charleston/`} class="text-primary-600 font-bold decoration-primary-200 underline-offset-4">certified arborist ${service.name.toLowerCase()} in Charleston</a>, 
+                 <a href={`/services/${service.slug}/charleston/`} class="text-primary-600 font-bold decoration-primary-200 underline-offset-4">certified Arborist ${service.name.toLowerCase()} in Charleston</a>, 
                  and high-capacity 
-                 <a href={`/services/${service.slug}/greenville/`} class="text-primary-600 font-bold decoration-primary-200 underline-offset-4">arborist services in Greenville</a>.
+                 <a href={`/services/${service.slug}/greenville/`} class="text-primary-600 font-bold decoration-primary-200 underline-offset-4">Arborist services in Greenville</a>.
                </p>
             </div>
 
@@ -186,7 +186,7 @@ const jsonLd = {
                </div>
             </div>
 
-            <h3>Local {location.name} arborist Advice</h3>
+            <h3>Local {location.name} Arborist Advice</h3>
             <p>{service.longContent.localAdvice}</p>
             <p>
               If you live near <strong>{location.landmarks[0]?.name || 'the local city center'}</strong>, you may have specific municipal or 
@@ -220,7 +220,7 @@ const jsonLd = {
           <div class="sticky top-32">
             <ContactForm 
               title={`Get a Local Quote`} 
-              subtitle={`Rapid arborist response in ${location.name}.`}
+              subtitle={`Rapid Arborist response in ${location.name}.`}
               isDark={true}
             />
           </div>
@@ -240,7 +240,7 @@ const jsonLd = {
           </div>
 
           <div class="bg-white p-8 rounded-3xl border border-neutral-200">
-            <h3 class="text-xl font-bold mb-6 text-neutral-900">Related arborist Services</h3>
+            <h3 class="text-xl font-bold mb-6 text-neutral-900">Related Arborist Services</h3>
             <div class="space-y-4">
               {relatedServices.map(rs => (
                 <a href={`/services/${rs.slug}/${location.slug}/`} class="flex items-center justify-between p-4 bg-neutral-50 rounded-xl hover:bg-primary-50 transition-colors group">
@@ -259,7 +259,7 @@ const jsonLd = {
     <div class="container mx-auto px-4 max-w-7xl">
       <div class="text-center mb-12">
         <h2 class="text-3xl font-bold font-heading text-neutral-900 mb-4">Nearby Communities We Also Serve</h2>
-        <p class="text-neutral-600">Local arborist expertise for {location.county} and surrounding areas.</p>
+        <p class="text-neutral-600">Local Arborist expertise for {location.county} and surrounding areas.</p>
       </div>
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
         {nearbyAreas.map(area => (
@@ -275,7 +275,7 @@ const jsonLd = {
     <div class="container mx-auto px-4 relative z-10">
       <h2 class="text-3xl md:text-6xl font-bold font-heading mb-8">Ready to Secure Your {location.name} Property?</h2>
       <p class="text-xl text-primary-100 mb-12 max-w-2xl mx-auto leading-relaxed">
-        Our certified arborists provide the highest level of safety and care for <strong>{location.name}</strong> property owners. Schedule your free evaluation today.
+        Our certified Arborists provide the highest level of safety and care for <strong>{location.name}</strong> property owners. Schedule your free evaluation today.
       </p>
       <div class="flex flex-col sm:flex-row justify-center gap-6">
         <a href={`tel:${site.phone}`} class="inline-flex items-center gap-3 bg-white text-primary-700 px-10 py-5 rounded-md font-bold text-xl hover:bg-primary-50 transition-all shadow-2xl">
