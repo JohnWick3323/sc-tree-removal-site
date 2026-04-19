@@ -192,7 +192,7 @@ export const locations: Location[] = [
     "localInsight": "In Greenville, we focus on the unique arborist needs dictated by Red clay and rocky foothills and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
@@ -352,7 +352,7 @@ export const locations: Location[] = [
     "localInsight": "In Spartanburg, we focus on the unique arborist needs dictated by Red clay and rocky foothills and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
@@ -416,7 +416,7 @@ export const locations: Location[] = [
     "localInsight": "In Greer, we focus on the unique arborist needs dictated by Red clay and rocky foothills and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
@@ -544,7 +544,7 @@ export const locations: Location[] = [
     "localInsight": "In Anderson, we focus on the unique arborist needs dictated by Red clay and rocky foothills and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
@@ -608,7 +608,7 @@ export const locations: Location[] = [
     "localInsight": "In Mauldin, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Mauldin!",
@@ -768,7 +768,7 @@ export const locations: Location[] = [
     "localInsight": "In Simpsonville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
@@ -864,7 +864,7 @@ export const locations: Location[] = [
     "localInsight": "In Taylors, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
@@ -1728,7 +1728,7 @@ export const locations: Location[] = [
     "localInsight": "In Boiling Springs, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
@@ -1856,7 +1856,7 @@ export const locations: Location[] = [
     "localInsight": "In Fountain Inn, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
@@ -2400,7 +2400,7 @@ export const locations: Location[] = [
     "localInsight": "In Travelers Rest, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
@@ -2976,7 +2976,7 @@ export const locations: Location[] = [
     "localInsight": "In Lyman, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
@@ -3136,7 +3136,7 @@ export const locations: Location[] = [
     "localInsight": "In Piedmont, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
@@ -3488,7 +3488,7 @@ export const locations: Location[] = [
     "localInsight": "In Belton, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
@@ -3552,7 +3552,7 @@ export const locations: Location[] = [
     "localInsight": "In Woodruff, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
@@ -3712,7 +3712,7 @@ export const locations: Location[] = [
     "localInsight": "In Williamston, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
@@ -3776,7 +3776,7 @@ export const locations: Location[] = [
     "localInsight": "In Duncan, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
@@ -3936,7 +3936,7 @@ export const locations: Location[] = [
     "localInsight": "In Roebuck, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
@@ -4064,7 +4064,7 @@ export const locations: Location[] = [
     "localInsight": "In Honea Path, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Honea Path!",
@@ -4160,7 +4160,7 @@ export const locations: Location[] = [
     "localInsight": "In Pendleton, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
@@ -4352,7 +4352,7 @@ export const locations: Location[] = [
     "localInsight": "In Wellford, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
@@ -4864,7 +4864,7 @@ export const locations: Location[] = [
     "localInsight": "In Inman, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
@@ -5024,7 +5024,7 @@ export const locations: Location[] = [
     "localInsight": "In Arcadia, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
@@ -5504,7 +5504,7 @@ export const locations: Location[] = [
     "localInsight": "In Landrum, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
@@ -5984,7 +5984,7 @@ export const locations: Location[] = [
     "localInsight": "In Tigerville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
@@ -6368,7 +6368,7 @@ export const locations: Location[] = [
     "localInsight": "In Pacolet, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
@@ -6496,7 +6496,7 @@ export const locations: Location[] = [
     "localInsight": "In Mayo, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
@@ -6752,7 +6752,7 @@ export const locations: Location[] = [
     "localInsight": "In Cowpens, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
@@ -6944,7 +6944,7 @@ export const locations: Location[] = [
     "localInsight": "In Reidville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
@@ -7136,7 +7136,7 @@ export const locations: Location[] = [
     "localInsight": "In Fairforest, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
@@ -7392,7 +7392,7 @@ export const locations: Location[] = [
     "localInsight": "In Pelzer, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
@@ -7904,7 +7904,7 @@ export const locations: Location[] = [
     "localInsight": "In Conestee, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
@@ -8480,7 +8480,7 @@ export const locations: Location[] = [
     "localInsight": "In Iva, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
@@ -8544,7 +8544,7 @@ export const locations: Location[] = [
     "localInsight": "In Drayton, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
@@ -8608,7 +8608,7 @@ export const locations: Location[] = [
     "localInsight": "In La France, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
@@ -8736,7 +8736,7 @@ export const locations: Location[] = [
     "localInsight": "In Clifton, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Clifton!",
@@ -9120,7 +9120,7 @@ export const locations: Location[] = [
     "localInsight": "In Sandy Springs, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
@@ -9216,7 +9216,7 @@ export const locations: Location[] = [
     "localInsight": "In Campobello, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
@@ -10208,7 +10208,7 @@ export const locations: Location[] = [
     "localInsight": "In Chesnee, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Chesnee!",
@@ -10592,7 +10592,7 @@ export const locations: Location[] = [
     "localInsight": "In Startex, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Startex!",
@@ -11264,7 +11264,7 @@ export const locations: Location[] = [
     "localInsight": "In Enoree, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
@@ -12544,7 +12544,7 @@ export const locations: Location[] = [
     "localInsight": "In Glendale, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Glendale!",
@@ -12768,7 +12768,7 @@ export const locations: Location[] = [
     "localInsight": "In Converse, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
@@ -12800,7 +12800,7 @@ export const locations: Location[] = [
     "localInsight": "In Pauline, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
@@ -13152,7 +13152,7 @@ export const locations: Location[] = [
     "localInsight": "In Starr, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
@@ -14080,7 +14080,7 @@ export const locations: Location[] = [
     "localInsight": "In Fingerville, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
@@ -14432,7 +14432,7 @@ export const locations: Location[] = [
     "localInsight": "In Gramling, we focus on the unique arborist needs dictated by Heavy Piedmont clay and the local South Carolina climate.",
     "commonYardSize": "0.25 - 0.75 acres",
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
-    "image": "https://images.unsplash.com/photo-1448375002481-4625883395ee?auto=format&fit=crop&q=80&w=1200",
+    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
     "testimonial": {
       "name": "Local Resident",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
