@@ -21,7 +21,7 @@ export const services: Service[] = [
   {
     slug: 'residential-tree-removal',
     name: 'Residential Tree Removal',
-    image: 'https://picture-search.skywork.ai/skills/upload/2026-04-16/6da936ab26074cf1b0b63df5cf6189fe_5b0d3.png',
+    image: '/images/services/service-residential-tree-removal.webp',
     description: 'Safe, professional tree removal services for South Carolina homeowners. We handle everything from hazardous leaning trees to diseased specimens near structures using advanced rigging and crane techniques.',
     metaDescription: 'Expert residential tree removal in South Carolina. Safe, insured, and Arborist-supervised. Get a free estimate for hazardous or unwanted tree removal.',
     heroHeading: 'Safe & Controlled Tree Removal in South Carolina',
@@ -77,7 +77,7 @@ export const services: Service[] = [
   {
     slug: 'emergency-storm-response',
     name: 'Emergency Storm Response',
-    image: 'https://picture-search.skywork.ai/skills/upload/2026-04-16/15e4bfcbb69a419b898583c4ef30ef52_7b98a.png',
+    image: '/images/services/service-emergency-storm-response.webp',
     description: '24/7 rapid response for tree failures caused by South Carolina\'s severe weather. We prioritize property access and structural protection when hurricanes, tornadoes, or thunderstorms strike.',
     metaDescription: '24/7 Emergency tree removal in South Carolina. Rapid storm damage cleanup for fallen trees on houses, cars, or driveways. Call now for immediate help.',
     heroHeading: '24/7 Emergency Tree Response When You Need It Most',
@@ -133,7 +133,7 @@ export const services: Service[] = [
   {
     slug: 'stump-grinding',
     name: 'Stump Grinding',
-    image: 'https://picture-search.skywork.ai/skills/upload/2026-04-16/a43c86730f5e48e8a5e215e1c907b25a_02a54.png',
+    image: '/images/services/service-stump-grinding.webp',
     description: 'Complete removal of unsightly and hazardous stumps. We use high-powered equipment to grind stumps well below the surface, allowing for immediate replanting or landscaping.',
     metaDescription: 'Fast stump grinding services in South Carolina. Clear your yard of tripping hazards and pests. Affordable stump removal for any size tree.',
     heroHeading: 'Professional Stump Grinding & Removal',
@@ -189,7 +189,7 @@ export const services: Service[] = [
   {
     slug: 'land-clearing-grading',
     name: 'Land Clearing & Grading',
-    image: 'https://picture-search.skywork.ai/skills/upload/2026-04-16/4efdce29bbc848758af6f1f956240435_9458b.png',
+    image: '/images/services/service-land-clearing-grading.webp',
     description: 'Comprehensive site preparation for South Carolina construction and development. From residential lot clearing to commercial acreage, we provide efficient removal and leveling.',
     metaDescription: 'Professional land clearing and grading in South Carolina. Site prep, underbrushing, and debris removal for residential and commercial projects.',
     heroHeading: 'Site Prep & Land Clearing for Your Next Project',
@@ -245,7 +245,7 @@ export const services: Service[] = [
   {
     slug: 'commercial-forestry',
     name: 'Commercial Forestry',
-    image: 'https://picture-search.skywork.ai/skills/upload/2026-04-16/7936524b50bf492ab8148f02355cf986_fbdce.png',
+    image: '/images/services/service-commercial-forestry.webp',
     description: 'Industrial-grade forestry services for South Carolina timber tracts, municipalities, and large developments. We manage large-scale removals and maintenance with high-efficiency equipment.',
     metaDescription: 'Industrial forestry and large-scale tree removal in South Carolina. Timber management, firebreaks, and commercial lot clearing for major projects.',
     heroHeading: 'Scale-Driven Forestry Solutions for South Carolina',

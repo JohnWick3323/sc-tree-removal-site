@@ -2,6 +2,7 @@
 import { services } from '../../data/services';
 import { locations } from '../../data/locations';
 import { combinations } from '../../data/combinations';
+import { site } from '../../data/site';
 import { AnimatedIcon } from '../../components/AnimatedIcon';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/Header.astro';
@@ -44,6 +45,38 @@ const faqSchema = {
     }
   }))
 };
+
+// BreadcrumbList Schema
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": breadcrumbs.map((bc, idx) => ({
+    "@type": "ListItem",
+    "position": idx + 1,
+    "name": bc.name,
+    "item": `${site.url}${bc.href}`
+  }))
+};
+
+// Service Schema
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": service.name,
+  "description": service.description,
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": site.name,
+    "telephone": site.phone,
+    "url": site.url
+  },
+  "areaServed": {
+    "@type": "State",
+    "name": "South Carolina"
+  },
+  "serviceType": service.name,
+  "url": `${site.url}/services/${service.slug}/`
+};
 ---
 
 <BaseLayout 
@@ -51,6 +84,8 @@ const faqSchema = {
   description={service.metaDescription}
 >
   <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
   <Header slot="header" />
 
   <!-- Hero Section -->

@@ -12,12 +12,73 @@ import ContactForm from '../components/ContactForm.astro';
 
 const featuredServices = services.slice(0, 4);
 const topLocations = locations.slice(0, 6);
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": `${site.url}/#organization`,
+  "name": site.name,
+  "legalName": site.legalName,
+  "url": site.url,
+  "telephone": site.phone,
+  "email": site.email,
+  "logo": `${site.url}/images/logo.png`,
+  "image": `${site.url}/images/optimized/og-image.webp`,
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": site.address.street,
+    "addressLocality": site.address.city,
+    "addressRegion": site.address.state,
+    "postalCode": site.address.zip,
+    "addressCountry": "US"
+  },
+  "areaServed": {
+    "@type": "State",
+    "name": "South Carolina"
+  },
+  "serviceType": [
+    "Tree Removal",
+    "Stump Grinding",
+    "Emergency Storm Response",
+    "Land Clearing",
+    "Commercial Forestry"
+  ],
+  "priceRange": "$$",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "500",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+};
+
+const homeBreadcrumbs = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": site.url
+    }
+  ]
+};
 ---
 
 <BaseLayout 
   title="Expert Tree Removal in South Carolina | South Carolina Tree Removal Experts"
   description="ISA-certified Arborists serving all of South Carolina. Tree removal, stump grinding & 24/7 storm response. Serving Charleston, Greenville & Columbia. Free estimates — call today."
 >
+  <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(homeBreadcrumbs)} />
   <Header slot="header" />
   
   <!-- Hero Section -->
