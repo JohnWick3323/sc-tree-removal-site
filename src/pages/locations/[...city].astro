@@ -52,25 +52,45 @@ const localFaqs = [
   }
 ];
 
-// Schema.org - LocalBusiness
+// Schema.org - LocalBusiness + BreadcrumbList + FAQPage
 const schema = {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": `South Carolina Tree Removal Experts - ${location.name}`,
-  "telephone": site.phone,
-  "url": `${site.url}/locations/${location.slug}`,
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": location.name,
-    "addressRegion": "SC",
-    "addressCountry": "US"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": location.geo.lat,
-    "longitude": location.geo.lng
-  },
-  "areaServed": location.name
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": `South Carolina Tree Removal Experts - ${location.name}`,
+      "telephone": site.phone,
+      "url": `${site.url}/locations/${location.slug}`,
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": location.name,
+        "addressRegion": "SC",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": location.geo.lat,
+        "longitude": location.geo.lng
+      },
+      "areaServed": location.name
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": site.url },
+        { "@type": "ListItem", "position": 2, "name": "Service Areas", "item": `${site.url}/locations/` },
+        { "@type": "ListItem", "position": 3, "name": location.name, "item": `${site.url}/locations/${location.slug}/` }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": localFaqs.map(faq => ({
+        "@type": "Question",
+        "name": faq.question,
+        "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
+      }))
+    }
+  ]
 };
 ---
 

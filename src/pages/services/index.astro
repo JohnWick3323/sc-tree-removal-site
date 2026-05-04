@@ -13,12 +13,24 @@ const breadcrumbs = [
   { name: 'Home', href: '/' },
   { name: 'Services', href: '/services/' }
 ];
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": breadcrumbs.map((bc, idx) => ({
+    "@type": "ListItem",
+    "position": idx + 1,
+    "name": bc.name,
+    "item": `${site.url}${bc.href}`
+  }))
+};
 ---
 
 <BaseLayout 
   title="Professional Tree Services in South Carolina | Expert Arborists"
   description="Explore our comprehensive range of professional tree services in South Carolina. From safe residential removal to 24/7 emergency storm response."
 >
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
   <Header slot="header" />
 
   <!-- Hero Section -->

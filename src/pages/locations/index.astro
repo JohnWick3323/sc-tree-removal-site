@@ -13,12 +13,24 @@ const breadcrumbs = [
   { name: 'Home', href: '/' },
   { name: 'Service Areas', href: '/locations/' }
 ];
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": breadcrumbs.map((bc, idx) => ({
+    "@type": "ListItem",
+    "position": idx + 1,
+    "name": bc.name,
+    "item": `${site.url}${bc.href}`
+  }))
+};
 ---
 
 <BaseLayout 
   title="Our Service Areas Across South Carolina | Lowcountry to Upstate"
   description="South Carolina Tree Removal Experts serves the entire Palmetto State. From Charleston and Myrtle Beach to Columbia and Greenville, we provide 24/7 coverage."
 >
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
   <Header slot="header" />
 
   <!-- Hero Section -->

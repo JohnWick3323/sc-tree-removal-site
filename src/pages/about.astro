@@ -35,12 +35,24 @@ const values = [
     icon: MapPin
   }
 ];
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": breadcrumbs.map((bc, idx) => ({
+    "@type": "ListItem",
+    "position": idx + 1,
+    "name": bc.name,
+    "item": `${site.url}${bc.href}`
+  }))
+};
 ---
 
 <BaseLayout 
   title="About Our SC Arborist Team | South Carolina Tree Removal Experts"
   description="Learn about South Carolina Tree Removal Experts's commitment to safety, certified Arborist care, and statewide emergency response. Your trusted Palmetto State tree experts."
 >
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
   <Header slot="header" />
 
   <!-- Hero Section -->

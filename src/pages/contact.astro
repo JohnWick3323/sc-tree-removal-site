@@ -11,12 +11,24 @@ const breadcrumbs = [
   { name: 'Home', href: '/' },
   { name: 'Contact', href: '/contact/' }
 ];
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": breadcrumbs.map((bc, idx) => ({
+    "@type": "ListItem",
+    "position": idx + 1,
+    "name": bc.name,
+    "item": `${site.url}${bc.href}`
+  }))
+};
 ---
 
 <BaseLayout 
   title="Get a Free Tree Removal Quote | Contact South Carolina Tree Removal Experts"
   description="Contact South Carolina Tree Removal Experts for a free, no-obligation estimate on tree removal, stump grinding, and emergency storm services. Serving all of South Carolina."
 >
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
   <Header slot="header" />
 
   <!-- Hero Section -->
