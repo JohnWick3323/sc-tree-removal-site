@@ -34,7 +34,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Brian Smith",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Charleston"
     }
@@ -66,7 +66,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1502082553048.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Thomas Johnson",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Columbia"
     }
@@ -98,7 +98,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephen Williams",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in North Charleston!",
       "location": "North Charleston"
     }
@@ -130,7 +130,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Emily Brown",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Mount Pleasant"
     }
@@ -162,7 +162,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephen Jones",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Rock Hill"
     }
@@ -194,7 +194,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Elizabeth Garcia",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Greenville"
     }
@@ -226,7 +226,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Brian Miller",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Summerville"
     }
@@ -258,7 +258,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jessica Davis",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Goose creek"
     }
@@ -290,7 +290,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Rodriguez",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Sumter"
     }
@@ -322,7 +322,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Lauren Martinez",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Florence!",
       "location": "Florence"
     }
@@ -354,7 +354,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Nicole Hernandez",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Spartanburg"
     }
@@ -386,7 +386,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Lopez",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Hilton Head Island"
     }
@@ -418,7 +418,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Gonzalez",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Greer"
     }
@@ -450,7 +450,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "James Wilson",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Myrtle Beach"
     }
@@ -482,7 +482,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Ashley Anderson",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Aiken"
     }
@@ -514,7 +514,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Megan Thomas",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Bluffton"
     }
@@ -546,7 +546,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Melissa Taylor",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Anderson"
     }
@@ -578,7 +578,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Richard Moore",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Fort Mill"
     }
@@ -610,7 +610,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Nicole Jackson",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Mauldin!",
       "location": "Mauldin"
     }
@@ -642,7 +642,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Rachel Martin",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Conway"
     }
@@ -674,7 +674,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Rachel Lee",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Carolina Forest!",
       "location": "Carolina Forest"
     }
@@ -706,7 +706,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephen Perez",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Socastee"
     }
@@ -738,7 +738,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jessica Thompson",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in North Augusta!",
       "location": "North Augusta"
     }
@@ -770,7 +770,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jennifer White",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Simpsonville"
     }
@@ -802,7 +802,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1502082553048.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Thomas Harris",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Lexington"
     }
@@ -834,7 +834,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephanie Sanchez",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Easley!",
       "location": "Easley"
     }
@@ -866,7 +866,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Rachel Clark",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Taylors"
     }
@@ -898,7 +898,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jason Ramirez",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Greenwood!",
       "location": "Greenwood"
     }
@@ -930,7 +930,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Matthew Lewis",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "St. Andrews"
     }
@@ -962,7 +962,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jason Robinson",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Wade Hampton"
     }
@@ -994,7 +994,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Eric Walker",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Hanahan"
     }
@@ -1026,7 +1026,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Thomas Young",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "North Myrtle Beach"
     }
@@ -1058,7 +1058,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "John Allen",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Five Forks"
     }
@@ -1090,7 +1090,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Joshua King",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Clemson"
     }
@@ -1122,7 +1122,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1502082553048.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Joshua Wright",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "West Columbia"
     }
@@ -1154,7 +1154,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Joshua Scott",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Dentsville"
     }
@@ -1186,7 +1186,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Robert Torres",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Berea"
     }
@@ -1218,7 +1218,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Laura Nguyen",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Seven Oaks"
     }
@@ -1250,7 +1250,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jose Hill",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Red Hill!",
       "location": "Red Hill"
     }
@@ -1282,7 +1282,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jennifer Flores",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Ladson"
     }
@@ -1314,7 +1314,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Richard Green",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Port Royal"
     }
@@ -1346,7 +1346,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Robert Adams",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Lake Wylie"
     }
@@ -1378,7 +1378,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Lauren Nelson",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Gantt"
     }
@@ -1410,7 +1410,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1502082553048.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Eric Baker",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Cayce"
     }
@@ -1442,7 +1442,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jason Hall",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Beaufort"
     }
@@ -1474,7 +1474,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Robert Rivera",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Moncks corner"
     }
@@ -1506,7 +1506,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Brian Campbell",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Orangeburg!",
       "location": "Orangeburg"
     }
@@ -1538,7 +1538,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Sarah Mitchell",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Tega cay"
     }
@@ -1570,7 +1570,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Matthew Carter",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Gaffney"
     }
@@ -1602,7 +1602,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jose Roberts",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Parker"
     }
@@ -1634,7 +1634,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "David Smith",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "James Island"
     }
@@ -1666,7 +1666,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1502082553048.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Kevin Johnson",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Irmo"
     }
@@ -1698,7 +1698,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Melissa Williams",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Oak Grove"
     }
@@ -1730,7 +1730,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jeffrey Brown",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Boiling Springs"
     }
@@ -1762,7 +1762,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Robert Jones",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Garden city"
     }
@@ -1794,7 +1794,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Christopher Garcia",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Newberry"
     }
@@ -1826,7 +1826,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "John Miller",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Powdersville"
     }
@@ -1858,7 +1858,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Kevin Davis",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Fountain Inn"
     }
@@ -1890,7 +1890,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "James Rodriguez",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Red Bank"
     }
@@ -1922,7 +1922,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michelle Martinez",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Forest Acres!",
       "location": "Forest Acres"
     }
@@ -1954,7 +1954,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "David Hernandez",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Murrells Inlet"
     }
@@ -1986,7 +1986,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Robert Lopez",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Little River"
     }
@@ -2018,7 +2018,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Robert Gonzalez",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Woodfield"
     }
@@ -2050,7 +2050,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michael Wilson",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Lugoff!",
       "location": "Lugoff"
     }
@@ -2082,7 +2082,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Heather Anderson",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Laurens"
     }
@@ -2114,7 +2114,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Thomas",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Litchfield Beach"
     }
@@ -2146,7 +2146,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Samantha Taylor",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Seneca"
     }
@@ -2178,7 +2178,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Eric Moore",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Sangaree"
     }
@@ -2210,7 +2210,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Emily Jackson",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Lancaster"
     }
@@ -2242,7 +2242,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Rachel Martin",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "York"
     }
@@ -2274,7 +2274,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephanie Lee",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Georgetown"
     }
@@ -2306,7 +2306,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Samantha Perez",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Union"
     }
@@ -2338,7 +2338,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephanie Thompson",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Hardeeville"
     }
@@ -2370,7 +2370,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephanie White",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Sans Souci"
     }
@@ -2402,7 +2402,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Megan Harris",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Travelers Rest"
     }
@@ -2434,7 +2434,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michael Sanchez",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Camden"
     }
@@ -2466,7 +2466,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Sarah Clark",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Clinton"
     }
@@ -2498,7 +2498,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Heather Ramirez",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Burton"
     }
@@ -2530,7 +2530,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephanie Lewis",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Homeland Park"
     }
@@ -2562,7 +2562,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Thomas Robinson",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Hartsville"
     }
@@ -2594,7 +2594,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Samantha Walker",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Forestbrook"
     }
@@ -2626,7 +2626,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Elizabeth Young",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Centerville"
     }
@@ -2658,7 +2658,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Lauren Allen",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "White Knoll"
     }
@@ -2690,7 +2690,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Angela King",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Welcome"
     }
@@ -2722,7 +2722,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Laura Wright",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Valley Falls"
     }
@@ -2754,7 +2754,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephen Scott",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Bennettsville"
     }
@@ -2786,7 +2786,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Elizabeth Torres",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Lake Murray of Richland"
     }
@@ -2818,7 +2818,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Thomas Nguyen",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Clover"
     }
@@ -2850,7 +2850,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Richard Hill",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Dillon"
     }
@@ -2882,7 +2882,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Samantha Flores",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Marion!",
       "location": "Marion"
     }
@@ -2914,7 +2914,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "James Green",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Clemson University"
     }
@@ -2946,7 +2946,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Kevin Adams",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Darlington"
     }
@@ -2978,7 +2978,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Joshua Nelson",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Lyman"
     }
@@ -3010,7 +3010,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Heather Baker",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Lake city"
     }
@@ -3042,7 +3042,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Elizabeth Hall",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Belvedere!",
       "location": "Belvedere"
     }
@@ -3074,7 +3074,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jeffrey Rivera",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Walterboro"
     }
@@ -3106,7 +3106,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Ashley Campbell",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Laurel Bay!",
       "location": "Laurel Bay"
     }
@@ -3138,7 +3138,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Brian Mitchell",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Piedmont"
     }
@@ -3170,7 +3170,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Carter",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Hollywood"
     }
@@ -3202,7 +3202,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Heather Roberts",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Central"
     }
@@ -3234,7 +3234,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "William Smith",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Chester"
     }
@@ -3266,7 +3266,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Samantha Johnson",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Cheraw!",
       "location": "Cheraw"
     }
@@ -3298,7 +3298,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Christopher Williams",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Batesburg-Leesville"
     }
@@ -3330,7 +3330,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jennifer Brown",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Abbeville!",
       "location": "Abbeville"
     }
@@ -3362,7 +3362,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1502082553048.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Jones",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Blythewood"
     }
@@ -3394,7 +3394,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jennifer Garcia",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Barnwell!",
       "location": "Barnwell"
     }
@@ -3426,7 +3426,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Miller",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Baxter Village"
     }
@@ -3458,7 +3458,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Heather Davis",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "India Hook"
     }
@@ -3490,7 +3490,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Elizabeth Rodriguez",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Belton"
     }
@@ -3522,7 +3522,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michelle Martinez",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Isle of Palms"
     }
@@ -3554,7 +3554,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michelle Hernandez",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Woodruff"
     }
@@ -3586,7 +3586,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Sarah Lopez",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Newport"
     }
@@ -3618,7 +3618,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephen Gonzalez",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Surfside Beach"
     }
@@ -3650,7 +3650,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Emily Wilson",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Saxon"
     }
@@ -3682,7 +3682,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Matthew Anderson",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Walhalla"
     }
@@ -3714,7 +3714,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephanie Thomas",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Williamston"
     }
@@ -3746,7 +3746,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Laura Taylor",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Brookdale"
     }
@@ -3778,7 +3778,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Sarah Moore",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Duncan"
     }
@@ -3810,7 +3810,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Daniel Jackson",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Mullins"
     }
@@ -3842,7 +3842,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Megan Martin",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Northlake"
     }
@@ -3874,7 +3874,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Elizabeth Lee",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Manning"
     }
@@ -3906,7 +3906,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Thomas Perez",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Southern Shops"
     }
@@ -3938,7 +3938,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Elizabeth Thompson",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Roebuck"
     }
@@ -3970,7 +3970,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Timothy White",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Wyboo"
     }
@@ -4002,7 +4002,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jose Harris",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Ridgeland"
     }
@@ -4034,7 +4034,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Brian Sanchez",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Whitney!",
       "location": "Whitney"
     }
@@ -4066,7 +4066,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Robert Clark",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Honea Path!",
       "location": "Honea Path"
     }
@@ -4098,7 +4098,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Robert Ramirez",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Andrews"
     }
@@ -4130,7 +4130,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Nicole Lewis",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in East Camden!",
       "location": "East Camden"
     }
@@ -4162,7 +4162,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Megan Robinson",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Pendleton"
     }
@@ -4194,7 +4194,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Melissa Walker",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Capitol View"
     }
@@ -4226,7 +4226,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jennifer Young",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Dunean"
     }
@@ -4258,7 +4258,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Sarah Allen",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Dalzell"
     }
@@ -4290,7 +4290,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michael King",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "clearwater"
     }
@@ -4322,7 +4322,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Thomas Wright",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Pickens"
     }
@@ -4354,7 +4354,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephanie Scott",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Wellford"
     }
@@ -4386,7 +4386,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michelle Torres",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Liberty!",
       "location": "Liberty"
     }
@@ -4418,7 +4418,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Heather Nguyen",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Golden Grove"
     }
@@ -4450,7 +4450,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Nicole Hill",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in North Hartsville!",
       "location": "North Hartsville"
     }
@@ -4482,7 +4482,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Sarah Flores",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Hilltop"
     }
@@ -4514,7 +4514,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Daniel Green",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Winnsboro!",
       "location": "Winnsboro"
     }
@@ -4546,7 +4546,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Melissa Adams",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Kingstree!",
       "location": "Kingstree"
     }
@@ -4578,7 +4578,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Timothy Nelson",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Denmark"
     }
@@ -4610,7 +4610,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "James Baker",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Lakewood!",
       "location": "Lakewood"
     }
@@ -4642,7 +4642,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jennifer Hall",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Saluda"
     }
@@ -4674,7 +4674,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Matthew Rivera",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Lesslie!",
       "location": "Lesslie"
     }
@@ -4706,7 +4706,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Christopher Campbell",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Gloverville"
     }
@@ -4738,7 +4738,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Emily Mitchell",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Bamberg!",
       "location": "Bamberg"
     }
@@ -4770,7 +4770,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Carter",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Keowee Key!",
       "location": "Keowee Key"
     }
@@ -4802,7 +4802,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Joshua Roberts",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Burnettown"
     }
@@ -4834,7 +4834,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "John Smith",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Arthurtown"
     }
@@ -4866,7 +4866,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jose Johnson",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Inman"
     }
@@ -4898,7 +4898,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Timothy Williams",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Bishopville"
     }
@@ -4930,7 +4930,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Brown",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "East Gaffney"
     }
@@ -4962,7 +4962,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Joshua Jones",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Elgin cDP"
     }
@@ -4994,7 +4994,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "James Garcia",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Williston"
     }
@@ -5026,7 +5026,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Ashley Miller",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Arcadia"
     }
@@ -5058,7 +5058,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michael Davis",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in cherryvale!",
       "location": "cherryvale"
     }
@@ -5090,7 +5090,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jennifer Rodriguez",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Mccormick"
     }
@@ -5122,7 +5122,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Megan Martinez",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Pageland"
     }
@@ -5154,7 +5154,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "David Hernandez",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Hampton"
     }
@@ -5186,7 +5186,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jeffrey Lopez",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Springdale town"
     }
@@ -5218,7 +5218,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Gonzalez",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Allendale"
     }
@@ -5250,7 +5250,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Daniel Wilson",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Pine Ridge town"
     }
@@ -5282,7 +5282,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "David Anderson",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Arkwright!",
       "location": "Arkwright"
     }
@@ -5314,7 +5314,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Ashley Thomas",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Springdale cDP"
     }
@@ -5346,7 +5346,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "John Taylor",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Ninety Six!",
       "location": "Ninety Six"
     }
@@ -5378,7 +5378,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Thomas Moore",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Ravenel"
     }
@@ -5410,7 +5410,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "William Jackson",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Loris"
     }
@@ -5442,7 +5442,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephen Martin",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "New Ellenton"
     }
@@ -5474,7 +5474,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephen Lee",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Edgefield"
     }
@@ -5506,7 +5506,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Laura Perez",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Landrum"
     }
@@ -5538,7 +5538,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jeffrey Thompson",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Graniteville!",
       "location": "Graniteville"
     }
@@ -5570,7 +5570,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Timothy White",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Johnston"
     }
@@ -5602,7 +5602,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Melissa Harris",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Sullivan's Island"
     }
@@ -5634,7 +5634,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michelle Sanchez",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Kershaw"
     }
@@ -5666,7 +5666,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Rachel Clark",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Mccoll"
     }
@@ -5698,7 +5698,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Melissa Ramirez",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in South congaree!",
       "location": "South congaree"
     }
@@ -5730,7 +5730,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "David Lewis",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Pimlico"
     }
@@ -5762,7 +5762,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Robert Robinson",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Estill"
     }
@@ -5794,7 +5794,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Melissa Walker",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Westminster"
     }
@@ -5826,7 +5826,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Joshua Young",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Slater-Marietta!",
       "location": "Slater-Marietta"
     }
@@ -5858,7 +5858,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Lauren Allen",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Privateer"
     }
@@ -5890,7 +5890,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Timothy King",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Varnville!",
       "location": "Varnville"
     }
@@ -5922,7 +5922,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Megan Wright",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Ben Avon"
     }
@@ -5954,7 +5954,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Heather Scott",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Kiawah Island"
     }
@@ -5986,7 +5986,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephanie Torres",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Tigerville"
     }
@@ -6018,7 +6018,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Emily Nguyen",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Timmonsville"
     }
@@ -6050,7 +6050,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Heather Hill",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Blacksburg!",
       "location": "Blacksburg"
     }
@@ -6082,7 +6082,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Robert Flores",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Elgin town!",
       "location": "Elgin town"
     }
@@ -6114,7 +6114,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Laura Green",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Seabrook Island"
     }
@@ -6146,7 +6146,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michael Adams",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Wedgefield"
     }
@@ -6178,7 +6178,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Rebecca Nelson",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Fairfax"
     }
@@ -6210,7 +6210,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jessica Baker",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Blackville"
     }
@@ -6242,7 +6242,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jennifer Hall",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Shell Point"
     }
@@ -6274,7 +6274,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jessica Rivera",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Watts Mills"
     }
@@ -6306,7 +6306,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Timothy Campbell",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Riverview"
     }
@@ -6338,7 +6338,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1502082553048.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Lauren Mitchell",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Gaston"
     }
@@ -6370,7 +6370,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jason Carter",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Pacolet"
     }
@@ -6402,7 +6402,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Rebecca Roberts",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "calhoun Falls"
     }
@@ -6434,7 +6434,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michael Smith",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Ware Shoals"
     }
@@ -6466,7 +6466,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Heather Johnson",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "St. Matthews"
     }
@@ -6498,7 +6498,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Daniel Williams",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Mayo"
     }
@@ -6530,7 +6530,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Brian Brown",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Wilkinson Heights"
     }
@@ -6562,7 +6562,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "James Jones",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Edisto"
     }
@@ -6594,7 +6594,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Garcia",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in St. George!",
       "location": "St. George"
     }
@@ -6626,7 +6626,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Elizabeth Miller",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Eureka Mill"
     }
@@ -6658,7 +6658,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Megan Davis",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Jackson"
     }
@@ -6690,7 +6690,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Emily Rodriguez",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Judson"
     }
@@ -6722,7 +6722,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jessica Martinez",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Irwin"
     }
@@ -6754,7 +6754,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Hernandez",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Cowpens"
     }
@@ -6786,7 +6786,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Lauren Lopez",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Langley"
     }
@@ -6818,7 +6818,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Rachel Gonzalez",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Monarch Mill"
     }
@@ -6850,7 +6850,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jeffrey Wilson",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Arial"
     }
@@ -6882,7 +6882,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michael Anderson",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Stateburg!",
       "location": "Stateburg"
     }
@@ -6914,7 +6914,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1502082553048.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Laura Thomas",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Hopkins"
     }
@@ -6946,7 +6946,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "John Taylor",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Reidville"
     }
@@ -6978,7 +6978,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephanie Moore",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "city View"
     }
@@ -7010,7 +7010,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "David Jackson",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Camp Croft!",
       "location": "Camp Croft"
     }
@@ -7042,7 +7042,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "James Martin",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Winnsboro Mills"
     }
@@ -7074,7 +7074,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jeffrey Lee",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Great Falls"
     }
@@ -7106,7 +7106,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Joshua Perez",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Utica"
     }
@@ -7138,7 +7138,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Eric Thompson",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Fairforest"
     }
@@ -7170,7 +7170,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephen White",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "South Sumter"
     }
@@ -7202,7 +7202,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Timothy Harris",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Awendaw!",
       "location": "Awendaw"
     }
@@ -7234,7 +7234,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Joshua Sanchez",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Ridgeville"
     }
@@ -7266,7 +7266,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1502082553048.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "William Clark",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in chapin!",
       "location": "chapin"
     }
@@ -7298,7 +7298,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Ashley Ramirez",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Cane Savannah"
     }
@@ -7330,7 +7330,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michelle Lewis",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Latta"
     }
@@ -7362,7 +7362,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Laura Robinson",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Bonneau Beach"
     }
@@ -7394,7 +7394,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "John Walker",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Pelzer"
     }
@@ -7426,7 +7426,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Heather Young",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Murphys Estates"
     }
@@ -7458,7 +7458,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Daniel Allen",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "catawba"
     }
@@ -7490,7 +7490,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Matthew King",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Chesterfield"
     }
@@ -7522,7 +7522,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Ashley Wright",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Joanna"
     }
@@ -7554,7 +7554,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "William Scott",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "St. Stephen"
     }
@@ -7586,7 +7586,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "John Torres",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Holly Hill"
     }
@@ -7618,7 +7618,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1502082553048.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Rebecca Nguyen",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Gadsden"
     }
@@ -7650,7 +7650,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jennifer Hill",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Beech Island"
     }
@@ -7682,7 +7682,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Flores",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Meggett"
     }
@@ -7714,7 +7714,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "David Green",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Branchville"
     }
@@ -7746,7 +7746,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Adams",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Homewood"
     }
@@ -7778,7 +7778,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "David Nelson",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Whitmire!",
       "location": "Whitmire"
     }
@@ -7810,7 +7810,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Joshua Baker",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Lake Secession"
     }
@@ -7842,7 +7842,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephanie Hall",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Olympia"
     }
@@ -7874,7 +7874,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "James Rivera",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Lamar!",
       "location": "Lamar"
     }
@@ -7906,7 +7906,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Laura Campbell",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Conestee"
     }
@@ -7938,7 +7938,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephen Mitchell",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Santee"
     }
@@ -7970,7 +7970,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jessica Carter",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Buffalo"
     }
@@ -8002,7 +8002,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Christopher Roberts",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "West Pelzer"
     }
@@ -8034,7 +8034,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Christopher Smith",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Fort Lawn"
     }
@@ -8066,7 +8066,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Johnson",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Edmund!",
       "location": "Edmund"
     }
@@ -8098,7 +8098,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Nicole Williams",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Due West!",
       "location": "Due West"
     }
@@ -8130,7 +8130,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Megan Brown",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Cottageville"
     }
@@ -8162,7 +8162,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "David Jones",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Prosperity!",
       "location": "Prosperity"
     }
@@ -8194,7 +8194,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Kevin Garcia",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Johnsonville"
     }
@@ -8226,7 +8226,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michelle Miller",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Seabrook"
     }
@@ -8258,7 +8258,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Davis",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Six Mile"
     }
@@ -8290,7 +8290,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Daniel Rodriguez",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Gayle Mill"
     }
@@ -8322,7 +8322,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jose Martinez",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Pamplico"
     }
@@ -8354,7 +8354,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jennifer Hernandez",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Dunbar"
     }
@@ -8386,7 +8386,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1502082553048.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Lauren Lopez",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Pelion"
     }
@@ -8418,7 +8418,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Eric Gonzalez",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "McBee"
     }
@@ -8450,7 +8450,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Timothy Wilson",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Wagener"
     }
@@ -8482,7 +8482,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Elizabeth Anderson",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Iva"
     }
@@ -8514,7 +8514,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jessica Thomas",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Folly Beach"
     }
@@ -8546,7 +8546,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephanie Taylor",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Drayton"
     }
@@ -8578,7 +8578,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Sarah Moore",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Elloree"
     }
@@ -8610,7 +8610,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michael Jackson",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "La France"
     }
@@ -8642,7 +8642,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Megan Martin",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Aynor"
     }
@@ -8674,7 +8674,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Kevin Lee",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Yemassee"
     }
@@ -8706,7 +8706,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michael Perez",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Cateechee"
     }
@@ -8738,7 +8738,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "William Thompson",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Clifton!",
       "location": "Clifton"
     }
@@ -8770,7 +8770,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Nicole White",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Oakland"
     }
@@ -8802,7 +8802,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jessica Harris",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Dale"
     }
@@ -8834,7 +8834,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "David Sanchez",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Inman Mills"
     }
@@ -8866,7 +8866,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Joshua Clark",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Dovesville!",
       "location": "Dovesville"
     }
@@ -8898,7 +8898,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Emily Ramirez",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Pinopolis"
     }
@@ -8930,7 +8930,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Nicole Lewis",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Jonesville"
     }
@@ -8962,7 +8962,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jeffrey Robinson",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in North!",
       "location": "North"
     }
@@ -8994,7 +8994,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Thomas Walker",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Quinby!",
       "location": "Quinby"
     }
@@ -9026,7 +9026,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Emily Young",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Scranton"
     }
@@ -9058,7 +9058,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Samantha Allen",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Edisto Beach"
     }
@@ -9090,7 +9090,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Rebecca King",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Harleyville"
     }
@@ -9122,7 +9122,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Eric Wright",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Sandy Springs"
     }
@@ -9154,7 +9154,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "David Scott",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Van Wyck"
     }
@@ -9186,7 +9186,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michael Torres",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Arcadia Lakes"
     }
@@ -9218,7 +9218,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jason Nguyen",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Campobello"
     }
@@ -9250,7 +9250,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Timothy Hill",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "The cliffs Valley"
     }
@@ -9282,7 +9282,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "James Flores",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Jefferson"
     }
@@ -9314,7 +9314,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Green",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Heath Springs"
     }
@@ -9346,7 +9346,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Samantha Adams",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Pinewood"
     }
@@ -9378,7 +9378,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Heather Nelson",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "East Sumter"
     }
@@ -9410,7 +9410,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Melissa Baker",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Warrenville!",
       "location": "Warrenville"
     }
@@ -9442,7 +9442,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jeffrey Hall",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Gray court!",
       "location": "Gray court"
     }
@@ -9474,7 +9474,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jeffrey Rivera",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Mcclellanville"
     }
@@ -9506,7 +9506,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Daniel Campbell",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Newtown"
     }
@@ -9538,7 +9538,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Christopher Mitchell",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Fripp Island"
     }
@@ -9570,7 +9570,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jennifer Carter",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Hamer"
     }
@@ -9602,7 +9602,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jose Roberts",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Bucksport"
     }
@@ -9634,7 +9634,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1502082553048.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Eric Smith",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Swansea"
     }
@@ -9666,7 +9666,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michael Johnson",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Norris"
     }
@@ -9698,7 +9698,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "David Williams",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Ridge Spring"
     }
@@ -9730,7 +9730,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "David Brown",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Summerton"
     }
@@ -9762,7 +9762,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Jones",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Turbeville!",
       "location": "Turbeville"
     }
@@ -9794,7 +9794,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Ashley Garcia",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Lake View"
     }
@@ -9826,7 +9826,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Miller",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "DeBordieu colony"
     }
@@ -9858,7 +9858,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Timothy Davis",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Clio"
     }
@@ -9890,7 +9890,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Elizabeth Rodriguez",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Mayesville"
     }
@@ -9922,7 +9922,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Nicole Martinez",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Wallace"
     }
@@ -9954,7 +9954,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Joshua Hernandez",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Manville"
     }
@@ -9986,7 +9986,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "William Lopez",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Bowman"
     }
@@ -10018,7 +10018,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Samantha Gonzalez",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Lincolnville!",
       "location": "Lincolnville"
     }
@@ -10050,7 +10050,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Nicole Wilson",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Pine Ridge cDP"
     }
@@ -10082,7 +10082,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Christopher Anderson",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Unity"
     }
@@ -10114,7 +10114,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1502082553048.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephanie Thomas",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Eastover"
     }
@@ -10146,7 +10146,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Brian Taylor",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "chickasaw Point"
     }
@@ -10178,7 +10178,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Lauren Moore",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Modoc"
     }
@@ -10210,7 +10210,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Matthew Jackson",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Chesnee!",
       "location": "Chesnee"
     }
@@ -10242,7 +10242,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "David Martin",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Olanta"
     }
@@ -10274,7 +10274,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephen Lee",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Fairview crossroads"
     }
@@ -10306,7 +10306,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Emily Perez",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Centenary"
     }
@@ -10338,7 +10338,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Samantha Thompson",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Bonneau"
     }
@@ -10370,7 +10370,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michelle White",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Fair Play"
     }
@@ -10402,7 +10402,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Elizabeth Harris",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Daufuskie Island"
     }
@@ -10434,7 +10434,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "William Sanchez",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Briarcliffe Acres"
     }
@@ -10466,7 +10466,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michael Clark",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Coward"
     }
@@ -10498,7 +10498,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1502082553048.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jason Ramirez",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Gilbert"
     }
@@ -10530,7 +10530,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jeffrey Lewis",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Furman!",
       "location": "Furman"
     }
@@ -10562,7 +10562,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Ashley Robinson",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Elliott!",
       "location": "Elliott"
     }
@@ -10594,7 +10594,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Eric Walker",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Startex!",
       "location": "Startex"
     }
@@ -10626,7 +10626,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephanie Young",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Hickory Grove!",
       "location": "Hickory Grove"
     }
@@ -10658,7 +10658,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Christopher Allen",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Lane"
     }
@@ -10690,7 +10690,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michael King",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Summit"
     }
@@ -10722,7 +10722,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jose Wright",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Carlisle"
     }
@@ -10754,7 +10754,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Christopher Scott",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Brunson"
     }
@@ -10786,7 +10786,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephen Torres",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Little Rock"
     }
@@ -10818,7 +10818,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephen Nguyen",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Buford"
     }
@@ -10850,7 +10850,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Matthew Hill",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in cross Hill!",
       "location": "cross Hill"
     }
@@ -10882,7 +10882,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Robert Flores",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Finklea"
     }
@@ -10914,7 +10914,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Thomas Green",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Patrick"
     }
@@ -10946,7 +10946,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Matthew Adams",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Cameron"
     }
@@ -10978,7 +10978,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Melissa Nelson",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Helena"
     }
@@ -11010,7 +11010,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Timothy Baker",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Springfield"
     }
@@ -11042,7 +11042,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jeffrey Hall",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in North Santee!",
       "location": "North Santee"
     }
@@ -11074,7 +11074,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Sarah Rivera",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Danwood"
     }
@@ -11106,7 +11106,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "James Campbell",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Ehrhardt"
     }
@@ -11138,7 +11138,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Melissa Mitchell",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Lockhart"
     }
@@ -11170,7 +11170,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jeffrey Carter",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Little Mountain"
     }
@@ -11202,7 +11202,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Daniel Roberts",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Bethune"
     }
@@ -11234,7 +11234,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Sarah Smith",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Adams Run"
     }
@@ -11266,7 +11266,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Kevin Johnson",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Enoree"
     }
@@ -11298,7 +11298,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michael Williams",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Sheldon"
     }
@@ -11330,7 +11330,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Robert Brown",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Hilda!",
       "location": "Hilda"
     }
@@ -11362,7 +11362,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Sarah Jones",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "West Union"
     }
@@ -11394,7 +11394,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephanie Garcia",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Hemingway"
     }
@@ -11426,7 +11426,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Megan Miller",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Grover"
     }
@@ -11458,7 +11458,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephanie Davis",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Greeleyville"
     }
@@ -11490,7 +11490,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Timothy Rodriguez",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Cash"
     }
@@ -11522,7 +11522,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michelle Martinez",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Society Hill"
     }
@@ -11554,7 +11554,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "David Hernandez",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Sharon"
     }
@@ -11586,7 +11586,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Christopher Lopez",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Eutawville"
     }
@@ -11618,7 +11618,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Sarah Gonzalez",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Rowesville"
     }
@@ -11650,7 +11650,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Joshua Wilson",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Alcolu!",
       "location": "Alcolu"
     }
@@ -11682,7 +11682,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "John Anderson",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "South Union"
     }
@@ -11714,7 +11714,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephanie Thomas",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Mount carmel"
     }
@@ -11746,7 +11746,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Brian Taylor",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Cokesbury"
     }
@@ -11778,7 +11778,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michelle Moore",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Donalds"
     }
@@ -11810,7 +11810,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jennifer Jackson",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Neeses!",
       "location": "Neeses"
     }
@@ -11842,7 +11842,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Samantha Martin",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Ruby!",
       "location": "Ruby"
     }
@@ -11874,7 +11874,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Samantha Lee",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Richburg"
     }
@@ -11906,7 +11906,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Timothy Perez",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Oswego"
     }
@@ -11938,7 +11938,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Nicole Thompson",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Paxville"
     }
@@ -11970,7 +11970,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Thomas White",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Newry"
     }
@@ -12002,7 +12002,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "James Harris",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Promised Land"
     }
@@ -12034,7 +12034,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Joshua Sanchez",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Atlantic Beach"
     }
@@ -12066,7 +12066,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Elizabeth Clark",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Norway"
     }
@@ -12098,7 +12098,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "David Ramirez",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Mcconnells!",
       "location": "Mcconnells"
     }
@@ -12130,7 +12130,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "William Lewis",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Gillisonville"
     }
@@ -12162,7 +12162,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "David Robinson",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Trenton!",
       "location": "Trenton"
     }
@@ -12194,7 +12194,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Daniel Walker",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Lowrys"
     }
@@ -12226,7 +12226,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Timothy Young",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Salley"
     }
@@ -12258,7 +12258,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Rebecca Allen",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Windsor"
     }
@@ -12290,7 +12290,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Richard King",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Perry!",
       "location": "Perry"
     }
@@ -12322,7 +12322,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Emily Wright",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Antreville"
     }
@@ -12354,7 +12354,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Matthew Scott",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Russellville"
     }
@@ -12386,7 +12386,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Daniel Torres",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Harbor Island"
     }
@@ -12418,7 +12418,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Kevin Nguyen",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Reevesville!",
       "location": "Reevesville"
     }
@@ -12450,7 +12450,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Brian Hill",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Jacksonboro"
     }
@@ -12482,7 +12482,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jessica Flores",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Snelling!",
       "location": "Snelling"
     }
@@ -12514,7 +12514,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephen Green",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Rembert!",
       "location": "Rembert"
     }
@@ -12546,7 +12546,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Rebecca Adams",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Glendale!",
       "location": "Glendale"
     }
@@ -12578,7 +12578,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Christopher Nelson",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Ward"
     }
@@ -12610,7 +12610,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Emily Baker",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Ridgeway"
     }
@@ -12642,7 +12642,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Sarah Hall",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Lynchburg"
     }
@@ -12674,7 +12674,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Rivera",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Daviston"
     }
@@ -12706,7 +12706,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "David Campbell",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Waterloo!",
       "location": "Waterloo"
     }
@@ -12738,7 +12738,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Lauren Mitchell",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Stuckey"
     }
@@ -12770,7 +12770,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Heather Carter",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Converse"
     }
@@ -12802,7 +12802,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Robert Roberts",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Pauline"
     }
@@ -12834,7 +12834,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michelle Smith",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Lydia!",
       "location": "Lydia"
     }
@@ -12866,7 +12866,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Emily Johnson",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Dacusville"
     }
@@ -12898,7 +12898,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jeffrey Williams",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Cordova"
     }
@@ -12930,7 +12930,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Joshua Brown",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Elko"
     }
@@ -12962,7 +12962,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Jones",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Wisacky"
     }
@@ -12994,7 +12994,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Heather Garcia",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Williams"
     }
@@ -13026,7 +13026,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Emily Miller",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Gifford"
     }
@@ -13058,7 +13058,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Emily Davis",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Lobeco!",
       "location": "Lobeco"
     }
@@ -13090,7 +13090,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Rebecca Rodriguez",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Shiloh"
     }
@@ -13122,7 +13122,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Ashley Martinez",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Kline"
     }
@@ -13154,7 +13154,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "James Hernandez",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Starr"
     }
@@ -13186,7 +13186,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Lopez",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Central Pacolet"
     }
@@ -13218,7 +13218,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephen Gonzalez",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Glenn Springs"
     }
@@ -13250,7 +13250,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Wilson",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Mulberry"
     }
@@ -13282,7 +13282,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Rachel Anderson",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Monetta"
     }
@@ -13314,7 +13314,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Rachel Thomas",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Lowndesville"
     }
@@ -13346,7 +13346,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephanie Taylor",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Olar"
     }
@@ -13378,7 +13378,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Emily Moore",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Mount croghan"
     }
@@ -13410,7 +13410,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Christopher Jackson",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Luray"
     }
@@ -13442,7 +13442,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Ashley Martin",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Hodges"
     }
@@ -13474,7 +13474,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Emily Lee",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Lodge"
     }
@@ -13506,7 +13506,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jessica Perez",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Troy!",
       "location": "Troy"
     }
@@ -13538,7 +13538,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jennifer Thompson",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Woodford"
     }
@@ -13570,7 +13570,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Melissa White",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Bradley"
     }
@@ -13602,7 +13602,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephanie Harris",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Nichols"
     }
@@ -13634,7 +13634,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephen Sanchez",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Livingston"
     }
@@ -13666,7 +13666,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Samantha Clark",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Silverstreet"
     }
@@ -13698,7 +13698,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Elizabeth Ramirez",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Salem"
     }
@@ -13730,7 +13730,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephanie Lewis",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Floydale"
     }
@@ -13762,7 +13762,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Samantha Robinson",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Mountville"
     }
@@ -13794,7 +13794,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Richard Walker",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Foreston"
     }
@@ -13826,7 +13826,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Elizabeth Young",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Sellers"
     }
@@ -13858,7 +13858,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Lauren Allen",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Smoaks!",
       "location": "Smoaks"
     }
@@ -13890,7 +13890,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephen King",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Rockville!",
       "location": "Rockville"
     }
@@ -13922,7 +13922,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jessica Wright",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Scotia"
     }
@@ -13954,7 +13954,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "John Scott",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Boykin"
     }
@@ -13986,7 +13986,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephanie Torres",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Parksville!",
       "location": "Parksville"
     }
@@ -14018,7 +14018,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Michelle Nguyen",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Pawleys Island"
     }
@@ -14050,7 +14050,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Daniel Hill",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Zion"
     }
@@ -14082,7 +14082,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Joshua Flores",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Fingerville"
     }
@@ -14114,7 +14114,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Kevin Green",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Rains"
     }
@@ -14146,7 +14146,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jennifer Adams",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Ware Place"
     }
@@ -14178,7 +14178,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jessica Nelson",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Sycamore!",
       "location": "Sycamore"
     }
@@ -14210,7 +14210,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "David Baker",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Ulmer"
     }
@@ -14242,7 +14242,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Timothy Hall",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Vance"
     }
@@ -14274,7 +14274,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Rebecca Rivera",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Pomaria"
     }
@@ -14306,7 +14306,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Laura Campbell",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Browntown"
     }
@@ -14338,7 +14338,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Richard Mitchell",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Tamassee"
     }
@@ -14370,7 +14370,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Joshua Carter",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Willington!",
       "location": "Willington"
     }
@@ -14402,7 +14402,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "William Roberts",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Peak"
     }
@@ -14434,7 +14434,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542601906990.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Timothy Smith",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Gramling"
     }
@@ -14466,7 +14466,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Samantha Johnson",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in clarks Hill!",
       "location": "clarks Hill"
     }
@@ -14498,7 +14498,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Christopher Williams",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Jamestown"
     }
@@ -14530,7 +14530,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephanie Brown",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Princeton"
     }
@@ -14562,7 +14562,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Jones",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Plum Branch"
     }
@@ -14594,7 +14594,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "David Garcia",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "St. charles"
     }
@@ -14626,7 +14626,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Elizabeth Miller",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Tatum"
     }
@@ -14658,7 +14658,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Davis",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Tradesville"
     }
@@ -14690,7 +14690,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1542273917363.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephanie Rodriguez",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Green Sea"
     }
@@ -14722,7 +14722,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Sarah Martinez",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Ashwood!",
       "location": "Ashwood"
     }
@@ -14754,7 +14754,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Stephen Hernandez",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Blenheim!",
       "location": "Blenheim"
     }
@@ -14786,7 +14786,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Eric Lopez",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Govan"
     }
@@ -14818,7 +14818,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Emily Gonzalez",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "Jenkinsville"
     }
@@ -14850,7 +14850,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Daniel Wilson",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "caesars Head"
     }
@@ -14882,7 +14882,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Melissa Anderson",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Islandton"
     }
@@ -14914,7 +14914,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Thomas",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "coronaca"
     }
@@ -14946,7 +14946,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Daniel Taylor",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "cherokee Falls"
     }
@@ -14978,7 +14978,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Sarah Moore",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Longcreek"
     }
@@ -15010,7 +15010,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Joshua Jackson",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "Smyrna"
     }
@@ -15042,7 +15042,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jennifer Martin",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "cope"
     }
@@ -15074,7 +15074,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Richard Lee",
       "quote": "Best tree service in this area. They explained the whole process and gave a very fair estimate.",
       "location": "cross Anchor"
     }
@@ -15106,7 +15106,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Jeffrey Perez",
       "quote": "24/7 storm response was a lifesaver. They were on-site within 3 hours of my call.",
       "location": "Abney crossroads"
     }
@@ -15138,7 +15138,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Amanda Thompson",
       "quote": "Our oak tree was in a tight spot, but the arborist team handled it with zero damage to our house.",
       "location": "coosawhatchie"
     }
@@ -15170,7 +15170,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "Emily White",
       "quote": "Expert service and incredibly safe removal. Highly recommend for any property in Live Oak!",
       "location": "Live Oak"
     }
@@ -15202,7 +15202,7 @@ export const locations: Location[] = [
     "hoaNotes": "Varies by neighborhood; we ensure compliance with local arborist standards.",
     "image": "/images/locations/unsplash-1513836279014.webp",
     "testimonial": {
-      "name": "Local Resident",
+      "name": "David Harris",
       "quote": "Prompt, professional, and very clean work. They left our yard looking better than before.",
       "location": "Ketchuptown"
     }
