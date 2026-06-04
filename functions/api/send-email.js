@@ -12,9 +12,8 @@ export async function onRequestPost(context) {
     const location = formData.get('location');
     const message = formData.get('message');
 
-    // API Key from site.ts (or we could use env.RESEND_API_KEY for better security)
-    // For now, using a hardcoded placeholder to match site.ts if needed, but best practice is ENV.
-    const resend = new Resend('re_9poG2ga6_MjfFFZsKPQx24TPK8pTRPpAS');
+    // API key from Cloudflare environment variable (set in wrangler.toml or Cloudflare dashboard)
+    const resend = new Resend(env.RESEND_API_KEY);
 
     const { data, error } = await resend.emails.send({
       from: 'SC Tree Removal <leads@southcarolinatreeremovalexperts.com>',
