@@ -1,3 +1,13 @@
 name = "sc-carolina-site"
 pages_build_output_dir = "dist"
 compatibility_date = "2024-04-03"
+
+# Public environment variables (non-sensitive)
+# These are safe to commit — they are public-facing keys
+[vars]
+PUBLIC_GOOGLE_MAPS_KEY = "AIzaSyAIWoZdoDfMNVAmW4uJ1q-tcT9f1Ec9_8k"
+
+# IMPORTANT: RESEND_API_KEY is a SECRET — do NOT add it here.
+# Set it via Cloudflare dashboard or wrangler CLI:
+#   wrangler pages secret put RESEND_API_KEY
+# Or in Cloudflare Pages dashboard → Settings → Environment Variables → Add secret

@@ -1,16 +1,14 @@
 ---
 import { site } from '../data/site';
-import { Phone, CheckCircle, ShieldCheck, Zap, HardHat, MapPin, ClipboardCheck, Leaf, ChevronDown, Award, Users, AlertTriangle } from 'lucide-react';
-import { AnimatedIcon } from '../components/AnimatedIcon';
+import { Phone, Star, ShieldCheck, HardHat, MapPin, ClipboardCheck, Leaf, ChevronDown, Award, Users, AlertTriangle } from 'lucide-react';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { services } from '../data/services';
 import { locations } from '../data/locations';
-
 import ContactForm from '../components/ContactForm.astro';
 
-const featuredServices = services.slice(0, 4);
+const featuredServices = services.filter(s => s.slug !== 'stump-grinding');
 const topLocations = locations.slice(0, 6);
 
 const organizationSchema = {
@@ -24,6 +22,7 @@ const organizationSchema = {
   "email": site.email,
   "logo": `${site.url}/images/logo.png`,
   "image": `${site.url}/images/optimized/og-image.webp`,
+  "hasMap": `${site.url}/contact/`,
   "address": {
     "@type": "PostalAddress",
     "streetAddress": site.address.street,
@@ -38,25 +37,11 @@ const organizationSchema = {
   },
   "serviceType": [
     "Tree Removal",
-    "Stump Grinding",
     "Emergency Storm Response",
     "Land Clearing",
     "Commercial Forestry"
   ],
-  "priceRange": "$$",
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-    "opens": "00:00",
-    "closes": "23:59"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "500",
-    "bestRating": "5",
-    "worstRating": "1"
-  }
+  "priceRange": "$$"
 };
 
 const homeBreadcrumbs = {
@@ -78,34 +63,50 @@ const faqSchema = {
   "mainEntity": [
     {
       "@type": "Question",
+      "name": "How much does tree removal cost in South Carolina?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "On average, homeowners pay between $385 and $2,000 for professional tree extraction. Small trees under 30 feet sit at the lower end, while massive 80-foot specimens requiring crane assistance sit at the top."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Do I need a permit to remove a tree in South Carolina?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Permit requirements vary by municipality. For example, Charleston strictly protects 'Grand Trees' (24+ inches DBH), while Greenville and Columbia have their own landscape ordinances. We handle all local permit applications to ensure your tree removal is 100% legal and compliant."
+        "text": "Permit requirements are governed locally by individual municipalities. Cities like Charleston and Mount Pleasant protect 'Grand Trees' (24+ inches DBH) and require an official arborist report before removal approval."
       }
     },
     {
       "@type": "Question",
-      "name": "How can I tell if my oak or pine tree is diseased?",
+      "name": "What should I do when a tree falls on my house?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Common SC tree issues like Oak Wilt, Oak Leaf Blister, or Southern Pine Beetle infestations often present as thinning canopies, early leaf drop, or sawdust at the trunk base. If you notice these signs, contact us for a professional health assessment."
+        "text": "Immediately evacuate and call emergency services if utility lines are compromised. Take extensive photos of the structural impact and contact an emergency tree service provider to stabilize the timber and tarp the roof."
       }
     },
     {
       "@type": "Question",
-      "name": "Does homeowners insurance cover tree removal?",
+      "name": "Does homeowners insurance cover tree removal in South Carolina?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If a tree falls on a covered structure (like your house or fence) due to a storm, your insurance typically covers the removal cost. We work directly with local SC insurance adjusters to streamline your claim process."
+        "text": "According to the South Carolina Department of Insurance, policies generally cover removal costs if the tree falls due to a covered peril (like windstorms) and impacts a covered structure. Trees fallen harmlessly in the yard are typically classified as maintenance and not covered."
       }
     },
     {
       "@type": "Question",
-      "name": "What do you do with the wood and stump?",
+      "name": "Is there a 24-hour emergency tree removal service?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "We offer comprehensive cleanup. We can haul all debris away, chip the branches into landscape mulch, or leave the wood cut to firewood length. We also provide professional stump grinding."
+        "text": "Yes, our emergency crews operate continuously day and night, 365 days a year across South Carolina. We maintain fully equipped crews on standby for high-liability situations like trees blocking roads or impacting roofs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you remove a tree close to my house safely?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. We use high-capacity mobile cranes and specialized rigging systems to segment and hoist heavy timber away from your roofline without dropping debris onto your lawn or hardscapes."
       }
     }
   ]
@@ -113,20 +114,21 @@ const faqSchema = {
 ---
 
 <BaseLayout 
-  title="Expert Tree Removal in South Carolina | South Carolina Tree Removal Experts"
-  description="ISA-certified Arborists serving all of South Carolina. Tree removal, stump grinding & 24/7 storm response. Serving Charleston, Greenville & Columbia. Free estimates — call today."
+  title="Tree Removal South Carolina | 24/7 Storm Response & Free Estimates"
+  description="South Carolina's trusted tree removal experts. 24/7 emergency storm response, land clearing & commercial services. Licensed & insured. Call for a free estimate."
 >
   <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(homeBreadcrumbs)} />
   <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
   <Header slot="header" />
   
-  <!-- Hero Section -->
+  <!-- ============================================ -->
+  <!-- SECTION 1: HERO -->
+  <!-- ============================================ -->
   <section class="relative min-h-[95vh] flex items-center pt-24 pb-20 overflow-hidden">
-    <!-- Background -->
     <div class="absolute inset-0 z-0">
       <div class="absolute inset-0 bg-gradient-to-r from-neutral-900/95 via-neutral-900/80 to-neutral-900/40 z-10"></div>
-      <img src="/images/optimized/hero-home.webp" alt="South Carolina Tree Removal Experts Crew at Work" class="w-full h-full object-cover" />
+      <img src="/images/optimized/hero-home.webp" alt="Professional Tree Removal Crew at Work in South Carolina" class="w-full h-full object-cover" />
     </div>
 
     <div class="container mx-auto px-4 md:px-8 max-w-7xl relative z-20">
@@ -136,240 +138,440 @@ const faqSchema = {
           <span class="text-sm font-semibold tracking-wide uppercase">Fully Licensed & Insured SC Experts</span>
         </div>
         <h1 class="text-5xl md:text-7xl font-bold font-heading mb-8 leading-[1.1]">
-          Professional Tree Removal <span class="text-primary-400">Across All of South Carolina</span>
+          Tree Removal <span class="text-primary-400">South Carolina</span>
         </h1>
-        <p class="text-lg md:text-xl text-neutral-200 mb-12 leading-relaxed max-w-xl">
-          From 24/7 emergency storm response to Arborist-led residential removal, we provide safe, professional tree services across all of South Carolina.
+        <p class="text-lg md:text-xl text-neutral-200 mb-6 leading-relaxed max-w-xl">
+          South Carolina's Trusted Tree Removal Company &mdash; Available 24/7 for Emergency Tree Removal, Storm Damage &amp; More
         </p>
-        <div class="flex flex-col sm:flex-row gap-4 mb-16">
-          <a href="/contact/" class="bg-primary-600 hover:bg-primary-700 text-white px-8 py-4 rounded-md font-bold text-lg transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1 text-center">
+        <p class="text-base text-neutral-300 mb-10 leading-relaxed max-w-xl">
+          Fully <strong class="text-white">licensed and insured</strong>, we deploy high-tension rigging and crane-assisted extraction to safely eliminate structural hazards from residential and commercial properties. Contact our local SC operators today for your <strong class="text-white">free estimate</strong>.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="tel:(888) 643-4199" class="bg-primary-600 hover:bg-primary-700 text-white px-8 py-4 rounded-md font-bold text-lg transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1 text-center">
+            Call Now
+          </a>
+          <a href="/contact/" class="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 px-8 py-4 rounded-md font-bold text-lg transition-all text-center flex items-center justify-center gap-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
             Get a Free Estimate
           </a>
-          <a href="tel:(888) 643-4199" class="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 px-8 py-4 rounded-md font-bold text-lg transition-all text-center flex items-center justify-center gap-3">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            (888) 643-4199
-          </a>
-        </div>
-
-        <!-- Trust Stats -->
-        <div class="relative bg-black/40 backdrop-blur-md p-6 md:p-8 rounded-3xl border border-white/10 mt-12 w-full lg:w-fit">
-          <div class="flex flex-col sm:flex-row items-center gap-y-6 gap-x-10 md:gap-x-12 sm:divide-x divide-white/10">
-            <div class="flex items-baseline gap-2 w-full sm:w-auto justify-center sm:justify-start">
-              <span class="text-4xl font-black text-primary-400">24/7</span>
-              <span class="text-xs font-bold uppercase tracking-widest text-white">Response</span>
-            </div>
-            <div class="flex items-baseline gap-2 w-full sm:w-auto justify-center sm:justify-start sm:pl-10 md:pl-12">
-              <span class="text-4xl font-black text-primary-400">500+</span>
-              <span class="text-xs font-bold uppercase tracking-widest text-white">Served</span>
-            </div>
-            <div class="flex items-baseline gap-2 w-full sm:w-auto justify-center sm:justify-start sm:pl-10 md:pl-12">
-              <span class="text-4xl font-black text-primary-400">100%</span>
-              <span class="text-xs font-bold uppercase tracking-widest text-white">Safe</span>
-            </div>
-          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Features Strip -->
-  <section class="relative z-30 mb-12">
+  <!-- ============================================ -->
+  <!-- SECTION 2: TRUST BAR -->
+  <!-- ============================================ -->
+  <section class="relative z-30 -mt-8 mb-0">
     <div class="container mx-auto px-4 md:px-8 max-w-7xl">
-      <div class="bg-white rounded-3xl shadow-2xl border border-neutral-100 p-10 md:p-12">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-          <div class="flex items-start gap-5 group">
-            <div class="bg-primary-50 p-5 rounded-2xl text-primary-600 group-hover:bg-primary-600 group-hover:text-white transition-all duration-300 shadow-sm shrink-0">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14.5L12 3l8 11.5L12 21l-8-6.5z"/></svg>
+      <div class="bg-white rounded-3xl shadow-2xl border border-neutral-100 p-8 md:p-10">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 md:gap-8">
+          <div class="flex flex-col items-center text-center gap-3 p-4">
+            <div class="bg-primary-50 p-4 rounded-2xl text-primary-600">
+              <ShieldCheck size={32} />
             </div>
-            <div>
-              <h3 class="font-black text-neutral-900 text-lg leading-tight mb-2 uppercase tracking-tighter italic">Rapid Response</h3>
-              <p class="text-sm text-neutral-500 font-medium leading-relaxed">On-site within hours for SC emergencies</p>
-            </div>
+            <span class="font-bold text-neutral-900 text-sm">Licensed &amp; Insured</span>
+            <span class="text-xs text-neutral-500">Fully licensed and insured for every job</span>
           </div>
-          <div class="flex items-start gap-5 group">
-            <div class="bg-primary-50 p-5 rounded-2xl text-primary-600 group-hover:bg-primary-600 group-hover:text-white transition-all duration-300 shadow-sm shrink-0">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <div class="flex flex-col items-center text-center gap-3 p-4">
+            <div class="bg-primary-50 p-4 rounded-2xl text-primary-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
             </div>
-            <div>
-              <h3 class="font-black text-neutral-900 text-lg leading-tight mb-2 uppercase tracking-tighter italic">Fully Insured</h3>
-              <p class="text-sm text-neutral-500 font-medium leading-relaxed">Comprehensive South Carolina coverage</p>
-            </div>
+            <span class="font-bold text-neutral-900 text-sm">24/7 Emergency Service</span>
+            <span class="text-xs text-neutral-500">Day or night &mdash; we respond fast across SC</span>
           </div>
-          <div class="flex items-start gap-5 group">
-            <div class="bg-primary-50 p-5 rounded-2xl text-primary-600 group-hover:bg-primary-600 group-hover:text-white transition-all duration-300 shadow-sm shrink-0">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 18a5 5 0 0 0 5 5h10a5 5 0 0 0 5-5v-2H2v2Z"/><path d="M9 10a3 3 0 0 1 6 0v4H9v-4Z"/><path d="M22 13a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"/><path d="M6 13a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"/></svg>
-            </div>
-            <div>
-              <h3 class="font-black text-neutral-900 text-lg leading-tight mb-2 uppercase tracking-tighter italic">Expert Arborists</h3>
-              <p class="text-sm text-neutral-500 font-medium leading-relaxed">Certified local SC professionals</p>
-            </div>
-          </div>
-          <div class="flex items-start gap-5 group">
-            <div class="bg-primary-50 p-5 rounded-2xl text-primary-600 group-hover:bg-primary-600 group-hover:text-white transition-all duration-300 shadow-sm shrink-0">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
-            </div>
-            <div>
-              <h3 class="font-black text-neutral-900 text-lg leading-tight mb-2 uppercase tracking-tighter italic">Zero-Impact</h3>
-              <p class="text-sm text-neutral-500 font-medium leading-relaxed">Guaranteed property protection</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Global Contact Form (Homepage Special) -->
-  <section class="py-24 bg-white border-b border-neutral-100">
-    <div class="container mx-auto px-4 md:px-8 max-w-7xl">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
-        <div>
-          <h2 class="text-base font-bold text-primary-600 uppercase tracking-widest mb-4 text-center lg:text-left">Immediate Assistance</h2>
-          <p class="text-4xl md:text-5xl font-bold font-heading text-neutral-900 mb-8 leading-tight text-center lg:text-left">
-            Ready to Clear Your Property <span class="text-primary-600">Safely?</span>
-          </p>
-          <p class="text-lg text-neutral-600 mb-10 leading-relaxed text-center lg:text-left">
-            Don't leave your property's safety to chance. Our certified Arborist team provides detailed assessments and safe removal services across South Carolina.
-          </p>
-          <div class="flex flex-col sm:flex-row items-center gap-10 justify-center lg:justify-start">
-             <div class="text-center">
-                <p class="text-3xl font-black text-neutral-900">24/7</p>
-                <p class="text-xs font-bold text-neutral-400 uppercase tracking-widest">Emergency Dispatch</p>
-             </div>
-             <div class="w-px h-12 bg-neutral-200 hidden sm:block"></div>
-             <div class="text-center">
-                <p class="text-3xl font-black text-neutral-900">Zero</p>
-                <p class="text-xs font-bold text-neutral-400 uppercase tracking-widest">Property Damage</p>
-             </div>
-             <div class="w-px h-12 bg-neutral-200 hidden sm:block"></div>
-             <div class="text-center">
-                <p class="text-3xl font-black text-neutral-900">ISA</p>
-                <p class="text-xs font-bold text-neutral-400 uppercase tracking-widest">Certified Crews</p>
-             </div>
-          </div>
-        </div>
-        <div>
-          <ContactForm title="Get Your Free Estimate" />
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- How Our Process Works -->
-  <section class="py-24 bg-neutral-50 border-b border-neutral-100">
-    <div class="container mx-auto px-4 md:px-8 max-w-7xl">
-      <div class="text-center max-w-3xl mx-auto mb-16">
-        <h2 class="text-base font-bold text-primary-600 uppercase tracking-widest mb-4">Our Proven Process</h2>
-        <p class="text-4xl md:text-5xl font-bold font-heading text-neutral-900 mb-6">Safe, Compliant & Zero-Impact</p>
-        <p class="text-lg text-neutral-600">From handling local SC permits to final cleanup, we manage every step so you don't have to.</p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <!-- Step 1 -->
-        <div class="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-neutral-100 relative group">
-          <div class="absolute top-0 right-0 p-8 text-neutral-100 font-black text-8xl leading-none z-0 group-hover:text-primary-50 transition-colors">1</div>
-          <div class="relative z-10">
-            <div class="bg-primary-50 w-16 h-16 rounded-2xl flex items-center justify-center text-primary-600 mb-8 group-hover:bg-primary-600 group-hover:text-white transition-all shadow-sm">
+          <div class="flex flex-col items-center text-center gap-3 p-4">
+            <div class="bg-primary-50 p-4 rounded-2xl text-primary-600">
               <ClipboardCheck size={32} />
             </div>
-            <h3 class="text-2xl font-bold font-heading text-neutral-900 mb-4">Free Assessment & Permits</h3>
-            <p class="text-neutral-600 leading-relaxed">
-              Our ISA Certified arborists evaluate your tree's health and identify any local SC permit requirements (such as Charleston's Grand Tree ordinance or Columbia's rules). We provide a transparent, no-obligation quote.
-            </p>
+            <span class="font-bold text-neutral-900 text-sm">Free Estimates</span>
+            <span class="text-xs text-neutral-500">No obligation &mdash; get your quote today</span>
           </div>
-        </div>
-        
-        <!-- Step 2 -->
-        <div class="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-neutral-100 relative group">
-          <div class="absolute top-0 right-0 p-8 text-neutral-100 font-black text-8xl leading-none z-0 group-hover:text-primary-50 transition-colors">2</div>
-          <div class="relative z-10">
-            <div class="bg-primary-50 w-16 h-16 rounded-2xl flex items-center justify-center text-primary-600 mb-8 group-hover:bg-primary-600 group-hover:text-white transition-all shadow-sm">
+          <div class="flex flex-col items-center text-center gap-3 p-4">
+            <div class="bg-primary-50 p-4 rounded-2xl text-primary-600">
+              <MapPin size={32} />
+            </div>
+            <span class="font-bold text-neutral-900 text-sm">Locally Operated in SC</span>
+            <span class="text-xs text-neutral-500">South Carolina owned and operated</span>
+          </div>
+          <div class="flex flex-col items-center text-center gap-3 p-4">
+            <div class="bg-primary-50 p-4 rounded-2xl text-primary-600">
               <HardHat size={32} />
             </div>
-            <h3 class="text-2xl font-bold font-heading text-neutral-900 mb-4">Safe Execution</h3>
-            <p class="text-neutral-600 leading-relaxed">
-              Using advanced rigging and state-of-the-art equipment, we safely dismantle hazardous or storm-damaged trees—even in tight spaces—protecting your home and property during hurricane season.
-            </p>
-          </div>
-        </div>
-
-        <!-- Step 3 -->
-        <div class="bg-white p-10 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-neutral-100 relative group">
-          <div class="absolute top-0 right-0 p-8 text-neutral-100 font-black text-8xl leading-none z-0 group-hover:text-primary-50 transition-colors">3</div>
-          <div class="relative z-10">
-            <div class="bg-primary-50 w-16 h-16 rounded-2xl flex items-center justify-center text-primary-600 mb-8 group-hover:bg-primary-600 group-hover:text-white transition-all shadow-sm">
-              <Leaf size={32} />
-            </div>
-            <h3 class="text-2xl font-bold font-heading text-neutral-900 mb-4">Zero-Impact Cleanup</h3>
-            <p class="text-neutral-600 leading-relaxed">
-              We treat your property like our own. From complete debris removal to professional stump grinding, we leave your South Carolina yard immaculate and ready for landscaping.
-            </p>
+            <span class="font-bold text-neutral-900 text-sm">Residential &amp; Commercial</span>
+            <span class="text-xs text-neutral-500">We serve homeowners and businesses</span>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Services Grid -->
+  <!-- ============================================ -->
+  <!-- SECTION 3: EMERGENCY BANNER -->
+  <!-- ============================================ -->
+  <section class="py-24 bg-primary-600 relative overflow-hidden">
+    <div class="absolute inset-0 bg-neutral-900/10 z-0"></div>
+    <div class="absolute top-0 right-0 w-96 h-96 bg-primary-500 rounded-full blur-3xl opacity-30 -translate-y-1/2 translate-x-1/2"></div>
+    <div class="container mx-auto px-4 md:px-8 max-w-4xl relative z-10 text-center">
+      <h2 class="text-3xl md:text-5xl font-bold font-heading text-white mb-8 leading-tight">
+        24/7 Emergency Tree Removal in South Carolina
+      </h2>
+      <p class="text-lg text-primary-50 mb-6 max-w-2xl mx-auto leading-relaxed">
+        When severe weather strikes, our high-urgency <strong class="text-white">storm and fallen tree response</strong> teams are on standby for immediate mobilization. Specializing in complex <strong class="text-white">tree-on-house or car</strong> extractions, we deploy crane-assisted rigging for <strong class="text-white">same-day service</strong> with a guaranteed fast response.
+      </p>
+      <p class="text-sm text-primary-200 mb-10 max-w-2xl mx-auto leading-relaxed">
+        Our teams coordinate directly with <a href="https://www.scemd.org/" target="_blank" rel="noopener" class="underline hover:text-white transition-colors">local South Carolina emergency protocols</a> to ensure rapid, compliant site stabilization.
+      </p>
+      <a href="tel:(888) 643-4199" class="inline-flex items-center gap-3 bg-white text-primary-700 px-10 py-5 rounded-md font-bold text-xl hover:bg-primary-50 transition-all shadow-xl">
+        <Phone size={24} />
+        Call Emergency Line Now
+      </a>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- SECTION 4: SERVICES OVERVIEW -->
+  <!-- ============================================ -->
   <section class="py-24 bg-white">
     <div class="container mx-auto px-4 md:px-8 max-w-7xl">
       <div class="text-center max-w-3xl mx-auto mb-16">
-        <h2 class="text-base font-bold text-primary-600 uppercase tracking-widest mb-4">Our Professional Services</h2>
-        <p class="text-4xl md:text-5xl font-bold font-heading text-neutral-900 mb-6">Expert Tree Care Solutions for Every Property</p>
-        <p class="text-lg text-neutral-600">Whether you need a hazardous tree removed from a tight residential spot or large-scale land clearing for development, our SC-based team has the equipment and expertise to get it done safely.</p>
+        <h2 class="text-4xl md:text-5xl font-bold font-heading text-neutral-900 mb-6">Our Tree Removal Services in South Carolina</h2>
+        <p class="text-lg text-neutral-600">From high-risk residential canopy management to large-scale commercial site preparation, our specialized crews deliver comprehensive arborist solutions tailored to South Carolina's unique geographic conditions.</p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {featuredServices.map(service => (
-          <div class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-neutral-100 flex flex-col sm:flex-row">
-            <div class="sm:w-2/5 relative h-64 sm:h-auto overflow-hidden">
-              <img src={service.image || `/images/services/${service.slug}.webp`} alt={service.name} class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
-            </div>
-            <div class="p-8 sm:w-3/5 flex flex-col">
-              <h3 class="text-2xl font-bold font-heading mb-4 group-hover:text-primary-600 transition-colors">{service.name}</h3>
-              <p class="text-neutral-600 mb-6 line-clamp-3 leading-relaxed">
-                {service.description}
-              </p>
-              <div class="mt-auto">
-                <a href={`/services/${service.slug}/`} class="text-primary-600 font-bold flex items-center gap-2 group/link">
-                  Learn More <span class="group-hover/link:translate-x-1 transition-transform">&rarr;</span>
-                </a>
-              </div>
-            </div>
+        <!-- Service 1: Tree Removal -->
+        <a href="/services/residential-tree-removal/" class="group bg-neutral-50 rounded-2xl p-8 border border-neutral-100 hover:border-primary-500 hover:shadow-lg transition-all">
+          <div class="bg-primary-600/10 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary-600 group-hover:text-white transition-all">
+            <Leaf size={28} />
           </div>
-        ))}
+          <h3 class="font-bold text-xl text-neutral-900 mb-3">Residential Tree Removal</h3>
+          <p class="text-neutral-600 text-sm leading-relaxed mb-4">Precision extraction of dead, diseased, or hazardous trees using advanced rigging and crane techniques. Safe removal from tight spaces near structures, power lines, and delicate landscaping.</p>
+          <span class="text-primary-600 font-bold text-sm group-hover:translate-x-1 transition-transform inline-flex items-center gap-1">Learn More &rarr;</span>
+        </a>
+
+        <!-- Service 2: Emergency -->
+        <a href="/services/emergency-storm-response/" class="group bg-neutral-50 rounded-2xl p-8 border border-neutral-100 hover:border-primary-500 hover:shadow-lg transition-all">
+          <div class="bg-primary-600/10 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary-600 group-hover:text-white transition-all">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
+          <h3 class="font-bold text-xl text-neutral-900 mb-3">Emergency Storm Response</h3>
+          <p class="text-neutral-600 text-sm leading-relaxed mb-4">24/7 rapid deployment for fallen trees, storm damage, and hazardous limb failures. Tree-on-house and tree-on-car extraction with insurance documentation support.</p>
+          <span class="text-primary-600 font-bold text-sm group-hover:translate-x-1 transition-transform inline-flex items-center gap-1">Learn More &rarr;</span>
+        </a>
+
+        <!-- Service 3: Land Clearing -->
+        <a href="/services/land-clearing-grading/" class="group bg-neutral-50 rounded-2xl p-8 border border-neutral-100 hover:border-primary-500 hover:shadow-lg transition-all">
+          <div class="bg-primary-600/10 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary-600 group-hover:text-white transition-all">
+            <HardHat size={28} />
+          </div>
+          <h3 class="font-bold text-xl text-neutral-900 mb-3">Land Clearing &amp; Grading</h3>
+          <p class="text-neutral-600 text-sm leading-relaxed mb-4">Forestry mulching, brush clearing, and debris removal to transform overgrown acreage into clean, construction-ready parcels. Erosion control and site grading included.</p>
+          <span class="text-primary-600 font-bold text-sm group-hover:translate-x-1 transition-transform inline-flex items-center gap-1">Learn More &rarr;</span>
+        </a>
+
+        <!-- Service 4: Commercial -->
+        <a href="/services/commercial-forestry/" class="group bg-neutral-50 rounded-2xl p-8 border border-neutral-100 hover:border-primary-500 hover:shadow-lg transition-all">
+          <div class="bg-primary-600/10 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary-600 group-hover:text-white transition-all">
+            <Award size={28} />
+          </div>
+          <h3 class="font-bold text-xl text-neutral-900 mb-3">Commercial Tree Services</h3>
+          <p class="text-neutral-600 text-sm leading-relaxed mb-4">Scalable solutions for municipalities, HOAs, developers, and property managers. Bulk tree removal, construction site clearing, and right-of-way maintenance across South Carolina.</p>
+          <span class="text-primary-600 font-bold text-sm group-hover:translate-x-1 transition-transform inline-flex items-center gap-1">Learn More &rarr;</span>
+        </a>
       </div>
 
       <div class="text-center mt-12">
         <a href="/services/" class="inline-flex items-center gap-2 bg-neutral-900 text-white px-8 py-4 rounded-md font-bold hover:bg-neutral-800 transition-colors">
-          View All Services
+          View All Services &rarr;
         </a>
       </div>
     </div>
   </section>
 
-  <!-- CTA Section -->
-  <section class="py-24 bg-primary-600 relative overflow-hidden">
-    <div class="absolute inset-0 bg-neutral-900/10 z-0"></div>
-    <div class="container mx-auto px-4 md:px-8 max-w-4xl relative z-10 text-center">
-      <h2 class="text-3xl md:text-5xl font-bold font-heading text-white mb-8 leading-tight">
-        Need Immediate Assistance After a Storm?
-      </h2>
-      <p class="text-xl text-primary-50 mb-12 max-w-2xl mx-auto leading-relaxed">
-        Our emergency crews are on standby 24/7 across South Carolina to handle hazardous fallen trees and protect your property.
+  <!-- ============================================ -->
+  <!-- SECTION 5: WHY CHOOSE US -->
+  <!-- ============================================ -->
+  <section class="py-24 bg-neutral-50 border-t border-neutral-100">
+    <div class="container mx-auto px-4 md:px-8 max-w-7xl">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold font-heading text-neutral-900 mb-6">Why South Carolina Trusts Us for Tree Removal</h2>
+        <p class="text-lg text-neutral-600">When dealing with multi-ton structural hazards, there is no margin for amateur error. Our operation replaces guesswork with proven corporate capability, regulatory compliance, and localized expertise.</p>
+      </div>
+
+      <div class="text-center mb-8">
+        <a href="/about/" class="inline-flex items-center gap-2 bg-primary-600 hover:bg-primary-700 text-white px-8 py-4 rounded-md font-bold text-lg transition-all shadow-lg hover:shadow-xl">
+          Learn More About Us &rarr;
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-white rounded-2xl p-8 border border-neutral-100 shadow-sm hover:shadow-lg transition-shadow">
+          <div class="bg-primary-50 w-14 h-14 rounded-xl flex items-center justify-center text-primary-600 mb-6">
+            <ShieldCheck size={28} />
+          </div>
+          <h3 class="font-bold text-xl text-neutral-900 mb-3">Licensed &amp; Fully Insured</h3>
+          <p class="text-neutral-600 text-sm leading-relaxed">Comprehensive general liability and workers' compensation policies shift all operational risk away from the homeowner and onto our firm.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-8 border border-neutral-100 shadow-sm hover:shadow-lg transition-shadow">
+          <div class="bg-primary-50 w-14 h-14 rounded-xl flex items-center justify-center text-primary-600 mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
+          <h3 class="font-bold text-xl text-neutral-900 mb-3">24/7 Emergency Availability</h3>
+          <p class="text-neutral-600 text-sm leading-relaxed">Our high-priority, rapid-response dispatch units remain continuously active day and night, 365 days a year across South Carolina.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-8 border border-neutral-100 shadow-sm hover:shadow-lg transition-shadow">
+          <div class="bg-primary-50 w-14 h-14 rounded-xl flex items-center justify-center text-primary-600 mb-6">
+            <ClipboardCheck size={28} />
+          </div>
+          <h3 class="font-bold text-xl text-neutral-900 mb-3">Free Estimates</h3>
+          <p class="text-neutral-600 text-sm leading-relaxed">Transparent, line-item pricing with zero financial obligation. Our arborist evaluations ensure you understand requirements and exact costs before work begins.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-8 border border-neutral-100 shadow-sm hover:shadow-lg transition-shadow">
+          <div class="bg-primary-50 w-14 h-14 rounded-xl flex items-center justify-center text-primary-600 mb-6">
+            <Users size={28} />
+          </div>
+          <h3 class="font-bold text-xl text-neutral-900 mb-3">Experienced Local SC Crews</h3>
+          <p class="text-neutral-600 text-sm leading-relaxed">Native operators with intimate understanding of South Carolina's soil structures, coastal weather patterns, and municipal tree preservation ordinances.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-8 border border-neutral-100 shadow-sm hover:shadow-lg transition-shadow">
+          <div class="bg-primary-50 w-14 h-14 rounded-xl flex items-center justify-center text-primary-600 mb-6">
+            <HardHat size={28} />
+          </div>
+          <h3 class="font-bold text-xl text-neutral-900 mb-3">Residential &amp; Commercial Services</h3>
+          <p class="text-neutral-600 text-sm leading-relaxed">Our fleet ranges from low-impact residential mini-loaders to massive commercial cranes, scaling seamlessly to any project size or technical constraint.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-8 border border-neutral-100 shadow-sm hover:shadow-lg transition-shadow">
+          <div class="bg-primary-50 w-14 h-14 rounded-xl flex items-center justify-center text-primary-600 mb-6">
+            <Leaf size={28} />
+          </div>
+          <h3 class="font-bold text-xl text-neutral-900 mb-3">Complete Cleanup Included</h3>
+          <p class="text-neutral-600 text-sm leading-relaxed">Every removal includes exhaustive site remediation. We buck the logs, run limbs through the chipper, rake the turf, and blow down your hardscapes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- SECTION 6: TREE TYPES WE REMOVE -->
+  <!-- ============================================ -->
+  <section class="py-24 bg-white">
+    <div class="container mx-auto px-4 md:px-8 max-w-7xl">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold font-heading text-neutral-900 mb-6">Trees We Remove Across South Carolina</h2>
+        <p class="text-lg text-neutral-600">South Carolina's diverse ecosystems support a wide array of native and introduced tree species. Severe thunderstorms and seasonal hurricane fronts can easily compromise their structural integrity. Our teams are experienced in handling the unique wood densities and failures characteristic of regional flora.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Pine -->
+        <div class="group bg-neutral-50 rounded-2xl p-8 border border-neutral-100 hover:border-primary-500 hover:shadow-lg transition-all">
+          <div class="bg-primary-600/10 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary-600 group-hover:text-white transition-all">
+            <Leaf size={28} />
+          </div>
+          <h3 class="font-bold text-xl text-neutral-900 mb-3">Pine Tree Removal</h3>
+          <p class="text-neutral-600 text-sm leading-relaxed mb-3">South Carolina features massive populations of <strong>Loblolly Pine</strong> (<em>Pinus taeda</em>) and <strong>Longleaf Pine</strong> (<em>Pinus palustris</em>). Rapidly growing pines have softer wood fibers highly susceptible to snapping under windthrow forces.</p>
+          <p class="text-neutral-500 text-sm leading-relaxed">Aging pines are prone to destructive Southern Pine Beetle infestations that hollow out the trunk. Our crews use precise directional felling or structured climbing to dismantle these hazards safely.</p>
+        </div>
+
+        <!-- Oak -->
+        <div class="group bg-neutral-50 rounded-2xl p-8 border border-neutral-100 hover:border-primary-500 hover:shadow-lg transition-all">
+          <div class="bg-primary-600/10 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary-600 group-hover:text-white transition-all">
+            <Award size={28} />
+          </div>
+          <h3 class="font-bold text-xl text-neutral-900 mb-3">Oak Tree Removal</h3>
+          <p class="text-neutral-600 text-sm leading-relaxed mb-3">The majestic <strong>Southern Live Oak</strong> (<em>Quercus virginiana</em>) and dense <strong>Water Oak</strong> (<em>Quercus nigra</em>) are structural staples across the Carolinas. Mature oaks often suffer from hidden heartwood decay and internal root rot.</p>
+          <p class="text-neutral-500 text-sm leading-relaxed">Due to the immense weight of oak timber, a single failing branch can cause catastrophic damage. We deploy crane-assisted extraction to lift and clear heavy oak limbs safely.</p>
+        </div>
+
+        <!-- Palmetto -->
+        <div class="group bg-neutral-50 rounded-2xl p-8 border border-neutral-100 hover:border-primary-500 hover:shadow-lg transition-all">
+          <div class="bg-primary-600/10 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary-600 group-hover:text-white transition-all">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 14V2"/><path d="M10 10V2"/><path d="M3 7V2"/><path d="m7 22 3-8 4 4 3-6"/></svg>
+          </div>
+          <h3 class="font-bold text-xl text-neutral-900 mb-3">Palmetto Tree Removal</h3>
+          <p class="text-neutral-600 text-sm leading-relaxed mb-3">The <strong>Cabbage Palmetto</strong> (<em>Sabal palmetto</em>) features a unique fibrous root-and-stem matrix. When a palmetto succumbs to lethal bronzing or weevil infestations, its dried trunk becomes incredibly brittle.</p>
+          <p class="text-neutral-500 text-sm leading-relaxed">Removing these requires specialized saw configurations to slice through stringy fibers without binding equipment. We safely extract compromised palmettos and clear their compact root systems.</p>
+        </div>
+
+        <!-- Large -->
+        <div class="group bg-neutral-50 rounded-2xl p-8 border border-neutral-100 hover:border-primary-500 hover:shadow-lg transition-all">
+          <div class="bg-primary-600/10 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary-600 group-hover:text-white transition-all">
+            <HardHat size={28} />
+          </div>
+          <h3 class="font-bold text-xl text-neutral-900 mb-3">Large Tree Removal</h3>
+          <p class="text-neutral-600 text-sm leading-relaxed mb-3">Oversized heritage specimens require advanced mechanical engineering. Standard cutting tools are insufficient for massive sweetgums or historic pecans that have outgrown their root systems.</p>
+          <p class="text-neutral-500 text-sm leading-relaxed">We rely on high-capacity rigging and commercial-grade cranes, calculating green-log weight parameters before every cut to safely hoist multi-ton segments.</p>
+        </div>
+
+        <!-- Dead -->
+        <div class="group bg-neutral-50 rounded-2xl p-8 border border-neutral-100 hover:border-primary-500 hover:shadow-lg transition-all">
+          <div class="bg-primary-600/10 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary-600 group-hover:text-white transition-all">
+            <AlertTriangle size={28} />
+          </div>
+          <h3 class="font-bold text-xl text-neutral-900 mb-3">Dead Tree Removal</h3>
+          <p class="text-neutral-600 text-sm leading-relaxed mb-3">A dead tree rapidly loses structural moisture and elasticity. Brittle limbs can snap under minimal wind loads, and the root plate can degrade silently beneath the soil.</p>
+          <p class="text-neutral-500 text-sm leading-relaxed">Climbing a rotting tree is highly dangerous, so we use remote aerial lifts to secure and extract timber from a safe distance.</p>
+        </div>
+
+        <!-- Hazardous -->
+        <div class="group bg-neutral-50 rounded-2xl p-8 border border-neutral-100 hover:border-primary-500 hover:shadow-lg transition-all">
+          <div class="bg-primary-600/10 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary-600 group-hover:text-white transition-all">
+            <ShieldCheck size={28} />
+          </div>
+          <h3 class="font-bold text-xl text-neutral-900 mb-3">Hazardous Tree Removal</h3>
+          <p class="text-neutral-600 text-sm leading-relaxed mb-3">A tree does not have to be dead to pose an immediate threat. We classify trees as hazards based on deep trunk splits, co-dominant stems, or root plates shifted by recent storms.</p>
+          <p class="text-neutral-500 text-sm leading-relaxed">Our mitigation process begins with a structural risk assessment. We implement stabilizing taglines and execute controlled removals to neutralize the environmental threat.</p>
+          <p class="text-neutral-500 text-xs leading-relaxed mt-4">Property owners can reference <a href="https://www.clemson.edu/extension/" target="_blank" rel="noopener" class="text-primary-600 underline hover:text-primary-700 transition-colors">Clemson Extension forestry guides</a> to identify early signs of regional tree diseases and wood rot.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- SECTION 7: COMMERCIAL SERVICES -->
+  <!-- ============================================ -->
+  <section class="py-24 bg-neutral-900 text-white relative overflow-hidden">
+    <div class="absolute inset-0 bg-[url('/images/optimized/hero-home.webp')] opacity-10 bg-cover bg-center mix-blend-overlay"></div>
+    <div class="container mx-auto px-4 md:px-8 max-w-7xl relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div>
+          <h2 class="text-base font-bold text-primary-400 uppercase tracking-widest mb-4">Scalable for Any Project</h2>
+          <p class="text-4xl md:text-5xl font-bold font-heading mb-8 leading-tight">
+            Commercial Tree Removal &amp; Land Clearing in <span class="text-primary-400">South Carolina</span>
+          </p>
+          <p class="text-lg text-neutral-300 mb-10 leading-relaxed">
+            We engineer scalable, asset-protective clearing solutions for South Carolina businesses, HOAs, property managers, and civil developers. Our heavy-duty fleet transforms raw acreage into fully stabilized, construction-ready job sites aligned with your commercial milestones.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div class="bg-white/5 border border-white/10 rounded-xl p-3 flex items-start gap-3">
+              <HardHat size={18} class="text-primary-400 shrink-0 mt-0.5" />
+              <span class="text-sm text-neutral-200">Commercial Tree Removal</span>
+            </div>
+            <div class="bg-white/5 border border-white/10 rounded-xl p-3 flex items-start gap-3">
+              <HardHat size={18} class="text-primary-400 shrink-0 mt-0.5" />
+              <span class="text-sm text-neutral-200">Commercial Land Clearing</span>
+            </div>
+            <div class="bg-white/5 border border-white/10 rounded-xl p-3 flex items-start gap-3">
+              <Users size={18} class="text-primary-400 shrink-0 mt-0.5" />
+              <span class="text-sm text-neutral-200">HOA Tree Services</span>
+            </div>
+            <div class="bg-white/5 border border-white/10 rounded-xl p-3 flex items-start gap-3">
+              <MapPin size={18} class="text-primary-400 shrink-0 mt-0.5" />
+              <span class="text-sm text-neutral-200">Construction Site Clearing</span>
+            </div>
+            <div class="bg-white/5 border border-white/10 rounded-xl p-3 flex items-start gap-3">
+              <Award size={18} class="text-primary-400 shrink-0 mt-0.5" />
+              <span class="text-sm text-neutral-200">Bulk Tree Removal</span>
+            </div>
+            <div class="bg-white/5 border border-white/10 rounded-xl p-3 flex items-start gap-3">
+              <ShieldCheck size={18} class="text-primary-400 shrink-0 mt-0.5" />
+              <span class="text-sm text-neutral-200">Tree Removal for Developers</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center lg:text-left">
+          <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-3xl p-10">
+            <h3 class="text-2xl font-bold mb-4">Need Commercial Services?</h3>
+            <p class="text-neutral-400 mb-8">Our team handles large-scale projects across South Carolina. Get a customized quote today.</p>
+            <a href="/contact/" class="inline-flex items-center justify-center gap-2 bg-primary-600 hover:bg-primary-700 text-white px-8 py-4 rounded-md font-bold text-lg transition-all w-full sm:w-auto">
+              Request a Commercial Quote &rarr;
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- SECTION 8: COST -->
+  <!-- ============================================ -->
+  <section class="py-24 bg-white">
+    <div class="container mx-auto px-4 md:px-8 max-w-5xl">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold font-heading text-neutral-900 mb-6">How Much Does Tree Removal Cost in South Carolina?</h2>
+        <p class="text-lg text-neutral-600 max-w-3xl mx-auto leading-relaxed">
+          Professional tree removal in South Carolina typically ranges from <strong>$385 to $2,000 or more</strong>, with a standard fee averaging <strong>$850 to $960</strong> for mature specimens. Pricing depends on size, condition, and risk factors. Contact us today for your <strong>free estimate</strong>.
+        </p>
+      </div>
+
+      <p class="text-neutral-600 mb-10 leading-relaxed text-center max-w-3xl mx-auto">
+        Because no two properties or trees are identical, estimators analyze multiple risk factors to ensure a zero-incident extraction. Operational danger levels and mechanical runtime are the two largest cost drivers.
       </p>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="tel:(888) 643-4199" class="bg-white text-primary-700 px-10 py-5 rounded-md font-bold text-xl hover:bg-primary-50 transition-all shadow-xl flex items-center justify-center gap-3">
-          <Phone size={24} />
-          (888) 643-4199
-        </a>
-        <a href="/contact/" class="bg-primary-800 text-white border border-primary-500 px-10 py-5 rounded-md font-bold text-xl hover:bg-primary-900 transition-all text-center">
-          Schedule Free Quote
+
+      <div class="mb-12">
+        <h3 class="text-2xl font-bold font-heading text-neutral-900 mb-8 text-center">Key Pricing Factors</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-neutral-50 rounded-xl p-6 border border-neutral-100">
+            <div class="text-primary-600 font-bold text-lg mb-2">01</div>
+            <h4 class="font-bold text-neutral-900 mb-2">Tree Size (Height &amp; Diameter)</h4>
+            <p class="text-sm text-neutral-600 leading-relaxed">Specimens under 30 feet are straightforward; mature timber exceeding 80 feet demands specialized rope rigging or crane-assisted dismantling.</p>
+          </div>
+          <div class="bg-neutral-50 rounded-xl p-6 border border-neutral-100">
+            <div class="text-primary-600 font-bold text-lg mb-2">02</div>
+            <h4 class="font-bold text-neutral-900 mb-2">Location &amp; Accessibility</h4>
+            <p class="text-sm text-neutral-600 leading-relaxed">Proximity to structures, utility lines, or landscaping increases liability. Poor site access requiring manual labor extends project timelines.</p>
+          </div>
+          <div class="bg-neutral-50 rounded-xl p-6 border border-neutral-100">
+            <div class="text-primary-600 font-bold text-lg mb-2">03</div>
+            <h4 class="font-bold text-neutral-900 mb-2">Condition of the Tree</h4>
+            <p class="text-sm text-neutral-600 leading-relaxed">Healthy timber has predictable structural properties. Unstable timber with rot, fractures, or uprooted plates requires extra caution and stabilization rigging.</p>
+          </div>
+          <div class="bg-neutral-50 rounded-xl p-6 border border-neutral-100">
+            <div class="text-primary-600 font-bold text-lg mb-2">04</div>
+            <h4 class="font-bold text-neutral-900 mb-2">Debris Removal &amp; Hauling</h4>
+            <p class="text-sm text-neutral-600 leading-relaxed">Heavy hardwood logs cannot be left on site. Pricing reflects fuel, labor, and municipal dump fees to process, chip, and haul away organic waste.</p>
+          </div>
+          <div class="bg-neutral-50 rounded-xl p-6 border border-neutral-100">
+            <div class="text-primary-600 font-bold text-lg mb-2">05</div>
+            <h4 class="font-bold text-neutral-900 mb-2">Equipment Required</h4>
+            <p class="text-sm text-neutral-600 leading-relaxed">Simple jobs need chainsaws and harnesses. High-risk extractions over homes require aerial bucket trucks, mini-loaders, or multi-ton mobile cranes.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <a href="/contact/" class="inline-flex items-center gap-2 bg-primary-600 text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-primary-700 transition-colors shadow-lg">
+          Get Your Free Estimate Today
         </a>
       </div>
     </div>
   </section>
 
-  <!-- Locations Section -->
+  <!-- ============================================ -->
+  <!-- SECTION 9: TESTIMONIALS -->
+  <!-- ============================================ -->
+  <section class="py-24 bg-secondary-50">
+    <div class="container mx-auto px-4 md:px-8 max-w-7xl">
+      <div class="text-center mb-16">
+        <h2 class="text-base font-bold text-primary-600 uppercase tracking-widest mb-4">Trusted Across SC</h2>
+        <p class="text-4xl font-bold font-heading text-neutral-900">What Your Neighbors Are Saying</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {locations.slice(0, 3).map(loc => (
+          <div class="bg-white p-10 rounded-2xl shadow-sm border border-secondary-200 flex flex-col h-full relative">
+            <div class="text-secondary-400 mb-6 flex gap-1">
+              {[...Array(5)].map(() => <Star size={20} fill="currentColor" />)}
+            </div>
+            <p class="text-lg text-neutral-700 italic leading-relaxed mb-8 flex-grow">"{loc.testimonial.quote}"</p>
+            <div>
+              <p class="font-bold text-neutral-900">{loc.testimonial.name}</p>
+              <p class="text-sm text-neutral-500">{loc.testimonial.location}</p>
+            </div>
+            <div class="absolute top-10 right-10 opacity-5">
+              <span class="text-9xl leading-none font-serif">"</span>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- SECTION 10: SERVICE AREAS -->
+  <!-- ============================================ -->
   <section class="py-24 bg-white">
     <div class="container mx-auto px-4 md:px-8 max-w-7xl">
       <div class="flex flex-col md:flex-row items-end justify-between mb-16 gap-8">
@@ -402,166 +604,136 @@ const faqSchema = {
     </div>
   </section>
 
-  <!-- Why Choose Local Experts (E-E-A-T) -->
-  <section class="py-24 bg-neutral-900 text-white relative overflow-hidden">
-    <div class="absolute inset-0 bg-[url('/images/optimized/hero-home.webp')] opacity-10 bg-cover bg-center mix-blend-overlay"></div>
-    <div class="container mx-auto px-4 md:px-8 max-w-7xl relative z-10">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-        <div>
-          <h2 class="text-base font-bold text-primary-400 uppercase tracking-widest mb-4">South Carolina's Trusted Tree Care</h2>
-          <p class="text-4xl md:text-5xl font-bold font-heading mb-8 leading-tight">
-            Local Experts Who Understand <span class="text-primary-400">SC Environments</span>
-          </p>
-          <p class="text-lg text-neutral-300 mb-10 leading-relaxed">
-            When dealing with dead, diseased, or storm-damaged trees, you need a local team. From handling Southern Pine Beetle infestations to hurricane preparation, our fully licensed arborists deliver safe, efficient, and code-compliant tree care across the state.
-          </p>
-          
-          <div class="space-y-6">
-            <div class="flex items-start gap-4">
-              <div class="bg-primary-600/20 p-3 rounded-xl text-primary-400 mt-1">
-                <Award size={24} />
-              </div>
-              <div>
-                <h4 class="text-xl font-bold mb-1">ISA Certified Arborists</h4>
-                <p class="text-neutral-400">Our staff includes certified experts trained in tree health and risk assessment.</p>
-              </div>
-            </div>
-            <div class="flex items-start gap-4">
-              <div class="bg-primary-600/20 p-3 rounded-xl text-primary-400 mt-1">
-                <ShieldCheck size={24} />
-              </div>
-              <div>
-                <h4 class="text-xl font-bold mb-1">$2M Comprehensive Insurance</h4>
-                <p class="text-neutral-400">Fully insured to protect your property and our crews during every job.</p>
-              </div>
-            </div>
-            <div class="flex items-start gap-4">
-              <div class="bg-primary-600/20 p-3 rounded-xl text-primary-400 mt-1">
-                <Users size={24} />
-              </div>
-              <div>
-                <h4 class="text-xl font-bold mb-1">Local Permit Specialists</h4>
-                <p class="text-neutral-400">We navigate Charleston, Columbia, and Greenville tree ordinances for you.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="relative">
-          <div class="aspect-square md:aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl relative">
-            <img src="/images/optimized/hero-home.webp" alt="SC Tree Removal Team" class="w-full h-full object-cover" />
-            <div class="absolute inset-0 bg-gradient-to-t from-neutral-900/80 to-transparent"></div>
-            
-            <!-- Trust Badge Overlay -->
-            <div class="absolute bottom-8 left-8 right-8 bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-2xl flex items-center gap-6">
-              <div class="bg-primary-600 text-white w-16 h-16 rounded-full flex items-center justify-center font-black text-2xl shrink-0">
-                10+
-              </div>
-              <div>
-                <p class="text-white font-bold text-lg leading-tight">Years of Experience</p>
-                <p class="text-primary-200 text-sm">Serving the Lowcountry, Upstate & Midlands</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Testimonials Section -->
-  <section class="py-24 bg-secondary-50">
-    <div class="container mx-auto px-4 md:px-8 max-w-7xl">
-      <div class="text-center mb-16">
-        <h2 class="text-base font-bold text-primary-600 uppercase tracking-widest mb-4">Trusted Across SC</h2>
-        <p class="text-4xl font-bold font-heading text-neutral-900">What Your Neighbors Are Saying</p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {locations.slice(0, 3).map(loc => (
-          <div class="bg-white p-10 rounded-2xl shadow-sm border border-secondary-200 flex flex-col h-full relative">
-            <div class="text-secondary-400 mb-6 flex gap-1">
-              {[...Array(5)].map(() => <Zap size={20} fill="currentColor" />)}
-            </div>
-            <p class="text-lg text-neutral-700 italic leading-relaxed mb-8 flex-grow">"{loc.testimonial.quote}"</p>
-            <div>
-              <p class="font-bold text-neutral-900">{loc.testimonial.name}</p>
-              <p class="text-sm text-neutral-500">{loc.testimonial.location}</p>
-            </div>
-            <div class="absolute top-10 right-10 opacity-5">
-              <span class="text-9xl leading-none font-serif">"</span>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <!-- Frequently Asked Questions -->
-  <section class="py-24 bg-white border-t border-neutral-100">
+  <!-- ============================================ -->
+  <!-- SECTION 11: FAQ -->
+  <!-- ============================================ -->
+  <section class="py-24 bg-neutral-50 border-t border-neutral-100">
     <div class="container mx-auto px-4 md:px-8 max-w-4xl">
       <div class="text-center mb-16">
         <h2 class="text-base font-bold text-primary-600 uppercase tracking-widest mb-4">Tree Removal FAQs</h2>
-        <p class="text-4xl font-bold font-heading text-neutral-900">Common South Carolina Questions</p>
+        <p class="text-4xl font-bold font-heading text-neutral-900">Frequently Asked Questions About Tree Removal in South Carolina</p>
       </div>
 
       <div class="space-y-4">
-        <!-- FAQ 1 -->
-        <details class="group bg-neutral-50 rounded-2xl border border-neutral-200 [&_summary::-webkit-details-marker]:hidden">
+        <details class="group bg-white rounded-2xl border border-neutral-200 [&_summary::-webkit-details-marker]:hidden">
+          <summary class="flex cursor-pointer items-center justify-between p-6 md:p-8 text-neutral-900 font-bold text-xl">
+            How much does tree removal cost in South Carolina?
+            <span class="transition duration-300 group-open:-rotate-180 text-primary-600 bg-neutral-50 p-2 rounded-full shadow-sm">
+              <ChevronDown size={24} />
+            </span>
+          </summary>
+          <div class="px-6 pb-6 md:px-8 md:pb-8 text-neutral-600 leading-relaxed mt-2">
+            On average, homeowners pay between <strong>$385 and $2,000</strong> for professional tree extraction. Small trees under 30 feet sit at the lower end, while massive 80-foot specimens requiring crane assistance sit at the top.
+          </div>
+        </details>
+
+        <details class="group bg-white rounded-2xl border border-neutral-200 [&_summary::-webkit-details-marker]:hidden">
           <summary class="flex cursor-pointer items-center justify-between p-6 md:p-8 text-neutral-900 font-bold text-xl">
             Do I need a permit to remove a tree in South Carolina?
-            <span class="transition duration-300 group-open:-rotate-180 text-primary-600 bg-white p-2 rounded-full shadow-sm">
+            <span class="transition duration-300 group-open:-rotate-180 text-primary-600 bg-neutral-50 p-2 rounded-full shadow-sm">
               <ChevronDown size={24} />
             </span>
           </summary>
           <div class="px-6 pb-6 md:px-8 md:pb-8 text-neutral-600 leading-relaxed mt-2">
-            Permit requirements vary by municipality. For example, Charleston strictly protects "Grand Trees" (24+ inches DBH), while Greenville and Columbia have their own landscape ordinances. We handle all local permit applications to ensure your tree removal is 100% legal and compliant.
+            Permit requirements are governed locally by individual municipalities. Cities like Charleston and Mount Pleasant protect <strong>"Grand Trees"</strong> (native hardwoods 24+ inches DBH) and require an official arborist report before removal approval.
           </div>
         </details>
 
-        <!-- FAQ 2 -->
-        <details class="group bg-neutral-50 rounded-2xl border border-neutral-200 [&_summary::-webkit-details-marker]:hidden">
+        <details class="group bg-white rounded-2xl border border-neutral-200 [&_summary::-webkit-details-marker]:hidden">
           <summary class="flex cursor-pointer items-center justify-between p-6 md:p-8 text-neutral-900 font-bold text-xl">
-            How can I tell if my oak or pine tree is diseased?
-            <span class="transition duration-300 group-open:-rotate-180 text-primary-600 bg-white p-2 rounded-full shadow-sm">
+            What should I do when a tree falls on my house?
+            <span class="transition duration-300 group-open:-rotate-180 text-primary-600 bg-neutral-50 p-2 rounded-full shadow-sm">
               <ChevronDown size={24} />
             </span>
           </summary>
           <div class="px-6 pb-6 md:px-8 md:pb-8 text-neutral-600 leading-relaxed mt-2">
-            Common SC tree issues like Oak Wilt, Oak Leaf Blister, or Southern Pine Beetle infestations often present as thinning canopies, early leaf drop, or sawdust at the trunk base. If you notice these signs, contact us for a professional health assessment.
+            Immediately evacuate the property and call emergency services if utility lines are compromised. Take extensive photos of the structural impact and contact an emergency tree service provider to stabilize the timber and tarp the roof.
           </div>
         </details>
 
-        <!-- FAQ 3 -->
-        <details class="group bg-neutral-50 rounded-2xl border border-neutral-200 [&_summary::-webkit-details-marker]:hidden">
+        <details class="group bg-white rounded-2xl border border-neutral-200 [&_summary::-webkit-details-marker]:hidden">
           <summary class="flex cursor-pointer items-center justify-between p-6 md:p-8 text-neutral-900 font-bold text-xl">
-            Does homeowners insurance cover tree removal?
-            <span class="transition duration-300 group-open:-rotate-180 text-primary-600 bg-white p-2 rounded-full shadow-sm">
+            How do I get a free tree removal estimate?
+            <span class="transition duration-300 group-open:-rotate-180 text-primary-600 bg-neutral-50 p-2 rounded-full shadow-sm">
               <ChevronDown size={24} />
             </span>
           </summary>
           <div class="px-6 pb-6 md:px-8 md:pb-8 text-neutral-600 leading-relaxed mt-2">
-            If a tree falls on a covered structure (like your house or fence) due to a storm, your insurance typically covers the removal cost. We work directly with local SC insurance adjusters to streamline your claim process.
+            Request an evaluation through our online form or call our dispatch line directly. A regional estimator will visit your property to evaluate tree health, size, and rigging complexity before providing a complete line-item quote.
           </div>
         </details>
 
-        <!-- FAQ 4 -->
-        <details class="group bg-neutral-50 rounded-2xl border border-neutral-200 [&_summary::-webkit-details-marker]:hidden">
+        <details class="group bg-white rounded-2xl border border-neutral-200 [&_summary::-webkit-details-marker]:hidden">
           <summary class="flex cursor-pointer items-center justify-between p-6 md:p-8 text-neutral-900 font-bold text-xl">
-            What do you do with the wood and stump?
-            <span class="transition duration-300 group-open:-rotate-180 text-primary-600 bg-white p-2 rounded-full shadow-sm">
+            Is there a 24-hour tree removal service in South Carolina?
+            <span class="transition duration-300 group-open:-rotate-180 text-primary-600 bg-neutral-50 p-2 rounded-full shadow-sm">
               <ChevronDown size={24} />
             </span>
           </summary>
           <div class="px-6 pb-6 md:px-8 md:pb-8 text-neutral-600 leading-relaxed mt-2">
-            We offer comprehensive cleanup. We can haul all debris away, chip the branches into landscape mulch, or leave the wood cut to firewood length. We also provide professional stump grinding so you can replant immediately.
+            Yes, our emergency crews operate continuously, 365 days a year across South Carolina. We maintain fully equipped crews on standby for high-liability situations like trees blocking roads or impacting roofs.
+          </div>
+        </details>
+
+        <details class="group bg-white rounded-2xl border border-neutral-200 [&_summary::-webkit-details-marker]:hidden">
+          <summary class="flex cursor-pointer items-center justify-between p-6 md:p-8 text-neutral-900 font-bold text-xl">
+            Can you remove a tree close to my house safely?
+            <span class="transition duration-300 group-open:-rotate-180 text-primary-600 bg-neutral-50 p-2 rounded-full shadow-sm">
+              <ChevronDown size={24} />
+            </span>
+          </summary>
+          <div class="px-6 pb-6 md:px-8 md:pb-8 text-neutral-600 leading-relaxed mt-2">
+            Absolutely. We use high-capacity mobile cranes and specialized rigging systems to segment and hoist heavy timber away from your roofline without dropping debris onto your lawn or hardscapes.
+          </div>
+        </details>
+
+        <details class="group bg-white rounded-2xl border border-neutral-200 [&_summary::-webkit-details-marker]:hidden">
+          <summary class="flex cursor-pointer items-center justify-between p-6 md:p-8 text-neutral-900 font-bold text-xl">
+            How long does tree removal take?
+            <span class="transition duration-300 group-open:-rotate-180 text-primary-600 bg-neutral-50 p-2 rounded-full shadow-sm">
+              <ChevronDown size={24} />
+            </span>
+          </summary>
+          <div class="px-6 pb-6 md:px-8 md:pb-8 text-neutral-600 leading-relaxed mt-2">
+            A standard extraction takes <strong>two hours to a full day</strong> depending on size and location. Complex projects involving multiple mature oaks or severe storm damage may span several days.
+          </div>
+        </details>
+
+        <details class="group bg-white rounded-2xl border border-neutral-200 [&_summary::-webkit-details-marker]:hidden">
+          <summary class="flex cursor-pointer items-center justify-between p-6 md:p-8 text-neutral-900 font-bold text-xl">
+            Does homeowners insurance cover tree removal in South Carolina?
+            <span class="transition duration-300 group-open:-rotate-180 text-primary-600 bg-neutral-50 p-2 rounded-full shadow-sm">
+              <ChevronDown size={24} />
+            </span>
+          </summary>
+          <div class="px-6 pb-6 md:px-8 md:pb-8 text-neutral-600 leading-relaxed mt-2">
+            According to the <strong>South Carolina Department of Insurance (SCDOI)</strong>, policies generally cover removal costs if the tree falls due to a covered peril (windstorms, hurricanes) and impacts a covered structure. Trees fallen harmlessly in the yard are classified as maintenance and not covered.
           </div>
         </details>
       </div>
-      
-      <div class="text-center mt-12">
-        <p class="text-neutral-500 mb-6">Have more questions about your specific tree?</p>
-        <a href="/contact/" class="inline-flex items-center gap-2 bg-primary-600 text-white px-8 py-4 rounded-md font-bold hover:bg-primary-700 transition-colors shadow-lg">
-          Ask an Arborist
+    </div>
+  </section>
+
+  <!-- ============================================ -->
+  <!-- SECTION 12: FINAL CTA -->
+  <!-- ============================================ -->
+  <section class="py-24 bg-primary-600 relative overflow-hidden">
+    <div class="absolute inset-0 bg-neutral-900/10 z-0"></div>
+    <div class="absolute bottom-0 left-0 w-96 h-96 bg-primary-500 rounded-full blur-3xl opacity-30 translate-y-1/2 -translate-x-1/2"></div>
+    <div class="container mx-auto px-4 md:px-8 max-w-4xl relative z-10 text-center">
+      <h2 class="text-3xl md:text-5xl font-bold font-heading text-white mb-8 leading-tight">
+        Get Your Free Tree Removal Estimate in South Carolina Today
+      </h2>
+      <p class="text-lg text-primary-50 mb-10 max-w-2xl mx-auto leading-relaxed">
+        Do not wait for the next severe storm to turn an unstable tree into a catastrophic liability. Whether you need immediate <strong class="text-white">emergency tree removal</strong>, large-scale <strong class="text-white">land clearing</strong>, or specialized <strong class="text-white">commercial services</strong>, we are fully licensed, insured, and equipped to deliver precision arborist solutions. Contact our dispatch operators now for your <strong class="text-white">free no-obligation estimate</strong>.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="tel:(888) 643-4199" class="bg-white text-primary-700 px-10 py-5 rounded-md font-bold text-xl hover:bg-primary-50 transition-all shadow-xl flex items-center justify-center gap-3">
+          <Phone size={24} />
+          Call Now
+        </a>
+        <a href="/contact/" class="bg-primary-800 text-white border border-primary-500 px-10 py-5 rounded-md font-bold text-xl hover:bg-primary-900 transition-all text-center">
+          Request a Free Estimate Online
         </a>
       </div>
     </div>

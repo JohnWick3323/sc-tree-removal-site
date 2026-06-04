@@ -271,7 +271,7 @@ const schema = {
                 style="border:0"
                 loading="lazy"
                 allowfullscreen
-                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyAIWoZdoDfMNVAmW4uJ1q-tcT9f1Ec9_8k&q=${encodeURIComponent(`${location.name}, South Carolina`)}`}>
+                src={`https://www.google.com/maps/embed/v1/place?key=${site.googleMapsEmbedKey}&q=${encodeURIComponent(`${location.name}, South Carolina`)}`}>
               </iframe>
           </div>
         </div>

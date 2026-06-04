@@ -12,6 +12,5 @@ export const site = {
   phone: '(888) 643-4199',
   email: 'contact@southcarolinatreeremovalexperts.com',
 
-  googleMapsEmbedKey: 'AIzaSyAIWoZdoDfMNVAmW4uJ1q-tcT9f1Ec9_8k',
-  resendApiKey: 're_9poG2ga6_MjfFFZsKPQx24TPK8pTRPpAS'
+  googleMapsEmbedKey: import.meta.env.PUBLIC_GOOGLE_MAPS_KEY,
 };
