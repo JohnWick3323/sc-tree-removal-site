@@ -1,4 +1,5 @@
-# Taste (Continuously Learned by [CommandCode][cmd])
+# communication
+- Respond in Hinglish when the user writes in Hinglish. Confidence: 0.75
 
-[cmd]: https://commandcode.ai/
-
+# workflow
+- When CLI commands time out (especially git push), provide direct commands for the user to run manually rather than retrying. Confidence: 0.65
