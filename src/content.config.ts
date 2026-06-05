@@ -11,21 +11,7 @@ const authorsCollection = defineCollection({
   })
 });
 
-const blogsCollection = defineCollection({
-  loader: glob({ pattern: "**/*.{md,mdx,mdoc}", base: "./src/content/blogs" }),
-
-  schema: z.object({
-    title: z.string(),
-    author: reference('authors'),
-    publishDate: z.coerce.date(),
-    updatedDate: z.coerce.date().optional(),
-    coverImage: z.string().optional(),
-    draft: z.boolean().default(false),
-    description: z.string().optional(),
-  })
-});
 
 export const collections = {
   'authors': authorsCollection,
-  'blogs': blogsCollection,
 };
