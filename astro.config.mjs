@@ -4,12 +4,14 @@ import tailwindcss from '@tailwindcss/vite';
 import react from '@astrojs/react';
 import markdoc from '@astrojs/markdoc';
 import keystatic from '@keystatic/astro';
-import vercel from '@astrojs/vercel';
+import cloudflare from '@astrojs/cloudflare';
 
 // https://astro.build/config
 export default defineConfig({
   output: 'static',
-  adapter: vercel(),
+  adapter: cloudflare({
+    imageService: 'passthrough'
+  }),
   
   integrations: [sitemap(), react(), markdoc(), keystatic()],
   vite: {
