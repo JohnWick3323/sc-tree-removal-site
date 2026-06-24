@@ -1,0 +1,5 @@
+https://www.southcarolinatreeremovalexperts.com/* https://southcarolinatreeremovalexperts.com/:splat 301
+/services/residential-tree-removal/    /services/tree-removal/    301
+/services/residential-tree-removal/*   /services/tree-removal/:splat  301
+/services/land-clearing-grading/       /services/land-clearing/   301
+/services/land-clearing-grading/*      /services/land-clearing/:splat  301

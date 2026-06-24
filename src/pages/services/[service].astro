@@ -9,10 +9,15 @@ import ContactForm from '../../components/ContactForm.astro';
 import { Phone, CheckCircle, ShieldCheck, MapPin, HelpCircle, ArrowRight, TreePine, AlertTriangle, HardHat } from 'lucide-react';
 
 export async function getStaticPaths() {
-  return services.map(s => ({ params: { service: s.slug }, props: { service: s } }));
+  const allMarkdownMap = import.meta.glob('../../content/services/*.md', { eager: true });
+  const allMarkdown = Object.values(allMarkdownMap);
+  return services.map(s => {
+    const md = allMarkdown.find((m: any) => m.file.endsWith(`${s.slug}.md`));
+    return { params: { service: s.slug }, props: { service: s, markdown: md } };
+  });
 }
 
-const { service } = Astro.props;
+const { service, markdown } = Astro.props;
 const isPillar = service.isPillar;
 const parentPillar = services.find(s => s.slug === service.parentPillar);
 const pillarName = parentPillar?.name || service.name;
@@ -26,15 +31,6 @@ const siblings = services.filter(s =>
 
 const serviceLocations = locations.slice(0, 12);
 
-const placeholders = {
-  intro: `Professional ${service.name} services across South Carolina. Our experienced crews deliver safe, efficient results for homeowners and businesses statewide.`,
-  methodology: `Our ${service.name.toLowerCase()} process follows industry best practices with safety as the top priority. We assess each project individually and deploy the right equipment and techniques.`,
-  localAdvice: `South Carolina's varied terrain — from coastal Lowcountry to Upstate hills — requires local expertise. Our crews understand regional soil conditions, native tree species, and weather patterns.`,
-  seasonalConsiderations: `We operate year-round across SC. Hurricane season (Jun–Nov) and Upstate ice storms create peak demand; scheduling ahead ensures availability.`,
-  homeownerProblems: `Common issues we solve: overgrown vegetation near structures, drainage problems from poor grading, storm damage cleanup, and invasive species management.`
-};
-
-const C = (key: keyof typeof placeholders) => service.hasContent ? service.longContent[key] : placeholders[key];
 
 const breadcrumbs = [
   { name: 'Home', href: '/' },
@@ -61,13 +57,17 @@ if (isPillar) {
   };
 }
 
-const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": service.faqs.map(f=>({"@type":"Question","name":f.question,"acceptedAnswer":{"@type":"Answer","text":f.answer}})) };
+const faqs = markdown?.frontmatter?.faqs || [];
+const faqSchema = faqs.length > 0 ? { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": faqs.map((f:any)=>({"@type":"Question","name":f.question,"acceptedAnswer":{"@type":"Answer","text":f.answer}})) } : null;
+
+const pageTitle = markdown?.frontmatter?.metaTitle || `${service.name} | South Carolina Tree Removal Experts`;
+const pageDesc = markdown?.frontmatter?.metaDescription || service.metaDescription;
 ---
 
-<BaseLayout title={`${service.name} | South Carolina Tree Removal Experts`} description={service.metaDescription}>
+<BaseLayout title={pageTitle} description={pageDesc}>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
-  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
   <Header slot="header" />
 
   <!-- HERO -->
@@ -97,35 +97,7 @@ const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", "mainE
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-16">
         <!-- LEFT: Article -->
         <div class="lg:col-span-2 prose prose-lg prose-primary max-w-none">
-          {service.fullBodyHtml && 
-            <Fragment set:html={service.fullBodyHtml} />
-          }
-          {!service.fullBodyHtml && 
-            <Fragment>
-              <h2>Professional {service.name} Overview</h2>
-              <p>{C('intro')}</p>
-
-              <div class="my-12 p-8 bg-neutral-50 rounded-3xl border border-neutral-100 italic">
-                <p class="mb-0 text-neutral-700"><strong>Looking for this service in a specific area?</strong> We provide {' '}
-                  <a href={`/services/${service.slug}/columbia/`} class="text-primary-600 font-bold underline">{service.name} in Columbia</a>{' '}
-                  , <a href={`/services/${service.slug}/charleston/`} class="text-primary-600 font-bold underline">Charleston</a>{' '}
-                  , and across South Carolina.
-                </p>
-              </div>
-
-              <h2>Our {service.name} Methodology</h2>
-              <p>{C('methodology')}</p>
-
-              <h2>South Carolina Specific Arborist Advice</h2>
-              <p>{C('localAdvice')}</p>
-
-              <h2>Seasonal Considerations for {service.name}</h2>
-              <p>{C('seasonalConsiderations')}</p>
-
-              <h2>Common Problems We Solve</h2>
-              <p>{C('homeownerProblems')}</p>
-            </Fragment>
-          }
+          {markdown ? <markdown.Content /> : <p>Content coming soon...</p>}
         </div>
 
         <!-- RIGHT: Sticky Sidebar -->
@@ -181,18 +153,27 @@ const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", "mainE
   </section>
 
   <!-- FAQ -->
-  <section class="py-24 bg-neutral-900 text-white">
-    <div class="container mx-auto px-4 md:px-8 max-w-4xl">
-      <div class="text-center mb-16">
-        <div class="bg-primary-600/20 p-4 rounded-full text-primary-400 inline-flex mb-6 border border-primary-500/30"><HelpCircle size={32} /></div>
-        <h2 class="text-3xl md:text-4xl font-bold font-heading mb-6">Frequently Asked Questions</h2>
-        <p class="text-lg text-neutral-400">{service.name}-specific arborist insights for South Carolina property owners.</p>
+  {faqs.length > 0 && (
+    <section class="py-24 bg-neutral-900 text-white">
+      <div class="container mx-auto px-4 md:px-8 max-w-4xl">
+        <div class="text-center mb-16">
+          <div class="bg-primary-600/20 p-4 rounded-full text-primary-400 inline-flex mb-6 border border-primary-500/30"><HelpCircle size={32} /></div>
+          <h2 class="text-3xl md:text-4xl font-bold font-heading mb-6">Frequently Asked Questions</h2>
+          <p class="text-lg text-neutral-400">{service.name}-specific arborist insights for South Carolina property owners.</p>
+        </div>
+        <div class="space-y-6">
+          {faqs.map((faq: any) => (
+            <div class="bg-neutral-800 rounded-2xl border border-neutral-700 overflow-hidden">
+              <div class="p-8">
+                <h3 class="text-xl font-bold font-heading text-white mb-4 flex items-start gap-3"><span class="text-primary-500 mt-1 shrink-0">Q.</span>{faq.question}</h3>
+                <p class="text-neutral-400 leading-relaxed flex items-start gap-3"><span class="text-primary-500 mt-1 font-bold shrink-0">A.</span>{faq.answer}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
-      <div class="space-y-6">
-        {service.faqs.map((faq: any) => <div class="bg-neutral-800 rounded-2xl border border-neutral-700 overflow-hidden"><div class="p-8"><h3 class="text-xl font-bold font-heading text-white mb-4 flex items-start gap-3"><span class="text-primary-500 mt-1 shrink-0">Q.</span>{faq.question}</h3><p class="text-neutral-400 leading-relaxed flex items-start gap-3"><span class="text-primary-500 mt-1 font-bold shrink-0">A.</span>{faq.answer}</p></div></div>)}
-      </div>
-    </div>
-  </section>
+    </section>
+  )}
 
   <!-- FINAL CTA -->
   <section class="py-24 bg-primary-600 text-white relative overflow-hidden">

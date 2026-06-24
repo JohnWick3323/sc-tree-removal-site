@@ -1,0 +1,91 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { site } from '../../data/site';
+import { Calendar, User, ArrowRight } from 'lucide-react';
+
+const allPosts = await getCollection('posts');
+const sortedPosts = allPosts.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
+
+const title = `Tree Care & Removal Blog | South Carolina Tree Removal Experts`;
+const description = `Expert insights, tips, and news on tree care, hazardous removals, and land clearing from the ISA-Certified Arborists at South Carolina Tree Removal Experts.`;
+
+const breadcrumbs = [
+  { name: 'Home', href: '/' },
+  { name: 'Blog', href: '/blog/' }
+];
+
+const breadcrumbSchema = { 
+  "@context": "https://schema.org", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": breadcrumbs.map((b,i)=>({
+    "@type":"ListItem",
+    "position":i+1,
+    "name":b.name,
+    "item":`${site.url}${b.href}`
+  })) 
+};
+---
+
+<BaseLayout title={title} description={description}>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  <Header slot="header" />
+
+  <section class="relative pt-32 pb-24 bg-neutral-900 overflow-hidden text-white">
+    <div class="absolute inset-0 z-0">
+      <div class="absolute inset-0 bg-gradient-to-t from-neutral-900 via-neutral-900/80 to-neutral-900/40"></div>
+    </div>
+    <div class="container mx-auto px-4 relative z-10 text-center">
+      <h1 class="text-5xl md:text-6xl font-bold font-heading mb-6">Tree Care <span class="text-primary-400">Insights</span></h1>
+      <p class="text-xl text-neutral-300 max-w-2xl mx-auto leading-relaxed">Expert advice, project highlights, and safety guides from South Carolina's trusted arborists.</p>
+    </div>
+  </section>
+
+  <section class="py-24 bg-neutral-50">
+    <div class="container mx-auto px-4 max-w-7xl">
+      {sortedPosts.length === 0 ? (
+        <div class="text-center py-20">
+          <h2 class="text-2xl font-bold text-neutral-700">Check back soon!</h2>
+          <p class="text-neutral-500 mt-4">We are preparing our first set of expert articles.</p>
+        </div>
+      ) : (
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {sortedPosts.map(post => (
+            <a href={`/blog/${post.slug}/`} class="group bg-white rounded-3xl border border-neutral-200 overflow-hidden shadow-sm hover:shadow-xl hover:border-primary-200 transition-all flex flex-col h-full">
+              {post.data.featuredImage ? (
+                <div class="w-full h-56 overflow-hidden bg-neutral-100">
+                  <img src={post.data.featuredImage} alt={post.data.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                </div>
+              ) : (
+                <div class="w-full h-56 bg-primary-900 flex items-center justify-center p-6 text-center">
+                  <span class="text-white font-bold font-heading text-2xl opacity-50">{post.data.title}</span>
+                </div>
+              )}
+              <div class="p-8 flex flex-col flex-grow">
+                <div class="flex items-center gap-4 text-xs font-bold text-neutral-500 mb-4 tracking-wider uppercase">
+                  {post.data.category && <span class="text-primary-600 bg-primary-50 px-3 py-1 rounded-full">{post.data.category}</span>}
+                  <span class="flex items-center gap-1"><Calendar size={14} /> {post.data.publishDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
+                </div>
+                <h2 class="text-2xl font-bold font-heading text-neutral-900 mb-4 group-hover:text-primary-600 transition-colors line-clamp-2">{post.data.title}</h2>
+                <p class="text-neutral-600 mb-6 line-clamp-3 flex-grow">{post.data.excerpt}</p>
+                <div class="flex items-center justify-between mt-auto pt-6 border-t border-neutral-100">
+                  <span class="text-sm font-bold text-neutral-700 flex items-center gap-2">
+                    <User size={16} class="text-primary-500" /> 
+                    {post.data.author || 'SC Tree Experts'}
+                  </span>
+                  <span class="text-primary-600 font-bold group-hover:translate-x-1 transition-transform">
+                    <ArrowRight size={20} />
+                  </span>
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
+      )}
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</BaseLayout>

@@ -1,0 +1,126 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import ContactForm from '../../components/ContactForm.astro';
+import { site } from '../../data/site';
+import { Calendar, User, Tag, ArrowLeft, ArrowRight, Share2 } from 'lucide-react';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return posts.map(post => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+
+const pageTitle = post.data.seoTitle || `${post.data.title} | SC Tree Removal Experts Blog`;
+const pageDesc = post.data.seoDescription || post.data.excerpt || `Read the latest tree care insights from South Carolina Tree Removal Experts.`;
+
+const breadcrumbs = [
+  { name: 'Home', href: '/' },
+  { name: 'Blog', href: '/blog/' },
+  { name: post.data.title, href: `/blog/${post.slug}/` }
+];
+
+const breadcrumbSchema = { 
+  "@context": "https://schema.org", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": breadcrumbs.map((b,i)=>({
+    "@type":"ListItem",
+    "position":i+1,
+    "name":b.name,
+    "item":`${site.url}${b.href}`
+  })) 
+};
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": post.data.title,
+  "description": pageDesc,
+  "image": post.data.featuredImage ? `${site.url}${post.data.featuredImage}` : `${site.url}/images/og-image.jpg`,
+  "datePublished": post.data.publishDate.toISOString(),
+  "author": {
+    "@type": "Person",
+    "name": post.data.author || "South Carolina Tree Removal Experts"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": site.name,
+    "logo": {
+      "@type": "ImageObject",
+      "url": `${site.url}/images/logo-dark.png`
+    }
+  }
+};
+---
+
+<BaseLayout title={pageTitle} description={pageDesc} canonical={post.data.canonicalUrl}>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+  <Header slot="header" />
+
+  <!-- ARTICLE HEADER -->
+  <section class="pt-32 pb-16 bg-neutral-50 border-b border-neutral-200">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <a href="/blog/" class="inline-flex items-center gap-2 text-primary-600 font-bold hover:text-primary-800 transition-colors mb-8"><ArrowLeft size={18} /> Back to Blog</a>
+      
+      <div class="flex flex-wrap items-center gap-4 text-sm font-bold text-neutral-500 mb-6 tracking-wider uppercase">
+        {post.data.category && <span class="text-primary-700 bg-primary-100 px-4 py-1.5 rounded-full">{post.data.category}</span>}
+        <span class="flex items-center gap-2"><Calendar size={16} /> {post.data.publishDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
+        <span class="flex items-center gap-2"><User size={16} /> {post.data.author || 'SC Tree Experts'}</span>
+      </div>
+      
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold font-heading text-neutral-900 leading-tight mb-8">{post.data.title}</h1>
+      
+      {post.data.excerpt && <p class="text-xl text-neutral-600 leading-relaxed mb-8 border-l-4 border-primary-500 pl-6 italic">{post.data.excerpt}</p>}
+    </div>
+  </section>
+
+  <!-- ARTICLE BODY -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4 max-w-4xl">
+      {post.data.featuredImage && (
+        <div class="mb-16 rounded-3xl overflow-hidden shadow-xl border border-neutral-100">
+          <img src={post.data.featuredImage} alt={post.data.title} class="w-full h-auto object-cover max-h-[600px]" />
+        </div>
+      )}
+
+      <article class="prose prose-lg md:prose-xl prose-primary max-w-none prose-img:rounded-2xl prose-img:shadow-md prose-headings:font-heading prose-a:text-primary-600 hover:prose-a:text-primary-800">
+        <Content />
+      </article>
+
+      {post.data.tags && post.data.tags.length > 0 && (
+        <div class="mt-16 pt-8 border-t border-neutral-200 flex flex-wrap items-center gap-3">
+          <Tag size={20} class="text-neutral-400 mr-2" />
+          {post.data.tags.map(tag => (
+            <span class="bg-neutral-100 text-neutral-600 px-4 py-2 rounded-full text-sm font-bold hover:bg-neutral-200 transition-colors cursor-pointer">{tag}</span>
+          ))}
+        </div>
+      )}
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section class="py-24 bg-neutral-900 text-white relative overflow-hidden">
+    <div class="container mx-auto px-4 max-w-4xl relative z-10">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-3xl md:text-4xl font-bold font-heading mb-6">Need Professional Tree Service?</h2>
+          <p class="text-neutral-300 text-lg mb-8 leading-relaxed">Our ISA-Certified Arborists provide safe, reliable, and insured tree removal, pruning, and land clearing across South Carolina.</p>
+          <a href="/contact/" class="inline-block bg-primary-600 hover:bg-primary-700 text-white px-8 py-4 rounded-md font-bold text-lg transition-all shadow-xl">Get a Free Estimate</a>
+        </div>
+        <div class="bg-neutral-800 p-8 rounded-3xl border border-neutral-700">
+          <ContactForm title="Request Service" subtitle="We typically respond within 1 hour." isDark={true} />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <Footer slot="footer" />
+</BaseLayout>

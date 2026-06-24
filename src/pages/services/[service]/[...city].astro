@@ -11,20 +11,38 @@ import ContactForm from '../../../components/ContactForm.astro';
 import { Phone, CheckCircle, ShieldCheck, Zap, HardHat, MapPin, Star, Award, Clock, HelpCircle, ArrowRight, TreePine, Construction, AlertTriangle, CloudLightning } from 'lucide-react';
 
 export async function getStaticPaths() {
+  const allMarkdownMap = import.meta.glob('../../../content/services/*.md', { eager: true });
+  const allMarkdown = Object.values(allMarkdownMap);
   const paths = [];
-  for (const location of locations) {
-    for (const service of services) {
-      const combo = combinations.find(c => c.serviceSlug === service.slug && c.locationSlug === location.slug);
+  
+  for (const service of services) {
+    const markdown = allMarkdown.find((m: any) => m.file.endsWith(`${service.slug}.md`));
+    
+    // Base locations
+    for (const loc of locations) {
       paths.push({
-        params: { service: service.slug, city: location.slug || undefined },
-        props: { location, service, combo }
+        params: { service: service.slug, city: loc.slug },
+        props: { service, location: loc, combo: null, markdown }
       });
     }
+    
+    // Service-Location Combos
+    const matchingCombos = combinations.filter(c => c.serviceSlug === service.slug);
+    for (const combo of matchingCombos) {
+      const loc = locations.find(l => l.slug === combo.locationSlug);
+      if (loc) {
+        paths.push({
+          params: { service: service.slug, city: loc.slug },
+          props: { service, location: loc, combo, markdown }
+        });
+      }
+    }
   }
+  
   return paths;
 }
 
-const { location, service, combo } = Astro.props;
+const { service, location, combo, markdown } = Astro.props;
 const parentPillar = services.find(s => s.slug === service.parentPillar);
 const pillarName = parentPillar?.name || service.name;
 const pillarSlug = service.parentPillar || service.slug;
@@ -32,18 +50,8 @@ const pillarSlug = service.parentPillar || service.slug;
 const nearbyAreas = locations.filter(l => l.county === location.county && l.slug !== location.slug).slice(0, 6);
 const relatedServices = services.filter(s => s.category === service.category && s.slug !== service.slug && !s.isPillar).slice(0, 3);
 
-const placeholders = {
-  intro: `Professional ${service.name} services in ${location.name}, SC. Our experienced crews deliver safe, efficient results.`,
-  methodology: `Our ${service.name.toLowerCase()} process follows industry best practices with safety as the top priority.`,
-  localAdvice: `${location.name}'s local conditions require specialized expertise. Our crews understand regional soil, species, and weather patterns.`,
-  seasonalConsiderations: `We operate year-round in ${location.name}. Hurricane season and ice storms create peak demand; early scheduling recommended.`,
-  homeownerProblems: `Common issues in ${location.name}: overgrown vegetation, drainage problems, storm damage, invasive species.`
-};
-
-const C = (key: keyof typeof placeholders) => (service.hasContent && service.longContent) ? service.longContent[key] : placeholders[key];
-
-const localizedIntro = combo?.uniqueIntro || C('intro');
-const allFaqs = [...(service.faqs.slice(0, 3)), ...(combo?.uniqueFaqs || [])];
+const baseFaqs = markdown?.frontmatter?.faqs || [];
+const allFaqs = [...(baseFaqs.slice(0, 3)), ...(combo?.uniqueFaqs || [])];
 
 const pageTitle = `Professional ${service.name} in ${location.name}, SC | South Carolina Tree Removal Experts`;
 const pageDesc = `Expert ${service.name.toLowerCase()} in ${location.name}, SC. ISA-Certified Arborists, 24/7 emergency response, guaranteed safety for your ${location.county} property. Call today for a free estimate!`;
@@ -112,25 +120,36 @@ const localBusinessSchema = {
   <section class="py-24 bg-white">
     <div class="container mx-auto px-4 max-w-7xl">
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-20">
-        <div class="lg:col-span-2 prose prose-lg text-neutral-600 max-w-none prose-headings:font-heading prose-headings:text-neutral-900 prose-strong:text-neutral-900 prose-a:text-primary-600">
-          <h2>Expert {service.name} Solutions for {location.name} Property Owners</h2>
-          <p>{localizedIntro}</p>
-          <p>Properties in <strong>{location.name}</strong> and throughout <strong>{location.county}</strong> often face challenges related to <strong>{location.soilType}</strong>. This soil composition can lead to specific root instability issues, especially during South Carolina's intense hurricane seasons. Our team of Arborist-led professionals understands exactly how to manage {service.name.toLowerCase()} in these local conditions, ensuring that your property remains safe and your landscape's value is preserved.</p>
-          <div class="my-12 p-8 bg-neutral-50 rounded-3xl border border-neutral-100 italic"><p class="mb-0 text-neutral-700"><strong>Related Coverage:</strong> We also provide <a href={`/services/${service.slug}/columbia/`} class="text-primary-600 font-bold underline">{service.name} in Columbia</a>, <a href={`/services/${service.slug}/charleston/`} class="text-primary-600 font-bold underline">{service.name} in Charleston</a>, and <a href={`/services/${service.slug}/greenville/`} class="text-primary-600 font-bold underline">{service.name} in Greenville</a>.</p></div>
-          <div class="my-16 p-10 bg-primary-900 rounded-[2rem] text-white not-prose relative overflow-hidden"><div class="relative z-10 flex flex-col md:flex-row justify-between items-center gap-8"><div class="text-center md:text-left"><h3 class="text-3xl font-bold mb-2">Need {service.name} Fast?</h3><p class="text-primary-200">Our local crews are currently serving {location.name}.</p></div><a href={`tel:${site.phone}`} class="bg-primary-500 hover:bg-primary-400 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all flex items-center gap-2"><Zap size={20} /> Request Priority Service</a></div><div class="absolute -right-10 -bottom-10 opacity-10"><TreePine size={200} /></div></div>
-          <div class="my-12 rounded-3xl overflow-hidden shadow-xl border border-neutral-200"><img src={service.image} alt={`Professional ${service.name} project in ${location.name}, SC`} class="w-full h-auto" /><div class="bg-neutral-50 p-4 text-center"><p class="text-sm text-neutral-500 italic mb-0 font-medium">Professional {service.name} in action — {location.name}, SC</p></div></div>
-          <h3>Our Detailed {service.name} Process</h3>
-          <p>{C('methodology')}</p>
-          <p>In <strong>{location.name}</strong>, we take extra precautions to identify underground utilities before any heavy work begins. Given the density of neighborhoods like <strong>{location.neighborhoods.slice(0, 2).join(' and ')}</strong>, our zero-impact rigging is essential for protecting structures and power lines.</p>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 my-16 not-prose">
-            <div class="bg-neutral-50 p-8 rounded-2xl border border-neutral-100"><div class="w-12 h-12 bg-primary-100 text-primary-600 rounded-lg flex items-center justify-center mb-6"><CloudLightning size={24} /></div><h4 class="text-xl font-bold text-neutral-900 mb-4">Seasonal Factors in {location.name}</h4><p class="text-neutral-600 leading-relaxed text-sm">{C('seasonalConsiderations')}</p></div>
-            <div class="bg-neutral-50 p-8 rounded-2xl border border-neutral-100"><div class="w-12 h-12 bg-primary-100 text-primary-600 rounded-lg flex items-center justify-center mb-6"><AlertTriangle size={24} /></div><h4 class="text-xl font-bold text-neutral-900 mb-4">Common {location.name} Problems</h4><p class="text-neutral-600 leading-relaxed text-sm">{C('homeownerProblems')}</p></div>
+        <div class="lg:col-span-2 prose prose-lg prose-primary max-w-none">
+          {combo?.customContent ? (
+            <Fragment set:html={combo.customContent} />
+          ) : (
+            markdown ? <markdown.Content /> : <p>Content coming soon...</p>
+          )}
+
+          <div class="my-16 p-10 bg-primary-900 rounded-[2rem] text-white not-prose relative overflow-hidden">
+            <div class="relative z-10 flex flex-col md:flex-row justify-between items-center gap-8">
+              <div class="text-center md:text-left">
+                <h3 class="text-3xl font-bold mb-2">Need {service.name} Fast?</h3>
+                <p class="text-primary-200">Our local crews are currently serving {location.name}.</p>
+              </div>
+              <a href={`tel:${site.phone}`} class="bg-primary-500 hover:bg-primary-400 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all flex items-center gap-2"><Zap size={20} /> Request Priority Service</a>
+            </div>
+            <div class="absolute -right-10 -bottom-10 opacity-10"><TreePine size={200} /></div>
           </div>
-          <h3>Local {location.name} Arborist Advice</h3>
-          <p>{C('localAdvice')}</p>
-          <p>If you live near <strong>{location.landmarks[0]?.name || 'the local city center'}</strong>, you may have specific municipal or HOA requirements for tree maintenance. Our team is well-versed in <strong>{location.hoaNotes}</strong> and the local <strong>{location.waterRestrictions}</strong> that may affect your post-service landscaping.</p>
+          
           <h3 id="faqs" class="mt-16">Frequently Asked Questions in {location.name}</h3>
-          <div class="not-prose space-y-4">{allFaqs.map(faq => <details class="group border border-neutral-200 rounded-2xl p-6 bg-neutral-50 [&_summary::-webkit-details-marker]:hidden"><summary class="flex items-center justify-between cursor-pointer"><h4 class="font-bold text-neutral-900 flex gap-3 text-lg"><HelpCircle size={22} class="text-primary-600 shrink-0" /> {faq.question}</h4><span class="ml-4 flex-shrink-0 transition duration-300 group-open:-rotate-180"><ArrowRight size={20} /></span></summary><p class="mt-4 text-neutral-600 pl-8 leading-relaxed">{faq.answer}</p></details>)}</div>
+          <div class="not-prose space-y-4">
+            {allFaqs.map((faq: any) => 
+              <details class="group border border-neutral-200 rounded-2xl p-6 bg-neutral-50 [&_summary::-webkit-details-marker]:hidden">
+                <summary class="flex items-center justify-between cursor-pointer">
+                  <h4 class="font-bold text-neutral-900 flex gap-3 text-lg"><HelpCircle size={22} class="text-primary-600 shrink-0" /> {faq.question}</h4>
+                  <span class="ml-4 flex-shrink-0 transition duration-300 group-open:-rotate-180"><ArrowRight size={20} /></span>
+                </summary>
+                <p class="mt-4 text-neutral-600 pl-8 leading-relaxed">{faq.answer}</p>
+              </details>
+            )}
+          </div>
         </div>
 
         <div class="space-y-12">
