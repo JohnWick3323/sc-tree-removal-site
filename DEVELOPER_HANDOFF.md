@@ -1,41 +1,66 @@
-# Developer Hand-Off Context
-**Project:** South Carolina Tree Removal Experts (Astro + Keystatic)
-**Last Updated:** June 2026
+# Developer Handoff & Project Context
 
-Welcome to the project! This document serves as a contextual guide for future developers and AI agents taking over the codebase. 
+## Project Overview
+This is an Astro-based static site with Keystatic integration for the blog and content management. The site is optimized for SEO and deployed on Cloudflare Pages.
 
-## 1. Project Architecture & Stack
-- **Framework:** Astro 6.x
-- **Styling:** Tailwind CSS 4
-- **CMS / Blog Management:** Keystatic (configured for GitHub storage mode)
-- **Deployment Strategy:** 100% Static Site Generation (`output: 'static'`) deployed on Cloudflare Pages.
-- **Routing Structure:**
-  - Standard Pages: `src/pages/index.astro`, `src/pages/contact.astro`, etc.
-  - Service Pages: `src/pages/services/[service].astro`
-  - Location + Service Pages: `src/pages/services/[service]/[...city].astro` (Generates thousands of location-specific service pages).
-  - Blog Pages: `src/pages/blog/index.astro` and `src/pages/blog/[slug].astro`.
+## Work Completed
+- **SEO Audit & Fixes**: Implemented optimized Meta Titles and Descriptions across all service and location pages.
+- **Keystatic Blog Integration**: Configured `keystatic.config.ts` to manage blog posts via GitHub mode for production and local mode for development.
+- **Formatting Standardization**: Updated content files (MD/MDX) to strictly follow the defined formatting rules, eliminating redundancy and ensuring a clean UI.
+- **Mega Menu Cleanup**: Removed redundant service names from `Header.astro` to provide a cleaner navigation experience.
+- **Build Infrastructure**: Migrated deployment adapter from Vercel to Cloudflare. Fixed `.wrangler` cache conflicts and removed `pages_build_output_dir` from `wrangler.toml` to resolve Cloudflare Pages deployment errors.
+- **Unused Code Removal**: Cleaned up unused imports and dead code using automated tools.
 
-## 2. Recent Major Updates (June 2026)
+## Formatting Guide for Content Files
+When creating or updating location or service pages, adhere to the following frontmatter and markdown structure:
 
-### Service Markdown Clean-up
-We recently conducted a massive audit of all 14 service files located in `src/content/services/*.md`. 
-- **Removed Structural Noise:** All raw HTML tags, old structural notes (like `--- END OF SECTION ---`), and non-standard markdown artifacts were scrubbed.
-- **FAQ Migration:** FAQs were previously written in messy HTML tables inside the markdown body. These were completely migrated into a clean YAML array field (`faqs`) inside the frontmatter of each file. The Astro components automatically map over this YAML to render structured FAQ accordions and inject JSON-LD Schema.
+### 1. Frontmatter (SEO and Metadata)
+Every markdown file must contain a complete frontmatter block with exact key names:
 
-### SEO Data Hierarchy
-We fixed a critical SEO overriding issue. Previously, `src/pages/services/[service].astro` was hardcoded to use generic meta descriptions from `src/data/services.ts`. 
-- **Current Logic:** The `[service].astro` and `[...city].astro` templates now properly prioritize `markdown.frontmatter.metaTitle` and `markdown.frontmatter.metaDescription` over the generic data if they exist.
+```yaml
+---
+name: 'Location or Service Name'
+title: 'Optimized Meta Title | South Carolina Tree Removal'
+description: 'Optimized Meta Description (150-160 characters).'
+county: 'County Name' # (Only for location pages)
+---
+```
+*Note: Do NOT include `faq` or `sections` in the frontmatter. All content must be written in the markdown body using the structure below.*
 
-### Keystatic Blog Integration
-We integrated Keystatic to allow non-technical staff and SEO personnel to manage the blog.
-- **Configuration:** `keystatic.config.ts` is configured in **GitHub Mode** (`kind: 'github'`) for production. This allows the `/keystatic` admin panel to work on the static site by communicating directly with the GitHub repo.
-- **Local Dev:** It runs in `local` mode when using `npm run dev` to save markdown files directly to the filesystem (`src/content/posts`).
+### 2. Markdown Body Structure
+The body must strictly follow this H2 (`##`) heading structure. Do not use H1 (`#`) as the layout automatically generates it.
 
-## 3. Key Data Flow
-- **`src/data/services.ts`:** The source of truth for the list of services, their pillars, slugs, and fallback SEO data.
-- **`src/content/services/*.md`:** Contains the actual page content (Main Body, Service Process) and specific SEO overrides (Frontmatter).
-- **`src/data/locations.ts`:** Used to dynamically generate location-based programmatic SEO pages.
+#### A. Main Content Section
+Start immediately with the content, using `##` for section headers if needed.
+```markdown
+## Expert Tree Services in [Location]
+Content goes here...
+```
 
-## 4. Next Steps / Pending
-- Connect Keystatic to the GitHub App (requires creating a GitHub App on the client's repo and setting the environment variables for Keystatic OAuth).
-- The site is fully verified. `npm run build` runs successfully and generates ~2800 static pages in ~4 minutes.
+#### B. FAQs Section
+The FAQ section must be clearly demarcated with the `## FAQs` heading. Each question must be an H3 (`###`), followed immediately by the answer paragraph.
+
+```markdown
+## FAQs
+
+### What is the average cost of tree removal?
+The average cost ranges from $385 to $2,000 depending on the tree size and location.
+
+### Do I need a permit?
+Permit requirements vary by county. Always check local regulations before proceeding.
+```
+
+## Deployment Notes (Cloudflare Pages)
+- **Adapter**: Uses `@astrojs/cloudflare`.
+- **Output Mode**: Configured as `output: 'static'` in `astro.config.mjs`. Astro prerenders all pages by default but leaves API routes (like Keystatic) to run via SSR.
+- **Cloudflare Dashboard**: The "Build output directory" in the Cloudflare Pages dashboard should be set to `dist` (if using v13 of the adapter) or `dist/client`. If you encounter a `config.json` error, ensure `pages_build_output_dir` is omitted from `wrangler.toml` to prevent binding conflicts.
+- **Environment Variables**: `PUBLIC_GOOGLE_MAPS_KEY` is in `wrangler.toml`. Sensitive keys (like `RESEND_API_KEY`) must be added as secrets via the Cloudflare Dashboard.
+
+## Running Locally
+```bash
+# Start development server (with Keystatic local mode)
+npm run dev
+
+# Build the project
+npm run build
+```
