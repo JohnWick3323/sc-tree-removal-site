@@ -10,8 +10,8 @@ import cloudflare from '@astrojs/cloudflare';
 export default defineConfig({
   output: 'static',
   build: {
-    client: new URL('./dist', import.meta.url),
-    server: new URL('./dist/server', import.meta.url),
+    client: './dist',
+    server: './dist/server',
   },
   adapter: cloudflare({
     imageService: 'passthrough'
