@@ -9,10 +9,6 @@ import cloudflare from '@astrojs/cloudflare';
 // https://astro.build/config
 export default defineConfig({
   output: 'static',
-  build: {
-    client: './dist',
-    server: './dist/server',
-  },
   adapter: cloudflare({
     imageService: 'passthrough'
   }),
