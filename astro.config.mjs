@@ -20,6 +20,9 @@ export default defineConfig({
   integrations: [sitemap(), react(), markdoc(), keystatic()],
   vite: {
     plugins: [tailwindcss()],
+    optimizeDeps: {
+      exclude: ['virtual:keystatic-config', '@cloudflare/unenv-preset/node/process']
+    }
   },
   site: 'https://southcarolinatreeremovalexperts.com',
 });
