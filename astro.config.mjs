@@ -15,8 +15,8 @@ export default defineConfig({
   build: {
     client: './',
     server: './_worker.js',
+    serverEntry: 'index.js'
   },
-  
   integrations: [sitemap(), react(), markdoc(), keystatic()],
   vite: {
     plugins: [tailwindcss()],
