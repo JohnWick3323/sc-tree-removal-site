@@ -8,14 +8,14 @@ import cloudflare from '@astrojs/cloudflare';
 
 // https://astro.build/config
 export default defineConfig({
-  output: 'static',
-  build: {
-    client: './',
-    server: './server',
-  },
+  output: 'server',
   adapter: cloudflare({
     imageService: 'passthrough'
   }),
+  build: {
+    client: './',
+    server: './_worker.js',
+  },
   
   integrations: [sitemap(), react(), markdoc(), keystatic()],
   vite: {
