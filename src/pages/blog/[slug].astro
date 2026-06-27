@@ -6,19 +6,18 @@ import Footer from '../../components/Footer.astro';
 import ContactForm from '../../components/ContactForm.astro';
 import { site } from '../../data/site';
 import { Calendar, User, Tag, ArrowLeft, ArrowRight, Share2 } from 'lucide-react';
+import { marked } from 'marked';
 
 const getPostSlug = (post) => post.slug || post.id.replace(/\.(md|mdoc)$/, '');
 
-export async function getStaticPaths() {
-  const posts = await getCollection('posts');
-  return posts.map(post => ({
-    params: { slug: getPostSlug(post) },
-    props: { post },
-  }));
+const posts = await getCollection('posts');
+const post = posts.find((entry) => getPostSlug(entry) === Astro.params.slug);
+
+if (!post) {
+  return Astro.rewrite('/404');
 }
 
-const { post } = Astro.props;
-const { Content } = await post.render();
+const contentHtml = await marked.parse(post.body || '');
 
 const pageTitle = post.data.seoTitle || `${post.data.title} | SC Tree Removal Experts Blog`;
 const pageDesc = post.data.seoDescription || post.data.excerpt || `Read the latest tree care insights from South Carolina Tree Removal Experts.`;
@@ -94,7 +93,7 @@ const articleSchema = {
       )}
 
       <article class="prose prose-lg md:prose-xl prose-primary max-w-none prose-img:rounded-2xl prose-img:shadow-md prose-headings:font-heading prose-a:text-primary-600 hover:prose-a:text-primary-800">
-        <Content />
+        <Fragment set:html={contentHtml} />
       </article>
 
       {post.data.tags && post.data.tags.length > 0 && (
