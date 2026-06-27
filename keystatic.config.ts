@@ -48,6 +48,9 @@ export default config({
       label: 'Blog Posts',
       slugField: 'title',
       path: 'src/content/posts/*',
+      entryLayout: 'content',
+      previewUrl: '/blog/{slug}/',
+      columns: ['title', 'publishDate', 'author', 'category'],
       format: { contentField: 'content' },
       schema: {
         title: fields.slug({ name: { label: 'Title' } }),
