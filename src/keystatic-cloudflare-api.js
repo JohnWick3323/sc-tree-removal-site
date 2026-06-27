@@ -1,4 +1,4 @@
-import { makeHandler } from '@keystatic/astro/api';
+import { makeGenericAPIRouteHandler } from '@keystatic/core/api/generic';
 import { env } from 'cloudflare:workers';
 import config from 'virtual:keystatic-config';
 
@@ -13,11 +13,13 @@ const requiredEnv = {
   KEYSTATIC_SECRET: getSecret('KEYSTATIC_SECRET'),
 };
 
-const keystaticHandler = makeHandler({
+const keystaticHandler = makeGenericAPIRouteHandler({
   config,
   clientId: requiredEnv.KEYSTATIC_GITHUB_CLIENT_ID,
   clientSecret: requiredEnv.KEYSTATIC_GITHUB_CLIENT_SECRET,
   secret: requiredEnv.KEYSTATIC_SECRET,
+}, {
+  slugEnvName: 'PUBLIC_KEYSTATIC_GITHUB_APP_SLUG',
 });
 
 const getEnvStatus = () => ({
@@ -43,7 +45,12 @@ export const all = async (context) => {
   }
 
   try {
-    return await keystaticHandler(context);
+    const { body, headers, status } = await keystaticHandler(context.request);
+
+    return new Response(body, {
+      status,
+      headers,
+    });
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
     const stack = error instanceof Error ? error.stack : undefined;
