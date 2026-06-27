@@ -45,11 +45,27 @@ export const all = async (context) => {
   try {
     return await keystaticHandler(context);
   } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    const stack = error instanceof Error ? error.stack : undefined;
+
     console.error('Keystatic API failed', {
-      message: error instanceof Error ? error.message : String(error),
-      stack: error instanceof Error ? error.stack : undefined,
+      message,
+      stack,
       env: getEnvStatus(),
     });
+
+    if (url.searchParams.get('debug') === '1') {
+      return Response.json(
+        {
+          ok: false,
+          path: url.pathname,
+          message,
+          stack,
+          env: getEnvStatus(),
+        },
+        { status: 500 },
+      );
+    }
 
     throw error;
   }
