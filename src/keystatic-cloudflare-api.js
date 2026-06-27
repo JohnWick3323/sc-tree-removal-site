@@ -14,14 +14,15 @@ const requiredEnv = {
   PUBLIC_KEYSTATIC_GITHUB_APP_SLUG: getSecret('PUBLIC_KEYSTATIC_GITHUB_APP_SLUG'),
 };
 
-const keystaticHandler = makeGenericAPIRouteHandler({
-  config,
-  clientId: requiredEnv.KEYSTATIC_GITHUB_CLIENT_ID,
-  clientSecret: requiredEnv.KEYSTATIC_GITHUB_CLIENT_SECRET,
-  secret: requiredEnv.KEYSTATIC_SECRET,
-}, {
-  slugEnvName: 'PUBLIC_KEYSTATIC_GITHUB_APP_SLUG',
-});
+const createKeystaticHandler = () =>
+  makeGenericAPIRouteHandler({
+    config,
+    clientId: requiredEnv.KEYSTATIC_GITHUB_CLIENT_ID,
+    clientSecret: requiredEnv.KEYSTATIC_GITHUB_CLIENT_SECRET,
+    secret: requiredEnv.KEYSTATIC_SECRET,
+  }, {
+    slugEnvName: 'PUBLIC_KEYSTATIC_GITHUB_APP_SLUG',
+  });
 
 const getEnvStatus = () => ({
   KEYSTATIC_GITHUB_CLIENT_ID: requiredEnv.KEYSTATIC_GITHUB_CLIENT_ID ? 'present' : 'missing',
@@ -47,6 +48,7 @@ export const all = async (context) => {
   }
 
   try {
+    const keystaticHandler = createKeystaticHandler();
     const { body, headers, status } = await keystaticHandler(context.request);
 
     return new Response(body, {
