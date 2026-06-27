@@ -7,10 +7,12 @@ import ContactForm from '../../components/ContactForm.astro';
 import { site } from '../../data/site';
 import { Calendar, User, Tag, ArrowLeft, ArrowRight, Share2 } from 'lucide-react';
 
+const getPostSlug = (post) => post.slug || post.id.replace(/\.(md|mdoc)$/, '');
+
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
   return posts.map(post => ({
-    params: { slug: post.slug },
+    params: { slug: getPostSlug(post) },
     props: { post },
   }));
 }
@@ -24,7 +26,7 @@ const pageDesc = post.data.seoDescription || post.data.excerpt || `Read the late
 const breadcrumbs = [
   { name: 'Home', href: '/' },
   { name: 'Blog', href: '/blog/' },
-  { name: post.data.title, href: `/blog/${post.slug}/` }
+  { name: post.data.title, href: `/blog/${getPostSlug(post)}/` }
 ];
 
 const breadcrumbSchema = { 
