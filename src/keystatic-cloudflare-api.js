@@ -11,6 +11,7 @@ const requiredEnv = {
   KEYSTATIC_GITHUB_CLIENT_ID: getSecret('KEYSTATIC_GITHUB_CLIENT_ID'),
   KEYSTATIC_GITHUB_CLIENT_SECRET: getSecret('KEYSTATIC_GITHUB_CLIENT_SECRET'),
   KEYSTATIC_SECRET: getSecret('KEYSTATIC_SECRET'),
+  PUBLIC_KEYSTATIC_GITHUB_APP_SLUG: getSecret('PUBLIC_KEYSTATIC_GITHUB_APP_SLUG'),
 };
 
 const keystaticHandler = makeGenericAPIRouteHandler({
@@ -25,6 +26,7 @@ const keystaticHandler = makeGenericAPIRouteHandler({
 const getEnvStatus = () => ({
   KEYSTATIC_GITHUB_CLIENT_ID: requiredEnv.KEYSTATIC_GITHUB_CLIENT_ID ? 'present' : 'missing',
   KEYSTATIC_GITHUB_CLIENT_SECRET: requiredEnv.KEYSTATIC_GITHUB_CLIENT_SECRET ? 'present' : 'missing',
+  PUBLIC_KEYSTATIC_GITHUB_APP_SLUG: requiredEnv.PUBLIC_KEYSTATIC_GITHUB_APP_SLUG ? 'present' : 'missing',
   KEYSTATIC_SECRET: !requiredEnv.KEYSTATIC_SECRET
     ? 'missing'
     : requiredEnv.KEYSTATIC_SECRET.length >= 32
