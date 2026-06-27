@@ -7,7 +7,6 @@ compatibility_flags = ["nodejs_compat"]
 # These are safe to commit — they are public-facing keys
 [vars]
 PUBLIC_GOOGLE_MAPS_KEY = "AIzaSyAIWoZdoDfMNVAmW4uJ1q-tcT9f1Ec9_8k"
-KEYSTATIC_GITHUB_CLIENT_ID = "Iv23li8eyc8h6uey5QDx"
 PUBLIC_KEYSTATIC_GITHUB_APP_SLUG = "sc-tree-removal-keystatic"
 
 # IMPORTANT: RESEND_API_KEY is a SECRET — do NOT add it here.
