@@ -9,6 +9,9 @@ if (fs.existsSync(wranglerJsonPath)) {
   // Remove problematic fields causing Wrangler deploy errors on Pages
   delete config.assets;
   delete config.kv_namespaces;
+  delete config.main;
+  delete config.rules;
+  delete config.no_bundle;
 
   // Remove warnings
   const warnings = [
