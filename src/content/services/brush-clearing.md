@@ -1,9 +1,9 @@
 ---
 title: "Brush Clearing"
-metaTitle: "Brush Clearing in South Carolina | SC Tree Removal Experts"
-metaDescription: "Brush clearing in South Carolina is the professional removal of dense undergrowth, vines, brambles, and scrub trees. Call (888) 643-4199."
+metaTitle: "Brush Clearing in South Carolina | South Carolina Tree Removal Experts"
+metaDescription: "Expert brush clearing in South Carolina from licensed, insured tree service professionals. Free estimates across the state."
+faqs: []
 ---
-
 # **Brush Clearing in South Carolina**
 
 Brush clearing in South Carolina is the professional removal of dense undergrowth, vines, brambles, and scrub trees — without necessarily removing the large standing trees you want to keep. It restores access, improves safety, and reduces fire and pest risk. South Carolina Tree Removal Experts serves homeowners and landowners statewide. Call (888) 643-4199.
@@ -227,4 +227,3 @@ Every job starts with a free, no-obligation estimate and a clear, honest price. 
 📞 **Call (888) 643-4199 for a Free Brush Clearing Estimate**
 
 Free estimates. Licensed and insured. Serving all of South Carolina.
-

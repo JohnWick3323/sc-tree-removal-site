@@ -1,15 +1,18 @@
 ---
 import { site } from '../data/site';
-import { Phone, Star, ShieldCheck, HardHat, MapPin, ClipboardCheck, Leaf, ChevronDown, Award, Users, AlertTriangle } from 'lucide-react';
+import { getCollection } from 'astro:content';
+import { Phone, ShieldCheck, HardHat, MapPin, ClipboardCheck, ChevronDown, Award, Calendar, ArrowRight } from 'lucide-react';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { services } from '../data/services';
-import { locations } from '../data/locations';
-import ContactForm from '../components/ContactForm.astro';
 
-const featuredServices = services.filter(s => s.slug !== 'stump-grinding');
-const topLocations = locations.slice(0, 6);
+const allPosts = await getCollection('posts');
+const latestPosts = allPosts
+  .filter(post => !post.data.draft)
+  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
+  .slice(0, 3);
+const getPostSlug = (post) => post.slug || post.id.replace(/\.(md|mdoc)$/, '');
+const getPostExcerpt = (post) => post.data.excerpt || post.data.seoDescription || 'Read the latest tree care insight from South Carolina Tree Removal Experts.';
 
 const organizationSchema = {
   "@context": "https://schema.org",
@@ -39,7 +42,7 @@ const organizationSchema = {
     "Tree Removal",
     "Emergency Storm Response",
     "Land Clearing",
-    "Commercial Forestry"
+    "Forestry Mulching"
   ],
   "priceRange": "$$"
 };
@@ -232,12 +235,12 @@ const faqSchema = {
 
   
   <!-- ============================================ -->
-  <!-- SECTION 2: INTRO -->
+  <!-- SECTION 4: INTRO -->
   <!-- ============================================ -->
   <section class="py-24 bg-white">
     <div class="container mx-auto px-4 md:px-8 max-w-4xl">
       <div class="text-center mb-16">
-        <h2 class="text-4xl md:text-5xl font-bold font-heading text-neutral-900 mb-6">Professional Tree Removal, Trimming & Land Clearing Services</h2>
+        <h2 class="text-4xl md:text-5xl font-bold font-heading text-neutral-900 mb-6">Professional Tree Removal, Emergency Response & Land Clearing Services</h2>
         <p class="text-lg text-neutral-600 leading-relaxed text-left">
           At South Carolina Tree Removal Experts, we do more than just cut down trees. We provide comprehensive arboricultural services designed to protect your property, enhance your landscape, and mitigate extreme weather risks. With nearly four decades of hands-on experience across the state of South Carolina, our certified crews bring unparalleled skill to every job site.
         </p>
@@ -246,7 +249,7 @@ const faqSchema = {
         <ul class="space-y-4 text-neutral-700">
           <li class="flex gap-4">
             <span class="text-primary-600 mt-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
-            <div><strong>What We Do:</strong> Tree removal, stump grinding, emergency storm response, land clearing, and commercial forestry.</div>
+            <div><strong>What We Do:</strong> Tree removal, emergency storm response, land clearing, brush clearing, debris removal, and forestry mulching.</div>
           </li>
           <li class="flex gap-4">
             <span class="text-primary-600 mt-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
@@ -262,7 +265,7 @@ const faqSchema = {
   </section>
 
   <!-- ============================================ -->
-  <!-- SECTION 3: SERVICES (3A-3D) -->
+  <!-- SECTION 5: SERVICES -->
   <!-- ============================================ -->
   <section class="py-24 bg-neutral-50">
     <div class="container mx-auto px-4 md:px-8 max-w-7xl">
@@ -279,7 +282,7 @@ const faqSchema = {
             <li><strong>Hazardous Tree Removal:</strong> Eliminating structural threats overhanging roofs, power lines, or driveways.</li>
             <li><strong>Crane-Assisted Removal:</strong> Utilizing zero-impact cranes to hoist massive timber safely over obstacles.</li>
           </ul>
-          <a href="/services/residential-tree-removal/" class="text-primary-600 font-bold hover:text-primary-700">Learn More &rarr;</a>
+          <a href="/services/tree-removal/" class="text-primary-600 font-bold hover:text-primary-700">Learn More &rarr;</a>
         </div>
         <!-- 3B -->
         <div class="bg-white rounded-2xl p-8 shadow-sm border border-neutral-100 hover:shadow-md transition-shadow">
@@ -303,20 +306,20 @@ const faqSchema = {
         </div>
         <!-- 3D -->
         <div class="bg-white rounded-2xl p-8 shadow-sm border border-neutral-100 hover:shadow-md transition-shadow">
-          <h3 class="text-2xl font-bold text-neutral-900 mb-4">Commercial Tree Services</h3>
+          <h3 class="text-2xl font-bold text-neutral-900 mb-4">Forestry Mulching</h3>
           <ul class="space-y-3 text-neutral-600 mb-6">
             <li><strong>HOA & Multi-Family Management:</strong> Ongoing canopy maintenance for large residential communities.</li>
             <li><strong>Municipal Forestry:</strong> Partnering with local SC governments for park maintenance and public right-of-way hazard removal.</li>
             <li><strong>Golf Course & Resort Tree Care:</strong> Aesthetic and safety-focused clearing for high-end properties.</li>
           </ul>
-          <a href="/services/commercial-tree-services/" class="text-primary-600 font-bold hover:text-primary-700">Learn More &rarr;</a>
+          <a href="/services/forestry-mulching/" class="text-primary-600 font-bold hover:text-primary-700">Learn More &rarr;</a>
         </div>
       </div>
     </div>
   </section>
 
   <!-- ============================================ -->
-  <!-- SECTION 4: WHY CHOOSE US -->
+  <!-- SECTION 6: WHY CHOOSE US -->
   <!-- ============================================ -->
   <section class="py-24 bg-white relative">
     <div class="container mx-auto px-4 md:px-8 max-w-7xl">
@@ -362,7 +365,61 @@ const faqSchema = {
   </section>
 
   <!-- ============================================ -->
-  <!-- SECTION 5: HOW IT WORKS -->
+  <!-- SECTION 7: BLOG INSIGHTS -->
+  <!-- ============================================ -->
+  {latestPosts.length > 0 && (
+    <section class="py-24 bg-neutral-50">
+      <div class="container mx-auto px-4 md:px-8 max-w-7xl">
+        <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 mb-14">
+          <div class="max-w-3xl">
+            <p class="text-sm font-bold uppercase tracking-wider text-primary-600 mb-3">Tree Care Insights</p>
+            <h2 class="text-4xl md:text-5xl font-bold font-heading text-neutral-900 mb-5">Latest Tree Removal Advice</h2>
+            <p class="text-lg text-neutral-600 leading-relaxed">
+              Practical guidance on hazardous trees, emergency storm response, land clearing, and property safety from South Carolina tree service professionals.
+            </p>
+          </div>
+          <a href="/blog/" class="inline-flex items-center justify-center gap-2 rounded-md bg-primary-600 px-7 py-4 font-bold text-white shadow-lg transition-all hover:bg-primary-700">
+            View More Articles
+            <ArrowRight size={18} />
+          </a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {latestPosts.map(post => (
+            <a href={`/blog/${getPostSlug(post)}/`} class="group flex h-full flex-col overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-sm transition-all hover:-translate-y-1 hover:border-primary-200 hover:shadow-xl">
+              {post.data.featuredImage ? (
+                <div class="h-52 overflow-hidden bg-neutral-100">
+                  <img src={post.data.featuredImage} alt={post.data.title} class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                </div>
+              ) : (
+                <div class="h-52 bg-neutral-900 flex items-center justify-center p-6 text-center">
+                  <span class="text-xl font-bold font-heading text-white/70">{post.data.title}</span>
+                </div>
+              )}
+              <div class="flex flex-1 flex-col p-7">
+                <div class="mb-4 flex flex-wrap items-center gap-3 text-xs font-bold uppercase tracking-wider text-neutral-500">
+                  {post.data.category && <span class="rounded-full bg-primary-50 px-3 py-1 text-primary-700">{post.data.category}</span>}
+                  <span class="inline-flex items-center gap-1">
+                    <Calendar size={14} />
+                    {post.data.publishDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                  </span>
+                </div>
+                <h3 class="mb-4 text-2xl font-bold font-heading leading-tight text-neutral-900 transition-colors group-hover:text-primary-600">{post.data.title}</h3>
+                <p class="mb-6 line-clamp-3 flex-1 text-neutral-600 leading-relaxed">{getPostExcerpt(post)}</p>
+                <span class="mt-auto inline-flex items-center gap-2 font-bold text-primary-600">
+                  Read Article
+                  <ArrowRight size={18} class="transition-transform group-hover:translate-x-1" />
+                </span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- ============================================ -->
+  <!-- SECTION 8: HOW IT WORKS -->
   <!-- ============================================ -->
   <section class="py-24 bg-neutral-900 text-white relative">
     <div class="container mx-auto px-4 md:px-8 max-w-7xl relative z-10">
@@ -394,7 +451,7 @@ const faqSchema = {
         <div class="bg-neutral-800 p-8 rounded-2xl border border-neutral-700">
           <div class="text-primary-500 font-bold text-5xl mb-4">5</div>
           <h4 class="text-xl font-bold mb-3">Precision Execution</h4>
-          <p class="text-neutral-400">Our crews arrive, safely extract the timber, and grind the stump.</p>
+          <p class="text-neutral-400">Our crews arrive, safely remove the hazard, and clean up the work area.</p>
         </div>
         <div class="bg-neutral-800 p-8 rounded-2xl border border-neutral-700">
           <div class="text-primary-500 font-bold text-5xl mb-4">6</div>
@@ -406,7 +463,7 @@ const faqSchema = {
   </section>
 
   <!-- ============================================ -->
-  <!-- SECTION 6: FAQS -->
+  <!-- SECTION 9: FAQS -->
   <!-- ============================================ -->
   <section class="py-24 bg-neutral-50" id="faqs">
     <div class="container mx-auto px-4 md:px-8 max-w-3xl">
@@ -477,11 +534,11 @@ const faqSchema = {
         <!-- FAQ 7 -->
         <details class="faq-item group bg-white rounded-2xl border border-neutral-200 [&_summary::-webkit-details-marker]:hidden overflow-hidden">
           <summary class="flex cursor-pointer items-center justify-between p-6 md:p-8 text-neutral-900 font-bold text-xl">
-            Do you do stump grinding as well?
+            Do you handle stump cleanup as part of removal?
             <span class="transition duration-300 group-open:-rotate-180 text-primary-600 bg-neutral-50 p-2 rounded-full shadow-sm"><ChevronDown size={24} /></span>
           </summary>
           <div class="faq-content px-6 pb-6 md:px-8 md:pb-8 text-neutral-600 leading-relaxed mt-2 transition-all duration-300 ease-in-out" style="max-height: 0; opacity: 0; overflow: hidden;">
-            Yes. We offer complete stump grinding services to grind the root mass 6-12 inches below grade, allowing you to re-sod or replant over the area.
+            Yes. Stump handling can be discussed during the estimate and included where it fits the tree removal or land clearing scope.
           </div>
         </details>
       </div>
@@ -489,7 +546,7 @@ const faqSchema = {
   </section>
 
   <!-- ============================================ -->
-  <!-- SECTION 7: FINAL CTA -->
+  <!-- SECTION 10: FINAL CTA -->
   <!-- ============================================ -->
   <section class="py-24 bg-primary-600 relative overflow-hidden">
     <div class="absolute inset-0 bg-neutral-900/10 z-0"></div>

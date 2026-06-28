@@ -1,21 +1,12 @@
 ---
-title: "Land Clearing in South Carolina"
-metaTitle: "Land Clearing in South Carolina | South Carolina Tree Removal Experts"
-metaDescription: "Land clearing in South Carolina typically costs $1,500 to $6,000+ per acre, depending on tree density, terrain, and how much debris must be removed. South Carolina Tree Removal Experts handles lot clearing, forestry mulching, brush clearing, and debris removal."
-faqs:
-  - question: "How much does land clearing cost in South Carolina?"
-    answer: "Land clearing in South Carolina typically ranges from $1,500 to $6,000 or more per acre. The price depends on tree density, terrain, access, stump handling, and whether the debris is mulched in place or hauled away. Lightly brushed lots fall at the lower end, while densely wooded tracts with large timber and full haul-away land at the higher end. Because every property is different, the only accurate way to price a job is an on-site look — call (888) 643-4199 for a free estimate."
-  - question: "Do I need a permit to clear land in South Carolina?"
-    answer: "In many cases, yes — especially for larger jobs. South Carolina ties permitting to land disturbance, and activity above a certain acreage threshold can require a permit, with rules that vary by county and project size. Smaller residential clearing often doesn't trigger a permit, but it's always worth confirming first. We recommend checking with your local planning office and the SC Department of Environmental Services before you begin, and we're glad to help you understand how the requirements apply to your project."
-  - question: "How long does land clearing take in South Carolina?"
-    answer: "A typical residential lot can usually be cleared in one to two days. The exact timeline depends on the size of the property, how dense the growth is, and how the debris is handled. Larger multi-acre parcels naturally take longer, sometimes several days to a week. We give you a clear timeline during your free estimate so you know what to expect before we start."
-  - question: "What is the difference between forestry mulching and traditional land clearing?"
-    answer: "Forestry mulching uses one machine to grind trees, brush, and stumps into mulch that stays on-site as ground cover. Traditional clearing cuts everything down and hauls the debris away, leaving bare ground behind. Mulching is usually faster and more affordable on large wooded tracts because there's no hauling involved. Traditional clearing is the better choice when you need a completely bare lot, and we'll help you decide which fits your property during the estimate."
-  - question: "Do you clear land for building a new home in South Carolina?"
-    answer: "Yes. We help homeowners prepare their own lots for a new build, from a small residential lot to a few open acres. That includes removing trees, grinding or pulling stumps, and clearing the debris so the site is ready for grading and a foundation. Call (888) 643-4199 to schedule a free on-site estimate and we'll plan the clearing around your build."
+title: "Land & Lot Clearing"
+metaTitle: "Land & Lot Clearing in South Carolina | South Carolina Tree Removal Experts"
+metaDescription: "Expert land & lot clearing in South Carolina from licensed, insured tree service professionals. Free estimates across the state."
+faqs: []
 ---
+# **Land Clearing in South Carolina**
 
-**Land clearing in South Carolina typically costs $1,500 to $6,000+ per acre, depending on tree density, terrain, and how much debris must be removed. South Carolina Tree Removal Experts handles lot clearing, forestry mulching, brush clearing, and debris removal for homeowners and landowners statewide. Free estimates — call (888) 643-4199.**
+Land clearing in South Carolina typically costs $1,500 to $6,000+ per acre, depending on tree density, terrain, and how much debris must be removed. South Carolina Tree Removal Experts handles lot clearing, forestry mulching, brush clearing, and debris removal for homeowners and landowners statewide. Free estimates — call (888) 643-4199.
 
 ## **Is Overgrown or Wooded Land Holding Your Property Back?**
 
@@ -125,7 +116,7 @@ It's also a standalone service when you need it. If a storm has buried your yard
 
 Proper disposal is part of the job. Land-clearing debris has to be handled according to South Carolina regulations, and we make sure it's disposed of or recycled correctly every time. *(Learn more on our Debris Removal page.)*
 
-## **Our Process**
+## 
 
 A professional land clearing job follows a clear sequence, and knowing what to expect takes the uncertainty out of it. Here's exactly how South Carolina Tree Removal Experts handles a clearing project from first call to final walk-through.
 
@@ -252,3 +243,47 @@ That local knowledge translates into faster, cleaner jobs. We're not learning th
 Every job starts with a free, no-obligation estimate based on an actual look at your land. You'll get a clear price and a clear plan before you commit to anything.
 
 We keep it honest from there. No surprise charges, no vague quotes, and no pressure — just experienced local crews doing the work safely and leaving your property clean.
+
+## **Land Clearing FAQs**
+
+### **How much does land clearing cost in South Carolina?**
+
+Land clearing in South Carolina typically ranges from $1,500 to $6,000 or more per acre. The price depends on tree density, terrain, access, stump handling, and whether the debris is mulched in place or hauled away.
+
+Lightly brushed lots fall at the lower end, while densely wooded tracts with large timber and full haul-away land at the higher end. Because every property is different, the only accurate way to price a job is an on-site look — call (888) 643-4199 for a free estimate.
+
+### **Do I need a permit to clear land in South Carolina?**
+
+In many cases, yes — especially for larger jobs. South Carolina ties permitting to land disturbance, and activity above a certain acreage threshold can require a permit, with rules that vary by county and project size.
+
+Smaller residential clearing often doesn't trigger a permit, but it's always worth confirming first. We recommend checking with your local planning office and the SC Department of Environmental Services before you begin, and we're glad to help you understand how the requirements apply to your project.
+
+### **How long does land clearing take in South Carolina?**
+
+A typical residential lot can usually be cleared in one to two days. The exact timeline depends on the size of the property, how dense the growth is, and how the debris is handled.
+
+Larger multi-acre parcels naturally take longer, sometimes several days to a week. We give you a clear timeline during your free estimate so you know what to expect before we start.
+
+### **What is the difference between forestry mulching and traditional land clearing?**
+
+Forestry mulching uses one machine to grind trees, brush, and stumps into mulch that stays on-site as ground cover. Traditional clearing cuts everything down and hauls the debris away, leaving bare ground behind.
+
+Mulching is usually faster and more affordable on large wooded tracts because there's no hauling involved. Traditional clearing is the better choice when you need a completely bare lot, and we'll help you decide which fits your property during the estimate.
+
+### **Do you clear land for building a new home in South Carolina?**
+
+Yes. We help homeowners prepare their own lots for a new build, from a small residential lot to a few open acres.
+
+That includes removing trees, grinding or pulling stumps, and clearing the debris so the site is ready for grading and a foundation. Call (888) 643-4199 to schedule a free on-site estimate and we'll plan the clearing around your build.
+
+## **Ready to Clear Your Property? Call South Carolina Tree Removal Experts Today**
+
+Don't let an overgrown lot, a stalled building project, or a pile of storm debris keep your land out of reach. Whatever shape your property is in, it can be cleared, cleaned up, and made usable again.
+
+South Carolina Tree Removal Experts has been the state's trusted name in land and lot clearing for 38 years. We bring the right equipment, an experienced local crew, and a process built to get the job done safely and leave your property genuinely ready to use.
+
+From the Upstate to the Lowcountry, from a single residential lot to several open acres, we clear it all. Every job starts with a free, no-obligation estimate and a clear, honest price.
+
+📞 **Call (888) 643-4199 for a Free Land Clearing Estimate**
+
+Free estimates. Licensed and insured. Serving all of South Carolina.

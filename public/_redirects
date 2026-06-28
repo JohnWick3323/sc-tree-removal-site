@@ -1,5 +1,22 @@
 https://www.southcarolinatreeremovalexperts.com/* https://southcarolinatreeremovalexperts.com/:splat 301
-/services/residential-tree-removal/    /services/tree-removal/    301
-/services/residential-tree-removal/*   /services/tree-removal/:splat  301
-/services/land-clearing-grading/       /services/land-clearing/   301
-/services/land-clearing-grading/*      /services/land-clearing/:splat  301
+
+/services/residential-tree-removal/ /services/tree-removal/ 301
+/services/residential-tree-removal/* /services/tree-removal/:splat 301
+
+/services/land-clearing-grading/ /services/land-clearing/ 301
+/services/land-clearing-grading/* /services/land-clearing/:splat 301
+
+/services/underbrush-clearing/ /services/brush-clearing/ 301
+/services/underbrush-clearing/* /services/brush-clearing/:splat 301
+
+/services/commercial-forestry/ /services/forestry-mulching/ 301
+/services/commercial-forestry/* /services/forestry-mulching/:splat 301
+
+/services/stump-grinding/ /services/land-clearing/ 301
+/services/stump-grinding/* /services/land-clearing/:splat 301
+
+/services/land-lot-clearing/ /services/land-clearing/ 301
+/services/land-lot-clearing/* /services/land-clearing/:splat 301
+
+/services/commercial-tree-services/ /services/forestry-mulching/ 301
+/services/commercial-tree-services/* /services/forestry-mulching/:splat 301

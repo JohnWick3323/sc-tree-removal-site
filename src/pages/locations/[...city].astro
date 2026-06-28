@@ -10,18 +10,16 @@ import { locations } from '../../data/locations';
 import { combinations } from '../../data/combinations';
 import ContactForm from '../../components/ContactForm.astro';
 
-export async function getStaticPaths() {
-  return locations.map(location => ({
-    params: { city: location.slug || undefined },
-    props: { location }
-  }));
-}
+const requestedCity = Astro.params.city?.replace(/\/$/, '');
+const location = locations.find(l => l.slug === requestedCity);
 
-const { location } = Astro.props;
+if (!location) {
+  return Astro.rewrite('/404');
+}
 
 // --- SEO MACHINE LOGIC: LOCALIZATION & LINKING ---
 const pageTitle = `Professional Tree Removal in ${location.name}, SC | South Carolina Tree Removal Experts`;
-const pageDesc = `Expert tree removal in ${location.name}, SC. ISA-Certified Arborists, 24/7 emergency storm response, and stump grinding in ${location.county}. Free estimates — call today!`;
+const pageDesc = `Expert tree removal in ${location.name}, SC. ISA-Certified Arborists, 24/7 emergency storm response, and land clearing in ${location.county}. Free estimates — call today!`;
 
 // Get local versions of services (linking to combination pages)
 const localServices = services.map(s => {

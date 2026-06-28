@@ -8,19 +8,24 @@ interface Props {
   image?: string;
   type?: string;
   canonical?: string;
+  robots?: string;
 }
 
 const { 
   title = `${site.name} | ${site.tagline}`, 
-  description = "Professional Arborist-led tree removal, stump grinding, and emergency storm response across South Carolina. Certified, licensed, and fully insured.",
-  image = "/images/logo.png",
+  description = "Professional arborist-led tree removal, emergency tree removal, and land clearing across South Carolina. Certified, licensed, and fully insured.",
+  image = "/images/optimized/og-image.webp",
   type = "website",
-  canonical
+  canonical,
+  robots
 } = Astro.props;
 
 // Logic for proper canonical URL
 const currentUrl = new URL(Astro.url.pathname.toLowerCase(), site.url).toString();
-const finalCanonical = currentUrl.replace(/\/$/, '') + '/';
+const finalCanonical = canonical
+  ? new URL(canonical, site.url).toString()
+  : currentUrl.replace(/\/$/, '') + '/';
+const absoluteImage = new URL(image, site.url).toString();
 
 const siteTitle = title.includes(site.name) ? title : `${title} | ${site.name}`;
 ---
@@ -36,6 +41,7 @@ const siteTitle = title.includes(site.name) ? title : `${title} | ${site.name}`;
     
     <title>{siteTitle}</title>
     <meta name="description" content={description} />
+    {robots && <meta name="robots" content={robots} />}
     <link rel="canonical" href={finalCanonical} />
 
     <!-- Open Graph / Facebook -->
@@ -43,14 +49,14 @@ const siteTitle = title.includes(site.name) ? title : `${title} | ${site.name}`;
     <meta property="og:url" content={Astro.url} />
     <meta property="og:title" content={siteTitle} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={new URL(image, Astro.url)} />
+    <meta property="og:image" content={absoluteImage} />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content={Astro.url} />
     <meta property="twitter:title" content={siteTitle} />
     <meta property="twitter:description" content={description} />
-    <meta property="twitter:image" content={new URL(image, Astro.url)} />
+    <meta property="twitter:image" content={absoluteImage} />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

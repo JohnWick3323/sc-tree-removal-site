@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://southcarolinatreeremovalexperts.com/sitemap-index.xml
+Sitemap: https://southcarolinatreeremovalexperts.com/sitemap.xml

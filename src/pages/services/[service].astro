@@ -1,5 +1,6 @@
 ---
 import { services } from '../../data/services';
+import { getLegacyServiceTarget } from '../../data/serviceRedirects';
 import { locations } from '../../data/locations';
 import { site } from '../../data/site';
 import BaseLayout from '../../layouts/BaseLayout.astro';
@@ -8,16 +9,22 @@ import Footer from '../../components/Footer.astro';
 import ContactForm from '../../components/ContactForm.astro';
 import { Phone, CheckCircle, ShieldCheck, MapPin, HelpCircle, ArrowRight, TreePine, AlertTriangle, HardHat } from 'lucide-react';
 
-export async function getStaticPaths() {
-  const allMarkdownMap = import.meta.glob('../../content/services/*.md', { eager: true });
-  const allMarkdown = Object.values(allMarkdownMap);
-  return services.map(s => {
-    const md = allMarkdown.find((m: any) => m.file.endsWith(`${s.slug}.md`));
-    return { params: { service: s.slug }, props: { service: s, markdown: md } };
-  });
+const requestedService = Astro.params.service;
+const redirectTarget = getLegacyServiceTarget(requestedService);
+
+if (redirectTarget) {
+  return Astro.redirect(`/services/${redirectTarget}/`, 301);
 }
 
-const { service, markdown } = Astro.props;
+const service = services.find(s => s.slug === requestedService);
+
+if (!service) {
+  return Astro.rewrite('/404');
+}
+
+const allMarkdownMap = import.meta.glob('../../content/services/*.md', { eager: true });
+const allMarkdown = Object.values(allMarkdownMap);
+const markdown = allMarkdown.find((m: any) => m.file.endsWith(`${service.slug}.md`));
 const isPillar = service.isPillar;
 const parentPillar = services.find(s => s.slug === service.parentPillar);
 const pillarName = parentPillar?.name || service.name;

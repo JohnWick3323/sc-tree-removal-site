@@ -50,11 +50,21 @@ export default config({
       path: 'src/content/posts/*',
       entryLayout: 'content',
       previewUrl: '/blog/{slug}/',
-      columns: ['title', 'publishDate', 'author', 'category'],
+      columns: ['title', 'publishDate', 'author', 'category', 'draft'],
       format: { contentField: 'content' },
       schema: {
         title: fields.slug({ name: { label: 'Title' } }),
         publishDate: fields.date({ label: 'Publish Date', defaultValue: { kind: 'today' } }),
+        draft: fields.checkbox({
+          label: 'Draft',
+          description: 'Hide this post from the site and make its direct URL return 404.',
+          defaultValue: false,
+        }),
+        noindex: fields.checkbox({
+          label: 'Noindex',
+          description: 'Show this post, but exclude it from the sitemap and add robots noindex,follow.',
+          defaultValue: false,
+        }),
         author: fields.relationship({
           label: 'Author',
           collection: 'authors',
@@ -64,14 +74,17 @@ export default config({
           collection: 'categories',
         }),
         tags: fields.array(
-          fields.relationship({
-            label: 'Tag',
-            collection: 'tags',
-          }),
+          fields.relationship({ label: 'Tag', collection: 'tags' }),
           { label: 'Tags', itemLabel: props => props.value || 'Please select a tag' }
         ),
         featuredImage: fields.image({
           label: 'Featured Image',
+          directory: 'public/images/blog',
+          publicPath: '/images/blog/',
+        }),
+        ogImage: fields.image({
+          label: 'OG / Social Share Image',
+          description: 'Optional. If empty, the featured image is used for social previews.',
           directory: 'public/images/blog',
           publicPath: '/images/blog/',
         }),

@@ -7,10 +7,17 @@ import { site } from '../../data/site';
 import { Calendar, User, ArrowRight } from 'lucide-react';
 
 const allPosts = await getCollection('posts');
-const sortedPosts = allPosts.sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
+const allAuthors = await getCollection('authors');
+const allCategories = await getCollection('categories');
+const authorNames = new Map(allAuthors.map(author => [author.id.replace(/\.json$/, ''), author.data.name]));
+const categoryNames = new Map(allCategories.map(category => [category.id.replace(/\.json$/, ''), category.data.name]));
+const sortedPosts = allPosts
+  .filter(post => !post.data.draft)
+  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf());
 const getPostSlug = (post) => post.slug || post.id.replace(/\.(md|mdoc)$/, '');
 const getExcerpt = (post) => post.data.excerpt || 'Read the latest tree care insights from South Carolina Tree Removal Experts.';
-const getAuthor = (post) => post.data.author || 'SC Tree Experts';
+const getAuthor = (post) => authorNames.get(post.data.author) || post.data.author || 'SC Tree Experts';
+const getCategory = (post) => categoryNames.get(post.data.category) || post.data.category;
 
 const title = `Tree Care & Removal Blog | South Carolina Tree Removal Experts`;
 const description = `Expert insights, tips, and news on tree care, hazardous removals, and land clearing from the ISA-Certified Arborists at South Carolina Tree Removal Experts.`;
@@ -32,7 +39,7 @@ const breadcrumbSchema = {
 };
 ---
 
-<BaseLayout title={title} description={description}>
+<BaseLayout title={title} description={description} image="/images/optimized/og-image.webp">
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
   <Header slot="header" />
 
@@ -68,7 +75,7 @@ const breadcrumbSchema = {
               )}
               <div class="p-8 flex flex-col flex-grow">
                 <div class="flex items-center gap-4 text-xs font-bold text-neutral-500 mb-4 tracking-wider uppercase">
-                  {post.data.category && <span class="text-primary-600 bg-primary-50 px-3 py-1 rounded-full">{post.data.category}</span>}
+                  {post.data.category && <span class="text-primary-600 bg-primary-50 px-3 py-1 rounded-full">{getCategory(post)}</span>}
                   <span class="flex items-center gap-1"><Calendar size={14} /> {post.data.publishDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
                 </div>
                 <h2 class="text-2xl font-bold font-heading text-neutral-900 mb-4 group-hover:text-primary-600 transition-colors line-clamp-2">{post.data.title}</h2>

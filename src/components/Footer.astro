@@ -2,6 +2,8 @@
 import { site } from '../data/site';
 import { services } from '../data/services';
 import { locations } from '../data/locations';
+
+const footerServices = services.filter(service => service.isPillar);
 ---
 
 <footer class="bg-neutral-900 text-white pt-24 pb-12">
@@ -21,7 +23,7 @@ import { locations } from '../data/locations';
       <div>
         <h3 class="text-lg font-semibold mb-6">Our Services</h3>
         <ul class="space-y-3">
-          {services.slice(0, 5).map((service) => (
+          {footerServices.map((service) => (
             <li>
               <a href={`/services/${service.slug}/`} class="text-neutral-300 hover:text-primary-400 text-sm transition-colors">
                 {service.name}

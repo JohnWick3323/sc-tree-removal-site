@@ -1,9 +1,9 @@
 ---
 title: "Debris Removal"
-metaTitle: "Debris Removal in South Carolina | SC Tree Removal Experts"
-metaDescription: "Debris removal in South Carolina covers the hauling and disposal of fallen trees, limbs, brush piles, stumps, and land-clearing waste. Call (888) 643-4199."
+metaTitle: "Debris Removal in South Carolina | South Carolina Tree Removal Experts"
+metaDescription: "Expert debris removal in South Carolina from licensed, insured tree service professionals. Free estimates across the state."
+faqs: []
 ---
-
 # **Debris Removal in South Carolina**
 
 Debris removal in South Carolina covers the hauling and disposal of fallen trees, limbs, brush piles, stumps, and land-clearing waste from homes and properties. South Carolina Tree Removal Experts provides fast debris removal statewide, including 24/7 emergency storm response. Call (888) 643-4199.
@@ -261,4 +261,3 @@ Every job starts with a free, no-obligation estimate and a clear, honest price. 
 📞 **Call (888) 643-4199 for a Free Debris Removal Estimate**
 
 Free estimates. Licensed and insured. 24/7 emergency service. Serving all of South Carolina.
-

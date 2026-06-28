@@ -1,10 +1,12 @@
 ---
 title: Welcome to Our New Tree Care Blog
 publishDate: '2026-06-24'
-author: SC Tree Experts
-category: News
+author: john-smith
+category: news
 tags:
-  - Updates
+  - updates
+draft: false
+noindex: false
 excerpt: We are excited to launch our new tree care blog! Expect expert advice, project highlights, and safety guides from South Carolina's trusted arborists.
 seoTitle: Welcome to Our New Tree Care Blog | SC Tree Removal Experts
 seoDescription: We are excited to launch our new tree care blog! Expect expert advice, project highlights, and safety guides from South Carolina's trusted arborists.

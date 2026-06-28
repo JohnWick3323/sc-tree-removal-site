@@ -1,9 +1,9 @@
 ---
 title: "Forestry Mulching"
-metaTitle: "Forestry Mulching in South Carolina | SC Tree Removal Experts"
-metaDescription: "Forestry mulching clears wooded and overgrown land in a single pass. South Carolina Tree Removal Experts serves homeowners statewide. Call (888) 643-4199."
+metaTitle: "Forestry Mulching in South Carolina | South Carolina Tree Removal Experts"
+metaDescription: "Expert forestry mulching in South Carolina from licensed, insured tree service professionals. Free estimates across the state."
+faqs: []
 ---
-
 # **Forestry Mulching in South Carolina**
 
 Forestry mulching is a land-clearing method that uses one machine to grind trees, brush, and stumps into mulch in a single pass — no hauling or burning. In South Carolina, it typically costs $150 to $500 or more per acre. South Carolina Tree Removal Experts serves homeowners and landowners statewide. Call (888) 643-4199 for a free estimate.
@@ -230,4 +230,3 @@ Every job starts with a free, no-obligation estimate and a clear, honest price. 
 📞 **Call (888) 643-4199 for Your Free Forestry Mulching Estimate**
 
 Free estimates. Licensed and insured. Serving all of South Carolina.
-
