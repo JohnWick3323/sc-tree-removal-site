@@ -1,23 +1,46 @@
 ---
 import { site } from "../../data/site";
-import { services } from '../../data/services';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
-import ContactForm from '../../components/ContactForm.astro';
-import { Phone, CheckCircle, ShieldCheck, HardHat, MapPin, Leaf, ChevronDown, Award, Users, AlertTriangle } from 'lucide-react';
-
-const pillars = services.filter(s => s.isPillar);
-const supportingByCategory = services.filter(s => !s.isPillar).reduce((acc, s) => {
-  if (!acc[s.category]) acc[s.category] = [];
-  acc[s.category].push(s);
-  return acc;
-}, {} as Record<string, typeof services>);
+import { Phone, ChevronDown, ShieldCheck, Leaf, AlertTriangle, HardHat, Users } from 'lucide-react';
 
 const breadcrumbs = [{ name: 'Home', href: '/' }, { name: 'Services', href: '/services/' }];
 const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": breadcrumbs.map((bc, idx) => ({ "@type": "ListItem", "position": idx + 1, "name": bc.name, "item": `${site.url}${bc.href}` })) };
-const itemListSchema = { "@context": "https://schema.org", "@type": "ItemList", "name": "Tree Removal Services in South Carolina", "itemListElement": services.map((s, idx) => ({ "@type": "ListItem", "position": idx + 1, "url": `${site.url}/services/${s.slug}/`, "name": s.name })) };
-const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "How much does tree removal cost in South Carolina?", "acceptedAnswer": { "@type": "Answer", "text": "Tree removal costs in South Carolina vary depending on several factors — including the size of the tree, its location, how close it is to structures, and the method required for safe removal. We never quote a fixed price without seeing the job first —but we always provide a free, transparent estimate so you know exactly what to expect before any work begins." } }, { "@type": "Question", "name": "Do you offer free estimates?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — South Carolina Tree Removal Experts provides free on-site estimates on every job, with no obligation and no pressure. Simply call (888) 643-4199 and we will schedule a visit at a time that works for you." } }, { "@type": "Question", "name": "Are you licensed and insured in South Carolina?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — we are fully licensed and insured in the state of South Carolina on every job we perform. We carry complete liability coverage and workers' compensation so you are fully protected throughout the entire removal process." } }, { "@type": "Question", "name": "How quickly can you respond to a tree emergency in South Carolina?", "acceptedAnswer": { "@type": "Answer", "text": "South Carolina Tree Removal Experts operates 24 hours a day, 7 days a week for emergency tree removal situations. We prioritize emergency calls and dispatch a crew as quickly as possible — whether the emergency is in Charleston, Greenville, Myrtle Beach, Columbia, or anywhere else across the state." } }, { "@type": "Question", "name": "Do you work with insurance claims for storm damage?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — we understand that storm damage tree removal often involves a homeowner's insurance claim. We document the removal process thoroughly and can provide the paperwork and photos your insurance company may require to support your claim." } }, { "@type": "Question", "name": "What size trees can you remove?", "acceptedAnswer": { "@type": "Answer", "text": "South Carolina Tree Removal Experts removes trees of every size — from small ornamental trees in residential yards to massive Loblolly Pines, Water Oaks, and Southern Live Oaks on large properties. For oversized or hard-to-access trees, we use our crane-assisted removal equipment to handle the job safely and without damaging your property." } }, { "@type": "Question", "name": "Do You Serve My Area in South Carolina?", "acceptedAnswer": { "@type": "Answer", "text": "We serve all of South Carolina — including Columbia, Charleston, Greenville, Myrtle Beach, Spartanburg, Rock Hill, Summerville, Florence, Hilton Head, Anderson, Aiken, Lexington, and every city and town in between. If you are in South Carolina, we can help — call (888) 643-4199 to confirm service availability in your area." } }] };
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Tree Removal Services in South Carolina",
+  "itemListElement": [
+    "tree-removal",
+    "dead-tree-removal",
+    "hazardous-tree-removal",
+    "crane-assisted-tree-removal",
+    "tree-cutting-felling",
+    "emergency-tree-removal",
+    "emergency-storm-response",
+    "fallen-tree-removal",
+    "tree-on-house-removal",
+    "tree-on-car-removal",
+    "land-clearing",
+    "forestry-mulching",
+    "brush-clearing",
+    "debris-removal"
+  ].map((slug, idx) => ({ "@type": "ListItem", "position": idx + 1, "url": `${site.url}/services/${slug}/` }))
+};
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    ["How much does tree removal cost in South Carolina?", "Tree removal costs in South Carolina vary depending on several factors, including the size of the tree, its location, how close it is to structures, and the method required for safe removal. We never quote a fixed price without seeing the job first, but we always provide a free, transparent estimate so you know exactly what to expect before any work begins."],
+    ["Do you offer free estimates?", "Yes. South Carolina Tree Removal Experts provides free on-site estimates on every job, with no obligation and no pressure. Simply call (888) 643-4199 and we will schedule a visit at a time that works for you."],
+    ["Are you licensed and insured in South Carolina?", "Yes. We are fully licensed and insured in the state of South Carolina on every job we perform. We carry complete liability coverage and workers' compensation so you are fully protected throughout the entire removal process."],
+    ["How quickly can you respond to a tree emergency in South Carolina?", "South Carolina Tree Removal Experts operates 24 hours a day, 7 days a week for emergency tree removal situations. We prioritize emergency calls and dispatch a crew as quickly as possible whether the emergency is in Charleston, Greenville, Myrtle Beach, Columbia, or anywhere else across the state."],
+    ["Do you work with insurance claims for storm damage?", "Yes. We understand that storm damage tree removal often involves a homeowner's insurance claim. We document the removal process thoroughly and can provide the paperwork and photos your insurance company may require to support your claim."],
+    ["What size trees can you remove?", "South Carolina Tree Removal Experts removes trees of every size, from small ornamental trees in residential yards to massive Loblolly Pines, Water Oaks, and Southern Live Oaks on large properties. For oversized or hard-to-access trees, we use crane-assisted removal equipment to handle the job safely and without damaging your property."],
+    ["Do you serve my area in South Carolina?", "We serve all of South Carolina, including Columbia, Charleston, Greenville, Myrtle Beach, Spartanburg, Rock Hill, Summerville, Florence, Hilton Head, Anderson, Aiken, Lexington, and every city and town in between."]
+  ].map(([name, text]) => ({ "@type": "Question", name, "acceptedAnswer": { "@type": "Answer", text } }))
+};
 ---
 
 <BaseLayout title="Tree Removal in South Carolina | South Carolina Tree Removal Experts" description="Need professional tree removal in South Carolina? South Carolina Tree Removal Experts has 38 years of experience. Licensed & insured. Free quotes. Call (888) 643-4199.">
@@ -30,89 +53,212 @@ const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", "mainE
     <div class="absolute inset-0 z-0"><div class="absolute inset-0 bg-primary-900/85 backdrop-blur-sm z-10"></div><img src="/images/optimized/hero-services.webp" alt="South Carolina Tree Removal Experts at Work" class="w-full h-full object-cover" /></div>
     <div class="container mx-auto px-4 md:px-8 max-w-5xl relative z-20 text-center text-white">
       <nav class="flex justify-center mb-8"><ol class="flex items-center gap-2 text-sm font-medium text-primary-200">{breadcrumbs.map((bc, idx) => (<li class="flex items-center gap-2"><a href={bc.href} class="hover:text-white transition-colors">{bc.name}</a>{idx < breadcrumbs.length - 1 && <span class="text-primary-500">/</span>}</li>))}</ol></nav>
-      <h1 class="text-4xl md:text-6xl font-bold font-heading mb-8 leading-tight">South Carolina's Most Trusted Tree Removal Experts &mdash; <span class="text-primary-400">Serving the Entire State for 38 Years</span></h1>
-      <p class="text-xl text-primary-50 max-w-3xl mx-auto leading-relaxed mb-12">Licensed. Insured. Local. Available 24/7 for Emergency Tree Removal Across All of South Carolina.</p>
+      <h1 class="text-4xl md:text-6xl font-bold font-heading mb-8 leading-tight">South Carolina's Most Trusted Tree Removal Experts - <span class="text-primary-400">Serving the Entire State for 38 Years</span></h1>
+      <p class="text-xl text-primary-50 max-w-3xl mx-auto leading-relaxed mb-10">Licensed. Insured. Local. Available 24/7 for Emergency Tree Removal Across All of South Carolina.</p>
       <div class="grid grid-cols-2 md:grid-cols-5 gap-3 mb-12 max-w-4xl mx-auto">
-        <div class="bg-white/10 backdrop-blur-sm border border-white/15 rounded-xl px-4 py-3 text-center"><span class="block text-xs font-bold text-primary-300">38 Years</span><span class="block text-xs text-white/70">Experience</span></div>
-        <div class="bg-white/10 backdrop-blur-sm border border-white/15 rounded-xl px-4 py-3 text-center"><span class="block text-xs font-bold text-primary-300">Licensed</span><span class="block text-xs text-white/70">&amp; Insured</span></div>
-        <div class="bg-white/10 backdrop-blur-sm border border-white/15 rounded-xl px-4 py-3 text-center"><span class="block text-xs font-bold text-primary-300">Free</span><span class="block text-xs text-white/70">Estimates</span></div>
-        <div class="bg-white/10 backdrop-blur-sm border border-white/15 rounded-xl px-4 py-3 text-center"><span class="block text-xs font-bold text-primary-300">24/7</span><span class="block text-xs text-white/70">Emergency Response</span></div>
-        <div class="bg-white/10 backdrop-blur-sm border border-white/15 rounded-xl px-4 py-3 text-center col-span-2 md:col-span-1"><span class="block text-xs font-bold text-primary-300">Serving</span><span class="block text-xs text-white/70">All of SC</span></div>
+        {['38 Years of Experience','Licensed & Insured in SC','Free Estimates','24/7 Emergency Response','Serving All of South Carolina'].map(item => (
+          <div class="bg-white/10 backdrop-blur-sm border border-white/15 rounded-xl px-4 py-3 text-center text-xs font-bold text-primary-100">{item}</div>
+        ))}
       </div>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center"><a href="/contact/" class="bg-primary-600 hover:bg-primary-700 text-white px-8 py-4 rounded-md font-bold text-lg transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1">Get Your Free Estimate Today</a><a href={`tel:${site.phone}`} class="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 px-8 py-4 rounded-md font-bold text-lg transition-all text-center flex items-center justify-center gap-3"><Phone size={20} /> {site.phone}</a></div>
+      <div class="max-w-3xl mx-auto text-primary-50 text-lg leading-relaxed mb-10 space-y-4">
+        <p>South Carolina Tree Removal Experts is the Palmetto State's most experienced tree removal company - trusted by homeowners, property managers, and businesses for over 38 years.</p>
+        <p>Whether you have a dead tree threatening your roof, storm damage that cannot wait, or land that needs clearing, we are the team South Carolina calls.</p>
+      </div>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center"><a href="/contact/" class="bg-primary-600 hover:bg-primary-700 text-white px-8 py-4 rounded-md font-bold text-lg transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1">Get Your Free Estimate Today</a><a href={`tel:${site.phone}`} class="bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 px-8 py-4 rounded-md font-bold text-lg transition-all text-center flex items-center justify-center gap-3"><Phone size={20} /> Call Now - {site.phone}</a></div>
+      <div class="mt-12 rounded-2xl border border-primary-400/40 bg-primary-600/30 p-6 text-white">
+        <p class="font-bold text-lg">Storm Damage? Tree on Your House or Car?</p>
+        <p class="text-primary-50 mt-2">We respond fast - 24 hours a day, 7 days a week. <a href="/services/emergency-tree-removal/" class="font-bold underline">Emergency Tree Removal Available Statewide</a>.</p>
+      </div>
     </div>
   </section>
 
-  <section class="py-24 bg-white"><div class="container mx-auto px-4 md:px-8 max-w-5xl">
-    <h2 class="text-4xl md:text-5xl font-bold font-heading text-neutral-900 mb-10 text-center">Professional Tree Removal Services Across All of South Carolina</h2>
-    <p class="text-lg text-neutral-600 mb-6 leading-relaxed">South Carolina Tree Removal Experts has been serving homeowners, businesses, and property managers across the Palmetto State for over 38 years. We are a licensed and insured tree removal company built on a reputation for safe, efficient, and professional work on every single job.</p>
-    <p class="text-lg text-neutral-600 mb-6 leading-relaxed">From Columbia and Charleston to Greenville, Myrtle Beach, and everywhere in between, our experienced crews are ready to handle any tree removal challenge. Whether it is a single hazardous tree in your backyard or a full commercial land clearing project, we have the equipment, the expertise, and the experience to get it done right.</p>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
-      <div><h3 class="text-2xl font-bold font-heading text-neutral-900 mb-4">What We Do</h3><p class="text-neutral-600 mb-4 leading-relaxed">We specialize in tree removal, emergency tree response, land and lot clearing, brush clearing, debris removal, and forestry mulching. Every job — no matter the size — is handled by trained, local crews who know South Carolina's tree landscape better than anyone.</p></div>
-      <div><h3 class="text-2xl font-bold font-heading text-neutral-900 mb-4">Who We Serve</h3><p class="text-neutral-600 mb-4 leading-relaxed">We work with South Carolina homeowners dealing with dead, damaged, or dangerous trees on their property. We also serve property managers, business owners, developers, and contractors who need reliable, large-scale tree removal and land clearing services.</p></div>
-    </div>
-
-    <div class="mt-16 bg-neutral-50 rounded-2xl border border-neutral-100 p-8 md:p-10">
-      <h3 class="text-2xl font-bold font-heading text-neutral-900 mb-6">Our Services at a Glance</h3>
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        {pillars.map(pillar => {
-          const siblings = supportingByCategory[pillar.category] || [];
-          return (
-            <a href={`/services/${pillar.slug}/`} class="flex items-start gap-4 p-4 bg-white rounded-xl border border-neutral-100 hover:border-primary-500 hover:shadow-md transition-all group">
-              <div class="bg-primary-50 p-3 rounded-lg text-primary-600 shrink-0">{pillar.category === 'tree-removal' && <Leaf size={22} />}{pillar.category === 'emergency' && <AlertTriangle size={22} />}{pillar.category === 'land-clearing' && <HardHat size={22} />}</div>
-              <div>
-                <span class="font-bold text-neutral-900 group-hover:text-primary-700 transition-colors">{pillar.name}</span>
-                <p class="text-sm text-neutral-500 mt-1">{pillar.description}</p>
-                <div class="mt-2 flex flex-wrap gap-2">
-                  {siblings.sort((a,b)=>a.clusterOrder-b.clusterOrder).map((s: any) => <span class="text-xs bg-primary-50 text-primary-700 px-2 py-1 rounded-full">{s.name}</span>)}
-                </div>
-              </div>
-            </a>
-          )})}
+  <section class="py-24 bg-white">
+    <div class="container mx-auto px-4 md:px-8 max-w-5xl">
+      <h2 class="text-4xl md:text-5xl font-bold font-heading text-neutral-900 mb-10 text-center">Professional Tree Removal Services Across All of South Carolina</h2>
+      <div class="prose prose-lg prose-primary max-w-none text-neutral-600">
+        <p>South Carolina Tree Removal Experts has been serving homeowners, businesses, and property managers across the Palmetto State for over 38 years.</p>
+        <p>We are a licensed and insured tree removal company - built on a reputation for safe, efficient, and professional work on every single job.</p>
+        <p>From Columbia and Charleston to Greenville, Myrtle Beach, and everywhere in between, our experienced crews are ready to handle any tree removal challenge.</p>
+        <p>Whether it is a single hazardous tree in your backyard or a full commercial land clearing project, we have the equipment, the expertise, and the experience to get it done right.</p>
       </div>
-      <div class="mt-8 pt-6 border-t border-neutral-200">
-        <ul class="space-y-3 text-neutral-600 text-sm">
-          <li><strong>Land &amp; Lot Clearing</strong> &mdash; Forestry mulching, brush clearing, and debris removal</li>
-          <li><strong>Emergency Tree Removal</strong> &mdash; Storm response, fallen tree removal, and tree-on-structure response</li>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
+        <div><h3 class="text-2xl font-bold font-heading text-neutral-900 mb-4">What We Do</h3><p class="text-neutral-600 leading-relaxed">We specialize exclusively in tree removal, emergency tree response, land and lot clearing, and commercial tree services. Every job - no matter the size - is handled by trained, local crews who know South Carolina's tree landscape better than anyone.</p></div>
+        <div><h3 class="text-2xl font-bold font-heading text-neutral-900 mb-4">Who We Serve</h3><p class="text-neutral-600 leading-relaxed">We work with South Carolina homeowners dealing with dead, damaged, or dangerous trees on their property. We also serve property managers, business owners, developers, and contractors who need reliable, large-scale tree removal and land clearing services.</p></div>
+      </div>
+      <div class="mt-16 rounded-2xl bg-neutral-50 border border-neutral-100 p-8">
+        <h3 class="text-2xl font-bold font-heading text-neutral-900 mb-6">Our Services at a Glance</h3>
+        <ul class="space-y-4 text-neutral-700">
+          <li><a href="/services/tree-removal/" class="font-bold text-primary-700 hover:text-primary-800">Tree Removal</a> - Dead tree removal, hazardous tree removal, crane-assisted removal, and tree cutting &amp; felling</li>
+          <li><a href="/services/emergency-tree-removal/" class="font-bold text-primary-700 hover:text-primary-800">Emergency Tree Removal</a> - 24/7 storm response, fallen tree removal, tree on house removal, and tree on car removal</li>
+          <li><a href="/services/land-clearing/" class="font-bold text-primary-700 hover:text-primary-800">Land &amp; Lot Clearing</a> - Forestry mulching, brush clearing, and debris removal</li>
+          <li><a href="/contact/" class="font-bold text-primary-700 hover:text-primary-800">Commercial Tree Services</a> - Large-scale tree removal and clearing for businesses, HOAs, developers, and municipalities</li>
         </ul>
       </div>
     </div>
-    
-    <div class="mt-20">
-      <h2 class="text-3xl md:text-4xl font-bold font-heading text-neutral-900 mb-6">Why South Carolina Homeowners Have Trusted Us for 38 Years</h2>
-      <div class="prose prose-lg prose-primary max-w-none text-neutral-600 mb-16">
-        <p>With nearly four decades of hands-on experience, we have built a track record that speaks for itself.</p>
-        <p>We are not a call center or a national franchise — we are a local South Carolina tree removal company that shows up, does the work safely, and leaves your property clean.</p>
-        <p>Our crews understand the unique challenges posed by South Carolina's climate — from hurricane season along the Grand Strand to ice storms in the Upstate.</p>
-        <p>That local knowledge, combined with 38 years of experience, is what sets South Carolina Tree Removal Experts apart from every other tree service in the state.</p>
-      </div>
+  </section>
 
-      <h2 class="text-3xl md:text-4xl font-bold font-heading text-neutral-900 mb-6">What to Expect When You Call Us for Tree Removal</h2>
-      <div class="prose prose-lg prose-primary max-w-none text-neutral-600 mb-10">
-        <p>When you call South Carolina Tree Removal Experts, we move quickly. We schedule a free on-site assessment, give you a transparent quote with no hidden fees, and get the job scheduled at a time that works for you.</p>
-        <p>Our crew arrives on time, works efficiently, and cleans up completely before leaving your property.</p>
-        <p>From your first call to the final walkthrough — every step is handled with professionalism and care.</p>
-      </div>
-      <div class="bg-primary-50 p-6 rounded-xl border border-primary-100 flex items-center gap-4">
-        <div class="bg-primary-600 text-white p-3 rounded-full shrink-0"><Phone size={24} /></div>
-        <p class="text-xl font-bold text-primary-900 m-0">Call <a href="tel:888-643-4199" class="text-primary-700 hover:text-primary-800">(888) 643-4199</a> for a Free Tree Removal Quote — Serving All of South Carolina</p>
+  <section class="py-24 bg-neutral-50">
+    <div class="container mx-auto px-4 md:px-8 max-w-7xl">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+        <article class="bg-white rounded-2xl border border-neutral-100 p-8 shadow-sm">
+          <div class="flex items-center gap-3 mb-5 text-primary-700"><Leaf size={28} /><h2 class="text-3xl font-bold font-heading text-neutral-900">Tree Removal in South Carolina</h2></div>
+          <p class="text-neutral-600 mb-6">When a tree on your property becomes a safety risk, waiting is never the right option. Dead, damaged, and overgrown trees can fall without warning - putting your family, your home, and your neighbors at serious risk.</p>
+          <p class="text-neutral-600 mb-8">South Carolina Tree Removal Experts has been safely removing trees of every size and species across South Carolina for over 38 years. Our crews use professional-grade equipment and proven techniques to remove any tree cleanly, safely, and without unnecessary damage to your property.</p>
+          <div class="space-y-5">
+            <div><h3 class="text-xl font-bold text-neutral-900"><a href="/services/dead-tree-removal/" class="hover:text-primary-700">Dead Tree Removal</a></h3><p class="text-neutral-600 mt-2">A dead tree might look harmless standing in your yard, but it is one of the most dangerous hazards on any property. Dead trees lose structural integrity fast and can collapse onto your home, fence, vehicle, or a family member.</p></div>
+            <div><h3 class="text-xl font-bold text-neutral-900"><a href="/services/hazardous-tree-removal/" class="hover:text-primary-700">Hazardous Tree Removal</a></h3><p class="text-neutral-600 mt-2">Leaning trees, storm-split trunks, root-damaged trees, and trees growing too close to power lines or foundations all qualify as serious hazards that need immediate attention.</p></div>
+            <div><h3 class="text-xl font-bold text-neutral-900"><a href="/services/crane-assisted-tree-removal/" class="hover:text-primary-700">Crane-Assisted Tree Removal</a></h3><p class="text-neutral-600 mt-2">Crane-assisted tree removal is the safest solution for large trees in tight spaces, trees overhanging rooftops, or removals near power lines and fences.</p></div>
+            <div><h3 class="text-xl font-bold text-neutral-900"><a href="/services/tree-cutting-felling/" class="hover:text-primary-700">Tree Cutting &amp; Felling</a></h3><p class="text-neutral-600 mt-2">Tree cutting and felling is the controlled process of bringing a tree down safely in a planned direction after a thorough site assessment.</p></div>
+          </div>
+          <h3 class="text-2xl font-bold text-neutral-900 mt-8 mb-4">What to Expect When You Call Us for Tree Removal</h3>
+          <p class="text-neutral-600">When you call South Carolina Tree Removal Experts, we move quickly. We schedule a free on-site assessment, give you a transparent quote with no hidden fees, and get the job scheduled at a time that works for you. From your first call to the final walkthrough, every step is handled with professionalism and care.</p>
+          <div class="mt-8 rounded-xl bg-primary-50 border border-primary-100 p-5 font-bold text-primary-900">Call <a href="tel:888-643-4199" class="text-primary-700 hover:text-primary-800">(888) 643-4199</a> for a Free Tree Removal Quote - Serving All of South Carolina</div>
+        </article>
+
+        <article class="bg-white rounded-2xl border border-neutral-100 p-8 shadow-sm">
+          <div class="flex items-center gap-3 mb-5 text-primary-700"><AlertTriangle size={28} /><h2 class="text-3xl font-bold font-heading text-neutral-900">Emergency Tree Removal in South Carolina - 24/7 Fast Response</h2></div>
+          <p class="text-neutral-600 mb-6">When a tree falls on your home, your car, or blocks your driveway after a storm, every minute counts. South Carolina Tree Removal Experts provides 24/7 emergency tree removal services across the entire state because tree emergencies do not wait for business hours.</p>
+          <p class="text-neutral-600 mb-8">Our emergency crews are fully equipped and ready to dispatch at any hour - nights, weekends, and holidays included. With 38 years of experience handling storm damage across South Carolina, we know exactly how to respond fast, work safely, and protect your property from further harm.</p>
+          <div class="space-y-5">
+            <div><h3 class="text-xl font-bold text-neutral-900"><a href="/services/emergency-storm-response/" class="hover:text-primary-700">Emergency Storm Response</a></h3><p class="text-neutral-600 mt-2">When a storm hits, our emergency storm response team mobilizes immediately to clear downed trees, remove dangerous hanging limbs, and make your property safe again.</p></div>
+            <div><h3 class="text-xl font-bold text-neutral-900"><a href="/services/fallen-tree-removal/" class="hover:text-primary-700">Fallen Tree Removal</a></h3><p class="text-neutral-600 mt-2">A fallen tree blocking your driveway, crushing your fence, or lying across your yard is more than an inconvenience. We safely remove fallen trees of any size and haul away all debris.</p></div>
+            <div><h3 class="text-xl font-bold text-neutral-900"><a href="/services/tree-on-house-removal/" class="hover:text-primary-700">Tree on House Removal</a></h3><p class="text-neutral-600 mt-2">A tree on your roof or against your home's structure must be handled carefully. We section and lift the tree away to prevent further damage and document the process for insurance support.</p></div>
+            <div><h3 class="text-xl font-bold text-neutral-900"><a href="/services/tree-on-car-removal/" class="hover:text-primary-700">Tree on Car Removal</a></h3><p class="text-neutral-600 mt-2">A tree or large branch on your vehicle requires controlled removal to avoid additional damage. Our crew uses the right equipment and techniques to safely lift and remove the tree.</p></div>
+          </div>
+          <h3 class="text-2xl font-bold text-neutral-900 mt-8 mb-4">Do Not Wait - Call Us the Moment It Happens</h3>
+          <p class="text-neutral-600">The longer a fallen or storm-damaged tree sits against your home, car, or property, the greater the risk of additional damage.</p>
+          <div class="mt-8 rounded-xl bg-primary-50 border border-primary-100 p-5 font-bold text-primary-900">24/7 Emergency Service - Call <a href="tel:888-643-4199" class="text-primary-700 hover:text-primary-800">(888) 643-4199</a> Now</div>
+        </article>
+
+        <article class="bg-white rounded-2xl border border-neutral-100 p-8 shadow-sm">
+          <div class="flex items-center gap-3 mb-5 text-primary-700"><HardHat size={28} /><h2 class="text-3xl font-bold font-heading text-neutral-900">Land &amp; Lot Clearing Services in South Carolina</h2></div>
+          <p class="text-neutral-600 mb-6">Whether you are preparing a residential lot for construction, clearing overgrown acreage, or managing a large development project, South Carolina Tree Removal Experts has the equipment and experience to handle it.</p>
+          <p class="text-neutral-600 mb-8">We provide professional land and lot clearing services across all of South Carolina for homeowners, developers, contractors, and large property owners. Our crews work efficiently on properties of any size - from a single residential lot in Summerville to hundreds of acres in the SC Midlands or Pee Dee region.</p>
+          <div class="space-y-5">
+            <div><h3 class="text-xl font-bold text-neutral-900"><a href="/services/forestry-mulching/" class="hover:text-primary-700">Forestry Mulching</a></h3><p class="text-neutral-600 mt-2">Forestry mulching is one of the most efficient and environmentally responsible land clearing methods available, turning cleared material into natural ground cover that protects the soil.</p></div>
+            <div><h3 class="text-xl font-bold text-neutral-900"><a href="/services/brush-clearing/" class="hover:text-primary-700">Brush Clearing</a></h3><p class="text-neutral-600 mt-2">Our brush clearing service removes dense vegetation, briars, scrub trees, and overgrowth quickly and completely.</p></div>
+            <div><h3 class="text-xl font-bold text-neutral-900"><a href="/services/debris-removal/" class="hover:text-primary-700">Debris Removal</a></h3><p class="text-neutral-600 mt-2">After tree removal, storm events, or land clearing projects, debris removal is the final critical step. We handle complete debris removal and haul-away.</p></div>
+          </div>
+          <h3 class="text-2xl font-bold text-neutral-900 mt-8 mb-4">Who Our Land Clearing Services Are For</h3>
+          <p class="text-neutral-600">Homeowners clearing overgrown yards, developers preparing sites for new construction, contractors managing large projects, and agricultural landowners all rely on South Carolina Tree Removal Experts to get the job done right.</p>
+          <div class="mt-8 rounded-xl bg-primary-50 border border-primary-100 p-5 font-bold text-primary-900">Get Your Free Lot Clearing Estimate - Call <a href="tel:888-643-4199" class="text-primary-700 hover:text-primary-800">(888) 643-4199</a></div>
+        </article>
+
+        <article class="bg-white rounded-2xl border border-neutral-100 p-8 shadow-sm">
+          <div class="flex items-center gap-3 mb-5 text-primary-700"><Users size={28} /><h2 class="text-3xl font-bold font-heading text-neutral-900">Commercial Tree Services in South Carolina</h2></div>
+          <p class="text-neutral-600 mb-6">Trees on commercial properties are not just a landscaping concern. They are a safety responsibility and a liability issue. South Carolina Tree Removal Experts provides professional commercial tree removal and clearing services for businesses, property managers, HOAs, municipalities, and developers across the entire state.</p>
+          <p class="text-neutral-600 mb-8">We understand that commercial jobs require a higher level of professionalism, stricter safety standards, and the ability to work around tenants, customers, and active business operations.</p>
+          <h3 class="text-2xl font-bold text-neutral-900 mb-4">Who We Work With</h3>
+          <p class="text-neutral-600 mb-6">We regularly work with property managers and landlords, homeowner associations, shopping centers and retail properties, office parks and business campuses, municipalities and government facilities, and construction developers clearing large tracts of land.</p>
+          <h3 class="text-2xl font-bold text-neutral-900 mb-4">What Our Commercial Services Include</h3>
+          <p class="text-neutral-600 mb-6">Our commercial services include large-tree removal, crane-assisted removal for complex jobs, forestry mulching and lot clearing, storm-damage response for commercial properties, and ongoing tree-removal contracts for property management companies.</p>
+          <h3 class="text-2xl font-bold text-neutral-900 mb-4">Fully Licensed, Insured, and Built for Large-Scale Work</h3>
+          <p class="text-neutral-600 mb-6">Commercial tree work carries significant liability, and hiring an uninsured or underqualified crew puts your business and property at serious risk. Our crew size, equipment capacity, and project management experience allow us to take on large-scale commercial projects that smaller operators cannot handle.</p>
+          <h3 class="text-2xl font-bold text-neutral-900 mb-4">Flexible Scheduling Around Your Business Operations</h3>
+          <p class="text-neutral-600">Our team works around your schedule, including early morning, evening, and weekend appointments, to minimize disruption to your business, tenants, and customers.</p>
+          <div class="mt-8 rounded-xl bg-primary-50 border border-primary-100 p-5 font-bold text-primary-900">Contact South Carolina Tree Removal Experts for a Commercial Consultation - Call <a href="tel:888-643-4199" class="text-primary-700 hover:text-primary-800">(888) 643-4199</a></div>
+        </article>
       </div>
     </div>
-  </div></section>
+  </section>
 
-  <!-- FAQ Section (same as current) -->
-  <section class="py-24 bg-white border-t border-neutral-100"><div class="container mx-auto px-4 md:px-8 max-w-4xl"><h2 class="text-4xl font-bold font-heading text-neutral-900 mb-16 text-center">Frequently Asked Questions About Tree Removal in South Carolina</h2><div class="space-y-4">{[
-    { q: 'How much does tree removal cost in South Carolina?', a: 'Tree removal costs in South Carolina vary depending on several factors — including the size of the tree, its location, how close it is to structures, and the method required for safe removal. We never quote a fixed price without seeing the job first —but we always provide a free, transparent estimate so you know exactly what to expect before any work begins.' },
-    { q: 'Do you offer free estimates?', a: 'Yes — South Carolina Tree Removal Experts provides free on-site estimates on every job, with no obligation and no pressure. Simply call (888) 643-4199 and we will schedule a visit at a time that works for you.' },
-    { q: 'Are you licensed and insured in South Carolina?', a: "Yes — we are fully licensed and insured in the state of South Carolina on every job we perform. We carry complete liability coverage and workers' compensation so you are fully protected throughout the entire removal process." },
-    { q: 'How quickly can you respond to a tree emergency in South Carolina?', a: 'South Carolina Tree Removal Experts operates 24 hours a day, 7 days a week for emergency tree removal situations. We prioritize emergency calls and dispatch a crew as quickly as possible — whether the emergency is in Charleston, Greenville, Myrtle Beach, Columbia, or anywhere else across the state.' },
-    { q: 'Do you work with insurance claims for storm damage?', a: "Yes — we understand that storm damage tree removal often involves a homeowner's insurance claim. We document the removal process thoroughly and can provide the paperwork and photos your insurance company may require to support your claim." },
-    { q: 'What size trees can you remove?', a: 'South Carolina Tree Removal Experts removes trees of every size — from small ornamental trees in residential yards to massive Loblolly Pines, Water Oaks, and Southern Live Oaks on large properties. For oversized or hard-to-access trees, we use our crane-assisted removal equipment to handle the job safely and without damaging your property.' },
-    { q: 'Do You Serve My Area in South Carolina?', a: 'We serve all of South Carolina — including Columbia, Charleston, Greenville, Myrtle Beach, Spartanburg, Rock Hill, Summerville, Florence, Hilton Head, Anderson, Aiken, Lexington, and every city and town in between. If you are in South Carolina, we can help — call (888) 643-4199 to confirm service availability in your area.' }
-  ].map(faq => (<details class="group bg-neutral-50 rounded-2xl border border-neutral-200 [&_summary::-webkit-details-marker]:hidden"><summary class="flex cursor-pointer items-center justify-between p-6 md:p-8 text-neutral-900 font-bold text-lg">{faq.q}<span class="transition duration-300 group-open:-rotate-180 text-primary-600 bg-white p-2 rounded-full shadow-sm flex-shrink-0 ml-4"><ChevronDown size={22} /></span></summary><div class="px-6 pb-6 md:px-8 md:pb-8 text-neutral-600 leading-relaxed">{faq.a}</div></details>))}</div><div class="mt-12 bg-primary-50 rounded-2xl border border-primary-100 p-6 text-center"><p class="font-bold text-neutral-900 text-lg">📞 Still Have Questions? Call South Carolina Tree Removal Experts at (888) 643-4199 — We Are Happy to Help.</p></div></div></section>
+  <section class="py-24 bg-white">
+    <div class="container mx-auto px-4 md:px-8 max-w-6xl">
+      <h2 class="text-4xl md:text-5xl font-bold font-heading text-neutral-900 mb-6 text-center">Why South Carolina Homeowners and Businesses Choose Us</h2>
+      <p class="text-lg text-neutral-600 leading-relaxed text-center max-w-3xl mx-auto mb-14">Choosing the right tree removal company is not just about price. It is about trust, experience, and knowing the job will be done safely.</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {[
+          ['38 Years of Experience in South Carolina', 'Experience is not something you can fake, and 38 years of hands-on tree removal work across South Carolina speaks for itself. We have handled every type of tree removal situation imaginable, from routine dead tree removals to complex crane-assisted jobs in tight commercial spaces.'],
+          ['Licensed and Fully Insured in South Carolina', 'Every tree removal job carries risk. South Carolina Tree Removal Experts is fully licensed and insured, carrying comprehensive liability coverage and workers compensation on every job we take.'],
+          ['Local Knowledge That Makes a Real Difference', 'We are a local South Carolina tree removal company through and through. Our crews know native tree species, seasonal storm patterns, regional soil conditions, and local regulations.'],
+          ['Free Estimates With No Hidden Fees', 'We provide free, transparent estimates on every job - no hidden fees, no surprise charges, and no pressure.'],
+          ['Full Cleanup Included on Every Job', 'Our job is not done when the tree comes down. Every tree removal job includes full debris cleanup and haul-away so you are never left with a pile of logs, branches, or wood chips.'],
+          ['24/7 Emergency Availability', 'Tree emergencies do not follow a schedule. South Carolina Tree Removal Experts is available 24 hours a day, 7 days a week across the entire state.']
+        ].map(([title, text]) => (
+          <div class="rounded-2xl bg-neutral-50 border border-neutral-100 p-8">
+            <div class="flex items-center gap-3 mb-4 text-primary-700"><ShieldCheck size={22} /><h3 class="text-2xl font-bold text-neutral-900">{title}</h3></div>
+            <p class="text-neutral-600 leading-relaxed">{text}</p>
+          </div>
+        ))}
+      </div>
+      <p class="text-neutral-600 leading-relaxed mt-10 max-w-4xl mx-auto">The <a href="https://www.srs.fs.usda.gov/compass/2016/09/06/a-homeowners-guide-to-dealing-with-storm-damaged-trees/" target="_blank" rel="noopener" class="text-primary-700 font-semibold hover:text-primary-800">USDA Forest Service</a> recommends that homeowners treat storm-damaged trees as urgent hazards and contact a professional tree removal service without delay.</p>
+      <div class="mt-10 rounded-xl bg-primary-50 border border-primary-100 p-5 font-bold text-primary-900">Call <a href="tel:888-643-4199" class="text-primary-700 hover:text-primary-800">(888) 643-4199</a> for a Free Estimate - Licensed, Insured &amp; Ready to Help Across All of South Carolina</div>
+    </div>
+  </section>
 
-  <section class="py-24 bg-primary-600 relative overflow-hidden"><div class="absolute inset-0 bg-neutral-900/10 z-0"></div><div class="absolute bottom-0 left-0 w-96 h-96 bg-primary-500 rounded-full blur-3xl opacity-30 translate-y-1/2 -translate-x-1/2"></div><div class="container mx-auto px-4 md:px-8 max-w-4xl relative z-10 text-center"><h2 class="text-3xl md:text-5xl font-bold font-heading text-white mb-8 leading-tight">Need a Tree Removed in South Carolina? We Are Ready.</h2><p class="text-lg text-primary-50 mb-10 max-w-2xl mx-auto leading-relaxed">When a tree becomes a problem — whether it is dead, damaged, dangerous, or simply in the wrong place — South Carolina Tree Removal Experts is the team to call. We have been serving South Carolina homeowners, businesses, and property managers for over 38 years — and we are ready to help you today.</p><div class="flex flex-col sm:flex-row gap-4 justify-center mb-12"><a href={`tel:${site.phone}`} class="bg-white text-primary-700 px-10 py-5 rounded-md font-bold text-xl hover:bg-primary-50 transition-all shadow-xl flex items-center justify-center gap-3"><Phone size={24} /> Call (888) 643-4199 for a Free Quote</a><a href="/contact/" class="bg-primary-800 text-white border border-primary-500 px-10 py-5 rounded-md font-bold text-xl hover:bg-primary-900 transition-all text-center">Request a Free Estimate Online</a></div><div class="bg-primary-700/50 backdrop-blur-sm border border-primary-500/40 rounded-2xl p-8 mb-8"><p class="font-bold text-white text-xl mb-3">&#128680; Dealing With a Tree Emergency Right Now?</p><p class="text-primary-100 mb-4">Do not wait &mdash; call us immediately.</p><a href={`tel:${site.phone}`} class="inline-flex items-center justify-center gap-2 bg-white text-primary-700 px-8 py-4 rounded-md font-bold text-lg hover:bg-primary-50 transition-all"><Phone size={20} /> 24/7 Emergency &mdash; Call (888) 643-4199 Now</a><p class="text-primary-200 text-sm mt-3">We serve all of South Carolina around the clock.</p></div><p class="text-white font-bold text-lg mb-2">South Carolina Tree Removal Experts</p><p class="text-primary-200 text-sm mb-4">Licensed, Insured, and Proud to Serve South Carolina for Over 38 Years.</p><p class="text-primary-300 text-xs">South Carolina Tree Removal Experts &mdash; (888) 643-4199</p></div></section>
+  <section class="py-24 bg-neutral-900 text-white">
+    <div class="container mx-auto px-4 md:px-8 max-w-7xl">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <h2 class="text-4xl md:text-5xl font-bold font-heading mb-6">How Our Tree Removal Process Works in South Carolina</h2>
+        <p class="text-lg text-neutral-400">We keep our process simple, transparent, and stress-free from your very first call to the final cleanup.</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {[
+          ['1', 'Call Us or Request a Free Quote', 'Tell us about your tree situation, the type of tree, its location, and any urgency involved, and we will take it from there.'],
+          ['2', 'Free On-Site Assessment', 'Our experienced crew member visits your property, evaluates the tree, assesses surrounding hazards, and determines the safest removal approach.'],
+          ['3', 'Transparent Quote With No Surprises', 'You will know exactly what the job involves, how long it will take, and what the total cost will be before any work begins.'],
+          ['4', 'Professional Removal by an Experienced Crew', 'Our crew handles the entire removal safely and efficiently, whether it requires straightforward felling, crane-assisted lifting, or emergency extraction.'],
+          ['5', 'Complete Debris Cleanup and Haul-Away', 'When the tree is down, our crew clears every branch, log, and piece of debris from your property.'],
+          ['6', 'Final Walkthrough and Your Satisfaction', 'Before we close out any job, we walk the property with you to confirm everything meets your expectations.']
+        ].map(([step, title, text]) => (
+          <div class="bg-neutral-800 p-8 rounded-2xl border border-neutral-700">
+            <div class="text-primary-500 font-bold text-5xl mb-4">{step}</div>
+            <h3 class="text-xl font-bold mb-3">{title}</h3>
+            <p class="text-neutral-400 leading-relaxed">{text}</p>
+          </div>
+        ))}
+      </div>
+      <div class="text-center mt-12"><a href={`tel:${site.phone}`} class="inline-flex items-center justify-center gap-3 rounded-md bg-primary-600 px-8 py-4 font-bold text-white shadow-lg hover:bg-primary-700"><Phone size={22} /> Ready to Get Started? Call (888) 643-4199</a></div>
+    </div>
+  </section>
+
+  <section class="py-24 bg-white border-t border-neutral-100">
+    <div class="container mx-auto px-4 md:px-8 max-w-4xl">
+      <h2 class="text-4xl font-bold font-heading text-neutral-900 mb-16 text-center">Frequently Asked Questions About Tree Removal in South Carolina</h2>
+      <div class="space-y-4">
+        {[
+          ['How Much Does Tree Removal Cost in South Carolina?', 'Tree removal costs in South Carolina vary depending on several factors, including the size of the tree, its location, how close it is to structures, and the method required for safe removal. We never quote a fixed price without seeing the job first, but we always provide a free, transparent estimate so you know exactly what to expect before any work begins.'],
+          ['Do You Offer Free Estimates?', 'Yes. South Carolina Tree Removal Experts provides free on-site estimates on every job, with no obligation and no pressure. Simply call (888) 643-4199 and we will schedule a visit at a time that works for you.'],
+          ['Are You Licensed and Insured in South Carolina?', 'Yes. We are fully licensed and insured in the state of South Carolina on every job we perform. We carry complete liability coverage and workers compensation so you are fully protected throughout the entire removal process.'],
+          ['How Quickly Can You Respond to a Tree Emergency in South Carolina?', 'South Carolina Tree Removal Experts operates 24 hours a day, 7 days a week for emergency tree removal situations. We prioritize emergency calls and dispatch a crew as quickly as possible whether the emergency is in Charleston, Greenville, Myrtle Beach, Columbia, or anywhere else across the state.'],
+          ['Do You Work With Insurance Claims for Storm Damage?', 'Yes. We understand that storm damage tree removal often involves a homeowner insurance claim. We document the removal process thoroughly and can provide the paperwork and photos your insurance company may require to support your claim.'],
+          ['What Size Trees Can You Remove?', 'South Carolina Tree Removal Experts removes trees of every size, from small ornamental trees in residential yards to massive Loblolly Pines, Water Oaks, and Southern Live Oaks on large properties. For oversized or hard-to-access trees, we use crane-assisted removal equipment to handle the job safely and without damaging your property.'],
+          ['Do You Serve My Area in South Carolina?', 'We serve all of South Carolina, including Columbia, Charleston, Greenville, Myrtle Beach, Spartanburg, Rock Hill, Summerville, Florence, Hilton Head, Anderson, Aiken, Lexington, and every city and town in between.']
+        ].map(([q, a]) => (
+          <details class="group bg-neutral-50 rounded-2xl border border-neutral-200 [&_summary::-webkit-details-marker]:hidden">
+            <summary class="flex cursor-pointer items-center justify-between p-6 md:p-8 text-neutral-900 font-bold text-lg">{q}<span class="transition duration-300 group-open:-rotate-180 text-primary-600 bg-white p-2 rounded-full shadow-sm flex-shrink-0 ml-4"><ChevronDown size={22} /></span></summary>
+            <div class="px-6 pb-6 md:px-8 md:pb-8 text-neutral-600 leading-relaxed">{a}</div>
+          </details>
+        ))}
+      </div>
+      <div class="mt-12 bg-primary-50 rounded-2xl border border-primary-100 p-6 text-center"><p class="font-bold text-neutral-900 text-lg">Still Have Questions? Call South Carolina Tree Removal Experts at (888) 643-4199. We Are Happy to Help.</p></div>
+    </div>
+  </section>
+
+  <section class="py-24 bg-primary-600 relative overflow-hidden">
+    <div class="absolute inset-0 bg-neutral-900/10 z-0"></div>
+    <div class="container mx-auto px-4 md:px-8 max-w-4xl relative z-10 text-center text-white">
+      <h2 class="text-3xl md:text-5xl font-bold font-heading mb-8 leading-tight">Need a Tree Removed in South Carolina? We Are Ready.</h2>
+      <p class="text-lg text-primary-50 mb-8 leading-relaxed">When a tree becomes a problem - whether it is dead, damaged, dangerous, or simply in the wrong place - South Carolina Tree Removal Experts is the team to call. We have been serving South Carolina homeowners, businesses, and property managers for over 38 years, and we are ready to help you today.</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left mb-12">
+        <div class="rounded-2xl bg-primary-700/50 p-6 border border-primary-500/40"><h3 class="text-xl font-bold mb-3">Your Safety Is Our Priority</h3><p class="text-primary-100">Every day a dead, leaning, or storm-damaged tree sits on your property is another day your family, home, and neighbors are at risk.</p></div>
+        <div class="rounded-2xl bg-primary-700/50 p-6 border border-primary-500/40"><h3 class="text-xl font-bold mb-3">We Make It Simple</h3><p class="text-primary-100">From your first call to the final cleanup, we handle everything with no stress, no confusion, and no hidden fees.</p></div>
+        <div class="rounded-2xl bg-primary-700/50 p-6 border border-primary-500/40"><h3 class="text-xl font-bold mb-3">Serving All of South Carolina</h3><p class="text-primary-100">Columbia, Charleston, Greenville, Spartanburg, Myrtle Beach, Rock Hill, Summerville, Florence, Hilton Head, Anderson, Aiken, Lexington, and beyond.</p></div>
+      </div>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center mb-10">
+        <a href={`tel:${site.phone}`} class="bg-white text-primary-700 px-10 py-5 rounded-md font-bold text-xl hover:bg-primary-50 transition-all shadow-xl flex items-center justify-center gap-3"><Phone size={24} /> Call (888) 643-4199 for a Free Quote</a>
+        <a href="/contact/" class="bg-primary-800 text-white border border-primary-500 px-10 py-5 rounded-md font-bold text-xl hover:bg-primary-900 transition-all text-center">Request a Free Estimate Online</a>
+      </div>
+      <div class="bg-primary-700/50 backdrop-blur-sm border border-primary-500/40 rounded-2xl p-8 mb-8">
+        <p class="font-bold text-white text-xl mb-3">Dealing With a Tree Emergency Right Now?</p>
+        <p class="text-primary-100 mb-4">Do not wait. Call us immediately.</p>
+        <a href={`tel:${site.phone}`} class="inline-flex items-center justify-center gap-2 bg-white text-primary-700 px-8 py-4 rounded-md font-bold text-lg hover:bg-primary-50 transition-all"><Phone size={20} /> 24/7 Emergency - Call (888) 643-4199 Now</a>
+      </div>
+      <p class="text-white font-bold text-lg mb-2">South Carolina Tree Removal Experts</p>
+      <p class="text-primary-200 text-sm mb-4">Licensed, Insured, and Proud to Serve South Carolina for Over 38 Years.</p>
+      <p class="text-primary-300 text-xs">South Carolina Tree Removal Experts - (888) 643-4199</p>
+    </div>
+  </section>
 
   <Footer slot="footer" />
 </BaseLayout>

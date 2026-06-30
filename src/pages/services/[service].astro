@@ -24,7 +24,7 @@ if (!service) {
 
 const allMarkdownMap = import.meta.glob('../../content/services/*.md', { eager: true });
 const allMarkdown = Object.values(allMarkdownMap);
-const markdown = allMarkdown.find((m: any) => m.file.endsWith(`${service.slug}.md`));
+const markdown = allMarkdown.find((m: any) => m.file.replace(/\\/g, '/').endsWith(`/content/services/${service.slug}.md`));
 const isPillar = service.isPillar;
 const parentPillar = services.find(s => s.slug === service.parentPillar);
 const pillarName = parentPillar?.name || service.name;
@@ -145,7 +145,7 @@ const pageDesc = markdown?.frontmatter?.metaDescription || service.metaDescripti
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {serviceLocations.map(loc => <a href={`/services/${service.slug}/${loc.slug}/`} class="group bg-white p-6 rounded-2xl shadow-sm border border-neutral-200 hover:border-primary-500 hover:shadow-xl transition-all"><div class="flex items-center gap-2 mb-3"><MapPin size={18} class="text-primary-600" /><h3 class="font-bold group-hover:text-primary-700 transition-colors">{service.name} in {loc.name}</h3></div><p class="text-neutral-500 text-xs line-clamp-2">Serving {loc.county} and surrounding areas.</p></a>)}
       </div>
-      <div class="text-center mt-12"><a href="/locations/" class="text-primary-600 font-bold hover:underline">View All Service Locations →</a></div>
+      <div class="text-center mt-12"><a href="/locations/" class="text-primary-600 font-bold hover:underline">View All Service Locations -></a></div>
     </div>
   </section>
 

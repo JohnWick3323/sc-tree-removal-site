@@ -28,7 +28,7 @@ if (!service || !location) {
 
 const allMarkdownMap = import.meta.glob('../../../content/services/*.md', { eager: true });
 const allMarkdown = Object.values(allMarkdownMap);
-const markdown = allMarkdown.find((m: any) => m.file.endsWith(`${service.slug}.md`));
+const markdown = allMarkdown.find((m: any) => m.file.replace(/\\/g, '/').endsWith(`/content/services/${service.slug}.md`));
 const combo = combinations.find(c => c.serviceSlug === service.slug && c.locationSlug === location.slug);
 const parentPillar = services.find(s => s.slug === service.parentPillar);
 const pillarName = parentPillar?.name || service.name;
