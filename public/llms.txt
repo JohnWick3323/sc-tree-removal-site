@@ -1,28 +1,67 @@
-# South Carolina Tree Removal
+# South Carolina Tree Removal Experts
 
-> Professional arborist-led tree removal, emergency tree removal, and land clearing services across the entire state of South Carolina.
+> Professional arborist-led tree removal, emergency tree removal, and land clearing services across South Carolina.
 
 ## Core Information
-- **Phone:** (888) 643-4199 (Available 24/7 for Emergency Storm Response)
-- **Email:** contact@southcarolinatreeremovalexperts.com
-- **Headquarters:** Myrtle Beach, SC
-- **Service Area:** Statewide coverage across all of South Carolina including Charleston, Columbia, Greenville, Spartanburg, Rock Hill, and Florence.
 
-## Services
-- [Tree Removal](/services/tree-removal/): Safe removal of hazardous trees near structures.
-- [Emergency Storm Response](/services/emergency-storm-response/): 24/7 rapid mobilization after severe weather.
-- [Land & Lot Clearing](/services/land-clearing/): Site preparation and large-scale clearing.
-- [Brush Clearing](/services/brush-clearing/): Dense brush and undergrowth removal.
-- [Forestry Mulching](/services/forestry-mulching/): Professional vegetation and lot management.
+- Business: South Carolina Tree Removal Experts
+- Website: https://southcarolinatreeremovalexperts.com
+- Phone: (888) 643-4199
+- Email: contact@southcarolinatreeremovalexperts.com
+- Headquarters: Myrtle Beach, SC
+- Service area: Statewide South Carolina coverage
+- Emergency availability: 24/7 emergency storm response
+
+## Canonical Services
+
+Tree Removal:
+
+- [Tree Removal](/services/tree-removal/)
+- [Crane-Assisted Tree Removal](/services/crane-assisted-tree-removal/)
+- [Dead Tree Removal](/services/dead-tree-removal/)
+- [Hazardous Tree Removal](/services/hazardous-tree-removal/)
+- [Tree Cutting & Felling](/services/tree-cutting-felling/)
+
+Emergency Tree Removal:
+
+- [Emergency Tree Removal](/services/emergency-tree-removal/)
+- [Emergency Storm Response](/services/emergency-storm-response/)
+- [Fallen Tree Removal](/services/fallen-tree-removal/)
+- [Tree on House Removal](/services/tree-on-house-removal/)
+- [Tree on Car Removal](/services/tree-on-car-removal/)
+
+Land & Lot Clearing:
+
+- [Land & Lot Clearing](/services/land-clearing/)
+- [Brush Clearing](/services/brush-clearing/)
+- [Debris Removal](/services/debris-removal/)
+- [Forestry Mulching](/services/forestry-mulching/)
+
+## Service Areas
+
+The company serves cities and communities throughout South Carolina, including Charleston, Columbia, Greenville, Spartanburg, Rock Hill, Florence, Myrtle Beach, and surrounding areas.
+
+Relevant page groups:
+
+- [All Services](/services/)
+- [Service Areas](/locations/)
+- [Blog](/blog/)
+- [Contact](/contact/)
+- [Sitemap](/sitemap.xml)
 
 ## Trust Signals
-- ISA Certified Arborist Supervised.
-- Fully Licensed and Insured (General Liability & Workers Comp).
-- Zero-Impact property protection guarantee.
-- 4 Regional Hubs for statewide response.
 
-## Key Links
-- [About Us](/about/): Our mission, values, and team.
-- [Service Areas](/locations/): Detailed coverage map and city-specific pages.
-- [Contact](/contact/): Request a free professional estimate.
-- [Sitemap](/sitemap.xml): Full index of all service and location pages.
+- Certified arborist-led work
+- Fully licensed and insured
+- Emergency storm response
+- Controlled rigging and crane-supported removal when needed
+- Property protection and cleanup focus
+- Statewide service coverage
+
+## Content Notes
+
+- Canonical service pages are indexable.
+- Valid service-city pages under `/services/[service]/[city]/` are indexable.
+- Legacy service URLs redirect to the closest canonical service.
+- Blog posts marked draft are hidden.
+- Blog posts marked noindex are excluded from sitemap and use `robots=noindex,follow`.

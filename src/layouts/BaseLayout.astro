@@ -69,5 +69,70 @@ const siteTitle = title.includes(site.name) ? title : `${title} | ${site.name}`;
       <slot />
     </main>
     <slot name="footer" />
+    <script is:inline>
+      (() => {
+        const roots = document.querySelectorAll('.prose');
+        if (!roots.length) return;
+
+        const phonePattern = /(^|[^\d])((?:\+?1[\s.-]?)?(?:\(\d{3}\)|\d{3})[\s.-]?\d{3}[\s.-]?\d{4})(?!\d)/g;
+        const skipSelector = 'a, button, script, style, textarea, input, select, code, pre, .not-prose';
+
+        const toTelHref = (value) => {
+          const digits = value.replace(/\D/g, '');
+          const localNumber = digits.length === 11 && digits.startsWith('1') ? digits.slice(1) : digits;
+          return localNumber.length === 10 ? `tel:+1${localNumber}` : null;
+        };
+
+        const linkifyNode = (node) => {
+          const text = node.nodeValue;
+          if (!text || !phonePattern.test(text)) return;
+
+          phonePattern.lastIndex = 0;
+          const fragment = document.createDocumentFragment();
+          let lastIndex = 0;
+          let match;
+
+          while ((match = phonePattern.exec(text)) !== null) {
+            const prefix = match[1];
+            const phone = match[2];
+            const phoneStart = match.index + prefix.length;
+            const href = toTelHref(phone);
+
+            if (!href) continue;
+
+            if (phoneStart > lastIndex) {
+              fragment.append(document.createTextNode(text.slice(lastIndex, phoneStart)));
+            }
+
+            const anchor = document.createElement('a');
+            anchor.href = href;
+            anchor.textContent = phone;
+            fragment.append(anchor);
+            lastIndex = phoneStart + phone.length;
+          }
+
+          if (lastIndex === 0) return;
+          if (lastIndex < text.length) {
+            fragment.append(document.createTextNode(text.slice(lastIndex)));
+          }
+
+          node.parentNode?.replaceChild(fragment, node);
+        };
+
+        roots.forEach((root) => {
+          const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+            acceptNode(node) {
+              const parent = node.parentElement;
+              return parent && !parent.closest(skipSelector)
+                ? NodeFilter.FILTER_ACCEPT
+                : NodeFilter.FILTER_REJECT;
+            },
+          });
+          const nodes = [];
+          while (walker.nextNode()) nodes.push(walker.currentNode);
+          nodes.forEach(linkifyNode);
+        });
+      })();
+    </script>
   </body>
 </html>

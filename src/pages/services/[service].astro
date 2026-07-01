@@ -42,8 +42,12 @@ const serviceLocations = locations.slice(0, 12);
 const breadcrumbs = [
   { name: 'Home', href: '/' },
   { name: 'Services', href: '/services/' },
-  { name: pillarName, href: `/services/${pillarSlug}/` },
-  { name: service.name, href: `/services/${service.slug}/` }
+  ...(isPillar
+    ? [{ name: service.name, href: `/services/${service.slug}/` }]
+    : [
+        { name: pillarName, href: `/services/${pillarSlug}/` },
+        { name: service.name, href: `/services/${service.slug}/` },
+      ]),
 ];
 
 const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": breadcrumbs.map((b,i)=>({"@type":"ListItem","position":i+1,"name":b.name,"item":`${site.url}${b.href}`})) };

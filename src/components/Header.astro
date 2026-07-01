@@ -31,26 +31,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <nav class="hidden lg:flex items-center gap-10">
       <div class="relative group">
-        <button class="flex items-center gap-1 font-medium hover:text-primary-500 transition-colors py-2 text-sm xl:text-base" aria-haspopup="true" aria-expanded="false" aria-label="Services menu">
+        <a href="/services/" class="flex items-center gap-1 font-medium hover:text-primary-500 transition-colors py-2 text-sm xl:text-base" aria-haspopup="true" aria-label="Services menu">
           Services <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mt-0.5 group-hover:rotate-180 transition-transform"><path d="m6 9 6 6 6-6"/></svg>
-        </button>
+        </a>
 
         <!-- MEGA MENU PANEL -->
         <div class="absolute left-0 top-full w-[850px] max-w-[calc(100vw-2rem)] bg-white shadow-xl rounded-lg opacity-0 invisible translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 border border-neutral-100 mt-2 overflow-hidden z-50 p-6 md:p-8" role="menu">
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- COLUMN 1: TREE REMOVAL -->
             <div class="space-y-3" role="none">
-              <a href="/services/tree-removal/" class="font-bold text-neutral-900 flex items-center gap-2 pb-2 border-b border-neutral-100 hover:text-primary-700 transition-colors" role="menuitem"><span class="text-primary-600" aria-hidden="true">🌳</span> Tree Removal</a>
+              <a href="/services/tree-removal/" class="font-bold text-neutral-900 flex items-center gap-2 pb-2 border-b border-neutral-100 hover:text-primary-700 transition-colors" role="menuitem">Tree Removal</a>
               {services.filter(s=>s.category==='tree-removal' && !s.isPillar).sort((a,b)=>a.clusterOrder-b.clusterOrder).map(s => <a href={`/services/${s.slug}/`} class="block px-2 py-2 text-sm transition-colors text-neutral-700 hover:text-primary-700" role="menuitem">{s.name}</a>)}
             </div>
             <!-- COLUMN 2: EMERGENCY -->
             <div class="space-y-3" role="none">
-              <a href="/services/emergency-tree-removal/" class="font-bold text-neutral-900 flex items-center gap-2 pb-2 border-b border-neutral-100 hover:text-primary-700 transition-colors" role="menuitem"><span class="text-primary-600" aria-hidden="true">⚡</span> Emergency Tree Removal</a>
+              <a href="/services/emergency-tree-removal/" class="font-bold text-neutral-900 flex items-center gap-2 pb-2 border-b border-neutral-100 hover:text-primary-700 transition-colors" role="menuitem">Emergency Tree Removal</a>
               {services.filter(s=>s.category==='emergency' && !s.isPillar).sort((a,b)=>a.clusterOrder-b.clusterOrder).map(s => <a href={`/services/${s.slug}/`} class="block px-2 py-2 text-sm transition-colors text-neutral-700 hover:text-primary-700" role="menuitem">{s.name}</a>)}
             </div>
             <!-- COLUMN 3: LAND CLEARING -->
             <div class="space-y-3" role="none">
-              <a href="/services/land-clearing/" class="font-bold text-neutral-900 flex items-center gap-2 pb-2 border-b border-neutral-100 hover:text-primary-700 transition-colors" role="menuitem"><span class="text-primary-600" aria-hidden="true">🏗️</span> Land & Lot Clearing</a>
+              <a href="/services/land-clearing/" class="font-bold text-neutral-900 flex items-center gap-2 pb-2 border-b border-neutral-100 hover:text-primary-700 transition-colors" role="menuitem">Land & Lot Clearing</a>
               {services.filter(s=>s.category==='land-clearing' && !s.isPillar).sort((a,b)=>a.clusterOrder-b.clusterOrder).map(s => <a href={`/services/${s.slug}/`} class="block px-2 py-2 text-sm transition-colors text-neutral-700 hover:text-primary-700" role="menuitem">{s.name}</a>)}
             </div>
           </div>
